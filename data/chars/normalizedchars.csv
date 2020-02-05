@@ -1,0 +1,176 @@
+Code;Char;CharName;NormCode;NormChar;NormCharName
+11;;Char 11;10;"
+";Char 10
+13;"";Char 13;10;"
+";Char 10
+182;¶;Pilcrow Sign;10;"
+";Char 10
+8232; ;Line Separator;10;"
+";Char 10
+160; ;No-Break Space;32; ;Space
+8194; ;En Space;32; ;Space
+8195; ;Em Space;32; ;Space
+8197; ;Four-Per-Em Space;32; ;Space
+8198; ;Six-Per-Em Space;32; ;Space
+8200; ;Punctuation Space;32; ;Space
+8201; ;Thin Space;32; ;Space
+8202; ;Hair Space;32; ;Space
+8239; ;Narrow No-Break Space;32; ;Space
+10240;⠀;Braille Pattern Blank;32; ;Space
+12288;　;Ideographic Space;32; ;Space
+451;ǃ;Latin Letter Retroflex Click;33;!;Exclamation Mark
+8252;‼;Double Exclamation Mark;33;!;Exclamation Mark
+10071;❗;Heavy Exclamation Mark Symbol;33;!;Exclamation Mark
+65281;！;Fullwidth Exclamation Mark;33;!;Exclamation Mark
+698;ʺ;Modifier Letter Double Prime;34;"""";Quotation Mark
+8222;„;Double Low-9 Quotation Mark;34;"""";Quotation Mark
+8243;″;Double Prime;34;"""";Quotation Mark
+9839;♯;Music Sharp Sign;35;#;Number Sign
+96;`;Grave Accent;39;';Apostrophe
+180;´;Acute Accent;39;';Apostrophe
+697;ʹ;Modifier Letter Prime;39;';Apostrophe
+699;ʻ;Modifier Letter Turned Comma;39;';Apostrophe
+700;ʼ;Modifier Letter Apostrophe;39;';Apostrophe
+702;ʾ;Modifier Letter Right Half Ring;39;';Apostrophe
+703;ʿ;Modifier Letter Left Half Ring;39;';Apostrophe
+712;ˈ;Modifier Letter Vertical Line;39;';Apostrophe
+714;ˊ;Modifier Letter Acute Accent;39;';Apostrophe
+715;ˋ;Modifier Letter Grave Accent;39;';Apostrophe
+729;˙;Dot Above;39;';Apostrophe
+8216;‘;Left Single Quotation Mark;39;';Apostrophe
+8217;’;Right Single Quotation Mark;39;';Apostrophe
+8219;‛;Single High-Reversed-9 Quotation Mark;39;';Apostrophe
+8223;‟;Double High-Reversed-9 Quotation Mark;39;';Apostrophe
+8242;′;Prime;39;';Apostrophe
+8317;⁽;Superscript Left Parenthesis;40;(;Left Parenthesis
+65288;（;Fullwidth Left Parenthesis;40;(;Left Parenthesis
+8318;⁾;Superscript Right Parenthesis;41;);Right Parenthesis
+65289;）;Fullwidth Right Parenthesis;41;);Right Parenthesis
+8727;∗;Asterisk Operator;42;*;Asterisk
+184;¸;Cedilla;44;,;Comma
+8218;‚;Single Low-9 Quotation Mark;44;,;Comma
+65292;，;Fullwidth Comma;44;,;Comma
+183;·;Middle Dot;45;-;Hyphen-Minus
+8208;‐;Hyphen;45;-;Hyphen-Minus
+8209;‑;Non-Breaking Hyphen;45;-;Hyphen-Minus
+8210;‒;Figure Dash;45;-;Hyphen-Minus
+8211;–;En Dash;45;-;Hyphen-Minus
+8212;—;Em Dash;45;-;Hyphen-Minus
+8213;―;Horizontal Bar;45;-;Hyphen-Minus
+8259;⁃;Hyphen Bullet;45;-;Hyphen-Minus
+8288;⁠;Word Joiner;45;-;Hyphen-Minus
+8315;⁻;Superscript Minus;45;-;Hyphen-Minus
+8331;₋;Subscript Minus;45;-;Hyphen-Minus
+8722;−;Minus Sign;45;-;Hyphen-Minus
+8729;∙;Bullet Operator;45;-;Hyphen-Minus
+9472;─;Box Drawings Light Horizontal;45;-;Hyphen-Minus
+9516;┬;Box Drawings Light Down And Horizontal;45;-;Hyphen-Minus
+9552;═;Box Drawings Double Horizontal;45;-;Hyphen-Minus
+8901;⋅;Dot Operator;46;.;Full Stop
+9679;●;Black Circle;46;.;Full Stop
+12290;。;Ideographic Full Stop;46;.;Full Stop
+8260;⁄;Fraction Slash;47;/;Solidus
+720;ː;Modifier Letter Triangular Colon;58;:;Colon
+706;˂;Modifier Letter Left Arrowhead;60;<;Less-Than Sign
+8249;‹;Single Left-Pointing Angle Quotation Mark;60;<;Less-Than Sign
+8810;≪;Much Less-Than;60;<;Less-Than Sign
+10216;⟨;Mathematical Left Angle Bracket;60;<;Less-Than Sign
+8776;≈;Almost Equal To;61;=;Equals Sign
+8801;≡;Identical To;61;=;Equals Sign
+707;˃;Modifier Letter Right Arrowhead;62;>;Greater-Than Sign
+8811;≫;Much Greater-Than;62;>;Greater-Than Sign
+8921;⋙;Very Much Greater-Than;62;>;Greater-Than Sign
+10217;⟩;Mathematical Right Angle Bracket;62;>;Greater-Than Sign
+65311;？;Fullwidth Question Mark;63;?;Question Mark
+710;ˆ;Modifier Letter Circumflex Accent;94;^;Circumflex Accent
+8254;‾;Overline;94;^;Circumflex Accent
+9604;▄;Lower Half Block;95;_;Low Line
+9837;♭;Music Flat Sign;98;b;Latin Small Letter B
+8706;∂;Partial Differential;100;d;Latin Small Letter D
+7497;ᵉ;Modifier Letter Small E;101;e;Latin Small Letter E
+402;ƒ;Latin Small Letter F With Hook;102;f;Latin Small Letter F
+314;ĺ;Latin Small Letter L With Acute;108;l;Latin Small Letter L
+8467;ℓ;Script Small L;108;l;Latin Small Letter L
+341;ŕ;Latin Small Letter R With Acute;114;r;Latin Small Letter R
+691;ʳ;Modifier Letter Small R;114;r;Latin Small Letter R
+8214;‖;Double Vertical Line;124;|;Vertical Line
+9474;│;Box Drawings Light Vertical;124;|;Vertical Line
+9484;┌;Box Drawings Light Down And Right;124;|;Vertical Line
+9492;└;Box Drawings Light Up And Right;124;|;Vertical Line
+9496;┘;Box Drawings Light Up And Left;124;|;Vertical Line
+9500;├;Box Drawings Light Vertical And Right;124;|;Vertical Line
+9553;║;Box Drawings Double Vertical;124;|;Vertical Line
+9608;█;Full Block;124;|;Vertical Line
+10074;❚;Heavy Vertical Bar;124;|;Vertical Line
+732;˜;Small Tilde;126;~;Tilde
+8220;“;Left Double Quotation Mark;171;«;Left-Pointing Double Angle Quotation Mark
+12298;《;Left Double Angle Bracket;171;«;Left-Pointing Double Angle Quotation Mark
+170;ª;Feminine Ordinal Indicator;176;°;Degree Sign
+186;º;Masculine Ordinal Indicator;176;°;Degree Sign
+730;˚;Ring Above;176;°;Degree Sign
+8728;∘;Ring Operator;176;°;Degree Sign
+8221;”;Right Double Quotation Mark;187;»;Right-Pointing Double Angle Quotation Mark
+12299;》;Right Double Angle Bracket;187;»;Right-Pointing Double Angle Quotation Mark
+8709;∅;Empty Set;216;Ø;Latin Capital Letter O With Stroke
+275;ē;Latin Small Letter E With Macron;233;é;Latin Small Letter E With Acute
+8225;‡;Double Dagger;8224;†;Dagger
+5125;ᐅ;Canadian Syllabics O;8226;•;Bullet
+8227;‣;Triangular Bullet;8226;•;Bullet
+8250;›;Single Right-Pointing Angle Quotation Mark;8226;•;Bullet
+8505;ℹ;Information Source;8226;•;Bullet
+8718;∎;End Of Proof;8226;•;Bullet
+9194;⏪;Black Left-Pointing Double Triangle;8226;•;Bullet
+9632;■;Black Square;8226;•;Bullet
+9642;▪;Black Small Square;8226;•;Bullet
+9650;▲;Black Up-Pointing Triangle;8226;•;Bullet
+9654;▶;Black Right-Pointing Triangle;8226;•;Bullet
+9658;►;Black Right-Pointing Pointer;8226;•;Bullet
+9664;◀;Black Left-Pointing Triangle;8226;•;Bullet
+9670;◆;Black Diamond;8226;•;Bullet
+9674;◊;Lozenge;8226;•;Bullet
+9675;○;White Circle;8226;•;Bullet
+9702;◦;White Bullet;8226;•;Bullet
+9788;☼;White Sun With Rays;8226;•;Bullet
+9830;♦;Black Diamond Suit;8226;•;Bullet
+10070;❖;Black Diamond Minus White X;8226;•;Bullet
+10146;➢;Three-D Top-Lighted Rightwards Arrowhead;8226;•;Bullet
+11035;⬛;Black Large Square;8226;•;Bullet
+8943;⋯;Midline Horizontal Ellipsis;8230;…;Horizontal Ellipsis
+8480;℠;Service Mark;8482;™;Trade Mark Sign
+8629;↵;Downwards Arrow With Corner Leftwards;8592;←;Leftwards Arrow
+10548;⤴;Arrow Pointing Rightwards Then Curving Upwards;8593;↑;Upwards Arrow
+8614;↦;Rightwards Arrow From Bar;8594;→;Rightwards Arrow
+8627;↳;Downwards Arrow With Tip Rightwards;8594;→;Rightwards Arrow
+10132;➔;Heavy Wide-Headed Rightwards Arrow;8594;→;Rightwards Arrow
+10140;➜;Heavy Round-Tipped Rightwards Arrow;8594;→;Rightwards Arrow
+10145;➡;Black Rightwards Arrow;8594;→;Rightwards Arrow
+10148;➤;Black Rightwards Arrowhead;8594;→;Rightwards Arrow
+10230;⟶;Long Rightwards Arrow;8594;→;Rightwards Arrow
+9660;▼;Black Down-Pointing Triangle;8595;↓;Downwards Arrow
+10549;⤵;Arrow Pointing Rightwards Then Curving Downwards;8595;↓;Downwards Arrow
+11015;⬇;Downwards Black Arrow;8595;↓;Downwards Arrow
+8660;⇔;Left Right Double Arrow;8596;↔;Left Right Arrow
+127386;🆚;Squared Vs;8596;↔;Left Right Arrow
+10877;⩽;Less-Than Or Slanted Equal To;8804;≤;Less-Than Or Equal To
+10878;⩾;Greater-Than Or Slanted Equal To;8805;≥;Greater-Than Or Equal To
+9734;☆;White Star;9733;★;Black Star
+10026;✪;Circled White Star;9733;★;Black Star
+10040;✸;Heavy Eight Pointed Rectilinear Black Star;9733;★;Black Star
+11088;⭐;White Medium Star;9733;★;Black Star
+9825;♡;White Heart Suit;9829;♥;Black Heart Suit
+10084;❤;Heavy Black Heart;9829;♥;Black Heart Suit
+128153;💙;Blue Heart;9829;♥;Black Heart Suit
+128155;💛;Yellow Heart;9829;♥;Black Heart Suit
+9834;♪;Eighth Note;9835;♫;Beamed Eighth Notes
+127936;🏀;Basketball And Hoop;9917;⚽;Soccer Ball
+127945;🏉;Rugby Football;9917;⚽;Soccer Ball
+9989;✅;White Heavy Check Mark;10003;✓;Check Mark
+10004;✔;Heavy Check Mark;10003;✓;Check Mark
+9723;◻;White Medium Square;10064;❐;Upper Right Drop-Shadowed White Square
+65532;￼;Object Replacement Character;65533;�;Replacement Character
+3659;๋;Thai Character Mai Chattawa;128308;🔴;Large Red Circle
+10047;✿;Black Florette;128308;🔴;Large Red Circle
+9898;⚪;Medium White Circle;128308;🔴;Large Red Circle
+9899;⚫;Medium Black Circle;128308;🔴;Large Red Circle
+128309;🔵;Large Blue Circle;128308;🔴;Large Red Circle
+9786;☺;White Smiling Face;128522;😊;Smiling Face With Smiling Eyes

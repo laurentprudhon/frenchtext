@@ -1,0 +1,275 @@
+BaseChar;Code;Char;Diacritic;CombinedChar
+A;769;́;Acute;Á
+E;769;́;Acute;É
+I;769;́;Acute;Í
+O;769;́;Acute;Ó
+U;769;́;Acute;Ú
+Y;769;́;Acute;Ý
+a;769;́;Acute;á
+e;769;́;Acute;é
+i;769;́;Acute;í
+o;769;́;Acute;ó
+u;769;́;Acute;ú
+y;769;́;Acute;ý
+C;769;́;Acute;Ć
+c;769;́;Acute;ć
+L;769;́;Acute;Ĺ
+l;769;́;Acute;ĺ
+N;769;́;Acute;Ń
+n;769;́;Acute;ń
+R;769;́;Acute;Ŕ
+r;769;́;Acute;ŕ
+S;769;́;Acute;Ś
+s;769;́;Acute;ś
+Z;769;́;Acute;Ź
+z;769;́;Acute;ź
+G;769;́;Acute;Ǵ
+g;769;́;Acute;ǵ
+Æ;769;́;Acute;Ǽ
+æ;769;́;Acute;ǽ
+K;769;́;Acute;Ḱ
+k;769;́;Acute;ḱ
+M;769;́;Acute;Ḿ
+m;769;́;Acute;ḿ
+P;769;́;Acute;Ṕ
+p;769;́;Acute;ṕ
+W;769;́;Acute;Ẃ
+w;769;́;Acute;ẃ
+A;768;̀;Grave;À
+E;768;̀;Grave;È
+I;768;̀;Grave;Ì
+O;768;̀;Grave;Ò
+U;768;̀;Grave;Ù
+a;768;̀;Grave;à
+e;768;̀;Grave;è
+i;768;̀;Grave;ì
+o;768;̀;Grave;ò
+u;768;̀;Grave;ù
+N;768;̀;Grave;Ǹ
+n;768;̀;Grave;ǹ
+W;768;̀;Grave;Ẁ
+w;768;̀;Grave;ẁ
+Y;768;̀;Grave;Ỳ
+y;768;̀;Grave;ỳ
+A;770;̂;Circumflex;Â
+E;770;̂;Circumflex;Ê
+I;770;̂;Circumflex;Î
+O;770;̂;Circumflex;Ô
+U;770;̂;Circumflex;Û
+a;770;̂;Circumflex;â
+e;770;̂;Circumflex;ê
+i;770;̂;Circumflex;î
+o;770;̂;Circumflex;ô
+u;770;̂;Circumflex;û
+C;770;̂;Circumflex;Ĉ
+c;770;̂;Circumflex;ĉ
+G;770;̂;Circumflex;Ĝ
+g;770;̂;Circumflex;ĝ
+H;770;̂;Circumflex;Ĥ
+h;770;̂;Circumflex;ĥ
+J;770;̂;Circumflex;Ĵ
+j;770;̂;Circumflex;ĵ
+S;770;̂;Circumflex;Ŝ
+s;770;̂;Circumflex;ŝ
+W;770;̂;Circumflex;Ŵ
+w;770;̂;Circumflex;ŵ
+Y;770;̂;Circumflex;Ŷ
+y;770;̂;Circumflex;ŷ
+Z;770;̂;Circumflex;Ẑ
+z;770;̂;Circumflex;ẑ
+C;807;̧;Cedilla;Ç
+c;807;̧;Cedilla;ç
+G;807;̧;Cedilla;Ģ
+g;807;̧;Cedilla;ģ
+K;807;̧;Cedilla;Ķ
+k;807;̧;Cedilla;ķ
+L;807;̧;Cedilla;Ļ
+l;807;̧;Cedilla;ļ
+N;807;̧;Cedilla;Ņ
+n;807;̧;Cedilla;ņ
+R;807;̧;Cedilla;Ŗ
+r;807;̧;Cedilla;ŗ
+S;807;̧;Cedilla;Ş
+s;807;̧;Cedilla;ş
+T;807;̧;Cedilla;Ţ
+t;807;̧;Cedilla;ţ
+E;807;̧;Cedilla;Ȩ
+e;807;̧;Cedilla;ȩ
+D;807;̧;Cedilla;Ḑ
+d;807;̧;Cedilla;ḑ
+H;807;̧;Cedilla;Ḩ
+h;807;̧;Cedilla;ḩ
+A;771;̃;Tilde;Ã
+N;771;̃;Tilde;Ñ
+O;771;̃;Tilde;Õ
+a;771;̃;Tilde;ã
+n;771;̃;Tilde;ñ
+o;771;̃;Tilde;õ
+I;771;̃;Tilde;Ĩ
+i;771;̃;Tilde;ĩ
+U;771;̃;Tilde;Ũ
+u;771;̃;Tilde;ũ
+V;771;̃;Tilde;Ṽ
+v;771;̃;Tilde;ṽ
+E;771;̃;Tilde;Ẽ
+e;771;̃;Tilde;ẽ
+Y;771;̃;Tilde;Ỹ
+y;771;̃;Tilde;ỹ
+A;776;̈;Diaeresis;Ä
+E;776;̈;Diaeresis;Ë
+I;776;̈;Diaeresis;Ï
+O;776;̈;Diaeresis;Ö
+U;776;̈;Diaeresis;Ü
+a;776;̈;Diaeresis;ä
+e;776;̈;Diaeresis;ë
+i;776;̈;Diaeresis;ï
+o;776;̈;Diaeresis;ö
+u;776;̈;Diaeresis;ü
+y;776;̈;Diaeresis;ÿ
+Y;776;̈;Diaeresis;Ÿ
+H;776;̈;Diaeresis;Ḧ
+h;776;̈;Diaeresis;ḧ
+W;776;̈;Diaeresis;Ẅ
+w;776;̈;Diaeresis;ẅ
+X;776;̈;Diaeresis;Ẍ
+x;776;̈;Diaeresis;ẍ
+t;776;̈;Diaeresis;ẗ
+O;822;̶;Long Stroke Overlay;Ꝋ
+o;822;̶;Long Stroke Overlay;ꝋ
+A;772;̄;Macron;Ā
+a;772;̄;Macron;ā
+E;772;̄;Macron;Ē
+e;772;̄;Macron;ē
+I;772;̄;Macron;Ī
+i;772;̄;Macron;ī
+O;772;̄;Macron;Ō
+o;772;̄;Macron;ō
+U;772;̄;Macron;Ū
+u;772;̄;Macron;ū
+Æ;772;̄;Macron;Ǣ
+æ;772;̄;Macron;ǣ
+Y;772;̄;Macron;Ȳ
+y;772;̄;Macron;ȳ
+G;772;̄;Macron;Ḡ
+g;772;̄;Macron;ḡ
+C;780;̌;Caron;Č
+c;780;̌;Caron;č
+D;780;̌;Caron;Ď
+d;780;̌;Caron;ď
+E;780;̌;Caron;Ě
+e;780;̌;Caron;ě
+L;780;̌;Caron;Ľ
+l;780;̌;Caron;ľ
+N;780;̌;Caron;Ň
+n;780;̌;Caron;ň
+R;780;̌;Caron;Ř
+r;780;̌;Caron;ř
+S;780;̌;Caron;Š
+s;780;̌;Caron;š
+T;780;̌;Caron;Ť
+t;780;̌;Caron;ť
+Z;780;̌;Caron;Ž
+z;780;̌;Caron;ž
+Ǳ;780;̌;Caron;Ǆ
+ǲ;780;̌;Caron;ǅ
+ǳ;780;̌;Caron;ǆ
+A;780;̌;Caron;Ǎ
+a;780;̌;Caron;ǎ
+I;780;̌;Caron;Ǐ
+i;780;̌;Caron;ǐ
+O;780;̌;Caron;Ǒ
+o;780;̌;Caron;ǒ
+U;780;̌;Caron;Ǔ
+u;780;̌;Caron;ǔ
+G;780;̌;Caron;Ǧ
+g;780;̌;Caron;ǧ
+K;780;̌;Caron;Ǩ
+k;780;̌;Caron;ǩ
+Ʒ;780;̌;Caron;Ǯ
+ʒ;780;̌;Caron;ǯ
+j;780;̌;Caron;ǰ
+H;780;̌;Caron;Ȟ
+h;780;̌;Caron;ȟ
+B;803;̣;Dot Below;Ḅ
+b;803;̣;Dot Below;ḅ
+D;803;̣;Dot Below;Ḍ
+d;803;̣;Dot Below;ḍ
+H;803;̣;Dot Below;Ḥ
+h;803;̣;Dot Below;ḥ
+K;803;̣;Dot Below;Ḳ
+k;803;̣;Dot Below;ḳ
+L;803;̣;Dot Below;Ḷ
+l;803;̣;Dot Below;ḷ
+M;803;̣;Dot Below;Ṃ
+m;803;̣;Dot Below;ṃ
+N;803;̣;Dot Below;Ṇ
+n;803;̣;Dot Below;ṇ
+R;803;̣;Dot Below;Ṛ
+r;803;̣;Dot Below;ṛ
+S;803;̣;Dot Below;Ṣ
+s;803;̣;Dot Below;ṣ
+T;803;̣;Dot Below;Ṭ
+t;803;̣;Dot Below;ṭ
+V;803;̣;Dot Below;Ṿ
+v;803;̣;Dot Below;ṿ
+W;803;̣;Dot Below;Ẉ
+w;803;̣;Dot Below;ẉ
+Z;803;̣;Dot Below;Ẓ
+z;803;̣;Dot Below;ẓ
+A;803;̣;Dot Below;Ạ
+a;803;̣;Dot Below;ạ
+E;803;̣;Dot Below;Ẹ
+e;803;̣;Dot Below;ẹ
+I;803;̣;Dot Below;Ị
+i;803;̣;Dot Below;ị
+O;803;̣;Dot Below;Ọ
+o;803;̣;Dot Below;ọ
+U;803;̣;Dot Below;Ụ
+u;803;̣;Dot Below;ụ
+Y;803;̣;Dot Below;Ỵ
+y;803;̣;Dot Below;ỵ
+C;775;̇;Dot Above;Ċ
+c;775;̇;Dot Above;ċ
+E;775;̇;Dot Above;Ė
+e;775;̇;Dot Above;ė
+G;775;̇;Dot Above;Ġ
+g;775;̇;Dot Above;ġ
+I;775;̇;Dot Above;İ
+Z;775;̇;Dot Above;Ż
+z;775;̇;Dot Above;ż
+A;775;̇;Dot Above;Ȧ
+a;775;̇;Dot Above;ȧ
+O;775;̇;Dot Above;Ȯ
+o;775;̇;Dot Above;ȯ
+B;775;̇;Dot Above;Ḃ
+b;775;̇;Dot Above;ḃ
+D;775;̇;Dot Above;Ḋ
+d;775;̇;Dot Above;ḋ
+F;775;̇;Dot Above;Ḟ
+f;775;̇;Dot Above;ḟ
+H;775;̇;Dot Above;Ḣ
+h;775;̇;Dot Above;ḣ
+M;775;̇;Dot Above;Ṁ
+m;775;̇;Dot Above;ṁ
+N;775;̇;Dot Above;Ṅ
+n;775;̇;Dot Above;ṅ
+P;775;̇;Dot Above;Ṗ
+p;775;̇;Dot Above;ṗ
+R;775;̇;Dot Above;Ṙ
+r;775;̇;Dot Above;ṙ
+S;775;̇;Dot Above;Ṡ
+s;775;̇;Dot Above;ṡ
+T;775;̇;Dot Above;Ṫ
+t;775;̇;Dot Above;ṫ
+W;775;̇;Dot Above;Ẇ
+w;775;̇;Dot Above;ẇ
+X;775;̇;Dot Above;Ẋ
+x;775;̇;Dot Above;ẋ
+Y;775;̇;Dot Above;Ẏ
+y;775;̇;Dot Above;ẏ
+A;778;̊;Ring Above;Å
+a;778;̊;Ring Above;å
+U;778;̊;Ring Above;Ů
+u;778;̊;Ring Above;ů
+w;778;̊;Ring Above;ẘ
+y;778;̊;Ring Above;ẙ

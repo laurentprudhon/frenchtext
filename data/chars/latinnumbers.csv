@@ -1,0 +1,303 @@
+﻿Code;Char;CharName;NormString;Layout
+48;0;Digit Zero;0;Digit
+49;1;Digit One;1;Digit
+50;2;Digit Two;2;Digit
+51;3;Digit Three;3;Digit
+52;4;Digit Four;4;Digit
+53;5;Digit Five;5;Digit
+54;6;Digit Six;6;Digit
+55;7;Digit Seven;7;Digit
+56;8;Digit Eight;8;Digit
+57;9;Digit Nine;9;Digit
+178;²;Superscript Two;(2);Superscript
+179;³;Superscript Three;(3);Superscript
+185;¹;Superscript One;(1);Superscript
+188;¼;Vulgar Fraction One Quarter;1/4;Vulgar Fraction
+189;½;Vulgar Fraction One Half;1/2;Vulgar Fraction
+190;¾;Vulgar Fraction Three Quarters;3/4;Vulgar Fraction
+8304;⁰;Superscript Zero;(0);Superscript
+8308;⁴;Superscript Four;(4);Superscript
+8309;⁵;Superscript Five;(5);Superscript
+8310;⁶;Superscript Six;(6);Superscript
+8311;⁷;Superscript Seven;(7);Superscript
+8312;⁸;Superscript Eight;(8);Superscript
+8313;⁹;Superscript Nine;(9);Superscript
+8320;₀;Subscript Zero;(0);Subscript
+8321;₁;Subscript One;(1);Subscript
+8322;₂;Subscript Two;(2);Subscript
+8323;₃;Subscript Three;(3);Subscript
+8324;₄;Subscript Four;(4);Subscript
+8325;₅;Subscript Five;(5);Subscript
+8326;₆;Subscript Six;(6);Subscript
+8327;₇;Subscript Seven;(7);Subscript
+8328;₈;Subscript Eight;(8);Subscript
+8329;₉;Subscript Nine;(9);Subscript
+8528;⅐;Vulgar Fraction One Seventh;1/7;Vulgar Fraction
+8529;⅑;Vulgar Fraction One Ninth;1/9;Vulgar Fraction
+8530;⅒;Vulgar Fraction One Tenth;1/10;Vulgar Fraction
+8531;⅓;Vulgar Fraction One Third;1/3;Vulgar Fraction
+8532;⅔;Vulgar Fraction Two Thirds;2/3;Vulgar Fraction
+8533;⅕;Vulgar Fraction One Fifth;1/5;Vulgar Fraction
+8534;⅖;Vulgar Fraction Two Fifths;2/5;Vulgar Fraction
+8535;⅗;Vulgar Fraction Three Fifths;3/5;Vulgar Fraction
+8536;⅘;Vulgar Fraction Four Fifths;4/5;Vulgar Fraction
+8537;⅙;Vulgar Fraction One Sixth;1/6;Vulgar Fraction
+8538;⅚;Vulgar Fraction Five Sixths;5/6;Vulgar Fraction
+8539;⅛;Vulgar Fraction One Eighth;1/8;Vulgar Fraction
+8540;⅜;Vulgar Fraction Three Eighths;3/8;Vulgar Fraction
+8541;⅝;Vulgar Fraction Five Eighths;5/8;Vulgar Fraction
+8542;⅞;Vulgar Fraction Seven Eighths;7/8;Vulgar Fraction
+8544;Ⅰ;Roman Numeral One;+1;Roman Numeral
+8545;Ⅱ;Roman Numeral Two;+2;Roman Numeral
+8546;Ⅲ;Roman Numeral Three;+3;Roman Numeral
+8547;Ⅳ;Roman Numeral Four;+4;Roman Numeral
+8548;Ⅴ;Roman Numeral Five;+5;Roman Numeral
+8549;Ⅵ;Roman Numeral Six;+6;Roman Numeral
+8550;Ⅶ;Roman Numeral Seven;+7;Roman Numeral
+8551;Ⅷ;Roman Numeral Eight;+8;Roman Numeral
+8552;Ⅸ;Roman Numeral Nine;+9;Roman Numeral
+8553;Ⅹ;Roman Numeral Ten;+10;Roman Numeral
+8554;Ⅺ;Roman Numeral Eleven;+11;Roman Numeral
+8555;Ⅻ;Roman Numeral Twelve;+12;Roman Numeral
+8556;Ⅼ;Roman Numeral Fifty;+50;Roman Numeral
+8557;Ⅽ;Roman Numeral One Hundred;+100;Roman Numeral
+8558;Ⅾ;Roman Numeral Five Hundred;+500;Roman Numeral
+8559;Ⅿ;Roman Numeral One Thousand;+1000;Roman Numeral
+8560;ⅰ;Small Roman Numeral One;+1;Small Roman Numeral
+8561;ⅱ;Small Roman Numeral Two;+2;Small Roman Numeral
+8562;ⅲ;Small Roman Numeral Three;+3;Small Roman Numeral
+8563;ⅳ;Small Roman Numeral Four;+4;Small Roman Numeral
+8564;ⅴ;Small Roman Numeral Five;+5;Small Roman Numeral
+8565;ⅵ;Small Roman Numeral Six;+6;Small Roman Numeral
+8566;ⅶ;Small Roman Numeral Seven;+7;Small Roman Numeral
+8567;ⅷ;Small Roman Numeral Eight;+8;Small Roman Numeral
+8568;ⅸ;Small Roman Numeral Nine;+9;Small Roman Numeral
+8569;ⅹ;Small Roman Numeral Ten;+10;Small Roman Numeral
+8570;ⅺ;Small Roman Numeral Eleven;+11;Small Roman Numeral
+8571;ⅻ;Small Roman Numeral Twelve;+12;Small Roman Numeral
+8572;ⅼ;Small Roman Numeral Fifty;+50;Small Roman Numeral
+8573;ⅽ;Small Roman Numeral One Hundred;+100;Small Roman Numeral
+8574;ⅾ;Small Roman Numeral Five Hundred;+500;Small Roman Numeral
+8575;ⅿ;Small Roman Numeral One Thousand;+1000;Small Roman Numeral
+9312;①;Circled Digit One;(1);Circled
+9313;②;Circled Digit Two;(2);Circled
+9314;③;Circled Digit Three;(3);Circled
+9315;④;Circled Digit Four;(4);Circled
+9316;⑤;Circled Digit Five;(5);Circled
+9317;⑥;Circled Digit Six;(6);Circled
+9318;⑦;Circled Digit Seven;(7);Circled
+9319;⑧;Circled Digit Eight;(8);Circled
+9320;⑨;Circled Digit Nine;(9);Circled
+9321;⑩;Circled Number Ten;(10);Circled
+9322;⑪;Circled Number Eleven;(11);Circled
+9323;⑫;Circled Number Twelve;(12);Circled
+9324;⑬;Circled Number Thirteen;(13);Circled
+9325;⑭;Circled Number Fourteen;(14);Circled
+9326;⑮;Circled Number Fifteen;(15);Circled
+9327;⑯;Circled Number Sixteen;(16);Circled
+9328;⑰;Circled Number Seventeen;(17);Circled
+9329;⑱;Circled Number Eighteen;(18);Circled
+9330;⑲;Circled Number Nineteen;(19);Circled
+9331;⑳;Circled Number Twenty;(20);Circled
+9332;⑴;Parenthesized Digit One;(1);Parenthesized
+9333;⑵;Parenthesized Digit Two;(2);Parenthesized
+9334;⑶;Parenthesized Digit Three;(3);Parenthesized
+9335;⑷;Parenthesized Digit Four;(4);Parenthesized
+9336;⑸;Parenthesized Digit Five;(5);Parenthesized
+9337;⑹;Parenthesized Digit Six;(6);Parenthesized
+9338;⑺;Parenthesized Digit Seven;(7);Parenthesized
+9339;⑻;Parenthesized Digit Eight;(8);Parenthesized
+9340;⑼;Parenthesized Digit Nine;(9);Parenthesized
+9341;⑽;Parenthesized Number Ten;(10);Parenthesized
+9342;⑾;Parenthesized Number Eleven;(11);Parenthesized
+9343;⑿;Parenthesized Number Twelve;(12);Parenthesized
+9344;⒀;Parenthesized Number Thirteen;(13);Parenthesized
+9345;⒁;Parenthesized Number Fourteen;(14);Parenthesized
+9346;⒂;Parenthesized Number Fifteen;(15);Parenthesized
+9347;⒃;Parenthesized Number Sixteen;(16);Parenthesized
+9348;⒄;Parenthesized Number Seventeen;(17);Parenthesized
+9349;⒅;Parenthesized Number Eighteen;(18);Parenthesized
+9350;⒆;Parenthesized Number Nineteen;(19);Parenthesized
+9351;⒇;Parenthesized Number Twenty;(20);Parenthesized
+9352;⒈;Digit One Full Stop;1.; Full Stop
+9353;⒉;Digit Two Full Stop;2.; Full Stop
+9354;⒊;Digit Three Full Stop;3.; Full Stop
+9355;⒋;Digit Four Full Stop;4.; Full Stop
+9356;⒌;Digit Five Full Stop;5.; Full Stop
+9357;⒍;Digit Six Full Stop;6.; Full Stop
+9358;⒎;Digit Seven Full Stop;7.; Full Stop
+9359;⒏;Digit Eight Full Stop;8.; Full Stop
+9360;⒐;Digit Nine Full Stop;9.; Full Stop
+9361;⒑;Number Ten Full Stop;10.; Full Stop
+9362;⒒;Number Eleven Full Stop;11.; Full Stop
+9363;⒓;Number Twelve Full Stop;12.; Full Stop
+9364;⒔;Number Thirteen Full Stop;13.; Full Stop
+9365;⒕;Number Fourteen Full Stop;14.; Full Stop
+9366;⒖;Number Fifteen Full Stop;15.; Full Stop
+9367;⒗;Number Sixteen Full Stop;16.; Full Stop
+9368;⒘;Number Seventeen Full Stop;17.; Full Stop
+9369;⒙;Number Eighteen Full Stop;18.; Full Stop
+9370;⒚;Number Nineteen Full Stop;19.; Full Stop
+9371;⒛;Number Twenty Full Stop;20.; Full Stop
+9450;⓪;Circled Digit Zero;(0);Circled
+9451;⓫;Negative Circled Number Eleven;(11);Negative Circled
+9452;⓬;Negative Circled Number Twelve;(12);Negative Circled
+9453;⓭;Negative Circled Number Thirteen;(13);Negative Circled
+9454;⓮;Negative Circled Number Fourteen;(14);Negative Circled
+9455;⓯;Negative Circled Number Fifteen;(15);Negative Circled
+9456;⓰;Negative Circled Number Sixteen;(16);Negative Circled
+9457;⓱;Negative Circled Number Seventeen;(17);Negative Circled
+9458;⓲;Negative Circled Number Eighteen;(18);Negative Circled
+9459;⓳;Negative Circled Number Nineteen;(19);Negative Circled
+9460;⓴;Negative Circled Number Twenty;(20);Negative Circled
+9461;⓵;Double Circled Digit One;(1);Double Circled
+9462;⓶;Double Circled Digit Two;(2);Double Circled
+9463;⓷;Double Circled Digit Three;(3);Double Circled
+9464;⓸;Double Circled Digit Four;(4);Double Circled
+9465;⓹;Double Circled Digit Five;(5);Double Circled
+9466;⓺;Double Circled Digit Six;(6);Double Circled
+9467;⓻;Double Circled Digit Seven;(7);Double Circled
+9468;⓼;Double Circled Digit Eight;(8);Double Circled
+9469;⓽;Double Circled Digit Nine;(9);Double Circled
+9470;⓾;Double Circled Number Ten;(10);Double Circled
+9471;⓿;Negative Circled Digit Zero;(0);Negative Circled
+10102;❶;Dingbat Negative Circled Digit One;(1);Dingbat Negative Circled
+10103;❷;Dingbat Negative Circled Digit Two;(2);Dingbat Negative Circled
+10104;❸;Dingbat Negative Circled Digit Three;(3);Dingbat Negative Circled
+10105;❹;Dingbat Negative Circled Digit Four;(4);Dingbat Negative Circled
+10106;❺;Dingbat Negative Circled Digit Five;(5);Dingbat Negative Circled
+10107;❻;Dingbat Negative Circled Digit Six;(6);Dingbat Negative Circled
+10108;❼;Dingbat Negative Circled Digit Seven;(7);Dingbat Negative Circled
+10109;❽;Dingbat Negative Circled Digit Eight;(8);Dingbat Negative Circled
+10110;❾;Dingbat Negative Circled Digit Nine;(9);Dingbat Negative Circled
+10111;❿;Dingbat Negative Circled Number Ten;(10);Dingbat Negative Circled
+10112;➀;Dingbat Circled Sans-Serif Digit One;(1);Dingbat Circled Sans-Serif
+10113;➁;Dingbat Circled Sans-Serif Digit Two;(2);Dingbat Circled Sans-Serif
+10114;➂;Dingbat Circled Sans-Serif Digit Three;(3);Dingbat Circled Sans-Serif
+10115;➃;Dingbat Circled Sans-Serif Digit Four;(4);Dingbat Circled Sans-Serif
+10116;➄;Dingbat Circled Sans-Serif Digit Five;(5);Dingbat Circled Sans-Serif
+10117;➅;Dingbat Circled Sans-Serif Digit Six;(6);Dingbat Circled Sans-Serif
+10118;➆;Dingbat Circled Sans-Serif Digit Seven;(7);Dingbat Circled Sans-Serif
+10119;➇;Dingbat Circled Sans-Serif Digit Eight;(8);Dingbat Circled Sans-Serif
+10120;➈;Dingbat Circled Sans-Serif Digit Nine;(9);Dingbat Circled Sans-Serif
+10121;➉;Dingbat Circled Sans-Serif Number Ten;(10);Dingbat Circled Sans-Serif
+10122;➊;Dingbat Negative Circled Sans-Serif Digit One;(1);Dingbat Negative Circled Sans-Serif 
+10123;➋;Dingbat Negative Circled Sans-Serif Digit Two;(2);Dingbat Negative Circled Sans-Serif 
+10124;➌;Dingbat Negative Circled Sans-Serif Digit Three;(3);Dingbat Negative Circled Sans-Serif 
+10125;➍;Dingbat Negative Circled Sans-Serif Digit Four;(4);Dingbat Negative Circled Sans-Serif 
+10126;➎;Dingbat Negative Circled Sans-Serif Digit Five;(5);Dingbat Negative Circled Sans-Serif 
+10127;➏;Dingbat Negative Circled Sans-Serif Digit Six;(6);Dingbat Negative Circled Sans-Serif 
+10128;➐;Dingbat Negative Circled Sans-Serif Digit Seven;(7);Dingbat Negative Circled Sans-Serif 
+10129;➑;Dingbat Negative Circled Sans-Serif Digit Eight;(8);Dingbat Negative Circled Sans-Serif 
+10130;➒;Dingbat Negative Circled Sans-Serif Digit Nine;(9);Dingbat Negative Circled Sans-Serif 
+10131;➓;Dingbat Negative Circled Sans-Serif Number Ten;(10);Dingbat Negative Circled Sans-Serif 
+12872;㉈;Circled Number Ten On Black Square;(10);Circled On Black Square
+12873;㉉;Circled Number Twenty On Black Square;(20);Circled On Black Square
+12874;㉊;Circled Number Thirty On Black Square;(30);Circled On Black Square
+12875;㉋;Circled Number Forty On Black Square;(40);Circled On Black Square
+12876;㉌;Circled Number Fifty On Black Square;(50);Circled On Black Square
+12877;㉍;Circled Number Sixty On Black Square;(60);Circled On Black Square
+12878;㉎;Circled Number Seventy On Black Square;(70);Circled On Black Square
+12879;㉏;Circled Number Eighty On Black Square;(80);Circled On Black Square
+12881;㉑;Circled Number Twenty One;(21);Circled
+12882;㉒;Circled Number Twenty Two;(22);Circled
+12883;㉓;Circled Number Twenty Three;(23);Circled
+12884;㉔;Circled Number Twenty Four;(24);Circled
+12885;㉕;Circled Number Twenty Five;(25);Circled
+12886;㉖;Circled Number Twenty Six;(26);Circled
+12887;㉗;Circled Number Twenty Seven;(27);Circled
+12888;㉘;Circled Number Twenty Eight;(28);Circled
+12889;㉙;Circled Number Twenty Nine;(29);Circled
+12890;㉚;Circled Number Thirty;(30);Circled
+12891;㉛;Circled Number Thirty One;(31);Circled
+12892;㉜;Circled Number Thirty Two;(32);Circled
+12893;㉝;Circled Number Thirty Three;(33);Circled
+12894;㉞;Circled Number Thirty Four;(34);Circled
+12895;㉟;Circled Number Thirty Five;(35);Circled
+12977;㊱;Circled Number Thirty Six;(36);Circled
+12978;㊲;Circled Number Thirty Seven;(37);Circled
+12979;㊳;Circled Number Thirty Eight;(38);Circled
+12980;㊴;Circled Number Thirty Nine;(39);Circled
+12981;㊵;Circled Number Forty;(40);Circled
+12982;㊶;Circled Number Forty One;(41);Circled
+12983;㊷;Circled Number Forty Two;(42);Circled
+12984;㊸;Circled Number Forty Three;(43);Circled
+12985;㊹;Circled Number Forty Four;(44);Circled
+12986;㊺;Circled Number Forty Five;(45);Circled
+12987;㊻;Circled Number Forty Six;(46);Circled
+12988;㊼;Circled Number Forty Seven;(47);Circled
+12989;㊽;Circled Number Forty Eight;(48);Circled
+12990;㊾;Circled Number Forty Nine;(49);Circled
+12991;㊿;Circled Number Fifty;(50);Circled
+65296;０;Fullwidth Digit Zero;0;Fullwidth
+65297;１;Fullwidth Digit One;1;Fullwidth
+65298;２;Fullwidth Digit Two;2;Fullwidth
+65299;３;Fullwidth Digit Three;3;Fullwidth
+65300;４;Fullwidth Digit Four;4;Fullwidth
+65301;５;Fullwidth Digit Five;5;Fullwidth
+65302;６;Fullwidth Digit Six;6;Fullwidth
+65303;７;Fullwidth Digit Seven;7;Fullwidth
+65304;８;Fullwidth Digit Eight;8;Fullwidth
+65305;９;Fullwidth Digit Nine;9;Fullwidth
+120782;𝟎;Mathematical Bold Digit Zero;0;Mathematical Bold
+120783;𝟏;Mathematical Bold Digit One;1;Mathematical Bold
+120784;𝟐;Mathematical Bold Digit Two;2;Mathematical Bold
+120785;𝟑;Mathematical Bold Digit Three;3;Mathematical Bold
+120786;𝟒;Mathematical Bold Digit Four;4;Mathematical Bold
+120787;𝟓;Mathematical Bold Digit Five;5;Mathematical Bold
+120788;𝟔;Mathematical Bold Digit Six;6;Mathematical Bold
+120789;𝟕;Mathematical Bold Digit Seven;7;Mathematical Bold
+120790;𝟖;Mathematical Bold Digit Eight;8;Mathematical Bold
+120791;𝟗;Mathematical Bold Digit Nine;9;Mathematical Bold
+120792;𝟘;Mathematical Double-Struck Digit Zero;0;Mathematical Double-Struck
+120793;𝟙;Mathematical Double-Struck Digit One;1;Mathematical Double-Struck
+120794;𝟚;Mathematical Double-Struck Digit Two;2;Mathematical Double-Struck
+120795;𝟛;Mathematical Double-Struck Digit Three;3;Mathematical Double-Struck
+120796;𝟜;Mathematical Double-Struck Digit Four;4;Mathematical Double-Struck
+120797;𝟝;Mathematical Double-Struck Digit Five;5;Mathematical Double-Struck
+120798;𝟞;Mathematical Double-Struck Digit Six;6;Mathematical Double-Struck
+120799;𝟟;Mathematical Double-Struck Digit Seven;7;Mathematical Double-Struck
+120800;𝟠;Mathematical Double-Struck Digit Eight;8;Mathematical Double-Struck
+120801;𝟡;Mathematical Double-Struck Digit Nine;9;Mathematical Double-Struck
+120802;𝟢;Mathematical Sans-Serif Digit Zero;0;Mathematical Sans-Serif
+120803;𝟣;Mathematical Sans-Serif Digit One;1;Mathematical Sans-Serif
+120804;𝟤;Mathematical Sans-Serif Digit Two;2;Mathematical Sans-Serif
+120805;𝟥;Mathematical Sans-Serif Digit Three;3;Mathematical Sans-Serif
+120806;𝟦;Mathematical Sans-Serif Digit Four;4;Mathematical Sans-Serif
+120807;𝟧;Mathematical Sans-Serif Digit Five;5;Mathematical Sans-Serif
+120808;𝟨;Mathematical Sans-Serif Digit Six;6;Mathematical Sans-Serif
+120809;𝟩;Mathematical Sans-Serif Digit Seven;7;Mathematical Sans-Serif
+120810;𝟪;Mathematical Sans-Serif Digit Eight;8;Mathematical Sans-Serif
+120811;𝟫;Mathematical Sans-Serif Digit Nine;9;Mathematical Sans-Serif
+120812;𝟬;Mathematical Sans-Serif Bold Digit Zero;0;Mathematical Sans-Serif Bold
+120813;𝟭;Mathematical Sans-Serif Bold Digit One;1;Mathematical Sans-Serif Bold
+120814;𝟮;Mathematical Sans-Serif Bold Digit Two;2;Mathematical Sans-Serif Bold
+120815;𝟯;Mathematical Sans-Serif Bold Digit Three;3;Mathematical Sans-Serif Bold
+120816;𝟰;Mathematical Sans-Serif Bold Digit Four;4;Mathematical Sans-Serif Bold
+120817;𝟱;Mathematical Sans-Serif Bold Digit Five;5;Mathematical Sans-Serif Bold
+120818;𝟲;Mathematical Sans-Serif Bold Digit Six;6;Mathematical Sans-Serif Bold
+120819;𝟳;Mathematical Sans-Serif Bold Digit Seven;7;Mathematical Sans-Serif Bold
+120820;𝟴;Mathematical Sans-Serif Bold Digit Eight;8;Mathematical Sans-Serif Bold
+120821;𝟵;Mathematical Sans-Serif Bold Digit Nine;9;Mathematical Sans-Serif Bold
+120822;𝟶;Mathematical Monospace Digit Zero;0;Mathematical Monospace
+120823;𝟷;Mathematical Monospace Digit One;1;Mathematical Monospace
+120824;𝟸;Mathematical Monospace Digit Two;2;Mathematical Monospace
+120825;𝟹;Mathematical Monospace Digit Three;3;Mathematical Monospace
+120826;𝟺;Mathematical Monospace Digit Four;4;Mathematical Monospace
+120827;𝟻;Mathematical Monospace Digit Five;5;Mathematical Monospace
+120828;𝟼;Mathematical Monospace Digit Six;6;Mathematical Monospace
+120829;𝟽;Mathematical Monospace Digit Seven;7;Mathematical Monospace
+120830;𝟾;Mathematical Monospace Digit Eight;8;Mathematical Monospace
+120831;𝟿;Mathematical Monospace Digit Nine;9;Mathematical Monospace
+127232;🄀;Digit Zero Full Stop;0.;Full Stop
+127233;🄁;Digit Zero Comma;0,;Comma
+127234;🄂;Digit One Comma;1,;Comma
+127235;🄃;Digit Two Comma;2,;Comma
+127236;🄄;Digit Three Comma;3,;Comma
+127237;🄅;Digit Four Comma;4,;Comma
+127238;🄆;Digit Five Comma;5,;Comma
+127239;🄇;Digit Six Comma;6,;Comma
+127240;🄈;Digit Seven Comma;7,;Comma
+127241;🄉;Digit Eight Comma;8,;Comma
+127242;🄊;Digit Nine Comma;9,;Comma
+127243;🄋;Dingbat Circled Sans-Serif Digit Zero;(0);Dingbat Circled Sans-Serif

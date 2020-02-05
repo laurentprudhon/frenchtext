@@ -1,0 +1,1231 @@
+Code;Char;LetterName;IsUpper;UpperChar;IsLower;LowerChar;IsDiacritic;BaseChar;Diacritics;IsLigature;MultiChars;CharName;Block;Category;SubCategory
+65;A;A;True;A;False;a;False;;;False;;Latin Capital Letter A;Basic Latin;Letter;Uppercase
+66;B;B;True;B;False;b;False;;;False;;Latin Capital Letter B;Basic Latin;Letter;Uppercase
+67;C;C;True;C;False;c;False;;;False;;Latin Capital Letter C;Basic Latin;Letter;Uppercase
+68;D;D;True;D;False;d;False;;;False;;Latin Capital Letter D;Basic Latin;Letter;Uppercase
+69;E;E;True;E;False;e;False;;;False;;Latin Capital Letter E;Basic Latin;Letter;Uppercase
+70;F;F;True;F;False;f;False;;;False;;Latin Capital Letter F;Basic Latin;Letter;Uppercase
+71;G;G;True;G;False;g;False;;;False;;Latin Capital Letter G;Basic Latin;Letter;Uppercase
+72;H;H;True;H;False;h;False;;;False;;Latin Capital Letter H;Basic Latin;Letter;Uppercase
+73;I;I;True;I;False;i;False;;;False;;Latin Capital Letter I;Basic Latin;Letter;Uppercase
+74;J;J;True;J;False;j;False;;;False;;Latin Capital Letter J;Basic Latin;Letter;Uppercase
+75;K;K;True;K;False;k;False;;;False;;Latin Capital Letter K;Basic Latin;Letter;Uppercase
+76;L;L;True;L;False;l;False;;;False;;Latin Capital Letter L;Basic Latin;Letter;Uppercase
+77;M;M;True;M;False;m;False;;;False;;Latin Capital Letter M;Basic Latin;Letter;Uppercase
+78;N;N;True;N;False;n;False;;;False;;Latin Capital Letter N;Basic Latin;Letter;Uppercase
+79;O;O;True;O;False;o;False;;;False;;Latin Capital Letter O;Basic Latin;Letter;Uppercase
+80;P;P;True;P;False;p;False;;;False;;Latin Capital Letter P;Basic Latin;Letter;Uppercase
+81;Q;Q;True;Q;False;q;False;;;False;;Latin Capital Letter Q;Basic Latin;Letter;Uppercase
+82;R;R;True;R;False;r;False;;;False;;Latin Capital Letter R;Basic Latin;Letter;Uppercase
+83;S;S;True;S;False;s;False;;;False;;Latin Capital Letter S;Basic Latin;Letter;Uppercase
+84;T;T;True;T;False;t;False;;;False;;Latin Capital Letter T;Basic Latin;Letter;Uppercase
+85;U;U;True;U;False;u;False;;;False;;Latin Capital Letter U;Basic Latin;Letter;Uppercase
+86;V;V;True;V;False;v;False;;;False;;Latin Capital Letter V;Basic Latin;Letter;Uppercase
+87;W;W;True;W;False;w;False;;;False;;Latin Capital Letter W;Basic Latin;Letter;Uppercase
+88;X;X;True;X;False;x;False;;;False;;Latin Capital Letter X;Basic Latin;Letter;Uppercase
+89;Y;Y;True;Y;False;y;False;;;False;;Latin Capital Letter Y;Basic Latin;Letter;Uppercase
+90;Z;Z;True;Z;False;z;False;;;False;;Latin Capital Letter Z;Basic Latin;Letter;Uppercase
+97;a;A;False;A;True;a;False;;;False;;Latin Small Letter A;Basic Latin;Letter;Lowercase
+98;b;B;False;B;True;b;False;;;False;;Latin Small Letter B;Basic Latin;Letter;Lowercase
+99;c;C;False;C;True;c;False;;;False;;Latin Small Letter C;Basic Latin;Letter;Lowercase
+100;d;D;False;D;True;d;False;;;False;;Latin Small Letter D;Basic Latin;Letter;Lowercase
+101;e;E;False;E;True;e;False;;;False;;Latin Small Letter E;Basic Latin;Letter;Lowercase
+102;f;F;False;F;True;f;False;;;False;;Latin Small Letter F;Basic Latin;Letter;Lowercase
+103;g;G;False;G;True;g;False;;;False;;Latin Small Letter G;Basic Latin;Letter;Lowercase
+104;h;H;False;H;True;h;False;;;False;;Latin Small Letter H;Basic Latin;Letter;Lowercase
+105;i;I;False;I;True;i;False;;;False;;Latin Small Letter I;Basic Latin;Letter;Lowercase
+106;j;J;False;J;True;j;False;;;False;;Latin Small Letter J;Basic Latin;Letter;Lowercase
+107;k;K;False;K;True;k;False;;;False;;Latin Small Letter K;Basic Latin;Letter;Lowercase
+108;l;L;False;L;True;l;False;;;False;;Latin Small Letter L;Basic Latin;Letter;Lowercase
+109;m;M;False;M;True;m;False;;;False;;Latin Small Letter M;Basic Latin;Letter;Lowercase
+110;n;N;False;N;True;n;False;;;False;;Latin Small Letter N;Basic Latin;Letter;Lowercase
+111;o;O;False;O;True;o;False;;;False;;Latin Small Letter O;Basic Latin;Letter;Lowercase
+112;p;P;False;P;True;p;False;;;False;;Latin Small Letter P;Basic Latin;Letter;Lowercase
+113;q;Q;False;Q;True;q;False;;;False;;Latin Small Letter Q;Basic Latin;Letter;Lowercase
+114;r;R;False;R;True;r;False;;;False;;Latin Small Letter R;Basic Latin;Letter;Lowercase
+115;s;S;False;S;True;s;False;;;False;;Latin Small Letter S;Basic Latin;Letter;Lowercase
+116;t;T;False;T;True;t;False;;;False;;Latin Small Letter T;Basic Latin;Letter;Lowercase
+117;u;U;False;U;True;u;False;;;False;;Latin Small Letter U;Basic Latin;Letter;Lowercase
+118;v;V;False;V;True;v;False;;;False;;Latin Small Letter V;Basic Latin;Letter;Lowercase
+119;w;W;False;W;True;w;False;;;False;;Latin Small Letter W;Basic Latin;Letter;Lowercase
+120;x;X;False;X;True;x;False;;;False;;Latin Small Letter X;Basic Latin;Letter;Lowercase
+121;y;Y;False;Y;True;y;False;;;False;;Latin Small Letter Y;Basic Latin;Letter;Lowercase
+122;z;Z;False;Z;True;z;False;;;False;;Latin Small Letter Z;Basic Latin;Letter;Lowercase
+192;À;A;True;À;False;à;True;A;Grave;False;;Latin Capital Letter A With Grave;Latin-1 Supplement;Letter;Uppercase
+193;Á;A;True;Á;False;á;True;A;Acute;False;;Latin Capital Letter A With Acute;Latin-1 Supplement;Letter;Uppercase
+194;Â;A;True;Â;False;â;True;A;Circumflex;False;;Latin Capital Letter A With Circumflex;Latin-1 Supplement;Letter;Uppercase
+195;Ã;A;True;Ã;False;ã;True;A;Tilde;False;;Latin Capital Letter A With Tilde;Latin-1 Supplement;Letter;Uppercase
+196;Ä;A;True;Ä;False;ä;True;A;Diaeresis;False;;Latin Capital Letter A With Diaeresis;Latin-1 Supplement;Letter;Uppercase
+197;Å;A;True;Å;False;å;True;A;Ring Above;False;;Latin Capital Letter A With Ring Above;Latin-1 Supplement;Letter;Uppercase
+198;Æ;Ae;True;Æ;False;æ;False;;;True;AE;Latin Capital Letter Ae;Latin-1 Supplement;Letter;Uppercase
+199;Ç;C;True;Ç;False;ç;True;C;Cedilla;False;;Latin Capital Letter C With Cedilla;Latin-1 Supplement;Letter;Uppercase
+200;È;E;True;È;False;è;True;E;Grave;False;;Latin Capital Letter E With Grave;Latin-1 Supplement;Letter;Uppercase
+201;É;E;True;É;False;é;True;E;Acute;False;;Latin Capital Letter E With Acute;Latin-1 Supplement;Letter;Uppercase
+202;Ê;E;True;Ê;False;ê;True;E;Circumflex;False;;Latin Capital Letter E With Circumflex;Latin-1 Supplement;Letter;Uppercase
+203;Ë;E;True;Ë;False;ë;True;E;Diaeresis;False;;Latin Capital Letter E With Diaeresis;Latin-1 Supplement;Letter;Uppercase
+204;Ì;I;True;Ì;False;ì;True;I;Grave;False;;Latin Capital Letter I With Grave;Latin-1 Supplement;Letter;Uppercase
+205;Í;I;True;Í;False;í;True;I;Acute;False;;Latin Capital Letter I With Acute;Latin-1 Supplement;Letter;Uppercase
+206;Î;I;True;Î;False;î;True;I;Circumflex;False;;Latin Capital Letter I With Circumflex;Latin-1 Supplement;Letter;Uppercase
+207;Ï;I;True;Ï;False;ï;True;I;Diaeresis;False;;Latin Capital Letter I With Diaeresis;Latin-1 Supplement;Letter;Uppercase
+208;Ð;Eth;True;Ð;False;ð;False;;;False;;Latin Capital Letter Eth;Latin-1 Supplement;Letter;Uppercase
+209;Ñ;N;True;Ñ;False;ñ;True;N;Tilde;False;;Latin Capital Letter N With Tilde;Latin-1 Supplement;Letter;Uppercase
+210;Ò;O;True;Ò;False;ò;True;O;Grave;False;;Latin Capital Letter O With Grave;Latin-1 Supplement;Letter;Uppercase
+211;Ó;O;True;Ó;False;ó;True;O;Acute;False;;Latin Capital Letter O With Acute;Latin-1 Supplement;Letter;Uppercase
+212;Ô;O;True;Ô;False;ô;True;O;Circumflex;False;;Latin Capital Letter O With Circumflex;Latin-1 Supplement;Letter;Uppercase
+213;Õ;O;True;Õ;False;õ;True;O;Tilde;False;;Latin Capital Letter O With Tilde;Latin-1 Supplement;Letter;Uppercase
+214;Ö;O;True;Ö;False;ö;True;O;Diaeresis;False;;Latin Capital Letter O With Diaeresis;Latin-1 Supplement;Letter;Uppercase
+216;Ø;O;True;Ø;False;ø;True;O;Stroke;False;;Latin Capital Letter O With Stroke;Latin-1 Supplement;Letter;Uppercase
+217;Ù;U;True;Ù;False;ù;True;U;Grave;False;;Latin Capital Letter U With Grave;Latin-1 Supplement;Letter;Uppercase
+218;Ú;U;True;Ú;False;ú;True;U;Acute;False;;Latin Capital Letter U With Acute;Latin-1 Supplement;Letter;Uppercase
+219;Û;U;True;Û;False;û;True;U;Circumflex;False;;Latin Capital Letter U With Circumflex;Latin-1 Supplement;Letter;Uppercase
+220;Ü;U;True;Ü;False;ü;True;U;Diaeresis;False;;Latin Capital Letter U With Diaeresis;Latin-1 Supplement;Letter;Uppercase
+221;Ý;Y;True;Ý;False;ý;True;Y;Acute;False;;Latin Capital Letter Y With Acute;Latin-1 Supplement;Letter;Uppercase
+222;Þ;Thorn;True;Þ;False;þ;False;;;False;;Latin Capital Letter Thorn;Latin-1 Supplement;Letter;Uppercase
+223;ß;Sharp S;False;SS;True;ß;False;;;False;;Latin Small Letter Sharp S;Latin-1 Supplement;Letter;Lowercase
+224;à;A;False;À;True;à;True;a;Grave;False;;Latin Small Letter A With Grave;Latin-1 Supplement;Letter;Lowercase
+225;á;A;False;Á;True;á;True;a;Acute;False;;Latin Small Letter A With Acute;Latin-1 Supplement;Letter;Lowercase
+226;â;A;False;Â;True;â;True;a;Circumflex;False;;Latin Small Letter A With Circumflex;Latin-1 Supplement;Letter;Lowercase
+227;ã;A;False;Ã;True;ã;True;a;Tilde;False;;Latin Small Letter A With Tilde;Latin-1 Supplement;Letter;Lowercase
+228;ä;A;False;Ä;True;ä;True;a;Diaeresis;False;;Latin Small Letter A With Diaeresis;Latin-1 Supplement;Letter;Lowercase
+229;å;A;False;Å;True;å;True;a;Ring Above;False;;Latin Small Letter A With Ring Above;Latin-1 Supplement;Letter;Lowercase
+230;æ;Ae;False;Æ;True;æ;False;;;True;ae;Latin Small Letter Ae;Latin-1 Supplement;Letter;Lowercase
+231;ç;C;False;Ç;True;ç;True;c;Cedilla;False;;Latin Small Letter C With Cedilla;Latin-1 Supplement;Letter;Lowercase
+232;è;E;False;È;True;è;True;e;Grave;False;;Latin Small Letter E With Grave;Latin-1 Supplement;Letter;Lowercase
+233;é;E;False;É;True;é;True;e;Acute;False;;Latin Small Letter E With Acute;Latin-1 Supplement;Letter;Lowercase
+234;ê;E;False;Ê;True;ê;True;e;Circumflex;False;;Latin Small Letter E With Circumflex;Latin-1 Supplement;Letter;Lowercase
+235;ë;E;False;Ë;True;ë;True;e;Diaeresis;False;;Latin Small Letter E With Diaeresis;Latin-1 Supplement;Letter;Lowercase
+236;ì;I;False;Ì;True;ì;True;i;Grave;False;;Latin Small Letter I With Grave;Latin-1 Supplement;Letter;Lowercase
+237;í;I;False;Í;True;í;True;i;Acute;False;;Latin Small Letter I With Acute;Latin-1 Supplement;Letter;Lowercase
+238;î;I;False;Î;True;î;True;i;Circumflex;False;;Latin Small Letter I With Circumflex;Latin-1 Supplement;Letter;Lowercase
+239;ï;I;False;Ï;True;ï;True;i;Diaeresis;False;;Latin Small Letter I With Diaeresis;Latin-1 Supplement;Letter;Lowercase
+240;ð;Eth;False;Ð;True;ð;False;;;False;;Latin Small Letter Eth;Latin-1 Supplement;Letter;Lowercase
+241;ñ;N;False;Ñ;True;ñ;True;n;Tilde;False;;Latin Small Letter N With Tilde;Latin-1 Supplement;Letter;Lowercase
+242;ò;O;False;Ò;True;ò;True;o;Grave;False;;Latin Small Letter O With Grave;Latin-1 Supplement;Letter;Lowercase
+243;ó;O;False;Ó;True;ó;True;o;Acute;False;;Latin Small Letter O With Acute;Latin-1 Supplement;Letter;Lowercase
+244;ô;O;False;Ô;True;ô;True;o;Circumflex;False;;Latin Small Letter O With Circumflex;Latin-1 Supplement;Letter;Lowercase
+245;õ;O;False;Õ;True;õ;True;o;Tilde;False;;Latin Small Letter O With Tilde;Latin-1 Supplement;Letter;Lowercase
+246;ö;O;False;Ö;True;ö;True;o;Diaeresis;False;;Latin Small Letter O With Diaeresis;Latin-1 Supplement;Letter;Lowercase
+248;ø;O;False;Ø;True;ø;True;o;Stroke;False;;Latin Small Letter O With Stroke;Latin-1 Supplement;Letter;Lowercase
+249;ù;U;False;Ù;True;ù;True;u;Grave;False;;Latin Small Letter U With Grave;Latin-1 Supplement;Letter;Lowercase
+250;ú;U;False;Ú;True;ú;True;u;Acute;False;;Latin Small Letter U With Acute;Latin-1 Supplement;Letter;Lowercase
+251;û;U;False;Û;True;û;True;u;Circumflex;False;;Latin Small Letter U With Circumflex;Latin-1 Supplement;Letter;Lowercase
+252;ü;U;False;Ü;True;ü;True;u;Diaeresis;False;;Latin Small Letter U With Diaeresis;Latin-1 Supplement;Letter;Lowercase
+253;ý;Y;False;Ý;True;ý;True;y;Acute;False;;Latin Small Letter Y With Acute;Latin-1 Supplement;Letter;Lowercase
+254;þ;Thorn;False;Þ;True;þ;False;;;False;;Latin Small Letter Thorn;Latin-1 Supplement;Letter;Lowercase
+255;ÿ;Y;False;Ÿ;True;ÿ;True;y;Diaeresis;False;;Latin Small Letter Y With Diaeresis;Latin-1 Supplement;Letter;Lowercase
+256;Ā;A;True;Ā;False;ā;True;A;Macron;False;;Latin Capital Letter A With Macron;Latin Extended-A;Letter;Uppercase
+257;ā;A;False;Ā;True;ā;True;a;Macron;False;;Latin Small Letter A With Macron;Latin Extended-A;Letter;Lowercase
+258;Ă;A;True;Ă;False;ă;True;A;Breve;False;;Latin Capital Letter A With Breve;Latin Extended-A;Letter;Uppercase
+259;ă;A;False;Ă;True;ă;True;a;Breve;False;;Latin Small Letter A With Breve;Latin Extended-A;Letter;Lowercase
+260;Ą;A;True;Ą;False;ą;True;A;Ogonek;False;;Latin Capital Letter A With Ogonek;Latin Extended-A;Letter;Uppercase
+261;ą;A;False;Ą;True;ą;True;a;Ogonek;False;;Latin Small Letter A With Ogonek;Latin Extended-A;Letter;Lowercase
+262;Ć;C;True;Ć;False;ć;True;C;Acute;False;;Latin Capital Letter C With Acute;Latin Extended-A;Letter;Uppercase
+263;ć;C;False;Ć;True;ć;True;c;Acute;False;;Latin Small Letter C With Acute;Latin Extended-A;Letter;Lowercase
+264;Ĉ;C;True;Ĉ;False;ĉ;True;C;Circumflex;False;;Latin Capital Letter C With Circumflex;Latin Extended-A;Letter;Uppercase
+265;ĉ;C;False;Ĉ;True;ĉ;True;c;Circumflex;False;;Latin Small Letter C With Circumflex;Latin Extended-A;Letter;Lowercase
+266;Ċ;C;True;Ċ;False;ċ;True;C;Dot Above;False;;Latin Capital Letter C With Dot Above;Latin Extended-A;Letter;Uppercase
+267;ċ;C;False;Ċ;True;ċ;True;c;Dot Above;False;;Latin Small Letter C With Dot Above;Latin Extended-A;Letter;Lowercase
+268;Č;C;True;Č;False;č;True;C;Caron;False;;Latin Capital Letter C With Caron;Latin Extended-A;Letter;Uppercase
+269;č;C;False;Č;True;č;True;c;Caron;False;;Latin Small Letter C With Caron;Latin Extended-A;Letter;Lowercase
+270;Ď;D;True;Ď;False;ď;True;D;Caron;False;;Latin Capital Letter D With Caron;Latin Extended-A;Letter;Uppercase
+271;ď;D;False;Ď;True;ď;True;d;Caron;False;;Latin Small Letter D With Caron;Latin Extended-A;Letter;Lowercase
+272;Đ;D;True;Đ;False;đ;True;D;Stroke;False;;Latin Capital Letter D With Stroke;Latin Extended-A;Letter;Uppercase
+273;đ;D;False;Đ;True;đ;True;d;Stroke;False;;Latin Small Letter D With Stroke;Latin Extended-A;Letter;Lowercase
+274;Ē;E;True;Ē;False;ē;True;E;Macron;False;;Latin Capital Letter E With Macron;Latin Extended-A;Letter;Uppercase
+275;ē;E;False;Ē;True;ē;True;e;Macron;False;;Latin Small Letter E With Macron;Latin Extended-A;Letter;Lowercase
+276;Ĕ;E;True;Ĕ;False;ĕ;True;E;Breve;False;;Latin Capital Letter E With Breve;Latin Extended-A;Letter;Uppercase
+277;ĕ;E;False;Ĕ;True;ĕ;True;e;Breve;False;;Latin Small Letter E With Breve;Latin Extended-A;Letter;Lowercase
+278;Ė;E;True;Ė;False;ė;True;E;Dot Above;False;;Latin Capital Letter E With Dot Above;Latin Extended-A;Letter;Uppercase
+279;ė;E;False;Ė;True;ė;True;e;Dot Above;False;;Latin Small Letter E With Dot Above;Latin Extended-A;Letter;Lowercase
+280;Ę;E;True;Ę;False;ę;True;E;Ogonek;False;;Latin Capital Letter E With Ogonek;Latin Extended-A;Letter;Uppercase
+281;ę;E;False;Ę;True;ę;True;e;Ogonek;False;;Latin Small Letter E With Ogonek;Latin Extended-A;Letter;Lowercase
+282;Ě;E;True;Ě;False;ě;True;E;Caron;False;;Latin Capital Letter E With Caron;Latin Extended-A;Letter;Uppercase
+283;ě;E;False;Ě;True;ě;True;e;Caron;False;;Latin Small Letter E With Caron;Latin Extended-A;Letter;Lowercase
+284;Ĝ;G;True;Ĝ;False;ĝ;True;G;Circumflex;False;;Latin Capital Letter G With Circumflex;Latin Extended-A;Letter;Uppercase
+285;ĝ;G;False;Ĝ;True;ĝ;True;g;Circumflex;False;;Latin Small Letter G With Circumflex;Latin Extended-A;Letter;Lowercase
+286;Ğ;G;True;Ğ;False;ğ;True;G;Breve;False;;Latin Capital Letter G With Breve;Latin Extended-A;Letter;Uppercase
+287;ğ;G;False;Ğ;True;ğ;True;g;Breve;False;;Latin Small Letter G With Breve;Latin Extended-A;Letter;Lowercase
+288;Ġ;G;True;Ġ;False;ġ;True;G;Dot Above;False;;Latin Capital Letter G With Dot Above;Latin Extended-A;Letter;Uppercase
+289;ġ;G;False;Ġ;True;ġ;True;g;Dot Above;False;;Latin Small Letter G With Dot Above;Latin Extended-A;Letter;Lowercase
+290;Ģ;G;True;Ģ;False;ģ;True;G;Cedilla;False;;Latin Capital Letter G With Cedilla;Latin Extended-A;Letter;Uppercase
+291;ģ;G;False;Ģ;True;ģ;True;g;Cedilla;False;;Latin Small Letter G With Cedilla;Latin Extended-A;Letter;Lowercase
+292;Ĥ;H;True;Ĥ;False;ĥ;True;H;Circumflex;False;;Latin Capital Letter H With Circumflex;Latin Extended-A;Letter;Uppercase
+293;ĥ;H;False;Ĥ;True;ĥ;True;h;Circumflex;False;;Latin Small Letter H With Circumflex;Latin Extended-A;Letter;Lowercase
+294;Ħ;H;True;Ħ;False;ħ;True;H;Stroke;False;;Latin Capital Letter H With Stroke;Latin Extended-A;Letter;Uppercase
+295;ħ;H;False;Ħ;True;ħ;True;h;Stroke;False;;Latin Small Letter H With Stroke;Latin Extended-A;Letter;Lowercase
+296;Ĩ;I;True;Ĩ;False;ĩ;True;I;Tilde;False;;Latin Capital Letter I With Tilde;Latin Extended-A;Letter;Uppercase
+297;ĩ;I;False;Ĩ;True;ĩ;True;i;Tilde;False;;Latin Small Letter I With Tilde;Latin Extended-A;Letter;Lowercase
+298;Ī;I;True;Ī;False;ī;True;I;Macron;False;;Latin Capital Letter I With Macron;Latin Extended-A;Letter;Uppercase
+299;ī;I;False;Ī;True;ī;True;i;Macron;False;;Latin Small Letter I With Macron;Latin Extended-A;Letter;Lowercase
+300;Ĭ;I;True;Ĭ;False;ĭ;True;I;Breve;False;;Latin Capital Letter I With Breve;Latin Extended-A;Letter;Uppercase
+301;ĭ;I;False;Ĭ;True;ĭ;True;i;Breve;False;;Latin Small Letter I With Breve;Latin Extended-A;Letter;Lowercase
+302;Į;I;True;Į;False;į;True;I;Ogonek;False;;Latin Capital Letter I With Ogonek;Latin Extended-A;Letter;Uppercase
+303;į;I;False;Į;True;į;True;i;Ogonek;False;;Latin Small Letter I With Ogonek;Latin Extended-A;Letter;Lowercase
+304;İ;I;True;İ;False;i̇;True;I;Dot Above;False;;Latin Capital Letter I With Dot Above;Latin Extended-A;Letter;Uppercase
+305;ı;I;False;I;True;ı;True;i;Dotless;False;;Latin Small Letter Dotless I;Latin Extended-A;Letter;Lowercase
+306;Ĳ;Ij;True;Ĳ;False;ĳ;False;;;True;IJ;Latin Capital Ligature Ij;Latin Extended-A;Letter;Uppercase
+307;ĳ;Ij;False;Ĳ;True;ĳ;False;;;True;ij;Latin Small Ligature Ij;Latin Extended-A;Letter;Lowercase
+308;Ĵ;J;True;Ĵ;False;ĵ;True;J;Circumflex;False;;Latin Capital Letter J With Circumflex;Latin Extended-A;Letter;Uppercase
+309;ĵ;J;False;Ĵ;True;ĵ;True;j;Circumflex;False;;Latin Small Letter J With Circumflex;Latin Extended-A;Letter;Lowercase
+310;Ķ;K;True;Ķ;False;ķ;True;K;Cedilla;False;;Latin Capital Letter K With Cedilla;Latin Extended-A;Letter;Uppercase
+311;ķ;K;False;Ķ;True;ķ;True;k;Cedilla;False;;Latin Small Letter K With Cedilla;Latin Extended-A;Letter;Lowercase
+312;ĸ;Kra;False;ĸ;True;ĸ;False;;;False;;Latin Small Letter Kra;Latin Extended-A;Letter;Lowercase
+313;Ĺ;L;True;Ĺ;False;ĺ;True;L;Acute;False;;Latin Capital Letter L With Acute;Latin Extended-A;Letter;Uppercase
+314;ĺ;L;False;Ĺ;True;ĺ;True;l;Acute;False;;Latin Small Letter L With Acute;Latin Extended-A;Letter;Lowercase
+315;Ļ;L;True;Ļ;False;ļ;True;L;Cedilla;False;;Latin Capital Letter L With Cedilla;Latin Extended-A;Letter;Uppercase
+316;ļ;L;False;Ļ;True;ļ;True;l;Cedilla;False;;Latin Small Letter L With Cedilla;Latin Extended-A;Letter;Lowercase
+317;Ľ;L;True;Ľ;False;ľ;True;L;Caron;False;;Latin Capital Letter L With Caron;Latin Extended-A;Letter;Uppercase
+318;ľ;L;False;Ľ;True;ľ;True;l;Caron;False;;Latin Small Letter L With Caron;Latin Extended-A;Letter;Lowercase
+319;Ŀ;L;True;Ŀ;False;ŀ;True;L;Middle Dot;False;;Latin Capital Letter L With Middle Dot;Latin Extended-A;Letter;Uppercase
+320;ŀ;L;False;Ŀ;True;ŀ;True;l;Middle Dot;False;;Latin Small Letter L With Middle Dot;Latin Extended-A;Letter;Lowercase
+321;Ł;L;True;Ł;False;ł;True;L;Stroke;False;;Latin Capital Letter L With Stroke;Latin Extended-A;Letter;Uppercase
+322;ł;L;False;Ł;True;ł;True;l;Stroke;False;;Latin Small Letter L With Stroke;Latin Extended-A;Letter;Lowercase
+323;Ń;N;True;Ń;False;ń;True;N;Acute;False;;Latin Capital Letter N With Acute;Latin Extended-A;Letter;Uppercase
+324;ń;N;False;Ń;True;ń;True;n;Acute;False;;Latin Small Letter N With Acute;Latin Extended-A;Letter;Lowercase
+325;Ņ;N;True;Ņ;False;ņ;True;N;Cedilla;False;;Latin Capital Letter N With Cedilla;Latin Extended-A;Letter;Uppercase
+326;ņ;N;False;Ņ;True;ņ;True;n;Cedilla;False;;Latin Small Letter N With Cedilla;Latin Extended-A;Letter;Lowercase
+327;Ň;N;True;Ň;False;ň;True;N;Caron;False;;Latin Capital Letter N With Caron;Latin Extended-A;Letter;Uppercase
+328;ň;N;False;Ň;True;ň;True;n;Caron;False;;Latin Small Letter N With Caron;Latin Extended-A;Letter;Lowercase
+329;ŉ;N;False;ʼN;True;ŉ;True;n;Preceded By Apostrophe;False;;Latin Small Letter N Preceded By Apostrophe;Latin Extended-A;Letter;Lowercase
+330;Ŋ;Eng;True;Ŋ;False;ŋ;False;;;False;;Latin Capital Letter Eng;Latin Extended-A;Letter;Uppercase
+331;ŋ;Eng;False;Ŋ;True;ŋ;False;;;False;;Latin Small Letter Eng;Latin Extended-A;Letter;Lowercase
+332;Ō;O;True;Ō;False;ō;True;O;Macron;False;;Latin Capital Letter O With Macron;Latin Extended-A;Letter;Uppercase
+333;ō;O;False;Ō;True;ō;True;o;Macron;False;;Latin Small Letter O With Macron;Latin Extended-A;Letter;Lowercase
+334;Ŏ;O;True;Ŏ;False;ŏ;True;O;Breve;False;;Latin Capital Letter O With Breve;Latin Extended-A;Letter;Uppercase
+335;ŏ;O;False;Ŏ;True;ŏ;True;o;Breve;False;;Latin Small Letter O With Breve;Latin Extended-A;Letter;Lowercase
+336;Ő;O;True;Ő;False;ő;True;O;Double Acute;False;;Latin Capital Letter O With Double Acute;Latin Extended-A;Letter;Uppercase
+337;ő;O;False;Ő;True;ő;True;o;Double Acute;False;;Latin Small Letter O With Double Acute;Latin Extended-A;Letter;Lowercase
+338;Œ;Oe;True;Œ;False;œ;False;;;True;OE;Latin Capital Ligature Oe;Latin Extended-A;Letter;Uppercase
+339;œ;Oe;False;Œ;True;œ;False;;;True;oe;Latin Small Ligature Oe;Latin Extended-A;Letter;Lowercase
+340;Ŕ;R;True;Ŕ;False;ŕ;True;R;Acute;False;;Latin Capital Letter R With Acute;Latin Extended-A;Letter;Uppercase
+341;ŕ;R;False;Ŕ;True;ŕ;True;r;Acute;False;;Latin Small Letter R With Acute;Latin Extended-A;Letter;Lowercase
+342;Ŗ;R;True;Ŗ;False;ŗ;True;R;Cedilla;False;;Latin Capital Letter R With Cedilla;Latin Extended-A;Letter;Uppercase
+343;ŗ;R;False;Ŗ;True;ŗ;True;r;Cedilla;False;;Latin Small Letter R With Cedilla;Latin Extended-A;Letter;Lowercase
+344;Ř;R;True;Ř;False;ř;True;R;Caron;False;;Latin Capital Letter R With Caron;Latin Extended-A;Letter;Uppercase
+345;ř;R;False;Ř;True;ř;True;r;Caron;False;;Latin Small Letter R With Caron;Latin Extended-A;Letter;Lowercase
+346;Ś;S;True;Ś;False;ś;True;S;Acute;False;;Latin Capital Letter S With Acute;Latin Extended-A;Letter;Uppercase
+347;ś;S;False;Ś;True;ś;True;s;Acute;False;;Latin Small Letter S With Acute;Latin Extended-A;Letter;Lowercase
+348;Ŝ;S;True;Ŝ;False;ŝ;True;S;Circumflex;False;;Latin Capital Letter S With Circumflex;Latin Extended-A;Letter;Uppercase
+349;ŝ;S;False;Ŝ;True;ŝ;True;s;Circumflex;False;;Latin Small Letter S With Circumflex;Latin Extended-A;Letter;Lowercase
+350;Ş;S;True;Ş;False;ş;True;S;Cedilla;False;;Latin Capital Letter S With Cedilla;Latin Extended-A;Letter;Uppercase
+351;ş;S;False;Ş;True;ş;True;s;Cedilla;False;;Latin Small Letter S With Cedilla;Latin Extended-A;Letter;Lowercase
+352;Š;S;True;Š;False;š;True;S;Caron;False;;Latin Capital Letter S With Caron;Latin Extended-A;Letter;Uppercase
+353;š;S;False;Š;True;š;True;s;Caron;False;;Latin Small Letter S With Caron;Latin Extended-A;Letter;Lowercase
+354;Ţ;T;True;Ţ;False;ţ;True;T;Cedilla;False;;Latin Capital Letter T With Cedilla;Latin Extended-A;Letter;Uppercase
+355;ţ;T;False;Ţ;True;ţ;True;t;Cedilla;False;;Latin Small Letter T With Cedilla;Latin Extended-A;Letter;Lowercase
+356;Ť;T;True;Ť;False;ť;True;T;Caron;False;;Latin Capital Letter T With Caron;Latin Extended-A;Letter;Uppercase
+357;ť;T;False;Ť;True;ť;True;t;Caron;False;;Latin Small Letter T With Caron;Latin Extended-A;Letter;Lowercase
+358;Ŧ;T;True;Ŧ;False;ŧ;True;T;Stroke;False;;Latin Capital Letter T With Stroke;Latin Extended-A;Letter;Uppercase
+359;ŧ;T;False;Ŧ;True;ŧ;True;t;Stroke;False;;Latin Small Letter T With Stroke;Latin Extended-A;Letter;Lowercase
+360;Ũ;U;True;Ũ;False;ũ;True;U;Tilde;False;;Latin Capital Letter U With Tilde;Latin Extended-A;Letter;Uppercase
+361;ũ;U;False;Ũ;True;ũ;True;u;Tilde;False;;Latin Small Letter U With Tilde;Latin Extended-A;Letter;Lowercase
+362;Ū;U;True;Ū;False;ū;True;U;Macron;False;;Latin Capital Letter U With Macron;Latin Extended-A;Letter;Uppercase
+363;ū;U;False;Ū;True;ū;True;u;Macron;False;;Latin Small Letter U With Macron;Latin Extended-A;Letter;Lowercase
+364;Ŭ;U;True;Ŭ;False;ŭ;True;U;Breve;False;;Latin Capital Letter U With Breve;Latin Extended-A;Letter;Uppercase
+365;ŭ;U;False;Ŭ;True;ŭ;True;u;Breve;False;;Latin Small Letter U With Breve;Latin Extended-A;Letter;Lowercase
+366;Ů;U;True;Ů;False;ů;True;U;Ring Above;False;;Latin Capital Letter U With Ring Above;Latin Extended-A;Letter;Uppercase
+367;ů;U;False;Ů;True;ů;True;u;Ring Above;False;;Latin Small Letter U With Ring Above;Latin Extended-A;Letter;Lowercase
+368;Ű;U;True;Ű;False;ű;True;U;Double Acute;False;;Latin Capital Letter U With Double Acute;Latin Extended-A;Letter;Uppercase
+369;ű;U;False;Ű;True;ű;True;u;Double Acute;False;;Latin Small Letter U With Double Acute;Latin Extended-A;Letter;Lowercase
+370;Ų;U;True;Ų;False;ų;True;U;Ogonek;False;;Latin Capital Letter U With Ogonek;Latin Extended-A;Letter;Uppercase
+371;ų;U;False;Ų;True;ų;True;u;Ogonek;False;;Latin Small Letter U With Ogonek;Latin Extended-A;Letter;Lowercase
+372;Ŵ;W;True;Ŵ;False;ŵ;True;W;Circumflex;False;;Latin Capital Letter W With Circumflex;Latin Extended-A;Letter;Uppercase
+373;ŵ;W;False;Ŵ;True;ŵ;True;w;Circumflex;False;;Latin Small Letter W With Circumflex;Latin Extended-A;Letter;Lowercase
+374;Ŷ;Y;True;Ŷ;False;ŷ;True;Y;Circumflex;False;;Latin Capital Letter Y With Circumflex;Latin Extended-A;Letter;Uppercase
+375;ŷ;Y;False;Ŷ;True;ŷ;True;y;Circumflex;False;;Latin Small Letter Y With Circumflex;Latin Extended-A;Letter;Lowercase
+376;Ÿ;Y;True;Ÿ;False;ÿ;True;Y;Diaeresis;False;;Latin Capital Letter Y With Diaeresis;Latin Extended-A;Letter;Uppercase
+377;Ź;Z;True;Ź;False;ź;True;Z;Acute;False;;Latin Capital Letter Z With Acute;Latin Extended-A;Letter;Uppercase
+378;ź;Z;False;Ź;True;ź;True;z;Acute;False;;Latin Small Letter Z With Acute;Latin Extended-A;Letter;Lowercase
+379;Ż;Z;True;Ż;False;ż;True;Z;Dot Above;False;;Latin Capital Letter Z With Dot Above;Latin Extended-A;Letter;Uppercase
+380;ż;Z;False;Ż;True;ż;True;z;Dot Above;False;;Latin Small Letter Z With Dot Above;Latin Extended-A;Letter;Lowercase
+381;Ž;Z;True;Ž;False;ž;True;Z;Caron;False;;Latin Capital Letter Z With Caron;Latin Extended-A;Letter;Uppercase
+382;ž;Z;False;Ž;True;ž;True;z;Caron;False;;Latin Small Letter Z With Caron;Latin Extended-A;Letter;Lowercase
+383;ſ;S;False;S;True;ſ;True;s;Long;False;;Latin Small Letter Long S;Latin Extended-A;Letter;Lowercase
+384;ƀ;B;False;Ƀ;True;ƀ;True;b;Stroke;False;;Latin Small Letter B With Stroke;Latin Extended-B;Letter;Lowercase
+385;Ɓ;B;True;Ɓ;False;ɓ;True;B;Hook;False;;Latin Capital Letter B With Hook;Latin Extended-B;Letter;Uppercase
+386;Ƃ;B;True;Ƃ;False;ƃ;True;B;Topbar;False;;Latin Capital Letter B With Topbar;Latin Extended-B;Letter;Uppercase
+387;ƃ;B;False;Ƃ;True;ƃ;True;b;Topbar;False;;Latin Small Letter B With Topbar;Latin Extended-B;Letter;Lowercase
+388;Ƅ;Tone Six;True;Ƅ;False;ƅ;False;;;False;;Latin Capital Letter Tone Six;Latin Extended-B;Letter;Uppercase
+389;ƅ;Tone Six;False;Ƅ;True;ƅ;False;;;False;;Latin Small Letter Tone Six;Latin Extended-B;Letter;Lowercase
+390;Ɔ;O;True;Ɔ;False;ɔ;True;O;Open;False;;Latin Capital Letter Open O;Latin Extended-B;Letter;Uppercase
+391;Ƈ;C;True;Ƈ;False;ƈ;True;C;Hook;False;;Latin Capital Letter C With Hook;Latin Extended-B;Letter;Uppercase
+392;ƈ;C;False;Ƈ;True;ƈ;True;c;Hook;False;;Latin Small Letter C With Hook;Latin Extended-B;Letter;Lowercase
+393;Ɖ;D;True;Ɖ;False;ɖ;True;D;African;False;;Latin Capital Letter African D;Latin Extended-B;Letter;Uppercase
+394;Ɗ;D;True;Ɗ;False;ɗ;True;D;Hook;False;;Latin Capital Letter D With Hook;Latin Extended-B;Letter;Uppercase
+395;Ƌ;D;True;Ƌ;False;ƌ;True;D;Topbar;False;;Latin Capital Letter D With Topbar;Latin Extended-B;Letter;Uppercase
+396;ƌ;D;False;Ƌ;True;ƌ;True;d;Topbar;False;;Latin Small Letter D With Topbar;Latin Extended-B;Letter;Lowercase
+397;ƍ;Delta;False;ƍ;True;ƍ;True;ẟ;Turned ;False;;Latin Small Letter Turned Delta;Latin Extended-B;Letter;Lowercase
+398;Ǝ;E;True;Ǝ;False;ǝ;True;E;Reversed;False;;Latin Capital Letter Reversed E;Latin Extended-B;Letter;Uppercase
+399;Ə;Schwa;True;Ə;False;ə;False;;;False;;Latin Capital Letter Schwa;Latin Extended-B;Letter;Uppercase
+400;Ɛ;E;True;Ɛ;False;ɛ;True;E;Open;False;;Latin Capital Letter Open E;Latin Extended-B;Letter;Uppercase
+401;Ƒ;F;True;Ƒ;False;ƒ;True;F;Hook;False;;Latin Capital Letter F With Hook;Latin Extended-B;Letter;Uppercase
+402;ƒ;F;False;Ƒ;True;ƒ;True;f;Hook;False;;Latin Small Letter F With Hook;Latin Extended-B;Letter;Lowercase
+403;Ɠ;G;True;Ɠ;False;ɠ;True;G;Hook;False;;Latin Capital Letter G With Hook;Latin Extended-B;Letter;Uppercase
+404;Ɣ;Gamma;True;Ɣ;False;ɣ;False;;;False;;Latin Capital Letter Gamma;Latin Extended-B;Letter;Uppercase
+405;ƕ;Hwair;False;Ƕ;True;ƕ;False;;;True;hv;Latin Small Letter Hv;Latin Extended-B;Letter;Lowercase
+406;Ɩ;Iota;True;Ɩ;False;ɩ;False;;;False;;Latin Capital Letter Iota;Latin Extended-B;Letter;Uppercase
+407;Ɨ;I;True;Ɨ;False;ɨ;True;I;Stroke;False;;Latin Capital Letter I With Stroke;Latin Extended-B;Letter;Uppercase
+408;Ƙ;K;True;Ƙ;False;ƙ;True;K;Hook;False;;Latin Capital Letter K With Hook;Latin Extended-B;Letter;Uppercase
+409;ƙ;K;False;Ƙ;True;ƙ;True;k;Hook;False;;Latin Small Letter K With Hook;Latin Extended-B;Letter;Lowercase
+410;ƚ;L;False;Ƚ;True;ƚ;True;l;Bar;False;;Latin Small Letter L With Bar;Latin Extended-B;Letter;Lowercase
+411;ƛ;Lambda;False;ƛ;True;ƛ;False;;;False;;Latin Small Letter Lambda With Stroke;Latin Extended-B;Letter;Lowercase
+412;Ɯ;M;True;Ɯ;False;ɯ;True;M;Turned;False;;Latin Capital Letter Turned M;Latin Extended-B;Letter;Uppercase
+413;Ɲ;N;True;Ɲ;False;ɲ;True;N;Left Hook;False;;Latin Capital Letter N With Left Hook;Latin Extended-B;Letter;Uppercase
+414;ƞ;N;False;Ƞ;True;ƞ;True;n;Long Right Leg;False;;Latin Small Letter N With Long Right Leg;Latin Extended-B;Letter;Lowercase
+415;Ɵ;O;True;Ɵ;False;ɵ;True;O;Middle Tilde;False;;Latin Capital Letter O With Middle Tilde;Latin Extended-B;Letter;Uppercase
+416;Ơ;O;True;Ơ;False;ơ;True;O;Horn;False;;Latin Capital Letter O With Horn;Latin Extended-B;Letter;Uppercase
+417;ơ;O;False;Ơ;True;ơ;True;o;Horn;False;;Latin Small Letter O With Horn;Latin Extended-B;Letter;Lowercase
+418;Ƣ;Oi;True;Ƣ;False;ƣ;False;;;True;OI;Latin Capital Letter Oi;Latin Extended-B;Letter;Uppercase
+419;ƣ;Oi;False;Ƣ;True;ƣ;False;;;True;oi;Latin Small Letter Oi;Latin Extended-B;Letter;Lowercase
+420;Ƥ;P;True;Ƥ;False;ƥ;True;P;Hook;False;;Latin Capital Letter P With Hook;Latin Extended-B;Letter;Uppercase
+421;ƥ;P;False;Ƥ;True;ƥ;True;p;Hook;False;;Latin Small Letter P With Hook;Latin Extended-B;Letter;Lowercase
+422;Ʀ;Yr;True;Ʀ;False;ʀ;False;;;False;;Latin Letter Yr;Latin Extended-B;Letter;Uppercase
+423;Ƨ;Tone Two;True;Ƨ;False;ƨ;False;;;False;;Latin Capital Letter Tone Two;Latin Extended-B;Letter;Uppercase
+424;ƨ;Tone Two;False;Ƨ;True;ƨ;False;;;False;;Latin Small Letter Tone Two;Latin Extended-B;Letter;Lowercase
+425;Ʃ;Esh;True;Ʃ;False;ʃ;False;;;False;;Latin Capital Letter Esh;Latin Extended-B;Letter;Uppercase
+426;ƪ;Esh;False;ƪ;True;ƪ;True;ʃ;Reversed Loop;False;;Latin Letter Reversed Esh Loop;Latin Extended-B;Letter;Lowercase
+427;ƫ;T;False;ƫ;True;ƫ;True;t;Palatal Hook;False;;Latin Small Letter T With Palatal Hook;Latin Extended-B;Letter;Lowercase
+428;Ƭ;T;True;Ƭ;False;ƭ;True;T;Hook;False;;Latin Capital Letter T With Hook;Latin Extended-B;Letter;Uppercase
+429;ƭ;T;False;Ƭ;True;ƭ;True;t;Hook;False;;Latin Small Letter T With Hook;Latin Extended-B;Letter;Lowercase
+430;Ʈ;T;True;Ʈ;False;ʈ;True;T;Retroflex Hook;False;;Latin Capital Letter T With Retroflex Hook;Latin Extended-B;Letter;Uppercase
+431;Ư;U;True;Ư;False;ư;True;U;Horn;False;;Latin Capital Letter U With Horn;Latin Extended-B;Letter;Uppercase
+432;ư;U;False;Ư;True;ư;True;u;Horn;False;;Latin Small Letter U With Horn;Latin Extended-B;Letter;Lowercase
+433;Ʊ;Upsilon;True;Ʊ;False;ʊ;False;;;False;;Latin Capital Letter Upsilon;Latin Extended-B;Letter;Uppercase
+434;Ʋ;V;True;Ʋ;False;ʋ;True;V;Hook;False;;Latin Capital Letter V With Hook;Latin Extended-B;Letter;Uppercase
+435;Ƴ;Y;True;Ƴ;False;ƴ;True;Y;Hook;False;;Latin Capital Letter Y With Hook;Latin Extended-B;Letter;Uppercase
+436;ƴ;Y;False;Ƴ;True;ƴ;True;y;Hook;False;;Latin Small Letter Y With Hook;Latin Extended-B;Letter;Lowercase
+437;Ƶ;Z;True;Ƶ;False;ƶ;True;Z;Stroke;False;;Latin Capital Letter Z With Stroke;Latin Extended-B;Letter;Uppercase
+438;ƶ;Z;False;Ƶ;True;ƶ;True;z;Stroke;False;;Latin Small Letter Z With Stroke;Latin Extended-B;Letter;Lowercase
+439;Ʒ;Ezh;True;Ʒ;False;ʒ;False;;;False;;Latin Capital Letter Ezh;Latin Extended-B;Letter;Uppercase
+440;Ƹ;Ezh;True;Ƹ;False;ƹ;True;Ʒ;Reversed;False;;Latin Capital Letter Ezh Reversed;Latin Extended-B;Letter;Uppercase
+441;ƹ;Ezh;False;Ƹ;True;ƹ;True;ʒ;Reversed;False;;Latin Small Letter Ezh Reversed;Latin Extended-B;Letter;Lowercase
+442;ƺ;Ezh;False;ƺ;True;ƺ;True;ʒ;Tail;False;;Latin Small Letter Ezh With Tail;Latin Extended-B;Letter;Lowercase
+443;ƻ;Two;False;ƻ;False;ƻ;False;;;False;;Latin Letter Two With Stroke;Latin Extended-B;Letter;Other
+444;Ƽ;Tone Five;True;Ƽ;False;ƽ;False;;;False;;Latin Capital Letter Tone Five;Latin Extended-B;Letter;Uppercase
+445;ƽ;Tone Five;False;Ƽ;True;ƽ;False;;;False;;Latin Small Letter Tone Five;Latin Extended-B;Letter;Lowercase
+446;ƾ;Glottal Stop;False;ƾ;True;ƾ;True;ɂ;Inverted Stroke;False;;Latin Letter Inverted Glottal Stop With Stroke;Latin Extended-B;Letter;Lowercase
+447;ƿ;Wynn;False;Ƿ;True;ƿ;False;;;False;;Latin Letter Wynn;Latin Extended-B;Letter;Lowercase
+448;ǀ;Dental Click;False;ǀ;False;ǀ;False;;;False;;Latin Letter Dental Click;Latin Extended-B;Letter;Other
+449;ǁ;Lateral Click;False;ǁ;False;ǁ;False;;;False;;Latin Letter Lateral Click;Latin Extended-B;Letter;Other
+450;ǂ;Alveolar Click;False;ǂ;False;ǂ;False;;;False;;Latin Letter Alveolar Click;Latin Extended-B;Letter;Other
+451;ǃ;Retroflex Click;False;ǃ;False;ǃ;False;;;False;;Latin Letter Retroflex Click;Latin Extended-B;Letter;Other
+452;Ǆ;Dz;True;Ǆ;False;ǆ;True;Ǳ;Caron;True;DZ;Latin Capital Letter Dz With Caron;Latin Extended-B;Letter;Uppercase
+453;ǅ;Dz;False;Ǆ;False;ǆ;True;ǲ;Caron;True;Dz;Latin Capital Letter D With Small Letter Z With Caron;Latin Extended-B;Letter;Titlecase
+454;ǆ;Dz;False;Ǆ;True;ǆ;True;ǳ;Caron;True;dz;Latin Small Letter Dz With Caron;Latin Extended-B;Letter;Lowercase
+455;Ǉ;Lj;True;Ǉ;False;ǉ;False;;;True;LJ;Latin Capital Letter Lj;Latin Extended-B;Letter;Uppercase
+456;ǈ;Lj;False;Ǉ;False;ǉ;False;;;True;Lj;Latin Capital Letter L With Small Letter J;Latin Extended-B;Letter;Titlecase
+457;ǉ;Lj;False;Ǉ;True;ǉ;False;;;True;lj;Latin Small Letter Lj;Latin Extended-B;Letter;Lowercase
+458;Ǌ;Nj;True;Ǌ;False;ǌ;False;;;True;NJ;Latin Capital Letter Nj;Latin Extended-B;Letter;Uppercase
+459;ǋ;Nj;False;Ǌ;False;ǌ;False;;;True;Nj;Latin Capital Letter N With Small Letter J;Latin Extended-B;Letter;Titlecase
+460;ǌ;Nj;False;Ǌ;True;ǌ;False;;;True;nj;Latin Small Letter Nj;Latin Extended-B;Letter;Lowercase
+461;Ǎ;A;True;Ǎ;False;ǎ;True;A;Caron;False;;Latin Capital Letter A With Caron;Latin Extended-B;Letter;Uppercase
+462;ǎ;A;False;Ǎ;True;ǎ;True;a;Caron;False;;Latin Small Letter A With Caron;Latin Extended-B;Letter;Lowercase
+463;Ǐ;I;True;Ǐ;False;ǐ;True;I;Caron;False;;Latin Capital Letter I With Caron;Latin Extended-B;Letter;Uppercase
+464;ǐ;I;False;Ǐ;True;ǐ;True;i;Caron;False;;Latin Small Letter I With Caron;Latin Extended-B;Letter;Lowercase
+465;Ǒ;O;True;Ǒ;False;ǒ;True;O;Caron;False;;Latin Capital Letter O With Caron;Latin Extended-B;Letter;Uppercase
+466;ǒ;O;False;Ǒ;True;ǒ;True;o;Caron;False;;Latin Small Letter O With Caron;Latin Extended-B;Letter;Lowercase
+467;Ǔ;U;True;Ǔ;False;ǔ;True;U;Caron;False;;Latin Capital Letter U With Caron;Latin Extended-B;Letter;Uppercase
+468;ǔ;U;False;Ǔ;True;ǔ;True;u;Caron;False;;Latin Small Letter U With Caron;Latin Extended-B;Letter;Lowercase
+469;Ǖ;U;True;Ǖ;False;ǖ;True;U;Diaeresis Macron;False;;Latin Capital Letter U With Diaeresis And Macron;Latin Extended-B;Letter;Uppercase
+470;ǖ;U;False;Ǖ;True;ǖ;True;u;Diaeresis Macron;False;;Latin Small Letter U With Diaeresis And Macron;Latin Extended-B;Letter;Lowercase
+471;Ǘ;U;True;Ǘ;False;ǘ;True;U;Diaeresis Acute;False;;Latin Capital Letter U With Diaeresis And Acute;Latin Extended-B;Letter;Uppercase
+472;ǘ;U;False;Ǘ;True;ǘ;True;u;Diaeresis Acute;False;;Latin Small Letter U With Diaeresis And Acute;Latin Extended-B;Letter;Lowercase
+473;Ǚ;U;True;Ǚ;False;ǚ;True;U;Diaeresis Caron;False;;Latin Capital Letter U With Diaeresis And Caron;Latin Extended-B;Letter;Uppercase
+474;ǚ;U;False;Ǚ;True;ǚ;True;u;Diaeresis Caron;False;;Latin Small Letter U With Diaeresis And Caron;Latin Extended-B;Letter;Lowercase
+475;Ǜ;U;True;Ǜ;False;ǜ;True;U;Diaeresis Grave;False;;Latin Capital Letter U With Diaeresis And Grave;Latin Extended-B;Letter;Uppercase
+476;ǜ;U;False;Ǜ;True;ǜ;True;u;Diaeresis Grave;False;;Latin Small Letter U With Diaeresis And Grave;Latin Extended-B;Letter;Lowercase
+477;ǝ;E;False;Ǝ;True;ǝ;True;e;Turned;False;;Latin Small Letter Turned E;Latin Extended-B;Letter;Lowercase
+478;Ǟ;A;True;Ǟ;False;ǟ;True;A;Diaeresis Macron;False;;Latin Capital Letter A With Diaeresis And Macron;Latin Extended-B;Letter;Uppercase
+479;ǟ;A;False;Ǟ;True;ǟ;True;a;Diaeresis Macron;False;;Latin Small Letter A With Diaeresis And Macron;Latin Extended-B;Letter;Lowercase
+480;Ǡ;A;True;Ǡ;False;ǡ;True;A;Dot Above Macron;False;;Latin Capital Letter A With Dot Above And Macron;Latin Extended-B;Letter;Uppercase
+481;ǡ;A;False;Ǡ;True;ǡ;True;a;Dot Above Macron;False;;Latin Small Letter A With Dot Above And Macron;Latin Extended-B;Letter;Lowercase
+482;Ǣ;Ae;True;Ǣ;False;ǣ;True;Æ;Macron;True;AE;Latin Capital Letter Ae With Macron;Latin Extended-B;Letter;Uppercase
+483;ǣ;Ae;False;Ǣ;True;ǣ;True;æ;Macron;True;ae;Latin Small Letter Ae With Macron;Latin Extended-B;Letter;Lowercase
+484;Ǥ;G;True;Ǥ;False;ǥ;True;G;Stroke;False;;Latin Capital Letter G With Stroke;Latin Extended-B;Letter;Uppercase
+485;ǥ;G;False;Ǥ;True;ǥ;True;g;Stroke;False;;Latin Small Letter G With Stroke;Latin Extended-B;Letter;Lowercase
+486;Ǧ;G;True;Ǧ;False;ǧ;True;G;Caron;False;;Latin Capital Letter G With Caron;Latin Extended-B;Letter;Uppercase
+487;ǧ;G;False;Ǧ;True;ǧ;True;g;Caron;False;;Latin Small Letter G With Caron;Latin Extended-B;Letter;Lowercase
+488;Ǩ;K;True;Ǩ;False;ǩ;True;K;Caron;False;;Latin Capital Letter K With Caron;Latin Extended-B;Letter;Uppercase
+489;ǩ;K;False;Ǩ;True;ǩ;True;k;Caron;False;;Latin Small Letter K With Caron;Latin Extended-B;Letter;Lowercase
+490;Ǫ;O;True;Ǫ;False;ǫ;True;O;Ogonek;False;;Latin Capital Letter O With Ogonek;Latin Extended-B;Letter;Uppercase
+491;ǫ;O;False;Ǫ;True;ǫ;True;o;Ogonek;False;;Latin Small Letter O With Ogonek;Latin Extended-B;Letter;Lowercase
+492;Ǭ;O;True;Ǭ;False;ǭ;True;O;Ogonek Macron;False;;Latin Capital Letter O With Ogonek And Macron;Latin Extended-B;Letter;Uppercase
+493;ǭ;O;False;Ǭ;True;ǭ;True;o;Ogonek Macron;False;;Latin Small Letter O With Ogonek And Macron;Latin Extended-B;Letter;Lowercase
+494;Ǯ;Ezh;True;Ǯ;False;ǯ;True;Ʒ;Caron;False;;Latin Capital Letter Ezh With Caron;Latin Extended-B;Letter;Uppercase
+495;ǯ;Ezh;False;Ǯ;True;ǯ;True;ʒ;Caron;False;;Latin Small Letter Ezh With Caron;Latin Extended-B;Letter;Lowercase
+496;ǰ;J;False;J̌;True;ǰ;True;j;Caron;False;;Latin Small Letter J With Caron;Latin Extended-B;Letter;Lowercase
+497;Ǳ;Dz;True;Ǳ;False;ǳ;False;;;True;DZ;Latin Capital Letter Dz;Latin Extended-B;Letter;Uppercase
+498;ǲ;Dz;False;Ǳ;False;ǳ;False;;;True;Dz;Latin Capital Letter D With Small Letter Z;Latin Extended-B;Letter;Titlecase
+499;ǳ;Dz;False;Ǳ;True;ǳ;False;;;True;dz;Latin Small Letter Dz;Latin Extended-B;Letter;Lowercase
+500;Ǵ;G;True;Ǵ;False;ǵ;True;G;Acute;False;;Latin Capital Letter G With Acute;Latin Extended-B;Letter;Uppercase
+501;ǵ;G;False;Ǵ;True;ǵ;True;g;Acute;False;;Latin Small Letter G With Acute;Latin Extended-B;Letter;Lowercase
+502;Ƕ;Hwair;True;Ƕ;False;ƕ;False;;;False;;Latin Capital Letter Hwair;Latin Extended-B;Letter;Uppercase
+503;Ƿ;Wynn;True;Ƿ;False;ƿ;False;;;False;;Latin Capital Letter Wynn;Latin Extended-B;Letter;Uppercase
+504;Ǹ;N;True;Ǹ;False;ǹ;True;N;Grave;False;;Latin Capital Letter N With Grave;Latin Extended-B;Letter;Uppercase
+505;ǹ;N;False;Ǹ;True;ǹ;True;n;Grave;False;;Latin Small Letter N With Grave;Latin Extended-B;Letter;Lowercase
+506;Ǻ;A;True;Ǻ;False;ǻ;True;A;Ring Above Acute;False;;Latin Capital Letter A With Ring Above And Acute;Latin Extended-B;Letter;Uppercase
+507;ǻ;A;False;Ǻ;True;ǻ;True;a;Ring Above Acute;False;;Latin Small Letter A With Ring Above And Acute;Latin Extended-B;Letter;Lowercase
+508;Ǽ;Ae;True;Ǽ;False;ǽ;True;Æ;Acute;True;AE;Latin Capital Letter Ae With Acute;Latin Extended-B;Letter;Uppercase
+509;ǽ;Ae;False;Ǽ;True;ǽ;True;æ;Acute;True;ae;Latin Small Letter Ae With Acute;Latin Extended-B;Letter;Lowercase
+510;Ǿ;O;True;Ǿ;False;ǿ;True;O;Stroke Acute;False;;Latin Capital Letter O With Stroke And Acute;Latin Extended-B;Letter;Uppercase
+511;ǿ;O;False;Ǿ;True;ǿ;True;o;Stroke Acute;False;;Latin Small Letter O With Stroke And Acute;Latin Extended-B;Letter;Lowercase
+512;Ȁ;A;True;Ȁ;False;ȁ;True;A;Double Grave;False;;Latin Capital Letter A With Double Grave;Latin Extended-B;Letter;Uppercase
+513;ȁ;A;False;Ȁ;True;ȁ;True;a;Double Grave;False;;Latin Small Letter A With Double Grave;Latin Extended-B;Letter;Lowercase
+514;Ȃ;A;True;Ȃ;False;ȃ;True;A;Inverted Breve;False;;Latin Capital Letter A With Inverted Breve;Latin Extended-B;Letter;Uppercase
+515;ȃ;A;False;Ȃ;True;ȃ;True;a;Inverted Breve;False;;Latin Small Letter A With Inverted Breve;Latin Extended-B;Letter;Lowercase
+516;Ȅ;E;True;Ȅ;False;ȅ;True;E;Double Grave;False;;Latin Capital Letter E With Double Grave;Latin Extended-B;Letter;Uppercase
+517;ȅ;E;False;Ȅ;True;ȅ;True;e;Double Grave;False;;Latin Small Letter E With Double Grave;Latin Extended-B;Letter;Lowercase
+518;Ȇ;E;True;Ȇ;False;ȇ;True;E;Inverted Breve;False;;Latin Capital Letter E With Inverted Breve;Latin Extended-B;Letter;Uppercase
+519;ȇ;E;False;Ȇ;True;ȇ;True;e;Inverted Breve;False;;Latin Small Letter E With Inverted Breve;Latin Extended-B;Letter;Lowercase
+520;Ȉ;I;True;Ȉ;False;ȉ;True;I;Double Grave;False;;Latin Capital Letter I With Double Grave;Latin Extended-B;Letter;Uppercase
+521;ȉ;I;False;Ȉ;True;ȉ;True;i;Double Grave;False;;Latin Small Letter I With Double Grave;Latin Extended-B;Letter;Lowercase
+522;Ȋ;I;True;Ȋ;False;ȋ;True;I;Inverted Breve;False;;Latin Capital Letter I With Inverted Breve;Latin Extended-B;Letter;Uppercase
+523;ȋ;I;False;Ȋ;True;ȋ;True;i;Inverted Breve;False;;Latin Small Letter I With Inverted Breve;Latin Extended-B;Letter;Lowercase
+524;Ȍ;O;True;Ȍ;False;ȍ;True;O;Double Grave;False;;Latin Capital Letter O With Double Grave;Latin Extended-B;Letter;Uppercase
+525;ȍ;O;False;Ȍ;True;ȍ;True;o;Double Grave;False;;Latin Small Letter O With Double Grave;Latin Extended-B;Letter;Lowercase
+526;Ȏ;O;True;Ȏ;False;ȏ;True;O;Inverted Breve;False;;Latin Capital Letter O With Inverted Breve;Latin Extended-B;Letter;Uppercase
+527;ȏ;O;False;Ȏ;True;ȏ;True;o;Inverted Breve;False;;Latin Small Letter O With Inverted Breve;Latin Extended-B;Letter;Lowercase
+528;Ȑ;R;True;Ȑ;False;ȑ;True;R;Double Grave;False;;Latin Capital Letter R With Double Grave;Latin Extended-B;Letter;Uppercase
+529;ȑ;R;False;Ȑ;True;ȑ;True;r;Double Grave;False;;Latin Small Letter R With Double Grave;Latin Extended-B;Letter;Lowercase
+530;Ȓ;R;True;Ȓ;False;ȓ;True;R;Inverted Breve;False;;Latin Capital Letter R With Inverted Breve;Latin Extended-B;Letter;Uppercase
+531;ȓ;R;False;Ȓ;True;ȓ;True;r;Inverted Breve;False;;Latin Small Letter R With Inverted Breve;Latin Extended-B;Letter;Lowercase
+532;Ȕ;U;True;Ȕ;False;ȕ;True;U;Double Grave;False;;Latin Capital Letter U With Double Grave;Latin Extended-B;Letter;Uppercase
+533;ȕ;U;False;Ȕ;True;ȕ;True;u;Double Grave;False;;Latin Small Letter U With Double Grave;Latin Extended-B;Letter;Lowercase
+534;Ȗ;U;True;Ȗ;False;ȗ;True;U;Inverted Breve;False;;Latin Capital Letter U With Inverted Breve;Latin Extended-B;Letter;Uppercase
+535;ȗ;U;False;Ȗ;True;ȗ;True;u;Inverted Breve;False;;Latin Small Letter U With Inverted Breve;Latin Extended-B;Letter;Lowercase
+536;Ș;S;True;Ș;False;ș;True;S;Comma Below;False;;Latin Capital Letter S With Comma Below;Latin Extended-B;Letter;Uppercase
+537;ș;S;False;Ș;True;ș;True;s;Comma Below;False;;Latin Small Letter S With Comma Below;Latin Extended-B;Letter;Lowercase
+538;Ț;T;True;Ț;False;ț;True;T;Comma Below;False;;Latin Capital Letter T With Comma Below;Latin Extended-B;Letter;Uppercase
+539;ț;T;False;Ț;True;ț;True;t;Comma Below;False;;Latin Small Letter T With Comma Below;Latin Extended-B;Letter;Lowercase
+540;Ȝ;Yogh;True;Ȝ;False;ȝ;False;;;False;;Latin Capital Letter Yogh;Latin Extended-B;Letter;Uppercase
+541;ȝ;Yogh;False;Ȝ;True;ȝ;False;;;False;;Latin Small Letter Yogh;Latin Extended-B;Letter;Lowercase
+542;Ȟ;H;True;Ȟ;False;ȟ;True;H;Caron;False;;Latin Capital Letter H With Caron;Latin Extended-B;Letter;Uppercase
+543;ȟ;H;False;Ȟ;True;ȟ;True;h;Caron;False;;Latin Small Letter H With Caron;Latin Extended-B;Letter;Lowercase
+544;Ƞ;N;True;Ƞ;False;ƞ;True;N;Long Right Leg;False;;Latin Capital Letter N With Long Right Leg;Latin Extended-B;Letter;Uppercase
+545;ȡ;D;False;ȡ;True;ȡ;True;d;Curl;False;;Latin Small Letter D With Curl;Latin Extended-B;Letter;Lowercase
+546;Ȣ;Ou;True;Ȣ;False;ȣ;False;;;True;OU;Latin Capital Letter Ou;Latin Extended-B;Letter;Uppercase
+547;ȣ;Ou;False;Ȣ;True;ȣ;False;;;True;ou;Latin Small Letter Ou;Latin Extended-B;Letter;Lowercase
+548;Ȥ;Z;True;Ȥ;False;ȥ;True;Z;Hook;False;;Latin Capital Letter Z With Hook;Latin Extended-B;Letter;Uppercase
+549;ȥ;Z;False;Ȥ;True;ȥ;True;z;Hook;False;;Latin Small Letter Z With Hook;Latin Extended-B;Letter;Lowercase
+550;Ȧ;A;True;Ȧ;False;ȧ;True;A;Dot Above;False;;Latin Capital Letter A With Dot Above;Latin Extended-B;Letter;Uppercase
+551;ȧ;A;False;Ȧ;True;ȧ;True;a;Dot Above;False;;Latin Small Letter A With Dot Above;Latin Extended-B;Letter;Lowercase
+552;Ȩ;E;True;Ȩ;False;ȩ;True;E;Cedilla;False;;Latin Capital Letter E With Cedilla;Latin Extended-B;Letter;Uppercase
+553;ȩ;E;False;Ȩ;True;ȩ;True;e;Cedilla;False;;Latin Small Letter E With Cedilla;Latin Extended-B;Letter;Lowercase
+554;Ȫ;O;True;Ȫ;False;ȫ;True;O;Diaeresis Macron;False;;Latin Capital Letter O With Diaeresis And Macron;Latin Extended-B;Letter;Uppercase
+555;ȫ;O;False;Ȫ;True;ȫ;True;o;Diaeresis Macron;False;;Latin Small Letter O With Diaeresis And Macron;Latin Extended-B;Letter;Lowercase
+556;Ȭ;O;True;Ȭ;False;ȭ;True;O;Tilde Macron;False;;Latin Capital Letter O With Tilde And Macron;Latin Extended-B;Letter;Uppercase
+557;ȭ;O;False;Ȭ;True;ȭ;True;o;Tilde Macron;False;;Latin Small Letter O With Tilde And Macron;Latin Extended-B;Letter;Lowercase
+558;Ȯ;O;True;Ȯ;False;ȯ;True;O;Dot Above;False;;Latin Capital Letter O With Dot Above;Latin Extended-B;Letter;Uppercase
+559;ȯ;O;False;Ȯ;True;ȯ;True;o;Dot Above;False;;Latin Small Letter O With Dot Above;Latin Extended-B;Letter;Lowercase
+560;Ȱ;O;True;Ȱ;False;ȱ;True;O;Dot Above Macron;False;;Latin Capital Letter O With Dot Above And Macron;Latin Extended-B;Letter;Uppercase
+561;ȱ;O;False;Ȱ;True;ȱ;True;o;Dot Above Macron;False;;Latin Small Letter O With Dot Above And Macron;Latin Extended-B;Letter;Lowercase
+562;Ȳ;Y;True;Ȳ;False;ȳ;True;Y;Macron;False;;Latin Capital Letter Y With Macron;Latin Extended-B;Letter;Uppercase
+563;ȳ;Y;False;Ȳ;True;ȳ;True;y;Macron;False;;Latin Small Letter Y With Macron;Latin Extended-B;Letter;Lowercase
+564;ȴ;L;False;ȴ;True;ȴ;True;l;Curl;False;;Latin Small Letter L With Curl;Latin Extended-B;Letter;Lowercase
+565;ȵ;N;False;ȵ;True;ȵ;True;n;Curl;False;;Latin Small Letter N With Curl;Latin Extended-B;Letter;Lowercase
+566;ȶ;T;False;ȶ;True;ȶ;True;t;Curl;False;;Latin Small Letter T With Curl;Latin Extended-B;Letter;Lowercase
+567;ȷ;J;False;ȷ;True;ȷ;True;j;Dotless;False;;Latin Small Letter Dotless J;Latin Extended-B;Letter;Lowercase
+568;ȸ;Db Digraph;False;ȸ;True;ȸ;False;;;True;Db;Latin Small Letter Db Digraph;Latin Extended-B;Letter;Lowercase
+569;ȹ;Qp Digraph;False;ȹ;True;ȹ;False;;;True;Qp;Latin Small Letter Qp Digraph;Latin Extended-B;Letter;Lowercase
+570;Ⱥ;A;True;Ⱥ;False;ⱥ;True;A;Stroke;False;;Latin Capital Letter A With Stroke;Latin Extended-B;Letter;Uppercase
+571;Ȼ;C;True;Ȼ;False;ȼ;True;C;Stroke;False;;Latin Capital Letter C With Stroke;Latin Extended-B;Letter;Uppercase
+572;ȼ;C;False;Ȼ;True;ȼ;True;c;Stroke;False;;Latin Small Letter C With Stroke;Latin Extended-B;Letter;Lowercase
+573;Ƚ;L;True;Ƚ;False;ƚ;True;L;Bar;False;;Latin Capital Letter L With Bar;Latin Extended-B;Letter;Uppercase
+574;Ⱦ;T;True;Ⱦ;False;ⱦ;True;T;Diagonal Stroke;False;;Latin Capital Letter T With Diagonal Stroke;Latin Extended-B;Letter;Uppercase
+575;ȿ;S;False;Ȿ;True;ȿ;True;s;Swash Tail;False;;Latin Small Letter S With Swash Tail;Latin Extended-B;Letter;Lowercase
+576;ɀ;Z;False;Ɀ;True;ɀ;True;z;Swash Tail;False;;Latin Small Letter Z With Swash Tail;Latin Extended-B;Letter;Lowercase
+577;Ɂ;Glottal Stop;True;Ɂ;False;ɂ;False;;;False;;Latin Capital Letter Glottal Stop;Latin Extended-B;Letter;Uppercase
+578;ɂ;Glottal Stop;False;Ɂ;True;ɂ;False;;;False;;Latin Small Letter Glottal Stop;Latin Extended-B;Letter;Lowercase
+579;Ƀ;B;True;Ƀ;False;ƀ;True;B;Stroke;False;;Latin Capital Letter B With Stroke;Latin Extended-B;Letter;Uppercase
+580;Ʉ;U;True;Ʉ;False;ʉ;True;U;Bar;False;;Latin Capital Letter U Bar;Latin Extended-B;Letter;Uppercase
+581;Ʌ;V;True;Ʌ;False;ʌ;True;V;Turned;False;;Latin Capital Letter Turned V;Latin Extended-B;Letter;Uppercase
+582;Ɇ;E;True;Ɇ;False;ɇ;True;E;Stroke;False;;Latin Capital Letter E With Stroke;Latin Extended-B;Letter;Uppercase
+583;ɇ;E;False;Ɇ;True;ɇ;True;e;Stroke;False;;Latin Small Letter E With Stroke;Latin Extended-B;Letter;Lowercase
+584;Ɉ;J;True;Ɉ;False;ɉ;True;J;Stroke;False;;Latin Capital Letter J With Stroke;Latin Extended-B;Letter;Uppercase
+585;ɉ;J;False;Ɉ;True;ɉ;True;j;Stroke;False;;Latin Small Letter J With Stroke;Latin Extended-B;Letter;Lowercase
+586;Ɋ;Q;True;Ɋ;False;ɋ;True;Q;Small Hook Tail;False;;Latin Capital Letter Small Q With Hook Tail;Latin Extended-B;Letter;Uppercase
+587;ɋ;Q;False;Ɋ;True;ɋ;True;q;Hook Tail;False;;Latin Small Letter Q With Hook Tail;Latin Extended-B;Letter;Lowercase
+588;Ɍ;R;True;Ɍ;False;ɍ;True;R;Stroke;False;;Latin Capital Letter R With Stroke;Latin Extended-B;Letter;Uppercase
+589;ɍ;R;False;Ɍ;True;ɍ;True;r;Stroke;False;;Latin Small Letter R With Stroke;Latin Extended-B;Letter;Lowercase
+590;Ɏ;Y;True;Ɏ;False;ɏ;True;Y;Stroke;False;;Latin Capital Letter Y With Stroke;Latin Extended-B;Letter;Uppercase
+591;ɏ;Y;False;Ɏ;True;ɏ;True;y;Stroke;False;;Latin Small Letter Y With Stroke;Latin Extended-B;Letter;Lowercase
+592;ɐ;A;False;Ɐ;True;ɐ;True;a;Turned;False;;Latin Small Letter Turned A;IPA Extensions;Letter;Lowercase
+593;ɑ;Alpha;False;Ɑ;True;ɑ;False;;;False;;Latin Small Letter Alpha;IPA Extensions;Letter;Lowercase
+594;ɒ;Alpha;False;Ɒ;True;ɒ;True;ɑ;Turned ;False;;Latin Small Letter Turned Alpha;IPA Extensions;Letter;Lowercase
+595;ɓ;B;False;Ɓ;True;ɓ;True;b;Hook;False;;Latin Small Letter B With Hook;IPA Extensions;Letter;Lowercase
+596;ɔ;O;False;Ɔ;True;ɔ;True;o;Open;False;;Latin Small Letter Open O;IPA Extensions;Letter;Lowercase
+597;ɕ;C;False;ɕ;True;ɕ;True;c;Curl;False;;Latin Small Letter C With Curl;IPA Extensions;Letter;Lowercase
+598;ɖ;D;False;Ɖ;True;ɖ;True;d;Tail;False;;Latin Small Letter D With Tail;IPA Extensions;Letter;Lowercase
+599;ɗ;D;False;Ɗ;True;ɗ;True;d;Hook;False;;Latin Small Letter D With Hook;IPA Extensions;Letter;Lowercase
+600;ɘ;E;False;ɘ;True;ɘ;True;e;Reversed;False;;Latin Small Letter Reversed E;IPA Extensions;Letter;Lowercase
+601;ə;Schwa;False;Ə;True;ə;False;;;False;;Latin Small Letter Schwa;IPA Extensions;Letter;Lowercase
+602;ɚ;Schwa;False;ɚ;True;ɚ;True;ə;Hook;False;;Latin Small Letter Schwa With Hook;IPA Extensions;Letter;Lowercase
+603;ɛ;E;False;Ɛ;True;ɛ;True;e;Open;False;;Latin Small Letter Open E;IPA Extensions;Letter;Lowercase
+604;ɜ;E;False;Ɜ;True;ɜ;True;e;Reversed Open;False;;Latin Small Letter Reversed Open E;IPA Extensions;Letter;Lowercase
+605;ɝ;E;False;ɝ;True;ɝ;True;e;Reversed Open Hook;False;;Latin Small Letter Reversed Open E With Hook;IPA Extensions;Letter;Lowercase
+606;ɞ;E;False;ɞ;True;ɞ;True;e;Closed Reversed Open;False;;Latin Small Letter Closed Reversed Open E;IPA Extensions;Letter;Lowercase
+607;ɟ;J;False;ɟ;True;ɟ;True;j;Dotless Stroke;False;;Latin Small Letter Dotless J With Stroke;IPA Extensions;Letter;Lowercase
+608;ɠ;G;False;Ɠ;True;ɠ;True;g;Hook;False;;Latin Small Letter G With Hook;IPA Extensions;Letter;Lowercase
+609;ɡ;G;False;Ɡ;True;ɡ;True;g;Script;False;;Latin Small Letter Script G;IPA Extensions;Letter;Lowercase
+610;ɢ;G;False;ɢ;True;ɢ;True;G;Small Capital;False;;Latin Letter Small Capital G;IPA Extensions;Letter;Lowercase
+611;ɣ;Gamma;False;Ɣ;True;ɣ;False;;;False;;Latin Small Letter Gamma;IPA Extensions;Letter;Lowercase
+612;ɤ;Rams Horn;False;ɤ;True;ɤ;False;;;False;;Latin Small Letter Rams Horn;IPA Extensions;Letter;Lowercase
+613;ɥ;H;False;Ɥ;True;ɥ;True;h;Turned;False;;Latin Small Letter Turned H;IPA Extensions;Letter;Lowercase
+614;ɦ;H;False;Ɦ;True;ɦ;True;h;Hook;False;;Latin Small Letter H With Hook;IPA Extensions;Letter;Lowercase
+615;ɧ;Heng;False;ɧ;True;ɧ;True;ꜧ;Hook;False;;Latin Small Letter Heng With Hook;IPA Extensions;Letter;Lowercase
+616;ɨ;I;False;Ɨ;True;ɨ;True;i;Stroke;False;;Latin Small Letter I With Stroke;IPA Extensions;Letter;Lowercase
+617;ɩ;Iota;False;Ɩ;True;ɩ;False;;;False;;Latin Small Letter Iota;IPA Extensions;Letter;Lowercase
+618;ɪ;I;False;Ɪ;True;ɪ;True;I;Small Capital;False;;Latin Letter Small Capital I;IPA Extensions;Letter;Lowercase
+619;ɫ;L;False;Ɫ;True;ɫ;True;l;Middle Tilde;False;;Latin Small Letter L With Middle Tilde;IPA Extensions;Letter;Lowercase
+620;ɬ;L;False;Ɬ;True;ɬ;True;l;Belt;False;;Latin Small Letter L With Belt;IPA Extensions;Letter;Lowercase
+621;ɭ;L;False;ɭ;True;ɭ;True;l;Retroflex Hook;False;;Latin Small Letter L With Retroflex Hook;IPA Extensions;Letter;Lowercase
+622;ɮ;Lezh;False;ɮ;True;ɮ;False;;;False;;Latin Small Letter Lezh;IPA Extensions;Letter;Lowercase
+623;ɯ;M;False;Ɯ;True;ɯ;True;m;Turned;False;;Latin Small Letter Turned M;IPA Extensions;Letter;Lowercase
+624;ɰ;M;False;ɰ;True;ɰ;True;m;Turned Long Leg;False;;Latin Small Letter Turned M With Long Leg;IPA Extensions;Letter;Lowercase
+625;ɱ;M;False;Ɱ;True;ɱ;True;m;Hook;False;;Latin Small Letter M With Hook;IPA Extensions;Letter;Lowercase
+626;ɲ;N;False;Ɲ;True;ɲ;True;n;Left Hook;False;;Latin Small Letter N With Left Hook;IPA Extensions;Letter;Lowercase
+627;ɳ;N;False;ɳ;True;ɳ;True;n;Retroflex Hook;False;;Latin Small Letter N With Retroflex Hook;IPA Extensions;Letter;Lowercase
+628;ɴ;N;False;ɴ;True;ɴ;True;N;Small Capital;False;;Latin Letter Small Capital N;IPA Extensions;Letter;Lowercase
+629;ɵ;O;False;Ɵ;True;ɵ;True;o;Barred;False;;Latin Small Letter Barred O;IPA Extensions;Letter;Lowercase
+630;ɶ;Oe;False;ɶ;True;ɶ;True;Œ;Small Capital;True;oe;Latin Letter Small Capital Oe;IPA Extensions;Letter;Lowercase
+631;ɷ;Omega;False;ɷ;True;ɷ;True;ꞷ;Closed ;False;;Latin Small Letter Closed Omega;IPA Extensions;Letter;Lowercase
+632;ɸ;Phi;False;ɸ;True;ɸ;False;;;False;;Latin Small Letter Phi;IPA Extensions;Letter;Lowercase
+633;ɹ;R;False;ɹ;True;ɹ;True;r;Turned;False;;Latin Small Letter Turned R;IPA Extensions;Letter;Lowercase
+634;ɺ;R;False;ɺ;True;ɺ;True;r;Turned Long Leg;False;;Latin Small Letter Turned R With Long Leg;IPA Extensions;Letter;Lowercase
+635;ɻ;R;False;ɻ;True;ɻ;True;r;Turned Hook;False;;Latin Small Letter Turned R With Hook;IPA Extensions;Letter;Lowercase
+636;ɼ;R;False;ɼ;True;ɼ;True;r;Long Leg;False;;Latin Small Letter R With Long Leg;IPA Extensions;Letter;Lowercase
+637;ɽ;R;False;Ɽ;True;ɽ;True;r;Tail;False;;Latin Small Letter R With Tail;IPA Extensions;Letter;Lowercase
+638;ɾ;R;False;ɾ;True;ɾ;True;r;Fishhook;False;;Latin Small Letter R With Fishhook;IPA Extensions;Letter;Lowercase
+639;ɿ;R;False;ɿ;True;ɿ;True;r;Reversed Fishhook;False;;Latin Small Letter Reversed R With Fishhook;IPA Extensions;Letter;Lowercase
+640;ʀ;R;False;Ʀ;True;ʀ;True;R;Small Capital;False;;Latin Letter Small Capital R;IPA Extensions;Letter;Lowercase
+641;ʁ;R;False;ʁ;True;ʁ;True;R;Small Capital Inverted;False;;Latin Letter Small Capital Inverted R;IPA Extensions;Letter;Lowercase
+642;ʂ;S;False;ʂ;True;ʂ;True;s;Hook;False;;Latin Small Letter S With Hook;IPA Extensions;Letter;Lowercase
+643;ʃ;Esh;False;Ʃ;True;ʃ;False;;;False;;Latin Small Letter Esh;IPA Extensions;Letter;Lowercase
+644;ʄ;J;False;ʄ;True;ʄ;True;j;Dotless Stroke Hook;False;;Latin Small Letter Dotless J With Stroke And Hook;IPA Extensions;Letter;Lowercase
+645;ʅ;Esh;False;ʅ;True;ʅ;True;ʃ;Squat Reversed;False;;Latin Small Letter Squat Reversed Esh;IPA Extensions;Letter;Lowercase
+646;ʆ;Esh;False;ʆ;True;ʆ;True;ʃ;Curl;False;;Latin Small Letter Esh With Curl;IPA Extensions;Letter;Lowercase
+647;ʇ;T;False;Ʇ;True;ʇ;True;t;Turned;False;;Latin Small Letter Turned T;IPA Extensions;Letter;Lowercase
+648;ʈ;T;False;Ʈ;True;ʈ;True;t;Retroflex Hook;False;;Latin Small Letter T With Retroflex Hook;IPA Extensions;Letter;Lowercase
+649;ʉ;U;False;Ʉ;True;ʉ;True;u;Bar;False;;Latin Small Letter U Bar;IPA Extensions;Letter;Lowercase
+650;ʊ;Upsilon;False;Ʊ;True;ʊ;False;;;False;;Latin Small Letter Upsilon;IPA Extensions;Letter;Lowercase
+651;ʋ;V;False;Ʋ;True;ʋ;True;v;Hook;False;;Latin Small Letter V With Hook;IPA Extensions;Letter;Lowercase
+652;ʌ;V;False;Ʌ;True;ʌ;True;v;Turned;False;;Latin Small Letter Turned V;IPA Extensions;Letter;Lowercase
+653;ʍ;W;False;ʍ;True;ʍ;True;w;Turned;False;;Latin Small Letter Turned W;IPA Extensions;Letter;Lowercase
+654;ʎ;Y;False;ʎ;True;ʎ;True;y;Turned;False;;Latin Small Letter Turned Y;IPA Extensions;Letter;Lowercase
+655;ʏ;Y;False;ʏ;True;ʏ;True;Y;Small Capital;False;;Latin Letter Small Capital Y;IPA Extensions;Letter;Lowercase
+656;ʐ;Z;False;ʐ;True;ʐ;True;z;Retroflex Hook;False;;Latin Small Letter Z With Retroflex Hook;IPA Extensions;Letter;Lowercase
+657;ʑ;Z;False;ʑ;True;ʑ;True;z;Curl;False;;Latin Small Letter Z With Curl;IPA Extensions;Letter;Lowercase
+658;ʒ;Ezh;False;Ʒ;True;ʒ;False;;;False;;Latin Small Letter Ezh;IPA Extensions;Letter;Lowercase
+659;ʓ;Ezh;False;ʓ;True;ʓ;True;ʒ;Curl;False;;Latin Small Letter Ezh With Curl;IPA Extensions;Letter;Lowercase
+660;ʔ;Glottal Stop;False;ʔ;False;ʔ;False;;;False;;Latin Letter Glottal Stop;IPA Extensions;Letter;Other
+661;ʕ;Pharyngeal Voiced Fricative;False;ʕ;True;ʕ;False;;;False;;Latin Letter Pharyngeal Voiced Fricative;IPA Extensions;Letter;Lowercase
+662;ʖ;Glottal Stop;False;ʖ;True;ʖ;True;ʔ;Inverted;False;;Latin Letter Inverted Glottal Stop;IPA Extensions;Letter;Lowercase
+663;ʗ;C;False;ʗ;True;ʗ;True;c;Stretched;False;;Latin Letter Stretched C;IPA Extensions;Letter;Lowercase
+664;ʘ;Bilabial Click;False;ʘ;True;ʘ;False;;;False;;Latin Letter Bilabial Click;IPA Extensions;Letter;Lowercase
+665;ʙ;B;False;ʙ;True;ʙ;True;B;Small Capital;False;;Latin Letter Small Capital B;IPA Extensions;Letter;Lowercase
+666;ʚ;E;False;ʚ;True;ʚ;True;e;Closed Open;False;;Latin Small Letter Closed Open E;IPA Extensions;Letter;Lowercase
+667;ʛ;G;False;ʛ;True;ʛ;True;G;Small Capital Hook;False;;Latin Letter Small Capital G With Hook;IPA Extensions;Letter;Lowercase
+668;ʜ;H;False;ʜ;True;ʜ;True;H;Small Capital;False;;Latin Letter Small Capital H;IPA Extensions;Letter;Lowercase
+669;ʝ;J;False;Ʝ;True;ʝ;True;j;Crossed-Tail;False;;Latin Small Letter J With Crossed-Tail;IPA Extensions;Letter;Lowercase
+670;ʞ;K;False;Ʞ;True;ʞ;True;k;Turned;False;;Latin Small Letter Turned K;IPA Extensions;Letter;Lowercase
+671;ʟ;L;False;ʟ;True;ʟ;True;L;Small Capital;False;;Latin Letter Small Capital L;IPA Extensions;Letter;Lowercase
+672;ʠ;Q;False;ʠ;True;ʠ;True;q;Hook;False;;Latin Small Letter Q With Hook;IPA Extensions;Letter;Lowercase
+673;ʡ;Glottal Stop;False;ʡ;True;ʡ;True;ʔ;Stroke;False;;Latin Letter Glottal Stop With Stroke;IPA Extensions;Letter;Lowercase
+674;ʢ;Glottal Stop;False;ʢ;True;ʢ;True;ʔ;Reversed Stroke;False;;Latin Letter Reversed Glottal Stop With Stroke;IPA Extensions;Letter;Lowercase
+675;ʣ;Dz;False;ʣ;True;ʣ;True;ǳ;Digraph;True;dz;Latin Small Letter Dz Digraph;IPA Extensions;Letter;Lowercase
+676;ʤ;Dezh Digraph;False;ʤ;True;ʤ;False;;;True;Dʒ;Latin Small Letter Dezh Digraph;IPA Extensions;Letter;Lowercase
+677;ʥ;Dz;False;ʥ;True;ʥ;True;ǳ;Digraph Curl;True;dz;Latin Small Letter Dz Digraph With Curl;IPA Extensions;Letter;Lowercase
+678;ʦ;Ts Digraph;False;ʦ;True;ʦ;False;;;True;Ts;Latin Small Letter Ts Digraph;IPA Extensions;Letter;Lowercase
+679;ʧ;Tesh Digraph;False;ʧ;True;ʧ;False;;;True;Tʃ;Latin Small Letter Tesh Digraph;IPA Extensions;Letter;Lowercase
+680;ʨ;Tc Digraph;False;ʨ;True;ʨ;False;;;False;;Latin Small Letter Tc Digraph With Curl;IPA Extensions;Letter;Lowercase
+681;ʩ;Feng Digraph;False;ʩ;True;ʩ;False;;;True;Fŋ;Latin Small Letter Feng Digraph;IPA Extensions;Letter;Lowercase
+682;ʪ;Ls Digraph;False;ʪ;True;ʪ;False;;;True;Ls;Latin Small Letter Ls Digraph;IPA Extensions;Letter;Lowercase
+683;ʫ;Lz Digraph;False;ʫ;True;ʫ;False;;;True;Lz;Latin Small Letter Lz Digraph;IPA Extensions;Letter;Lowercase
+684;ʬ;Bilabial Percussive;False;ʬ;True;ʬ;False;;;False;;Latin Letter Bilabial Percussive;IPA Extensions;Letter;Lowercase
+685;ʭ;Bidental Percussive;False;ʭ;True;ʭ;False;;;False;;Latin Letter Bidental Percussive;IPA Extensions;Letter;Lowercase
+686;ʮ;H;False;ʮ;True;ʮ;True;h;Turned Fishhook;False;;Latin Small Letter Turned H With Fishhook;IPA Extensions;Letter;Lowercase
+687;ʯ;H;False;ʯ;True;ʯ;True;h;Turned Fishhook Tail;False;;Latin Small Letter Turned H With Fishhook And Tail;IPA Extensions;Letter;Lowercase
+7424;ᴀ;A;False;ᴀ;True;ᴀ;True;A;Small Capital;False;;Latin Letter Small Capital A;Phonetic Extensions;Letter;Lowercase
+7425;ᴁ;Ae;False;ᴁ;True;ᴁ;True;Æ;Small Capital;True;ae;Latin Letter Small Capital Ae;Phonetic Extensions;Letter;Lowercase
+7426;ᴂ;Ae;False;ᴂ;True;ᴂ;True;æ;Turned ;True;ae;Latin Small Letter Turned Ae;Phonetic Extensions;Letter;Lowercase
+7427;ᴃ;B;False;ᴃ;True;ᴃ;True;B;Small Capital Barred;False;;Latin Letter Small Capital Barred B;Phonetic Extensions;Letter;Lowercase
+7428;ᴄ;C;False;ᴄ;True;ᴄ;True;C;Small Capital;False;;Latin Letter Small Capital C;Phonetic Extensions;Letter;Lowercase
+7429;ᴅ;D;False;ᴅ;True;ᴅ;True;D;Small Capital;False;;Latin Letter Small Capital D;Phonetic Extensions;Letter;Lowercase
+7430;ᴆ;Eth;False;ᴆ;True;ᴆ;True;Ð;Small Capital;False;;Latin Letter Small Capital Eth;Phonetic Extensions;Letter;Lowercase
+7431;ᴇ;E;False;ᴇ;True;ᴇ;True;E;Small Capital;False;;Latin Letter Small Capital E;Phonetic Extensions;Letter;Lowercase
+7432;ᴈ;E;False;ᴈ;True;ᴈ;True;e;Turned Open;False;;Latin Small Letter Turned Open E;Phonetic Extensions;Letter;Lowercase
+7433;ᴉ;I;False;ᴉ;True;ᴉ;True;i;Turned;False;;Latin Small Letter Turned I;Phonetic Extensions;Letter;Lowercase
+7434;ᴊ;J;False;ᴊ;True;ᴊ;True;J;Small Capital;False;;Latin Letter Small Capital J;Phonetic Extensions;Letter;Lowercase
+7435;ᴋ;K;False;ᴋ;True;ᴋ;True;K;Small Capital;False;;Latin Letter Small Capital K;Phonetic Extensions;Letter;Lowercase
+7436;ᴌ;L;False;ᴌ;True;ᴌ;True;L;Small Capital Stroke;False;;Latin Letter Small Capital L With Stroke;Phonetic Extensions;Letter;Lowercase
+7437;ᴍ;M;False;ᴍ;True;ᴍ;True;M;Small Capital;False;;Latin Letter Small Capital M;Phonetic Extensions;Letter;Lowercase
+7438;ᴎ;N;False;ᴎ;True;ᴎ;True;N;Small Capital Reversed;False;;Latin Letter Small Capital Reversed N;Phonetic Extensions;Letter;Lowercase
+7439;ᴏ;O;False;ᴏ;True;ᴏ;True;O;Small Capital;False;;Latin Letter Small Capital O;Phonetic Extensions;Letter;Lowercase
+7440;ᴐ;O;False;ᴐ;True;ᴐ;True;O;Small Capital Open;False;;Latin Letter Small Capital Open O;Phonetic Extensions;Letter;Lowercase
+7441;ᴑ;O;False;ᴑ;True;ᴑ;True;o;Sideways;False;;Latin Small Letter Sideways O;Phonetic Extensions;Letter;Lowercase
+7442;ᴒ;O;False;ᴒ;True;ᴒ;True;o;Sideways Open;False;;Latin Small Letter Sideways Open O;Phonetic Extensions;Letter;Lowercase
+7443;ᴓ;O;False;ᴓ;True;ᴓ;True;o;Sideways Stroke;False;;Latin Small Letter Sideways O With Stroke;Phonetic Extensions;Letter;Lowercase
+7444;ᴔ;Oe;False;ᴔ;True;ᴔ;True;œ;Turned ;True;oe;Latin Small Letter Turned Oe;Phonetic Extensions;Letter;Lowercase
+7445;ᴕ;Ou;False;ᴕ;True;ᴕ;True;Ȣ;Small Capital;True;ou;Latin Letter Small Capital Ou;Phonetic Extensions;Letter;Lowercase
+7446;ᴖ;O;False;ᴖ;True;ᴖ;True;o;Top Half;False;;Latin Small Letter Top Half O;Phonetic Extensions;Letter;Lowercase
+7447;ᴗ;O;False;ᴗ;True;ᴗ;True;o;Bottom Half;False;;Latin Small Letter Bottom Half O;Phonetic Extensions;Letter;Lowercase
+7448;ᴘ;P;False;ᴘ;True;ᴘ;True;P;Small Capital;False;;Latin Letter Small Capital P;Phonetic Extensions;Letter;Lowercase
+7449;ᴙ;R;False;ᴙ;True;ᴙ;True;R;Small Capital Reversed;False;;Latin Letter Small Capital Reversed R;Phonetic Extensions;Letter;Lowercase
+7450;ᴚ;R;False;ᴚ;True;ᴚ;True;R;Small Capital Turned;False;;Latin Letter Small Capital Turned R;Phonetic Extensions;Letter;Lowercase
+7451;ᴛ;T;False;ᴛ;True;ᴛ;True;T;Small Capital;False;;Latin Letter Small Capital T;Phonetic Extensions;Letter;Lowercase
+7452;ᴜ;U;False;ᴜ;True;ᴜ;True;U;Small Capital;False;;Latin Letter Small Capital U;Phonetic Extensions;Letter;Lowercase
+7453;ᴝ;U;False;ᴝ;True;ᴝ;True;u;Sideways;False;;Latin Small Letter Sideways U;Phonetic Extensions;Letter;Lowercase
+7454;ᴞ;U;False;ᴞ;True;ᴞ;True;u;Sideways Diaeresized;False;;Latin Small Letter Sideways Diaeresized U;Phonetic Extensions;Letter;Lowercase
+7455;ᴟ;M;False;ᴟ;True;ᴟ;True;m;Sideways Turned;False;;Latin Small Letter Sideways Turned M;Phonetic Extensions;Letter;Lowercase
+7456;ᴠ;V;False;ᴠ;True;ᴠ;True;V;Small Capital;False;;Latin Letter Small Capital V;Phonetic Extensions;Letter;Lowercase
+7457;ᴡ;W;False;ᴡ;True;ᴡ;True;W;Small Capital;False;;Latin Letter Small Capital W;Phonetic Extensions;Letter;Lowercase
+7458;ᴢ;Z;False;ᴢ;True;ᴢ;True;Z;Small Capital;False;;Latin Letter Small Capital Z;Phonetic Extensions;Letter;Lowercase
+7459;ᴣ;Ezh;False;ᴣ;True;ᴣ;True;Ʒ;Small Capital;False;;Latin Letter Small Capital Ezh;Phonetic Extensions;Letter;Lowercase
+7460;ᴤ;Voiced Laryngeal Spirant;False;ᴤ;True;ᴤ;False;;;False;;Latin Letter Voiced Laryngeal Spirant;Phonetic Extensions;Letter;Lowercase
+7461;ᴥ;Ain;False;ᴥ;True;ᴥ;False;;;False;;Latin Letter Ain;Phonetic Extensions;Letter;Lowercase
+7491;ᵃ;A;False;ᵃ;False;ᵃ;True;a;Modifier;False;;Modifier Letter Small A;Phonetic Extensions;Letter;Modifier
+7493;ᵅ;Alpha;False;ᵅ;False;ᵅ;True;ɑ;Modifier;False;;Modifier Letter Small Alpha;Phonetic Extensions;Letter;Modifier
+7495;ᵇ;B;False;ᵇ;False;ᵇ;True;b;Modifier;False;;Modifier Letter Small B;Phonetic Extensions;Letter;Modifier
+7496;ᵈ;D;False;ᵈ;False;ᵈ;True;d;Modifier;False;;Modifier Letter Small D;Phonetic Extensions;Letter;Modifier
+7497;ᵉ;E;False;ᵉ;False;ᵉ;True;e;Modifier;False;;Modifier Letter Small E;Phonetic Extensions;Letter;Modifier
+7498;ᵊ;Schwa;False;ᵊ;False;ᵊ;True;ə;Modifier;False;;Modifier Letter Small Schwa;Phonetic Extensions;Letter;Modifier
+7501;ᵍ;G;False;ᵍ;False;ᵍ;True;g;Modifier;False;;Modifier Letter Small G;Phonetic Extensions;Letter;Modifier
+7503;ᵏ;K;False;ᵏ;False;ᵏ;True;k;Modifier;False;;Modifier Letter Small K;Phonetic Extensions;Letter;Modifier
+7504;ᵐ;M;False;ᵐ;False;ᵐ;True;m;Modifier;False;;Modifier Letter Small M;Phonetic Extensions;Letter;Modifier
+7505;ᵑ;Eng;False;ᵑ;False;ᵑ;True;ŋ;Modifier;False;;Modifier Letter Small Eng;Phonetic Extensions;Letter;Modifier
+7506;ᵒ;O;False;ᵒ;False;ᵒ;True;o;Modifier;False;;Modifier Letter Small O;Phonetic Extensions;Letter;Modifier
+7510;ᵖ;P;False;ᵖ;False;ᵖ;True;p;Modifier;False;;Modifier Letter Small P;Phonetic Extensions;Letter;Modifier
+7511;ᵗ;T;False;ᵗ;False;ᵗ;True;t;Modifier;False;;Modifier Letter Small T;Phonetic Extensions;Letter;Modifier
+7512;ᵘ;U;False;ᵘ;False;ᵘ;True;u;Modifier;False;;Modifier Letter Small U;Phonetic Extensions;Letter;Modifier
+7515;ᵛ;V;False;ᵛ;False;ᵛ;True;v;Modifier;False;;Modifier Letter Small V;Phonetic Extensions;Letter;Modifier
+7516;ᵜ;Ain;False;ᵜ;False;ᵜ;True;ᴥ;Modifier;False;;Modifier Letter Small Ain;Phonetic Extensions;Letter;Modifier
+7517;ᵝ;Beta;False;ᵝ;False;ᵝ;True;ꞵ;Modifier;False;;Modifier Letter Small Beta;Phonetic Extensions;Letter;Modifier
+7519;ᵟ;Delta;False;ᵟ;False;ᵟ;True;ẟ;Modifier;False;;Modifier Letter Small Delta;Phonetic Extensions;Letter;Modifier
+7521;ᵡ;Chi;False;ᵡ;False;ᵡ;True;ꭓ;Modifier;False;;Modifier Letter Small Chi;Phonetic Extensions;Letter;Modifier
+7522;ᵢ;I;False;ᵢ;False;ᵢ;True;i;Subscript;False;;Latin Subscript Small Letter I;Phonetic Extensions;Letter;Modifier
+7523;ᵣ;R;False;ᵣ;False;ᵣ;True;r;Subscript;False;;Latin Subscript Small Letter R;Phonetic Extensions;Letter;Modifier
+7524;ᵤ;U;False;ᵤ;False;ᵤ;True;u;Subscript;False;;Latin Subscript Small Letter U;Phonetic Extensions;Letter;Modifier
+7525;ᵥ;V;False;ᵥ;False;ᵥ;True;v;Subscript;False;;Latin Subscript Small Letter V;Phonetic Extensions;Letter;Modifier
+7531;ᵫ;Ue;False;ᵫ;True;ᵫ;False;;;True;ue;Latin Small Letter Ue;Phonetic Extensions;Letter;Lowercase
+7532;ᵬ;B;False;ᵬ;True;ᵬ;True;b;Middle Tilde;False;;Latin Small Letter B With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7533;ᵭ;D;False;ᵭ;True;ᵭ;True;d;Middle Tilde;False;;Latin Small Letter D With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7534;ᵮ;F;False;ᵮ;True;ᵮ;True;f;Middle Tilde;False;;Latin Small Letter F With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7535;ᵯ;M;False;ᵯ;True;ᵯ;True;m;Middle Tilde;False;;Latin Small Letter M With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7536;ᵰ;N;False;ᵰ;True;ᵰ;True;n;Middle Tilde;False;;Latin Small Letter N With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7537;ᵱ;P;False;ᵱ;True;ᵱ;True;p;Middle Tilde;False;;Latin Small Letter P With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7538;ᵲ;R;False;ᵲ;True;ᵲ;True;r;Middle Tilde;False;;Latin Small Letter R With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7539;ᵳ;R;False;ᵳ;True;ᵳ;True;r;Fishhook Middle Tilde;False;;Latin Small Letter R With Fishhook And Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7540;ᵴ;S;False;ᵴ;True;ᵴ;True;s;Middle Tilde;False;;Latin Small Letter S With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7541;ᵵ;T;False;ᵵ;True;ᵵ;True;t;Middle Tilde;False;;Latin Small Letter T With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7542;ᵶ;Z;False;ᵶ;True;ᵶ;True;z;Middle Tilde;False;;Latin Small Letter Z With Middle Tilde;Phonetic Extensions;Letter;Lowercase
+7543;ᵷ;G;False;ᵷ;True;ᵷ;True;g;Turned;False;;Latin Small Letter Turned G;Phonetic Extensions;Letter;Lowercase
+7545;ᵹ;G;False;Ᵹ;True;ᵹ;True;g;Insular;False;;Latin Small Letter Insular G;Phonetic Extensions;Letter;Lowercase
+7546;ᵺ;Th;False;ᵺ;True;ᵺ;False;;;True;th;Latin Small Letter Th With Strikethrough;Phonetic Extensions;Letter;Lowercase
+7547;ᵻ;I;False;ᵻ;True;ᵻ;True;I;Small Capital Stroke;False;;Latin Small Capital Letter I With Stroke;Phonetic Extensions;Letter;Lowercase
+7548;ᵼ;Iota;False;ᵼ;True;ᵼ;True;ɩ;Stroke;False;;Latin Small Letter Iota With Stroke;Phonetic Extensions;Letter;Lowercase
+7549;ᵽ;P;False;Ᵽ;True;ᵽ;True;p;Stroke;False;;Latin Small Letter P With Stroke;Phonetic Extensions;Letter;Lowercase
+7550;ᵾ;U;False;ᵾ;True;ᵾ;True;U;Small Capital Stroke;False;;Latin Small Capital Letter U With Stroke;Phonetic Extensions;Letter;Lowercase
+7551;ᵿ;Upsilon;False;ᵿ;True;ᵿ;True;ʊ;Stroke;False;;Latin Small Letter Upsilon With Stroke;Phonetic Extensions;Letter;Lowercase
+7552;ᶀ;B;False;ᶀ;True;ᶀ;True;b;Palatal Hook;False;;Latin Small Letter B With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7553;ᶁ;D;False;ᶁ;True;ᶁ;True;d;Palatal Hook;False;;Latin Small Letter D With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7554;ᶂ;F;False;ᶂ;True;ᶂ;True;f;Palatal Hook;False;;Latin Small Letter F With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7555;ᶃ;G;False;ᶃ;True;ᶃ;True;g;Palatal Hook;False;;Latin Small Letter G With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7556;ᶄ;K;False;ᶄ;True;ᶄ;True;k;Palatal Hook;False;;Latin Small Letter K With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7557;ᶅ;L;False;ᶅ;True;ᶅ;True;l;Palatal Hook;False;;Latin Small Letter L With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7558;ᶆ;M;False;ᶆ;True;ᶆ;True;m;Palatal Hook;False;;Latin Small Letter M With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7559;ᶇ;N;False;ᶇ;True;ᶇ;True;n;Palatal Hook;False;;Latin Small Letter N With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7560;ᶈ;P;False;ᶈ;True;ᶈ;True;p;Palatal Hook;False;;Latin Small Letter P With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7561;ᶉ;R;False;ᶉ;True;ᶉ;True;r;Palatal Hook;False;;Latin Small Letter R With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7562;ᶊ;S;False;ᶊ;True;ᶊ;True;s;Palatal Hook;False;;Latin Small Letter S With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7563;ᶋ;Esh;False;ᶋ;True;ᶋ;True;ʃ;Palatal Hook;False;;Latin Small Letter Esh With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7564;ᶌ;V;False;ᶌ;True;ᶌ;True;v;Palatal Hook;False;;Latin Small Letter V With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7565;ᶍ;X;False;ᶍ;True;ᶍ;True;x;Palatal Hook;False;;Latin Small Letter X With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7566;ᶎ;Z;False;ᶎ;True;ᶎ;True;z;Palatal Hook;False;;Latin Small Letter Z With Palatal Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7567;ᶏ;A;False;ᶏ;True;ᶏ;True;a;Retroflex Hook;False;;Latin Small Letter A With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7568;ᶐ;Alpha;False;ᶐ;True;ᶐ;True;ɑ;Retroflex Hook;False;;Latin Small Letter Alpha With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7569;ᶑ;D;False;ᶑ;True;ᶑ;True;d;Hook Tail;False;;Latin Small Letter D With Hook And Tail;Phonetic Extensions Supplement;Letter;Lowercase
+7570;ᶒ;E;False;ᶒ;True;ᶒ;True;e;Retroflex Hook;False;;Latin Small Letter E With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7571;ᶓ;E;False;ᶓ;True;ᶓ;True;e;Open Retroflex Hook;False;;Latin Small Letter Open E With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7572;ᶔ;E;False;ᶔ;True;ᶔ;True;e;Reversed Open Retroflex Hook;False;;Latin Small Letter Reversed Open E With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7573;ᶕ;Schwa;False;ᶕ;True;ᶕ;True;ə;Retroflex Hook;False;;Latin Small Letter Schwa With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7574;ᶖ;I;False;ᶖ;True;ᶖ;True;i;Retroflex Hook;False;;Latin Small Letter I With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7575;ᶗ;O;False;ᶗ;True;ᶗ;True;o;Open Retroflex Hook;False;;Latin Small Letter Open O With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7576;ᶘ;Esh;False;ᶘ;True;ᶘ;True;ʃ;Retroflex Hook;False;;Latin Small Letter Esh With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7577;ᶙ;U;False;ᶙ;True;ᶙ;True;u;Retroflex Hook;False;;Latin Small Letter U With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7578;ᶚ;Ezh;False;ᶚ;True;ᶚ;True;ʒ;Retroflex Hook;False;;Latin Small Letter Ezh With Retroflex Hook;Phonetic Extensions Supplement;Letter;Lowercase
+7580;ᶜ;C;False;ᶜ;False;ᶜ;True;c;Modifier;False;;Modifier Letter Small C;Phonetic Extensions Supplement;Letter;Modifier
+7582;ᶞ;Eth;False;ᶞ;False;ᶞ;True;ð;Modifier;False;;Modifier Letter Small Eth;Phonetic Extensions Supplement;Letter;Modifier
+7584;ᶠ;F;False;ᶠ;False;ᶠ;True;f;Modifier;False;;Modifier Letter Small F;Phonetic Extensions Supplement;Letter;Modifier
+7589;ᶥ;Iota;False;ᶥ;False;ᶥ;True;ɩ;Modifier;False;;Modifier Letter Small Iota;Phonetic Extensions Supplement;Letter;Modifier
+7602;ᶲ;Phi;False;ᶲ;False;ᶲ;True;ɸ;Modifier;False;;Modifier Letter Small Phi;Phonetic Extensions Supplement;Letter;Modifier
+7604;ᶴ;Esh;False;ᶴ;False;ᶴ;True;ʃ;Modifier;False;;Modifier Letter Small Esh;Phonetic Extensions Supplement;Letter;Modifier
+7607;ᶷ;Upsilon;False;ᶷ;False;ᶷ;True;ʊ;Modifier;False;;Modifier Letter Small Upsilon;Phonetic Extensions Supplement;Letter;Modifier
+7611;ᶻ;Z;False;ᶻ;False;ᶻ;True;z;Modifier;False;;Modifier Letter Small Z;Phonetic Extensions Supplement;Letter;Modifier
+7614;ᶾ;Ezh;False;ᶾ;False;ᶾ;True;ʒ;Modifier;False;;Modifier Letter Small Ezh;Phonetic Extensions Supplement;Letter;Modifier
+7615;ᶿ;Theta;False;ᶿ;False;ᶿ;False;;;False;;Modifier Letter Small Theta;Phonetic Extensions Supplement;Letter;Modifier
+7680;Ḁ;A;True;Ḁ;False;ḁ;True;A;Ring Below;False;;Latin Capital Letter A With Ring Below;Latin Extended Additional;Letter;Uppercase
+7681;ḁ;A;False;Ḁ;True;ḁ;True;a;Ring Below;False;;Latin Small Letter A With Ring Below;Latin Extended Additional;Letter;Lowercase
+7682;Ḃ;B;True;Ḃ;False;ḃ;True;B;Dot Above;False;;Latin Capital Letter B With Dot Above;Latin Extended Additional;Letter;Uppercase
+7683;ḃ;B;False;Ḃ;True;ḃ;True;b;Dot Above;False;;Latin Small Letter B With Dot Above;Latin Extended Additional;Letter;Lowercase
+7684;Ḅ;B;True;Ḅ;False;ḅ;True;B;Dot Below;False;;Latin Capital Letter B With Dot Below;Latin Extended Additional;Letter;Uppercase
+7685;ḅ;B;False;Ḅ;True;ḅ;True;b;Dot Below;False;;Latin Small Letter B With Dot Below;Latin Extended Additional;Letter;Lowercase
+7686;Ḇ;B;True;Ḇ;False;ḇ;True;B;Line Below;False;;Latin Capital Letter B With Line Below;Latin Extended Additional;Letter;Uppercase
+7687;ḇ;B;False;Ḇ;True;ḇ;True;b;Line Below;False;;Latin Small Letter B With Line Below;Latin Extended Additional;Letter;Lowercase
+7688;Ḉ;C;True;Ḉ;False;ḉ;True;C;Cedilla Acute;False;;Latin Capital Letter C With Cedilla And Acute;Latin Extended Additional;Letter;Uppercase
+7689;ḉ;C;False;Ḉ;True;ḉ;True;c;Cedilla Acute;False;;Latin Small Letter C With Cedilla And Acute;Latin Extended Additional;Letter;Lowercase
+7690;Ḋ;D;True;Ḋ;False;ḋ;True;D;Dot Above;False;;Latin Capital Letter D With Dot Above;Latin Extended Additional;Letter;Uppercase
+7691;ḋ;D;False;Ḋ;True;ḋ;True;d;Dot Above;False;;Latin Small Letter D With Dot Above;Latin Extended Additional;Letter;Lowercase
+7692;Ḍ;D;True;Ḍ;False;ḍ;True;D;Dot Below;False;;Latin Capital Letter D With Dot Below;Latin Extended Additional;Letter;Uppercase
+7693;ḍ;D;False;Ḍ;True;ḍ;True;d;Dot Below;False;;Latin Small Letter D With Dot Below;Latin Extended Additional;Letter;Lowercase
+7694;Ḏ;D;True;Ḏ;False;ḏ;True;D;Line Below;False;;Latin Capital Letter D With Line Below;Latin Extended Additional;Letter;Uppercase
+7695;ḏ;D;False;Ḏ;True;ḏ;True;d;Line Below;False;;Latin Small Letter D With Line Below;Latin Extended Additional;Letter;Lowercase
+7696;Ḑ;D;True;Ḑ;False;ḑ;True;D;Cedilla;False;;Latin Capital Letter D With Cedilla;Latin Extended Additional;Letter;Uppercase
+7697;ḑ;D;False;Ḑ;True;ḑ;True;d;Cedilla;False;;Latin Small Letter D With Cedilla;Latin Extended Additional;Letter;Lowercase
+7698;Ḓ;D;True;Ḓ;False;ḓ;True;D;Circumflex Below;False;;Latin Capital Letter D With Circumflex Below;Latin Extended Additional;Letter;Uppercase
+7699;ḓ;D;False;Ḓ;True;ḓ;True;d;Circumflex Below;False;;Latin Small Letter D With Circumflex Below;Latin Extended Additional;Letter;Lowercase
+7700;Ḕ;E;True;Ḕ;False;ḕ;True;E;Macron Grave;False;;Latin Capital Letter E With Macron And Grave;Latin Extended Additional;Letter;Uppercase
+7701;ḕ;E;False;Ḕ;True;ḕ;True;e;Macron Grave;False;;Latin Small Letter E With Macron And Grave;Latin Extended Additional;Letter;Lowercase
+7702;Ḗ;E;True;Ḗ;False;ḗ;True;E;Macron Acute;False;;Latin Capital Letter E With Macron And Acute;Latin Extended Additional;Letter;Uppercase
+7703;ḗ;E;False;Ḗ;True;ḗ;True;e;Macron Acute;False;;Latin Small Letter E With Macron And Acute;Latin Extended Additional;Letter;Lowercase
+7704;Ḙ;E;True;Ḙ;False;ḙ;True;E;Circumflex Below;False;;Latin Capital Letter E With Circumflex Below;Latin Extended Additional;Letter;Uppercase
+7705;ḙ;E;False;Ḙ;True;ḙ;True;e;Circumflex Below;False;;Latin Small Letter E With Circumflex Below;Latin Extended Additional;Letter;Lowercase
+7706;Ḛ;E;True;Ḛ;False;ḛ;True;E;Tilde Below;False;;Latin Capital Letter E With Tilde Below;Latin Extended Additional;Letter;Uppercase
+7707;ḛ;E;False;Ḛ;True;ḛ;True;e;Tilde Below;False;;Latin Small Letter E With Tilde Below;Latin Extended Additional;Letter;Lowercase
+7708;Ḝ;E;True;Ḝ;False;ḝ;True;E;Cedilla Breve;False;;Latin Capital Letter E With Cedilla And Breve;Latin Extended Additional;Letter;Uppercase
+7709;ḝ;E;False;Ḝ;True;ḝ;True;e;Cedilla Breve;False;;Latin Small Letter E With Cedilla And Breve;Latin Extended Additional;Letter;Lowercase
+7710;Ḟ;F;True;Ḟ;False;ḟ;True;F;Dot Above;False;;Latin Capital Letter F With Dot Above;Latin Extended Additional;Letter;Uppercase
+7711;ḟ;F;False;Ḟ;True;ḟ;True;f;Dot Above;False;;Latin Small Letter F With Dot Above;Latin Extended Additional;Letter;Lowercase
+7712;Ḡ;G;True;Ḡ;False;ḡ;True;G;Macron;False;;Latin Capital Letter G With Macron;Latin Extended Additional;Letter;Uppercase
+7713;ḡ;G;False;Ḡ;True;ḡ;True;g;Macron;False;;Latin Small Letter G With Macron;Latin Extended Additional;Letter;Lowercase
+7714;Ḣ;H;True;Ḣ;False;ḣ;True;H;Dot Above;False;;Latin Capital Letter H With Dot Above;Latin Extended Additional;Letter;Uppercase
+7715;ḣ;H;False;Ḣ;True;ḣ;True;h;Dot Above;False;;Latin Small Letter H With Dot Above;Latin Extended Additional;Letter;Lowercase
+7716;Ḥ;H;True;Ḥ;False;ḥ;True;H;Dot Below;False;;Latin Capital Letter H With Dot Below;Latin Extended Additional;Letter;Uppercase
+7717;ḥ;H;False;Ḥ;True;ḥ;True;h;Dot Below;False;;Latin Small Letter H With Dot Below;Latin Extended Additional;Letter;Lowercase
+7718;Ḧ;H;True;Ḧ;False;ḧ;True;H;Diaeresis;False;;Latin Capital Letter H With Diaeresis;Latin Extended Additional;Letter;Uppercase
+7719;ḧ;H;False;Ḧ;True;ḧ;True;h;Diaeresis;False;;Latin Small Letter H With Diaeresis;Latin Extended Additional;Letter;Lowercase
+7720;Ḩ;H;True;Ḩ;False;ḩ;True;H;Cedilla;False;;Latin Capital Letter H With Cedilla;Latin Extended Additional;Letter;Uppercase
+7721;ḩ;H;False;Ḩ;True;ḩ;True;h;Cedilla;False;;Latin Small Letter H With Cedilla;Latin Extended Additional;Letter;Lowercase
+7722;Ḫ;H;True;Ḫ;False;ḫ;True;H;Breve Below;False;;Latin Capital Letter H With Breve Below;Latin Extended Additional;Letter;Uppercase
+7723;ḫ;H;False;Ḫ;True;ḫ;True;h;Breve Below;False;;Latin Small Letter H With Breve Below;Latin Extended Additional;Letter;Lowercase
+7724;Ḭ;I;True;Ḭ;False;ḭ;True;I;Tilde Below;False;;Latin Capital Letter I With Tilde Below;Latin Extended Additional;Letter;Uppercase
+7725;ḭ;I;False;Ḭ;True;ḭ;True;i;Tilde Below;False;;Latin Small Letter I With Tilde Below;Latin Extended Additional;Letter;Lowercase
+7726;Ḯ;I;True;Ḯ;False;ḯ;True;I;Diaeresis Acute;False;;Latin Capital Letter I With Diaeresis And Acute;Latin Extended Additional;Letter;Uppercase
+7727;ḯ;I;False;Ḯ;True;ḯ;True;i;Diaeresis Acute;False;;Latin Small Letter I With Diaeresis And Acute;Latin Extended Additional;Letter;Lowercase
+7728;Ḱ;K;True;Ḱ;False;ḱ;True;K;Acute;False;;Latin Capital Letter K With Acute;Latin Extended Additional;Letter;Uppercase
+7729;ḱ;K;False;Ḱ;True;ḱ;True;k;Acute;False;;Latin Small Letter K With Acute;Latin Extended Additional;Letter;Lowercase
+7730;Ḳ;K;True;Ḳ;False;ḳ;True;K;Dot Below;False;;Latin Capital Letter K With Dot Below;Latin Extended Additional;Letter;Uppercase
+7731;ḳ;K;False;Ḳ;True;ḳ;True;k;Dot Below;False;;Latin Small Letter K With Dot Below;Latin Extended Additional;Letter;Lowercase
+7732;Ḵ;K;True;Ḵ;False;ḵ;True;K;Line Below;False;;Latin Capital Letter K With Line Below;Latin Extended Additional;Letter;Uppercase
+7733;ḵ;K;False;Ḵ;True;ḵ;True;k;Line Below;False;;Latin Small Letter K With Line Below;Latin Extended Additional;Letter;Lowercase
+7734;Ḷ;L;True;Ḷ;False;ḷ;True;L;Dot Below;False;;Latin Capital Letter L With Dot Below;Latin Extended Additional;Letter;Uppercase
+7735;ḷ;L;False;Ḷ;True;ḷ;True;l;Dot Below;False;;Latin Small Letter L With Dot Below;Latin Extended Additional;Letter;Lowercase
+7736;Ḹ;L;True;Ḹ;False;ḹ;True;L;Dot Below Macron;False;;Latin Capital Letter L With Dot Below And Macron;Latin Extended Additional;Letter;Uppercase
+7737;ḹ;L;False;Ḹ;True;ḹ;True;l;Dot Below Macron;False;;Latin Small Letter L With Dot Below And Macron;Latin Extended Additional;Letter;Lowercase
+7738;Ḻ;L;True;Ḻ;False;ḻ;True;L;Line Below;False;;Latin Capital Letter L With Line Below;Latin Extended Additional;Letter;Uppercase
+7739;ḻ;L;False;Ḻ;True;ḻ;True;l;Line Below;False;;Latin Small Letter L With Line Below;Latin Extended Additional;Letter;Lowercase
+7740;Ḽ;L;True;Ḽ;False;ḽ;True;L;Circumflex Below;False;;Latin Capital Letter L With Circumflex Below;Latin Extended Additional;Letter;Uppercase
+7741;ḽ;L;False;Ḽ;True;ḽ;True;l;Circumflex Below;False;;Latin Small Letter L With Circumflex Below;Latin Extended Additional;Letter;Lowercase
+7742;Ḿ;M;True;Ḿ;False;ḿ;True;M;Acute;False;;Latin Capital Letter M With Acute;Latin Extended Additional;Letter;Uppercase
+7743;ḿ;M;False;Ḿ;True;ḿ;True;m;Acute;False;;Latin Small Letter M With Acute;Latin Extended Additional;Letter;Lowercase
+7744;Ṁ;M;True;Ṁ;False;ṁ;True;M;Dot Above;False;;Latin Capital Letter M With Dot Above;Latin Extended Additional;Letter;Uppercase
+7745;ṁ;M;False;Ṁ;True;ṁ;True;m;Dot Above;False;;Latin Small Letter M With Dot Above;Latin Extended Additional;Letter;Lowercase
+7746;Ṃ;M;True;Ṃ;False;ṃ;True;M;Dot Below;False;;Latin Capital Letter M With Dot Below;Latin Extended Additional;Letter;Uppercase
+7747;ṃ;M;False;Ṃ;True;ṃ;True;m;Dot Below;False;;Latin Small Letter M With Dot Below;Latin Extended Additional;Letter;Lowercase
+7748;Ṅ;N;True;Ṅ;False;ṅ;True;N;Dot Above;False;;Latin Capital Letter N With Dot Above;Latin Extended Additional;Letter;Uppercase
+7749;ṅ;N;False;Ṅ;True;ṅ;True;n;Dot Above;False;;Latin Small Letter N With Dot Above;Latin Extended Additional;Letter;Lowercase
+7750;Ṇ;N;True;Ṇ;False;ṇ;True;N;Dot Below;False;;Latin Capital Letter N With Dot Below;Latin Extended Additional;Letter;Uppercase
+7751;ṇ;N;False;Ṇ;True;ṇ;True;n;Dot Below;False;;Latin Small Letter N With Dot Below;Latin Extended Additional;Letter;Lowercase
+7752;Ṉ;N;True;Ṉ;False;ṉ;True;N;Line Below;False;;Latin Capital Letter N With Line Below;Latin Extended Additional;Letter;Uppercase
+7753;ṉ;N;False;Ṉ;True;ṉ;True;n;Line Below;False;;Latin Small Letter N With Line Below;Latin Extended Additional;Letter;Lowercase
+7754;Ṋ;N;True;Ṋ;False;ṋ;True;N;Circumflex Below;False;;Latin Capital Letter N With Circumflex Below;Latin Extended Additional;Letter;Uppercase
+7755;ṋ;N;False;Ṋ;True;ṋ;True;n;Circumflex Below;False;;Latin Small Letter N With Circumflex Below;Latin Extended Additional;Letter;Lowercase
+7756;Ṍ;O;True;Ṍ;False;ṍ;True;O;Tilde Acute;False;;Latin Capital Letter O With Tilde And Acute;Latin Extended Additional;Letter;Uppercase
+7757;ṍ;O;False;Ṍ;True;ṍ;True;o;Tilde Acute;False;;Latin Small Letter O With Tilde And Acute;Latin Extended Additional;Letter;Lowercase
+7758;Ṏ;O;True;Ṏ;False;ṏ;True;O;Tilde Diaeresis;False;;Latin Capital Letter O With Tilde And Diaeresis;Latin Extended Additional;Letter;Uppercase
+7759;ṏ;O;False;Ṏ;True;ṏ;True;o;Tilde Diaeresis;False;;Latin Small Letter O With Tilde And Diaeresis;Latin Extended Additional;Letter;Lowercase
+7760;Ṑ;O;True;Ṑ;False;ṑ;True;O;Macron Grave;False;;Latin Capital Letter O With Macron And Grave;Latin Extended Additional;Letter;Uppercase
+7761;ṑ;O;False;Ṑ;True;ṑ;True;o;Macron Grave;False;;Latin Small Letter O With Macron And Grave;Latin Extended Additional;Letter;Lowercase
+7762;Ṓ;O;True;Ṓ;False;ṓ;True;O;Macron Acute;False;;Latin Capital Letter O With Macron And Acute;Latin Extended Additional;Letter;Uppercase
+7763;ṓ;O;False;Ṓ;True;ṓ;True;o;Macron Acute;False;;Latin Small Letter O With Macron And Acute;Latin Extended Additional;Letter;Lowercase
+7764;Ṕ;P;True;Ṕ;False;ṕ;True;P;Acute;False;;Latin Capital Letter P With Acute;Latin Extended Additional;Letter;Uppercase
+7765;ṕ;P;False;Ṕ;True;ṕ;True;p;Acute;False;;Latin Small Letter P With Acute;Latin Extended Additional;Letter;Lowercase
+7766;Ṗ;P;True;Ṗ;False;ṗ;True;P;Dot Above;False;;Latin Capital Letter P With Dot Above;Latin Extended Additional;Letter;Uppercase
+7767;ṗ;P;False;Ṗ;True;ṗ;True;p;Dot Above;False;;Latin Small Letter P With Dot Above;Latin Extended Additional;Letter;Lowercase
+7768;Ṙ;R;True;Ṙ;False;ṙ;True;R;Dot Above;False;;Latin Capital Letter R With Dot Above;Latin Extended Additional;Letter;Uppercase
+7769;ṙ;R;False;Ṙ;True;ṙ;True;r;Dot Above;False;;Latin Small Letter R With Dot Above;Latin Extended Additional;Letter;Lowercase
+7770;Ṛ;R;True;Ṛ;False;ṛ;True;R;Dot Below;False;;Latin Capital Letter R With Dot Below;Latin Extended Additional;Letter;Uppercase
+7771;ṛ;R;False;Ṛ;True;ṛ;True;r;Dot Below;False;;Latin Small Letter R With Dot Below;Latin Extended Additional;Letter;Lowercase
+7772;Ṝ;R;True;Ṝ;False;ṝ;True;R;Dot Below Macron;False;;Latin Capital Letter R With Dot Below And Macron;Latin Extended Additional;Letter;Uppercase
+7773;ṝ;R;False;Ṝ;True;ṝ;True;r;Dot Below Macron;False;;Latin Small Letter R With Dot Below And Macron;Latin Extended Additional;Letter;Lowercase
+7774;Ṟ;R;True;Ṟ;False;ṟ;True;R;Line Below;False;;Latin Capital Letter R With Line Below;Latin Extended Additional;Letter;Uppercase
+7775;ṟ;R;False;Ṟ;True;ṟ;True;r;Line Below;False;;Latin Small Letter R With Line Below;Latin Extended Additional;Letter;Lowercase
+7776;Ṡ;S;True;Ṡ;False;ṡ;True;S;Dot Above;False;;Latin Capital Letter S With Dot Above;Latin Extended Additional;Letter;Uppercase
+7777;ṡ;S;False;Ṡ;True;ṡ;True;s;Dot Above;False;;Latin Small Letter S With Dot Above;Latin Extended Additional;Letter;Lowercase
+7778;Ṣ;S;True;Ṣ;False;ṣ;True;S;Dot Below;False;;Latin Capital Letter S With Dot Below;Latin Extended Additional;Letter;Uppercase
+7779;ṣ;S;False;Ṣ;True;ṣ;True;s;Dot Below;False;;Latin Small Letter S With Dot Below;Latin Extended Additional;Letter;Lowercase
+7780;Ṥ;S;True;Ṥ;False;ṥ;True;S;Acute Dot Above;False;;Latin Capital Letter S With Acute And Dot Above;Latin Extended Additional;Letter;Uppercase
+7781;ṥ;S;False;Ṥ;True;ṥ;True;s;Acute Dot Above;False;;Latin Small Letter S With Acute And Dot Above;Latin Extended Additional;Letter;Lowercase
+7782;Ṧ;S;True;Ṧ;False;ṧ;True;S;Caron Dot Above;False;;Latin Capital Letter S With Caron And Dot Above;Latin Extended Additional;Letter;Uppercase
+7783;ṧ;S;False;Ṧ;True;ṧ;True;s;Caron Dot Above;False;;Latin Small Letter S With Caron And Dot Above;Latin Extended Additional;Letter;Lowercase
+7784;Ṩ;S;True;Ṩ;False;ṩ;True;S;Dot Below Dot Above;False;;Latin Capital Letter S With Dot Below And Dot Above;Latin Extended Additional;Letter;Uppercase
+7785;ṩ;S;False;Ṩ;True;ṩ;True;s;Dot Below Dot Above;False;;Latin Small Letter S With Dot Below And Dot Above;Latin Extended Additional;Letter;Lowercase
+7786;Ṫ;T;True;Ṫ;False;ṫ;True;T;Dot Above;False;;Latin Capital Letter T With Dot Above;Latin Extended Additional;Letter;Uppercase
+7787;ṫ;T;False;Ṫ;True;ṫ;True;t;Dot Above;False;;Latin Small Letter T With Dot Above;Latin Extended Additional;Letter;Lowercase
+7788;Ṭ;T;True;Ṭ;False;ṭ;True;T;Dot Below;False;;Latin Capital Letter T With Dot Below;Latin Extended Additional;Letter;Uppercase
+7789;ṭ;T;False;Ṭ;True;ṭ;True;t;Dot Below;False;;Latin Small Letter T With Dot Below;Latin Extended Additional;Letter;Lowercase
+7790;Ṯ;T;True;Ṯ;False;ṯ;True;T;Line Below;False;;Latin Capital Letter T With Line Below;Latin Extended Additional;Letter;Uppercase
+7791;ṯ;T;False;Ṯ;True;ṯ;True;t;Line Below;False;;Latin Small Letter T With Line Below;Latin Extended Additional;Letter;Lowercase
+7792;Ṱ;T;True;Ṱ;False;ṱ;True;T;Circumflex Below;False;;Latin Capital Letter T With Circumflex Below;Latin Extended Additional;Letter;Uppercase
+7793;ṱ;T;False;Ṱ;True;ṱ;True;t;Circumflex Below;False;;Latin Small Letter T With Circumflex Below;Latin Extended Additional;Letter;Lowercase
+7794;Ṳ;U;True;Ṳ;False;ṳ;True;U;Diaeresis Below;False;;Latin Capital Letter U With Diaeresis Below;Latin Extended Additional;Letter;Uppercase
+7795;ṳ;U;False;Ṳ;True;ṳ;True;u;Diaeresis Below;False;;Latin Small Letter U With Diaeresis Below;Latin Extended Additional;Letter;Lowercase
+7796;Ṵ;U;True;Ṵ;False;ṵ;True;U;Tilde Below;False;;Latin Capital Letter U With Tilde Below;Latin Extended Additional;Letter;Uppercase
+7797;ṵ;U;False;Ṵ;True;ṵ;True;u;Tilde Below;False;;Latin Small Letter U With Tilde Below;Latin Extended Additional;Letter;Lowercase
+7798;Ṷ;U;True;Ṷ;False;ṷ;True;U;Circumflex Below;False;;Latin Capital Letter U With Circumflex Below;Latin Extended Additional;Letter;Uppercase
+7799;ṷ;U;False;Ṷ;True;ṷ;True;u;Circumflex Below;False;;Latin Small Letter U With Circumflex Below;Latin Extended Additional;Letter;Lowercase
+7800;Ṹ;U;True;Ṹ;False;ṹ;True;U;Tilde Acute;False;;Latin Capital Letter U With Tilde And Acute;Latin Extended Additional;Letter;Uppercase
+7801;ṹ;U;False;Ṹ;True;ṹ;True;u;Tilde Acute;False;;Latin Small Letter U With Tilde And Acute;Latin Extended Additional;Letter;Lowercase
+7802;Ṻ;U;True;Ṻ;False;ṻ;True;U;Macron Diaeresis;False;;Latin Capital Letter U With Macron And Diaeresis;Latin Extended Additional;Letter;Uppercase
+7803;ṻ;U;False;Ṻ;True;ṻ;True;u;Macron Diaeresis;False;;Latin Small Letter U With Macron And Diaeresis;Latin Extended Additional;Letter;Lowercase
+7804;Ṽ;V;True;Ṽ;False;ṽ;True;V;Tilde;False;;Latin Capital Letter V With Tilde;Latin Extended Additional;Letter;Uppercase
+7805;ṽ;V;False;Ṽ;True;ṽ;True;v;Tilde;False;;Latin Small Letter V With Tilde;Latin Extended Additional;Letter;Lowercase
+7806;Ṿ;V;True;Ṿ;False;ṿ;True;V;Dot Below;False;;Latin Capital Letter V With Dot Below;Latin Extended Additional;Letter;Uppercase
+7807;ṿ;V;False;Ṿ;True;ṿ;True;v;Dot Below;False;;Latin Small Letter V With Dot Below;Latin Extended Additional;Letter;Lowercase
+7808;Ẁ;W;True;Ẁ;False;ẁ;True;W;Grave;False;;Latin Capital Letter W With Grave;Latin Extended Additional;Letter;Uppercase
+7809;ẁ;W;False;Ẁ;True;ẁ;True;w;Grave;False;;Latin Small Letter W With Grave;Latin Extended Additional;Letter;Lowercase
+7810;Ẃ;W;True;Ẃ;False;ẃ;True;W;Acute;False;;Latin Capital Letter W With Acute;Latin Extended Additional;Letter;Uppercase
+7811;ẃ;W;False;Ẃ;True;ẃ;True;w;Acute;False;;Latin Small Letter W With Acute;Latin Extended Additional;Letter;Lowercase
+7812;Ẅ;W;True;Ẅ;False;ẅ;True;W;Diaeresis;False;;Latin Capital Letter W With Diaeresis;Latin Extended Additional;Letter;Uppercase
+7813;ẅ;W;False;Ẅ;True;ẅ;True;w;Diaeresis;False;;Latin Small Letter W With Diaeresis;Latin Extended Additional;Letter;Lowercase
+7814;Ẇ;W;True;Ẇ;False;ẇ;True;W;Dot Above;False;;Latin Capital Letter W With Dot Above;Latin Extended Additional;Letter;Uppercase
+7815;ẇ;W;False;Ẇ;True;ẇ;True;w;Dot Above;False;;Latin Small Letter W With Dot Above;Latin Extended Additional;Letter;Lowercase
+7816;Ẉ;W;True;Ẉ;False;ẉ;True;W;Dot Below;False;;Latin Capital Letter W With Dot Below;Latin Extended Additional;Letter;Uppercase
+7817;ẉ;W;False;Ẉ;True;ẉ;True;w;Dot Below;False;;Latin Small Letter W With Dot Below;Latin Extended Additional;Letter;Lowercase
+7818;Ẋ;X;True;Ẋ;False;ẋ;True;X;Dot Above;False;;Latin Capital Letter X With Dot Above;Latin Extended Additional;Letter;Uppercase
+7819;ẋ;X;False;Ẋ;True;ẋ;True;x;Dot Above;False;;Latin Small Letter X With Dot Above;Latin Extended Additional;Letter;Lowercase
+7820;Ẍ;X;True;Ẍ;False;ẍ;True;X;Diaeresis;False;;Latin Capital Letter X With Diaeresis;Latin Extended Additional;Letter;Uppercase
+7821;ẍ;X;False;Ẍ;True;ẍ;True;x;Diaeresis;False;;Latin Small Letter X With Diaeresis;Latin Extended Additional;Letter;Lowercase
+7822;Ẏ;Y;True;Ẏ;False;ẏ;True;Y;Dot Above;False;;Latin Capital Letter Y With Dot Above;Latin Extended Additional;Letter;Uppercase
+7823;ẏ;Y;False;Ẏ;True;ẏ;True;y;Dot Above;False;;Latin Small Letter Y With Dot Above;Latin Extended Additional;Letter;Lowercase
+7824;Ẑ;Z;True;Ẑ;False;ẑ;True;Z;Circumflex;False;;Latin Capital Letter Z With Circumflex;Latin Extended Additional;Letter;Uppercase
+7825;ẑ;Z;False;Ẑ;True;ẑ;True;z;Circumflex;False;;Latin Small Letter Z With Circumflex;Latin Extended Additional;Letter;Lowercase
+7826;Ẓ;Z;True;Ẓ;False;ẓ;True;Z;Dot Below;False;;Latin Capital Letter Z With Dot Below;Latin Extended Additional;Letter;Uppercase
+7827;ẓ;Z;False;Ẓ;True;ẓ;True;z;Dot Below;False;;Latin Small Letter Z With Dot Below;Latin Extended Additional;Letter;Lowercase
+7828;Ẕ;Z;True;Ẕ;False;ẕ;True;Z;Line Below;False;;Latin Capital Letter Z With Line Below;Latin Extended Additional;Letter;Uppercase
+7829;ẕ;Z;False;Ẕ;True;ẕ;True;z;Line Below;False;;Latin Small Letter Z With Line Below;Latin Extended Additional;Letter;Lowercase
+7830;ẖ;H;False;H̱;True;ẖ;True;h;Line Below;False;;Latin Small Letter H With Line Below;Latin Extended Additional;Letter;Lowercase
+7831;ẗ;T;False;T̈;True;ẗ;True;t;Diaeresis;False;;Latin Small Letter T With Diaeresis;Latin Extended Additional;Letter;Lowercase
+7832;ẘ;W;False;W̊;True;ẘ;True;w;Ring Above;False;;Latin Small Letter W With Ring Above;Latin Extended Additional;Letter;Lowercase
+7833;ẙ;Y;False;Y̊;True;ẙ;True;y;Ring Above;False;;Latin Small Letter Y With Ring Above;Latin Extended Additional;Letter;Lowercase
+7834;ẚ;A;False;Aʾ;True;ẚ;True;a;Right Half Ring;False;;Latin Small Letter A With Right Half Ring;Latin Extended Additional;Letter;Lowercase
+7835;ẛ;S;False;Ṡ;True;ẛ;True;s;Long Dot Above;False;;Latin Small Letter Long S With Dot Above;Latin Extended Additional;Letter;Lowercase
+7836;ẜ;S;False;ẜ;True;ẜ;True;s;Long Diagonal Stroke;False;;Latin Small Letter Long S With Diagonal Stroke;Latin Extended Additional;Letter;Lowercase
+7837;ẝ;S;False;ẝ;True;ẝ;True;s;Long High Stroke;False;;Latin Small Letter Long S With High Stroke;Latin Extended Additional;Letter;Lowercase
+7838;ẞ;Sharp S;True;ẞ;False;ß;False;;;False;;Latin Capital Letter Sharp S;Latin Extended Additional;Letter;Uppercase
+7839;ẟ;Delta;False;ẟ;True;ẟ;False;;;False;;Latin Small Letter Delta;Latin Extended Additional;Letter;Lowercase
+7840;Ạ;A;True;Ạ;False;ạ;True;A;Dot Below;False;;Latin Capital Letter A With Dot Below;Latin Extended Additional;Letter;Uppercase
+7841;ạ;A;False;Ạ;True;ạ;True;a;Dot Below;False;;Latin Small Letter A With Dot Below;Latin Extended Additional;Letter;Lowercase
+7842;Ả;A;True;Ả;False;ả;True;A;Hook Above;False;;Latin Capital Letter A With Hook Above;Latin Extended Additional;Letter;Uppercase
+7843;ả;A;False;Ả;True;ả;True;a;Hook Above;False;;Latin Small Letter A With Hook Above;Latin Extended Additional;Letter;Lowercase
+7844;Ấ;A;True;Ấ;False;ấ;True;A;Circumflex Acute;False;;Latin Capital Letter A With Circumflex And Acute;Latin Extended Additional;Letter;Uppercase
+7845;ấ;A;False;Ấ;True;ấ;True;a;Circumflex Acute;False;;Latin Small Letter A With Circumflex And Acute;Latin Extended Additional;Letter;Lowercase
+7846;Ầ;A;True;Ầ;False;ầ;True;A;Circumflex Grave;False;;Latin Capital Letter A With Circumflex And Grave;Latin Extended Additional;Letter;Uppercase
+7847;ầ;A;False;Ầ;True;ầ;True;a;Circumflex Grave;False;;Latin Small Letter A With Circumflex And Grave;Latin Extended Additional;Letter;Lowercase
+7848;Ẩ;A;True;Ẩ;False;ẩ;True;A;Circumflex Hook Above;False;;Latin Capital Letter A With Circumflex And Hook Above;Latin Extended Additional;Letter;Uppercase
+7849;ẩ;A;False;Ẩ;True;ẩ;True;a;Circumflex Hook Above;False;;Latin Small Letter A With Circumflex And Hook Above;Latin Extended Additional;Letter;Lowercase
+7850;Ẫ;A;True;Ẫ;False;ẫ;True;A;Circumflex Tilde;False;;Latin Capital Letter A With Circumflex And Tilde;Latin Extended Additional;Letter;Uppercase
+7851;ẫ;A;False;Ẫ;True;ẫ;True;a;Circumflex Tilde;False;;Latin Small Letter A With Circumflex And Tilde;Latin Extended Additional;Letter;Lowercase
+7852;Ậ;A;True;Ậ;False;ậ;True;A;Circumflex Dot Below;False;;Latin Capital Letter A With Circumflex And Dot Below;Latin Extended Additional;Letter;Uppercase
+7853;ậ;A;False;Ậ;True;ậ;True;a;Circumflex Dot Below;False;;Latin Small Letter A With Circumflex And Dot Below;Latin Extended Additional;Letter;Lowercase
+7854;Ắ;A;True;Ắ;False;ắ;True;A;Breve Acute;False;;Latin Capital Letter A With Breve And Acute;Latin Extended Additional;Letter;Uppercase
+7855;ắ;A;False;Ắ;True;ắ;True;a;Breve Acute;False;;Latin Small Letter A With Breve And Acute;Latin Extended Additional;Letter;Lowercase
+7856;Ằ;A;True;Ằ;False;ằ;True;A;Breve Grave;False;;Latin Capital Letter A With Breve And Grave;Latin Extended Additional;Letter;Uppercase
+7857;ằ;A;False;Ằ;True;ằ;True;a;Breve Grave;False;;Latin Small Letter A With Breve And Grave;Latin Extended Additional;Letter;Lowercase
+7858;Ẳ;A;True;Ẳ;False;ẳ;True;A;Breve Hook Above;False;;Latin Capital Letter A With Breve And Hook Above;Latin Extended Additional;Letter;Uppercase
+7859;ẳ;A;False;Ẳ;True;ẳ;True;a;Breve Hook Above;False;;Latin Small Letter A With Breve And Hook Above;Latin Extended Additional;Letter;Lowercase
+7860;Ẵ;A;True;Ẵ;False;ẵ;True;A;Breve Tilde;False;;Latin Capital Letter A With Breve And Tilde;Latin Extended Additional;Letter;Uppercase
+7861;ẵ;A;False;Ẵ;True;ẵ;True;a;Breve Tilde;False;;Latin Small Letter A With Breve And Tilde;Latin Extended Additional;Letter;Lowercase
+7862;Ặ;A;True;Ặ;False;ặ;True;A;Breve Dot Below;False;;Latin Capital Letter A With Breve And Dot Below;Latin Extended Additional;Letter;Uppercase
+7863;ặ;A;False;Ặ;True;ặ;True;a;Breve Dot Below;False;;Latin Small Letter A With Breve And Dot Below;Latin Extended Additional;Letter;Lowercase
+7864;Ẹ;E;True;Ẹ;False;ẹ;True;E;Dot Below;False;;Latin Capital Letter E With Dot Below;Latin Extended Additional;Letter;Uppercase
+7865;ẹ;E;False;Ẹ;True;ẹ;True;e;Dot Below;False;;Latin Small Letter E With Dot Below;Latin Extended Additional;Letter;Lowercase
+7866;Ẻ;E;True;Ẻ;False;ẻ;True;E;Hook Above;False;;Latin Capital Letter E With Hook Above;Latin Extended Additional;Letter;Uppercase
+7867;ẻ;E;False;Ẻ;True;ẻ;True;e;Hook Above;False;;Latin Small Letter E With Hook Above;Latin Extended Additional;Letter;Lowercase
+7868;Ẽ;E;True;Ẽ;False;ẽ;True;E;Tilde;False;;Latin Capital Letter E With Tilde;Latin Extended Additional;Letter;Uppercase
+7869;ẽ;E;False;Ẽ;True;ẽ;True;e;Tilde;False;;Latin Small Letter E With Tilde;Latin Extended Additional;Letter;Lowercase
+7870;Ế;E;True;Ế;False;ế;True;E;Circumflex Acute;False;;Latin Capital Letter E With Circumflex And Acute;Latin Extended Additional;Letter;Uppercase
+7871;ế;E;False;Ế;True;ế;True;e;Circumflex Acute;False;;Latin Small Letter E With Circumflex And Acute;Latin Extended Additional;Letter;Lowercase
+7872;Ề;E;True;Ề;False;ề;True;E;Circumflex Grave;False;;Latin Capital Letter E With Circumflex And Grave;Latin Extended Additional;Letter;Uppercase
+7873;ề;E;False;Ề;True;ề;True;e;Circumflex Grave;False;;Latin Small Letter E With Circumflex And Grave;Latin Extended Additional;Letter;Lowercase
+7874;Ể;E;True;Ể;False;ể;True;E;Circumflex Hook Above;False;;Latin Capital Letter E With Circumflex And Hook Above;Latin Extended Additional;Letter;Uppercase
+7875;ể;E;False;Ể;True;ể;True;e;Circumflex Hook Above;False;;Latin Small Letter E With Circumflex And Hook Above;Latin Extended Additional;Letter;Lowercase
+7876;Ễ;E;True;Ễ;False;ễ;True;E;Circumflex Tilde;False;;Latin Capital Letter E With Circumflex And Tilde;Latin Extended Additional;Letter;Uppercase
+7877;ễ;E;False;Ễ;True;ễ;True;e;Circumflex Tilde;False;;Latin Small Letter E With Circumflex And Tilde;Latin Extended Additional;Letter;Lowercase
+7878;Ệ;E;True;Ệ;False;ệ;True;E;Circumflex Dot Below;False;;Latin Capital Letter E With Circumflex And Dot Below;Latin Extended Additional;Letter;Uppercase
+7879;ệ;E;False;Ệ;True;ệ;True;e;Circumflex Dot Below;False;;Latin Small Letter E With Circumflex And Dot Below;Latin Extended Additional;Letter;Lowercase
+7880;Ỉ;I;True;Ỉ;False;ỉ;True;I;Hook Above;False;;Latin Capital Letter I With Hook Above;Latin Extended Additional;Letter;Uppercase
+7881;ỉ;I;False;Ỉ;True;ỉ;True;i;Hook Above;False;;Latin Small Letter I With Hook Above;Latin Extended Additional;Letter;Lowercase
+7882;Ị;I;True;Ị;False;ị;True;I;Dot Below;False;;Latin Capital Letter I With Dot Below;Latin Extended Additional;Letter;Uppercase
+7883;ị;I;False;Ị;True;ị;True;i;Dot Below;False;;Latin Small Letter I With Dot Below;Latin Extended Additional;Letter;Lowercase
+7884;Ọ;O;True;Ọ;False;ọ;True;O;Dot Below;False;;Latin Capital Letter O With Dot Below;Latin Extended Additional;Letter;Uppercase
+7885;ọ;O;False;Ọ;True;ọ;True;o;Dot Below;False;;Latin Small Letter O With Dot Below;Latin Extended Additional;Letter;Lowercase
+7886;Ỏ;O;True;Ỏ;False;ỏ;True;O;Hook Above;False;;Latin Capital Letter O With Hook Above;Latin Extended Additional;Letter;Uppercase
+7887;ỏ;O;False;Ỏ;True;ỏ;True;o;Hook Above;False;;Latin Small Letter O With Hook Above;Latin Extended Additional;Letter;Lowercase
+7888;Ố;O;True;Ố;False;ố;True;O;Circumflex Acute;False;;Latin Capital Letter O With Circumflex And Acute;Latin Extended Additional;Letter;Uppercase
+7889;ố;O;False;Ố;True;ố;True;o;Circumflex Acute;False;;Latin Small Letter O With Circumflex And Acute;Latin Extended Additional;Letter;Lowercase
+7890;Ồ;O;True;Ồ;False;ồ;True;O;Circumflex Grave;False;;Latin Capital Letter O With Circumflex And Grave;Latin Extended Additional;Letter;Uppercase
+7891;ồ;O;False;Ồ;True;ồ;True;o;Circumflex Grave;False;;Latin Small Letter O With Circumflex And Grave;Latin Extended Additional;Letter;Lowercase
+7892;Ổ;O;True;Ổ;False;ổ;True;O;Circumflex Hook Above;False;;Latin Capital Letter O With Circumflex And Hook Above;Latin Extended Additional;Letter;Uppercase
+7893;ổ;O;False;Ổ;True;ổ;True;o;Circumflex Hook Above;False;;Latin Small Letter O With Circumflex And Hook Above;Latin Extended Additional;Letter;Lowercase
+7894;Ỗ;O;True;Ỗ;False;ỗ;True;O;Circumflex Tilde;False;;Latin Capital Letter O With Circumflex And Tilde;Latin Extended Additional;Letter;Uppercase
+7895;ỗ;O;False;Ỗ;True;ỗ;True;o;Circumflex Tilde;False;;Latin Small Letter O With Circumflex And Tilde;Latin Extended Additional;Letter;Lowercase
+7896;Ộ;O;True;Ộ;False;ộ;True;O;Circumflex Dot Below;False;;Latin Capital Letter O With Circumflex And Dot Below;Latin Extended Additional;Letter;Uppercase
+7897;ộ;O;False;Ộ;True;ộ;True;o;Circumflex Dot Below;False;;Latin Small Letter O With Circumflex And Dot Below;Latin Extended Additional;Letter;Lowercase
+7898;Ớ;O;True;Ớ;False;ớ;True;O;Horn Acute;False;;Latin Capital Letter O With Horn And Acute;Latin Extended Additional;Letter;Uppercase
+7899;ớ;O;False;Ớ;True;ớ;True;o;Horn Acute;False;;Latin Small Letter O With Horn And Acute;Latin Extended Additional;Letter;Lowercase
+7900;Ờ;O;True;Ờ;False;ờ;True;O;Horn Grave;False;;Latin Capital Letter O With Horn And Grave;Latin Extended Additional;Letter;Uppercase
+7901;ờ;O;False;Ờ;True;ờ;True;o;Horn Grave;False;;Latin Small Letter O With Horn And Grave;Latin Extended Additional;Letter;Lowercase
+7902;Ở;O;True;Ở;False;ở;True;O;Horn Hook Above;False;;Latin Capital Letter O With Horn And Hook Above;Latin Extended Additional;Letter;Uppercase
+7903;ở;O;False;Ở;True;ở;True;o;Horn Hook Above;False;;Latin Small Letter O With Horn And Hook Above;Latin Extended Additional;Letter;Lowercase
+7904;Ỡ;O;True;Ỡ;False;ỡ;True;O;Horn Tilde;False;;Latin Capital Letter O With Horn And Tilde;Latin Extended Additional;Letter;Uppercase
+7905;ỡ;O;False;Ỡ;True;ỡ;True;o;Horn Tilde;False;;Latin Small Letter O With Horn And Tilde;Latin Extended Additional;Letter;Lowercase
+7906;Ợ;O;True;Ợ;False;ợ;True;O;Horn Dot Below;False;;Latin Capital Letter O With Horn And Dot Below;Latin Extended Additional;Letter;Uppercase
+7907;ợ;O;False;Ợ;True;ợ;True;o;Horn Dot Below;False;;Latin Small Letter O With Horn And Dot Below;Latin Extended Additional;Letter;Lowercase
+7908;Ụ;U;True;Ụ;False;ụ;True;U;Dot Below;False;;Latin Capital Letter U With Dot Below;Latin Extended Additional;Letter;Uppercase
+7909;ụ;U;False;Ụ;True;ụ;True;u;Dot Below;False;;Latin Small Letter U With Dot Below;Latin Extended Additional;Letter;Lowercase
+7910;Ủ;U;True;Ủ;False;ủ;True;U;Hook Above;False;;Latin Capital Letter U With Hook Above;Latin Extended Additional;Letter;Uppercase
+7911;ủ;U;False;Ủ;True;ủ;True;u;Hook Above;False;;Latin Small Letter U With Hook Above;Latin Extended Additional;Letter;Lowercase
+7912;Ứ;U;True;Ứ;False;ứ;True;U;Horn Acute;False;;Latin Capital Letter U With Horn And Acute;Latin Extended Additional;Letter;Uppercase
+7913;ứ;U;False;Ứ;True;ứ;True;u;Horn Acute;False;;Latin Small Letter U With Horn And Acute;Latin Extended Additional;Letter;Lowercase
+7914;Ừ;U;True;Ừ;False;ừ;True;U;Horn Grave;False;;Latin Capital Letter U With Horn And Grave;Latin Extended Additional;Letter;Uppercase
+7915;ừ;U;False;Ừ;True;ừ;True;u;Horn Grave;False;;Latin Small Letter U With Horn And Grave;Latin Extended Additional;Letter;Lowercase
+7916;Ử;U;True;Ử;False;ử;True;U;Horn Hook Above;False;;Latin Capital Letter U With Horn And Hook Above;Latin Extended Additional;Letter;Uppercase
+7917;ử;U;False;Ử;True;ử;True;u;Horn Hook Above;False;;Latin Small Letter U With Horn And Hook Above;Latin Extended Additional;Letter;Lowercase
+7918;Ữ;U;True;Ữ;False;ữ;True;U;Horn Tilde;False;;Latin Capital Letter U With Horn And Tilde;Latin Extended Additional;Letter;Uppercase
+7919;ữ;U;False;Ữ;True;ữ;True;u;Horn Tilde;False;;Latin Small Letter U With Horn And Tilde;Latin Extended Additional;Letter;Lowercase
+7920;Ự;U;True;Ự;False;ự;True;U;Horn Dot Below;False;;Latin Capital Letter U With Horn And Dot Below;Latin Extended Additional;Letter;Uppercase
+7921;ự;U;False;Ự;True;ự;True;u;Horn Dot Below;False;;Latin Small Letter U With Horn And Dot Below;Latin Extended Additional;Letter;Lowercase
+7922;Ỳ;Y;True;Ỳ;False;ỳ;True;Y;Grave;False;;Latin Capital Letter Y With Grave;Latin Extended Additional;Letter;Uppercase
+7923;ỳ;Y;False;Ỳ;True;ỳ;True;y;Grave;False;;Latin Small Letter Y With Grave;Latin Extended Additional;Letter;Lowercase
+7924;Ỵ;Y;True;Ỵ;False;ỵ;True;Y;Dot Below;False;;Latin Capital Letter Y With Dot Below;Latin Extended Additional;Letter;Uppercase
+7925;ỵ;Y;False;Ỵ;True;ỵ;True;y;Dot Below;False;;Latin Small Letter Y With Dot Below;Latin Extended Additional;Letter;Lowercase
+7926;Ỷ;Y;True;Ỷ;False;ỷ;True;Y;Hook Above;False;;Latin Capital Letter Y With Hook Above;Latin Extended Additional;Letter;Uppercase
+7927;ỷ;Y;False;Ỷ;True;ỷ;True;y;Hook Above;False;;Latin Small Letter Y With Hook Above;Latin Extended Additional;Letter;Lowercase
+7928;Ỹ;Y;True;Ỹ;False;ỹ;True;Y;Tilde;False;;Latin Capital Letter Y With Tilde;Latin Extended Additional;Letter;Uppercase
+7929;ỹ;Y;False;Ỹ;True;ỹ;True;y;Tilde;False;;Latin Small Letter Y With Tilde;Latin Extended Additional;Letter;Lowercase
+7930;Ỻ;Middle-Welsh Ll;True;Ỻ;False;ỻ;False;;;True;Ll;Latin Capital Letter Middle-Welsh Ll;Latin Extended Additional;Letter;Uppercase
+7931;ỻ;Middle-Welsh Ll;False;Ỻ;True;ỻ;False;;;True;ll;Latin Small Letter Middle-Welsh Ll;Latin Extended Additional;Letter;Lowercase
+7932;Ỽ;V;True;Ỽ;False;ỽ;True;V;Middle-Welsh;False;;Latin Capital Letter Middle-Welsh V;Latin Extended Additional;Letter;Uppercase
+7933;ỽ;V;False;Ỽ;True;ỽ;True;v;Middle-Welsh;False;;Latin Small Letter Middle-Welsh V;Latin Extended Additional;Letter;Lowercase
+7934;Ỿ;Y;True;Ỿ;False;ỿ;True;Y;Loop;False;;Latin Capital Letter Y With Loop;Latin Extended Additional;Letter;Uppercase
+7935;ỿ;Y;False;Ỿ;True;ỿ;True;y;Loop;False;;Latin Small Letter Y With Loop;Latin Extended Additional;Letter;Lowercase
+8305;ⁱ;I;False;ⁱ;False;ⁱ;True;i;Superscript;False;;Superscript Latin Small Letter I;Superscripts and Subscripts;Letter;Modifier
+8319;ⁿ;N;False;ⁿ;False;ⁿ;True;n;Superscript;False;;Superscript Latin Small Letter N;Superscripts and Subscripts;Letter;Modifier
+8336;ₐ;A;False;ₐ;False;ₐ;True;a;Subscript;False;;Latin Subscript Small Letter A;Superscripts and Subscripts;Letter;Modifier
+8337;ₑ;E;False;ₑ;False;ₑ;True;e;Subscript;False;;Latin Subscript Small Letter E;Superscripts and Subscripts;Letter;Modifier
+8338;ₒ;O;False;ₒ;False;ₒ;True;o;Subscript;False;;Latin Subscript Small Letter O;Superscripts and Subscripts;Letter;Modifier
+8339;ₓ;X;False;ₓ;False;ₓ;True;x;Subscript;False;;Latin Subscript Small Letter X;Superscripts and Subscripts;Letter;Modifier
+8340;ₔ;Schwa;False;ₔ;False;ₔ;True;ə;Subscript;False;;Latin Subscript Small Letter Schwa;Superscripts and Subscripts;Letter;Modifier
+8341;ₕ;H;False;ₕ;False;ₕ;True;h;Subscript;False;;Latin Subscript Small Letter H;Superscripts and Subscripts;Letter;Modifier
+8342;ₖ;K;False;ₖ;False;ₖ;True;k;Subscript;False;;Latin Subscript Small Letter K;Superscripts and Subscripts;Letter;Modifier
+8343;ₗ;L;False;ₗ;False;ₗ;True;l;Subscript;False;;Latin Subscript Small Letter L;Superscripts and Subscripts;Letter;Modifier
+8344;ₘ;M;False;ₘ;False;ₘ;True;m;Subscript;False;;Latin Subscript Small Letter M;Superscripts and Subscripts;Letter;Modifier
+8345;ₙ;N;False;ₙ;False;ₙ;True;n;Subscript;False;;Latin Subscript Small Letter N;Superscripts and Subscripts;Letter;Modifier
+8346;ₚ;P;False;ₚ;False;ₚ;True;p;Subscript;False;;Latin Subscript Small Letter P;Superscripts and Subscripts;Letter;Modifier
+8347;ₛ;S;False;ₛ;False;ₛ;True;s;Subscript;False;;Latin Subscript Small Letter S;Superscripts and Subscripts;Letter;Modifier
+8348;ₜ;T;False;ₜ;False;ₜ;True;t;Subscript;False;;Latin Subscript Small Letter T;Superscripts and Subscripts;Letter;Modifier
+8580;ↄ;C;False;Ↄ;True;ↄ;True;c;Reversed;False;;Latin Small Letter Reversed C;Number Forms;Letter;Lowercase
+11360;Ⱡ;L;True;Ⱡ;False;ⱡ;True;L;Double Bar;False;;Latin Capital Letter L With Double Bar;Latin Extended-C;Letter;Uppercase
+11361;ⱡ;L;False;Ⱡ;True;ⱡ;True;l;Double Bar;False;;Latin Small Letter L With Double Bar;Latin Extended-C;Letter;Lowercase
+11362;Ɫ;L;True;Ɫ;False;ɫ;True;L;Middle Tilde;False;;Latin Capital Letter L With Middle Tilde;Latin Extended-C;Letter;Uppercase
+11363;Ᵽ;P;True;Ᵽ;False;ᵽ;True;P;Stroke;False;;Latin Capital Letter P With Stroke;Latin Extended-C;Letter;Uppercase
+11364;Ɽ;R;True;Ɽ;False;ɽ;True;R;Tail;False;;Latin Capital Letter R With Tail;Latin Extended-C;Letter;Uppercase
+11365;ⱥ;A;False;Ⱥ;True;ⱥ;True;a;Stroke;False;;Latin Small Letter A With Stroke;Latin Extended-C;Letter;Lowercase
+11366;ⱦ;T;False;Ⱦ;True;ⱦ;True;t;Diagonal Stroke;False;;Latin Small Letter T With Diagonal Stroke;Latin Extended-C;Letter;Lowercase
+11367;Ⱨ;H;True;Ⱨ;False;ⱨ;True;H;Descender;False;;Latin Capital Letter H With Descender;Latin Extended-C;Letter;Uppercase
+11368;ⱨ;H;False;Ⱨ;True;ⱨ;True;h;Descender;False;;Latin Small Letter H With Descender;Latin Extended-C;Letter;Lowercase
+11369;Ⱪ;K;True;Ⱪ;False;ⱪ;True;K;Descender;False;;Latin Capital Letter K With Descender;Latin Extended-C;Letter;Uppercase
+11370;ⱪ;K;False;Ⱪ;True;ⱪ;True;k;Descender;False;;Latin Small Letter K With Descender;Latin Extended-C;Letter;Lowercase
+11371;Ⱬ;Z;True;Ⱬ;False;ⱬ;True;Z;Descender;False;;Latin Capital Letter Z With Descender;Latin Extended-C;Letter;Uppercase
+11372;ⱬ;Z;False;Ⱬ;True;ⱬ;True;z;Descender;False;;Latin Small Letter Z With Descender;Latin Extended-C;Letter;Lowercase
+11373;Ɑ;Alpha;True;Ɑ;False;ɑ;False;;;False;;Latin Capital Letter Alpha;Latin Extended-C;Letter;Uppercase
+11374;Ɱ;M;True;Ɱ;False;ɱ;True;M;Hook;False;;Latin Capital Letter M With Hook;Latin Extended-C;Letter;Uppercase
+11375;Ɐ;A;True;Ɐ;False;ɐ;True;A;Turned;False;;Latin Capital Letter Turned A;Latin Extended-C;Letter;Uppercase
+11376;Ɒ;Alpha;True;Ɒ;False;ɒ;True;Ɑ;Turned ;False;;Latin Capital Letter Turned Alpha;Latin Extended-C;Letter;Uppercase
+11377;ⱱ;V;False;ⱱ;True;ⱱ;True;v;Right Hook;False;;Latin Small Letter V With Right Hook;Latin Extended-C;Letter;Lowercase
+11378;Ⱳ;W;True;Ⱳ;False;ⱳ;True;W;Hook;False;;Latin Capital Letter W With Hook;Latin Extended-C;Letter;Uppercase
+11379;ⱳ;W;False;Ⱳ;True;ⱳ;True;w;Hook;False;;Latin Small Letter W With Hook;Latin Extended-C;Letter;Lowercase
+11380;ⱴ;V;False;ⱴ;True;ⱴ;True;v;Curl;False;;Latin Small Letter V With Curl;Latin Extended-C;Letter;Lowercase
+11381;Ⱶ;H;True;Ⱶ;False;ⱶ;True;H;Half;False;;Latin Capital Letter Half H;Latin Extended-C;Letter;Uppercase
+11382;ⱶ;H;False;Ⱶ;True;ⱶ;True;h;Half;False;;Latin Small Letter Half H;Latin Extended-C;Letter;Lowercase
+11383;ⱷ;Phi;False;ⱷ;True;ⱷ;True;ɸ;Tailless ;False;;Latin Small Letter Tailless Phi;Latin Extended-C;Letter;Lowercase
+11384;ⱸ;E;False;ⱸ;True;ⱸ;True;e;Notch;False;;Latin Small Letter E With Notch;Latin Extended-C;Letter;Lowercase
+11385;ⱹ;R;False;ⱹ;True;ⱹ;True;r;Turned Tail;False;;Latin Small Letter Turned R With Tail;Latin Extended-C;Letter;Lowercase
+11386;ⱺ;O;False;ⱺ;True;ⱺ;True;o;Low Ring Inside;False;;Latin Small Letter O With Low Ring Inside;Latin Extended-C;Letter;Lowercase
+11387;ⱻ;E;False;ⱻ;True;ⱻ;True;E;Small Capital Turned;False;;Latin Letter Small Capital Turned E;Latin Extended-C;Letter;Lowercase
+11388;ⱼ;J;False;ⱼ;False;ⱼ;True;j;Subscript;False;;Latin Subscript Small Letter J;Latin Extended-C;Letter;Modifier
+11390;Ȿ;S;True;Ȿ;False;ȿ;True;S;Swash Tail;False;;Latin Capital Letter S With Swash Tail;Latin Extended-C;Letter;Uppercase
+11391;Ɀ;Z;True;Ɀ;False;ɀ;True;Z;Swash Tail;False;;Latin Capital Letter Z With Swash Tail;Latin Extended-C;Letter;Uppercase
+42786;Ꜣ;Egyptological Alef;True;Ꜣ;False;ꜣ;False;;;False;;Latin Capital Letter Egyptological Alef;Latin Extended-D;Letter;Uppercase
+42787;ꜣ;Egyptological Alef;False;Ꜣ;True;ꜣ;False;;;False;;Latin Small Letter Egyptological Alef;Latin Extended-D;Letter;Lowercase
+42788;Ꜥ;Egyptological Ain;True;Ꜥ;False;ꜥ;False;;;False;;Latin Capital Letter Egyptological Ain;Latin Extended-D;Letter;Uppercase
+42789;ꜥ;Egyptological Ain;False;Ꜥ;True;ꜥ;False;;;False;;Latin Small Letter Egyptological Ain;Latin Extended-D;Letter;Lowercase
+42790;Ꜧ;Heng;True;Ꜧ;False;ꜧ;False;;;False;;Latin Capital Letter Heng;Latin Extended-D;Letter;Uppercase
+42791;ꜧ;Heng;False;Ꜧ;True;ꜧ;False;;;False;;Latin Small Letter Heng;Latin Extended-D;Letter;Lowercase
+42792;Ꜩ;Tz;True;Ꜩ;False;ꜩ;False;;;True;TZ;Latin Capital Letter Tz;Latin Extended-D;Letter;Uppercase
+42793;ꜩ;Tz;False;Ꜩ;True;ꜩ;False;;;True;tz;Latin Small Letter Tz;Latin Extended-D;Letter;Lowercase
+42794;Ꜫ;Tresillo;True;Ꜫ;False;ꜫ;False;;;False;;Latin Capital Letter Tresillo;Latin Extended-D;Letter;Uppercase
+42795;ꜫ;Tresillo;False;Ꜫ;True;ꜫ;False;;;False;;Latin Small Letter Tresillo;Latin Extended-D;Letter;Lowercase
+42796;Ꜭ;Cuatrillo;True;Ꜭ;False;ꜭ;False;;;False;;Latin Capital Letter Cuatrillo;Latin Extended-D;Letter;Uppercase
+42797;ꜭ;Cuatrillo;False;Ꜭ;True;ꜭ;False;;;False;;Latin Small Letter Cuatrillo;Latin Extended-D;Letter;Lowercase
+42798;Ꜯ;Cuatrillo;True;Ꜯ;False;ꜯ;True;Ꜭ;Comma;False;;Latin Capital Letter Cuatrillo With Comma;Latin Extended-D;Letter;Uppercase
+42799;ꜯ;Cuatrillo;False;Ꜯ;True;ꜯ;True;ꜭ;Comma;False;;Latin Small Letter Cuatrillo With Comma;Latin Extended-D;Letter;Lowercase
+42800;ꜰ;F;False;ꜰ;True;ꜰ;True;F;Small Capital;False;;Latin Letter Small Capital F;Latin Extended-D;Letter;Lowercase
+42801;ꜱ;S;False;ꜱ;True;ꜱ;True;S;Small Capital;False;;Latin Letter Small Capital S;Latin Extended-D;Letter;Lowercase
+42802;Ꜳ;Aa;True;Ꜳ;False;ꜳ;False;;;True;AA;Latin Capital Letter Aa;Latin Extended-D;Letter;Uppercase
+42803;ꜳ;Aa;False;Ꜳ;True;ꜳ;False;;;True;aa;Latin Small Letter Aa;Latin Extended-D;Letter;Lowercase
+42804;Ꜵ;Ao;True;Ꜵ;False;ꜵ;False;;;True;AO;Latin Capital Letter Ao;Latin Extended-D;Letter;Uppercase
+42805;ꜵ;Ao;False;Ꜵ;True;ꜵ;False;;;True;ao;Latin Small Letter Ao;Latin Extended-D;Letter;Lowercase
+42806;Ꜷ;Au;True;Ꜷ;False;ꜷ;False;;;True;AU;Latin Capital Letter Au;Latin Extended-D;Letter;Uppercase
+42807;ꜷ;Au;False;Ꜷ;True;ꜷ;False;;;True;au;Latin Small Letter Au;Latin Extended-D;Letter;Lowercase
+42808;Ꜹ;Av;True;Ꜹ;False;ꜹ;False;;;True;AV;Latin Capital Letter Av;Latin Extended-D;Letter;Uppercase
+42809;ꜹ;Av;False;Ꜹ;True;ꜹ;False;;;True;av;Latin Small Letter Av;Latin Extended-D;Letter;Lowercase
+42810;Ꜻ;Av;True;Ꜻ;False;ꜻ;True;Ꜹ;Horizontal Bar;True;AV;Latin Capital Letter Av With Horizontal Bar;Latin Extended-D;Letter;Uppercase
+42811;ꜻ;Av;False;Ꜻ;True;ꜻ;True;ꜹ;Horizontal Bar;True;av;Latin Small Letter Av With Horizontal Bar;Latin Extended-D;Letter;Lowercase
+42812;Ꜽ;Ay;True;Ꜽ;False;ꜽ;False;;;True;AY;Latin Capital Letter Ay;Latin Extended-D;Letter;Uppercase
+42813;ꜽ;Ay;False;Ꜽ;True;ꜽ;False;;;True;ay;Latin Small Letter Ay;Latin Extended-D;Letter;Lowercase
+42814;Ꜿ;C;True;Ꜿ;False;ꜿ;True;C;Reversed Dot;False;;Latin Capital Letter Reversed C With Dot;Latin Extended-D;Letter;Uppercase
+42815;ꜿ;C;False;Ꜿ;True;ꜿ;True;c;Reversed Dot;False;;Latin Small Letter Reversed C With Dot;Latin Extended-D;Letter;Lowercase
+42816;Ꝁ;K;True;Ꝁ;False;ꝁ;True;K;Stroke;False;;Latin Capital Letter K With Stroke;Latin Extended-D;Letter;Uppercase
+42817;ꝁ;K;False;Ꝁ;True;ꝁ;True;k;Stroke;False;;Latin Small Letter K With Stroke;Latin Extended-D;Letter;Lowercase
+42818;Ꝃ;K;True;Ꝃ;False;ꝃ;True;K;Diagonal Stroke;False;;Latin Capital Letter K With Diagonal Stroke;Latin Extended-D;Letter;Uppercase
+42819;ꝃ;K;False;Ꝃ;True;ꝃ;True;k;Diagonal Stroke;False;;Latin Small Letter K With Diagonal Stroke;Latin Extended-D;Letter;Lowercase
+42820;Ꝅ;K;True;Ꝅ;False;ꝅ;True;K;Stroke Diagonal Stroke;False;;Latin Capital Letter K With Stroke And Diagonal Stroke;Latin Extended-D;Letter;Uppercase
+42821;ꝅ;K;False;Ꝅ;True;ꝅ;True;k;Stroke Diagonal Stroke;False;;Latin Small Letter K With Stroke And Diagonal Stroke;Latin Extended-D;Letter;Lowercase
+42822;Ꝇ;L;True;Ꝇ;False;ꝇ;True;L;Broken;False;;Latin Capital Letter Broken L;Latin Extended-D;Letter;Uppercase
+42823;ꝇ;L;False;Ꝇ;True;ꝇ;True;l;Broken;False;;Latin Small Letter Broken L;Latin Extended-D;Letter;Lowercase
+42824;Ꝉ;L;True;Ꝉ;False;ꝉ;True;L;High Stroke;False;;Latin Capital Letter L With High Stroke;Latin Extended-D;Letter;Uppercase
+42825;ꝉ;L;False;Ꝉ;True;ꝉ;True;l;High Stroke;False;;Latin Small Letter L With High Stroke;Latin Extended-D;Letter;Lowercase
+42826;Ꝋ;O;True;Ꝋ;False;ꝋ;True;O;Long Stroke Overlay;False;;Latin Capital Letter O With Long Stroke Overlay;Latin Extended-D;Letter;Uppercase
+42827;ꝋ;O;False;Ꝋ;True;ꝋ;True;o;Long Stroke Overlay;False;;Latin Small Letter O With Long Stroke Overlay;Latin Extended-D;Letter;Lowercase
+42828;Ꝍ;O;True;Ꝍ;False;ꝍ;True;O;Loop;False;;Latin Capital Letter O With Loop;Latin Extended-D;Letter;Uppercase
+42829;ꝍ;O;False;Ꝍ;True;ꝍ;True;o;Loop;False;;Latin Small Letter O With Loop;Latin Extended-D;Letter;Lowercase
+42830;Ꝏ;Oo;True;Ꝏ;False;ꝏ;False;;;True;OO;Latin Capital Letter Oo;Latin Extended-D;Letter;Uppercase
+42831;ꝏ;Oo;False;Ꝏ;True;ꝏ;False;;;True;oo;Latin Small Letter Oo;Latin Extended-D;Letter;Lowercase
+42832;Ꝑ;P;True;Ꝑ;False;ꝑ;True;P;Stroke Through Descender;False;;Latin Capital Letter P With Stroke Through Descender;Latin Extended-D;Letter;Uppercase
+42833;ꝑ;P;False;Ꝑ;True;ꝑ;True;p;Stroke Through Descender;False;;Latin Small Letter P With Stroke Through Descender;Latin Extended-D;Letter;Lowercase
+42834;Ꝓ;P;True;Ꝓ;False;ꝓ;True;P;Flourish;False;;Latin Capital Letter P With Flourish;Latin Extended-D;Letter;Uppercase
+42835;ꝓ;P;False;Ꝓ;True;ꝓ;True;p;Flourish;False;;Latin Small Letter P With Flourish;Latin Extended-D;Letter;Lowercase
+42836;Ꝕ;P;True;Ꝕ;False;ꝕ;True;P;Squirrel Tail;False;;Latin Capital Letter P With Squirrel Tail;Latin Extended-D;Letter;Uppercase
+42837;ꝕ;P;False;Ꝕ;True;ꝕ;True;p;Squirrel Tail;False;;Latin Small Letter P With Squirrel Tail;Latin Extended-D;Letter;Lowercase
+42838;Ꝗ;Q;True;Ꝗ;False;ꝗ;True;Q;Stroke Through Descender;False;;Latin Capital Letter Q With Stroke Through Descender;Latin Extended-D;Letter;Uppercase
+42839;ꝗ;Q;False;Ꝗ;True;ꝗ;True;q;Stroke Through Descender;False;;Latin Small Letter Q With Stroke Through Descender;Latin Extended-D;Letter;Lowercase
+42840;Ꝙ;Q;True;Ꝙ;False;ꝙ;True;Q;Diagonal Stroke;False;;Latin Capital Letter Q With Diagonal Stroke;Latin Extended-D;Letter;Uppercase
+42841;ꝙ;Q;False;Ꝙ;True;ꝙ;True;q;Diagonal Stroke;False;;Latin Small Letter Q With Diagonal Stroke;Latin Extended-D;Letter;Lowercase
+42842;Ꝛ;R;True;Ꝛ;False;ꝛ;True;R;Rotunda;False;;Latin Capital Letter R Rotunda;Latin Extended-D;Letter;Uppercase
+42843;ꝛ;R;False;Ꝛ;True;ꝛ;True;r;Rotunda;False;;Latin Small Letter R Rotunda;Latin Extended-D;Letter;Lowercase
+42844;Ꝝ;Rum;True;Ꝝ;False;ꝝ;True;ꝵ;Rotunda;False;;Latin Capital Letter Rum Rotunda;Latin Extended-D;Letter;Uppercase
+42845;ꝝ;Rum;False;Ꝝ;True;ꝝ;True;ꝵ;Rotunda;False;;Latin Small Letter Rum Rotunda;Latin Extended-D;Letter;Lowercase
+42846;Ꝟ;V;True;Ꝟ;False;ꝟ;True;V;Diagonal Stroke;False;;Latin Capital Letter V With Diagonal Stroke;Latin Extended-D;Letter;Uppercase
+42847;ꝟ;V;False;Ꝟ;True;ꝟ;True;v;Diagonal Stroke;False;;Latin Small Letter V With Diagonal Stroke;Latin Extended-D;Letter;Lowercase
+42848;Ꝡ;Vy;True;Ꝡ;False;ꝡ;False;;;True;VY;Latin Capital Letter Vy;Latin Extended-D;Letter;Uppercase
+42849;ꝡ;Vy;False;Ꝡ;True;ꝡ;False;;;True;vy;Latin Small Letter Vy;Latin Extended-D;Letter;Lowercase
+42850;Ꝣ;Z;True;Ꝣ;False;ꝣ;True;Z;Visigothic;False;;Latin Capital Letter Visigothic Z;Latin Extended-D;Letter;Uppercase
+42851;ꝣ;Z;False;Ꝣ;True;ꝣ;True;z;Visigothic;False;;Latin Small Letter Visigothic Z;Latin Extended-D;Letter;Lowercase
+42852;Ꝥ;Thorn;True;Ꝥ;False;ꝥ;True;Þ;Stroke;False;;Latin Capital Letter Thorn With Stroke;Latin Extended-D;Letter;Uppercase
+42853;ꝥ;Thorn;False;Ꝥ;True;ꝥ;True;þ;Stroke;False;;Latin Small Letter Thorn With Stroke;Latin Extended-D;Letter;Lowercase
+42854;Ꝧ;Thorn;True;Ꝧ;False;ꝧ;True;Þ;Stroke Through Descender;False;;Latin Capital Letter Thorn With Stroke Through Descender;Latin Extended-D;Letter;Uppercase
+42855;ꝧ;Thorn;False;Ꝧ;True;ꝧ;True;þ;Stroke Through Descender;False;;Latin Small Letter Thorn With Stroke Through Descender;Latin Extended-D;Letter;Lowercase
+42856;Ꝩ;Vend;True;Ꝩ;False;ꝩ;False;;;False;;Latin Capital Letter Vend;Latin Extended-D;Letter;Uppercase
+42857;ꝩ;Vend;False;Ꝩ;True;ꝩ;False;;;False;;Latin Small Letter Vend;Latin Extended-D;Letter;Lowercase
+42858;Ꝫ;Et;True;Ꝫ;False;ꝫ;False;;;True;ET;Latin Capital Letter Et;Latin Extended-D;Letter;Uppercase
+42859;ꝫ;Et;False;Ꝫ;True;ꝫ;False;;;True;et;Latin Small Letter Et;Latin Extended-D;Letter;Lowercase
+42860;Ꝭ;Is;True;Ꝭ;False;ꝭ;False;;;True;IS;Latin Capital Letter Is;Latin Extended-D;Letter;Uppercase
+42861;ꝭ;Is;False;Ꝭ;True;ꝭ;False;;;True;is;Latin Small Letter Is;Latin Extended-D;Letter;Lowercase
+42862;Ꝯ;Con;True;Ꝯ;False;ꝯ;False;;;False;;Latin Capital Letter Con;Latin Extended-D;Letter;Uppercase
+42863;ꝯ;Con;False;Ꝯ;True;ꝯ;False;;;False;;Latin Small Letter Con;Latin Extended-D;Letter;Lowercase
+42865;ꝱ;Dum;False;ꝱ;True;ꝱ;False;;;False;;Latin Small Letter Dum;Latin Extended-D;Letter;Lowercase
+42866;ꝲ;Lum;False;ꝲ;True;ꝲ;False;;;False;;Latin Small Letter Lum;Latin Extended-D;Letter;Lowercase
+42867;ꝳ;Mum;False;ꝳ;True;ꝳ;False;;;False;;Latin Small Letter Mum;Latin Extended-D;Letter;Lowercase
+42868;ꝴ;Num;False;ꝴ;True;ꝴ;False;;;False;;Latin Small Letter Num;Latin Extended-D;Letter;Lowercase
+42869;ꝵ;Rum;False;ꝵ;True;ꝵ;False;;;False;;Latin Small Letter Rum;Latin Extended-D;Letter;Lowercase
+42870;ꝶ;Rum;False;ꝶ;True;ꝶ;True;ꝵ;Small Capital;False;;Latin Letter Small Capital Rum;Latin Extended-D;Letter;Lowercase
+42871;ꝷ;Tum;False;ꝷ;True;ꝷ;False;;;False;;Latin Small Letter Tum;Latin Extended-D;Letter;Lowercase
+42872;ꝸ;Um;False;ꝸ;True;ꝸ;False;;;False;;Latin Small Letter Um;Latin Extended-D;Letter;Lowercase
+42873;Ꝺ;D;True;Ꝺ;False;ꝺ;True;D;Insular;False;;Latin Capital Letter Insular D;Latin Extended-D;Letter;Uppercase
+42874;ꝺ;D;False;Ꝺ;True;ꝺ;True;d;Insular;False;;Latin Small Letter Insular D;Latin Extended-D;Letter;Lowercase
+42875;Ꝼ;F;True;Ꝼ;False;ꝼ;True;F;Insular;False;;Latin Capital Letter Insular F;Latin Extended-D;Letter;Uppercase
+42876;ꝼ;F;False;Ꝼ;True;ꝼ;True;f;Insular;False;;Latin Small Letter Insular F;Latin Extended-D;Letter;Lowercase
+42877;Ᵹ;G;True;Ᵹ;False;ᵹ;True;G;Insular;False;;Latin Capital Letter Insular G;Latin Extended-D;Letter;Uppercase
+42878;Ꝿ;G;True;Ꝿ;False;ꝿ;True;G;Turned Insular;False;;Latin Capital Letter Turned Insular G;Latin Extended-D;Letter;Uppercase
+42879;ꝿ;G;False;Ꝿ;True;ꝿ;True;g;Turned Insular;False;;Latin Small Letter Turned Insular G;Latin Extended-D;Letter;Lowercase
+42880;Ꞁ;L;True;Ꞁ;False;ꞁ;True;L;Turned;False;;Latin Capital Letter Turned L;Latin Extended-D;Letter;Uppercase
+42881;ꞁ;L;False;Ꞁ;True;ꞁ;True;l;Turned;False;;Latin Small Letter Turned L;Latin Extended-D;Letter;Lowercase
+42882;Ꞃ;R;True;Ꞃ;False;ꞃ;True;R;Insular;False;;Latin Capital Letter Insular R;Latin Extended-D;Letter;Uppercase
+42883;ꞃ;R;False;Ꞃ;True;ꞃ;True;r;Insular;False;;Latin Small Letter Insular R;Latin Extended-D;Letter;Lowercase
+42884;Ꞅ;S;True;Ꞅ;False;ꞅ;True;S;Insular;False;;Latin Capital Letter Insular S;Latin Extended-D;Letter;Uppercase
+42885;ꞅ;S;False;Ꞅ;True;ꞅ;True;s;Insular;False;;Latin Small Letter Insular S;Latin Extended-D;Letter;Lowercase
+42886;Ꞇ;T;True;Ꞇ;False;ꞇ;True;T;Insular;False;;Latin Capital Letter Insular T;Latin Extended-D;Letter;Uppercase
+42887;ꞇ;T;False;Ꞇ;True;ꞇ;True;t;Insular;False;;Latin Small Letter Insular T;Latin Extended-D;Letter;Lowercase
+42891;Ꞌ;Saltillo;True;Ꞌ;False;ꞌ;False;;;False;;Latin Capital Letter Saltillo;Latin Extended-D;Letter;Uppercase
+42892;ꞌ;Saltillo;False;Ꞌ;True;ꞌ;False;;;False;;Latin Small Letter Saltillo;Latin Extended-D;Letter;Lowercase
+42893;Ɥ;H;True;Ɥ;False;ɥ;True;H;Turned;False;;Latin Capital Letter Turned H;Latin Extended-D;Letter;Uppercase
+42894;ꞎ;L;False;ꞎ;True;ꞎ;True;l;Retroflex Hook Belt;False;;Latin Small Letter L With Retroflex Hook And Belt;Latin Extended-D;Letter;Lowercase
+42895;ꞏ;Sinological Dot;False;ꞏ;False;ꞏ;False;;;False;;Latin Letter Sinological Dot;Latin Extended-D;Letter;Other
+42896;Ꞑ;N;True;Ꞑ;False;ꞑ;True;N;Descender;False;;Latin Capital Letter N With Descender;Latin Extended-D;Letter;Uppercase
+42897;ꞑ;N;False;Ꞑ;True;ꞑ;True;n;Descender;False;;Latin Small Letter N With Descender;Latin Extended-D;Letter;Lowercase
+42898;Ꞓ;C;True;Ꞓ;False;ꞓ;True;C;Bar;False;;Latin Capital Letter C With Bar;Latin Extended-D;Letter;Uppercase
+42899;ꞓ;C;False;Ꞓ;True;ꞓ;True;c;Bar;False;;Latin Small Letter C With Bar;Latin Extended-D;Letter;Lowercase
+42900;ꞔ;C;False;ꞔ;True;ꞔ;True;c;Palatal Hook;False;;Latin Small Letter C With Palatal Hook;Latin Extended-D;Letter;Lowercase
+42901;ꞕ;H;False;ꞕ;True;ꞕ;True;h;Palatal Hook;False;;Latin Small Letter H With Palatal Hook;Latin Extended-D;Letter;Lowercase
+42902;Ꞗ;B;True;Ꞗ;False;ꞗ;True;B;Flourish;False;;Latin Capital Letter B With Flourish;Latin Extended-D;Letter;Uppercase
+42903;ꞗ;B;False;Ꞗ;True;ꞗ;True;b;Flourish;False;;Latin Small Letter B With Flourish;Latin Extended-D;Letter;Lowercase
+42904;Ꞙ;F;True;Ꞙ;False;ꞙ;True;F;Stroke;False;;Latin Capital Letter F With Stroke;Latin Extended-D;Letter;Uppercase
+42905;ꞙ;F;False;Ꞙ;True;ꞙ;True;f;Stroke;False;;Latin Small Letter F With Stroke;Latin Extended-D;Letter;Lowercase
+42906;Ꞛ;Ae;True;Ꞛ;False;ꞛ;True;Æ;Volapuk ;True;AE;Latin Capital Letter Volapuk Ae;Latin Extended-D;Letter;Uppercase
+42907;ꞛ;Ae;False;Ꞛ;True;ꞛ;True;æ;Volapuk ;True;ae;Latin Small Letter Volapuk Ae;Latin Extended-D;Letter;Lowercase
+42908;Ꞝ;Oe;True;Ꞝ;False;ꞝ;True;Œ;Volapuk ;True;OE;Latin Capital Letter Volapuk Oe;Latin Extended-D;Letter;Uppercase
+42909;ꞝ;Oe;False;Ꞝ;True;ꞝ;True;œ;Volapuk ;True;oe;Latin Small Letter Volapuk Oe;Latin Extended-D;Letter;Lowercase
+42910;Ꞟ;Ue;True;Ꞟ;False;ꞟ;True;ᵫ;Volapuk ;True;UE;Latin Capital Letter Volapuk Ue;Latin Extended-D;Letter;Uppercase
+42911;ꞟ;Ue;False;Ꞟ;True;ꞟ;True;ᵫ;Volapuk ;True;ue;Latin Small Letter Volapuk Ue;Latin Extended-D;Letter;Lowercase
+42912;Ꞡ;G;True;Ꞡ;False;ꞡ;True;G;Oblique Stroke;False;;Latin Capital Letter G With Oblique Stroke;Latin Extended-D;Letter;Uppercase
+42913;ꞡ;G;False;Ꞡ;True;ꞡ;True;g;Oblique Stroke;False;;Latin Small Letter G With Oblique Stroke;Latin Extended-D;Letter;Lowercase
+42914;Ꞣ;K;True;Ꞣ;False;ꞣ;True;K;Oblique Stroke;False;;Latin Capital Letter K With Oblique Stroke;Latin Extended-D;Letter;Uppercase
+42915;ꞣ;K;False;Ꞣ;True;ꞣ;True;k;Oblique Stroke;False;;Latin Small Letter K With Oblique Stroke;Latin Extended-D;Letter;Lowercase
+42916;Ꞥ;N;True;Ꞥ;False;ꞥ;True;N;Oblique Stroke;False;;Latin Capital Letter N With Oblique Stroke;Latin Extended-D;Letter;Uppercase
+42917;ꞥ;N;False;Ꞥ;True;ꞥ;True;n;Oblique Stroke;False;;Latin Small Letter N With Oblique Stroke;Latin Extended-D;Letter;Lowercase
+42918;Ꞧ;R;True;Ꞧ;False;ꞧ;True;R;Oblique Stroke;False;;Latin Capital Letter R With Oblique Stroke;Latin Extended-D;Letter;Uppercase
+42919;ꞧ;R;False;Ꞧ;True;ꞧ;True;r;Oblique Stroke;False;;Latin Small Letter R With Oblique Stroke;Latin Extended-D;Letter;Lowercase
+42920;Ꞩ;S;True;Ꞩ;False;ꞩ;True;S;Oblique Stroke;False;;Latin Capital Letter S With Oblique Stroke;Latin Extended-D;Letter;Uppercase
+42921;ꞩ;S;False;Ꞩ;True;ꞩ;True;s;Oblique Stroke;False;;Latin Small Letter S With Oblique Stroke;Latin Extended-D;Letter;Lowercase
+42922;Ɦ;H;True;Ɦ;False;ɦ;True;H;Hook;False;;Latin Capital Letter H With Hook;Latin Extended-D;Letter;Uppercase
+42923;Ɜ;E;True;Ɜ;False;ɜ;True;E;Reversed Open;False;;Latin Capital Letter Reversed Open E;Latin Extended-D;Letter;Uppercase
+42924;Ɡ;G;True;Ɡ;False;ɡ;True;G;Script;False;;Latin Capital Letter Script G;Latin Extended-D;Letter;Uppercase
+42925;Ɬ;L;True;Ɬ;False;ɬ;True;L;Belt;False;;Latin Capital Letter L With Belt;Latin Extended-D;Letter;Uppercase
+42926;Ɪ;I;True;Ɪ;False;ɪ;True;I;Small Capital;False;;Latin Capital Letter Small Capital I;Latin Extended-D;Letter;Uppercase
+42927;ꞯ;Q;False;ꞯ;True;ꞯ;True;Q;Small Capital;False;;Latin Letter Small Capital Q;Latin Extended-D;Letter;Lowercase
+42928;Ʞ;K;True;Ʞ;False;ʞ;True;K;Turned;False;;Latin Capital Letter Turned K;Latin Extended-D;Letter;Uppercase
+42929;Ʇ;T;True;Ʇ;False;ʇ;True;T;Turned;False;;Latin Capital Letter Turned T;Latin Extended-D;Letter;Uppercase
+42930;Ʝ;J;True;Ʝ;False;ʝ;True;J;Crossed-Tail;False;;Latin Capital Letter J With Crossed-Tail;Latin Extended-D;Letter;Uppercase
+42931;Ꭓ;Chi;True;Ꭓ;False;ꭓ;False;;;False;;Latin Capital Letter Chi;Latin Extended-D;Letter;Uppercase
+42932;Ꞵ;Beta;True;Ꞵ;False;ꞵ;False;;;False;;Latin Capital Letter Beta;Latin Extended-D;Letter;Uppercase
+42933;ꞵ;Beta;False;Ꞵ;True;ꞵ;False;;;False;;Latin Small Letter Beta;Latin Extended-D;Letter;Lowercase
+42934;Ꞷ;Omega;True;Ꞷ;False;ꞷ;False;;;False;;Latin Capital Letter Omega;Latin Extended-D;Letter;Uppercase
+42935;ꞷ;Omega;False;Ꞷ;True;ꞷ;False;;;False;;Latin Small Letter Omega;Latin Extended-D;Letter;Lowercase
+42936;Ꞹ;U;True;Ꞹ;False;ꞹ;True;U;Stroke;False;;Latin Capital Letter U With Stroke;Latin Extended-D;Letter;Uppercase
+42937;ꞹ;U;False;Ꞹ;True;ꞹ;True;u;Stroke;False;;Latin Small Letter U With Stroke;Latin Extended-D;Letter;Lowercase
+42999;ꟷ;I;False;ꟷ;False;ꟷ;True;I;Epigraphic Sideways;False;;Latin Epigraphic Letter Sideways I;Latin Extended-D;Letter;Other
+43002;ꟺ;M;False;ꟺ;True;ꟺ;True;M;Small Capital Turned;False;;Latin Letter Small Capital Turned M;Latin Extended-D;Letter;Lowercase
+43003;ꟻ;F;False;ꟻ;False;ꟻ;True;F;Epigraphic Reversed;False;;Latin Epigraphic Letter Reversed F;Latin Extended-D;Letter;Other
+43004;ꟼ;P;False;ꟼ;False;ꟼ;True;P;Epigraphic Reversed;False;;Latin Epigraphic Letter Reversed P;Latin Extended-D;Letter;Other
+43005;ꟽ;M;False;ꟽ;False;ꟽ;True;M;Epigraphic Inverted;False;;Latin Epigraphic Letter Inverted M;Latin Extended-D;Letter;Other
+43006;ꟾ;I;False;ꟾ;False;ꟾ;True;I;Epigraphic Longa;False;;Latin Epigraphic Letter I Longa;Latin Extended-D;Letter;Other
+43007;ꟿ;M;False;ꟿ;False;ꟿ;True;M;Epigraphic Archaic;False;;Latin Epigraphic Letter Archaic M;Latin Extended-D;Letter;Other
+43824;ꬰ;Alpha;False;ꬰ;True;ꬰ;True;ɑ;Barred ;False;;Latin Small Letter Barred Alpha;Latin Extended-E;Letter;Lowercase
+43825;ꬱ;A;False;ꬱ;True;ꬱ;True;a;Reversed-Schwa;False;;Latin Small Letter A Reversed-Schwa;Latin Extended-E;Letter;Lowercase
+43826;ꬲ;E;False;ꬲ;True;ꬲ;True;e;Blackletter;False;;Latin Small Letter Blackletter E;Latin Extended-E;Letter;Lowercase
+43827;ꬳ;E;False;ꬳ;True;ꬳ;True;e;Barred;False;;Latin Small Letter Barred E;Latin Extended-E;Letter;Lowercase
+43828;ꬴ;E;False;ꬴ;True;ꬴ;True;e;Flourish;False;;Latin Small Letter E With Flourish;Latin Extended-E;Letter;Lowercase
+43829;ꬵ;F;False;ꬵ;True;ꬵ;True;f;Lenis;False;;Latin Small Letter Lenis F;Latin Extended-E;Letter;Lowercase
+43830;ꬶ;G;False;ꬶ;True;ꬶ;True;g;Script Crossed-Tail;False;;Latin Small Letter Script G With Crossed-Tail;Latin Extended-E;Letter;Lowercase
+43831;ꬷ;L;False;ꬷ;True;ꬷ;True;l;Inverted Lazy S;False;;Latin Small Letter L With Inverted Lazy S;Latin Extended-E;Letter;Lowercase
+43832;ꬸ;L;False;ꬸ;True;ꬸ;True;l;Double Middle Tilde;False;;Latin Small Letter L With Double Middle Tilde;Latin Extended-E;Letter;Lowercase
+43833;ꬹ;L;False;ꬹ;True;ꬹ;True;l;Middle Ring;False;;Latin Small Letter L With Middle Ring;Latin Extended-E;Letter;Lowercase
+43834;ꬺ;M;False;ꬺ;True;ꬺ;True;m;Crossed-Tail;False;;Latin Small Letter M With Crossed-Tail;Latin Extended-E;Letter;Lowercase
+43835;ꬻ;N;False;ꬻ;True;ꬻ;True;n;Crossed-Tail;False;;Latin Small Letter N With Crossed-Tail;Latin Extended-E;Letter;Lowercase
+43836;ꬼ;Eng;False;ꬼ;True;ꬼ;True;ŋ;Crossed-Tail;False;;Latin Small Letter Eng With Crossed-Tail;Latin Extended-E;Letter;Lowercase
+43837;ꬽ;O;False;ꬽ;True;ꬽ;True;o;Blackletter;False;;Latin Small Letter Blackletter O;Latin Extended-E;Letter;Lowercase
+43838;ꬾ;O;False;ꬾ;True;ꬾ;True;o;Blackletter Stroke;False;;Latin Small Letter Blackletter O With Stroke;Latin Extended-E;Letter;Lowercase
+43839;ꬿ;O;False;ꬿ;True;ꬿ;True;o;Open Stroke;False;;Latin Small Letter Open O With Stroke;Latin Extended-E;Letter;Lowercase
+43840;ꭀ;Oe;False;ꭀ;True;ꭀ;True;œ;Inverted ;True;oe;Latin Small Letter Inverted Oe;Latin Extended-E;Letter;Lowercase
+43841;ꭁ;Oe;False;ꭁ;True;ꭁ;True;œ;Turned Stroke;True;oe;Latin Small Letter Turned Oe With Stroke;Latin Extended-E;Letter;Lowercase
+43842;ꭂ;Oe;False;ꭂ;True;ꭂ;True;œ;Turned Horizontal Stroke;True;oe;Latin Small Letter Turned Oe With Horizontal Stroke;Latin Extended-E;Letter;Lowercase
+43843;ꭃ;O;False;ꭃ;True;ꭃ;True;o;Turned Open-O;False;;Latin Small Letter Turned O Open-O;Latin Extended-E;Letter;Lowercase
+43844;ꭄ;O;False;ꭄ;True;ꭄ;True;o;Turned Open-O Stroke;False;;Latin Small Letter Turned O Open-O With Stroke;Latin Extended-E;Letter;Lowercase
+43845;ꭅ;R;False;ꭅ;True;ꭅ;True;r;Stirrup;False;;Latin Small Letter Stirrup R;Latin Extended-E;Letter;Lowercase
+43846;ꭆ;R;False;ꭆ;True;ꭆ;True;R;Small Capital Right Leg;False;;Latin Letter Small Capital R With Right Leg;Latin Extended-E;Letter;Lowercase
+43847;ꭇ;R;False;ꭇ;True;ꭇ;True;r;Without Handle;False;;Latin Small Letter R Without Handle;Latin Extended-E;Letter;Lowercase
+43848;ꭈ;R;False;ꭈ;True;ꭈ;True;r;Double;False;;Latin Small Letter Double R;Latin Extended-E;Letter;Lowercase
+43849;ꭉ;R;False;ꭉ;True;ꭉ;True;r;Crossed-Tail;False;;Latin Small Letter R With Crossed-Tail;Latin Extended-E;Letter;Lowercase
+43850;ꭊ;R;False;ꭊ;True;ꭊ;True;r;Double Crossed-Tail;False;;Latin Small Letter Double R With Crossed-Tail;Latin Extended-E;Letter;Lowercase
+43851;ꭋ;R;False;ꭋ;True;ꭋ;True;r;Script;False;;Latin Small Letter Script R;Latin Extended-E;Letter;Lowercase
+43852;ꭌ;R;False;ꭌ;True;ꭌ;True;r;Script Ring;False;;Latin Small Letter Script R With Ring;Latin Extended-E;Letter;Lowercase
+43853;ꭍ;Esh;False;ꭍ;True;ꭍ;True;ʃ;Baseline ;False;;Latin Small Letter Baseline Esh;Latin Extended-E;Letter;Lowercase
+43854;ꭎ;U;False;ꭎ;True;ꭎ;True;u;Short Right Leg;False;;Latin Small Letter U With Short Right Leg;Latin Extended-E;Letter;Lowercase
+43855;ꭏ;U;False;ꭏ;True;ꭏ;True;u;Bar Short Right Leg;False;;Latin Small Letter U Bar With Short Right Leg;Latin Extended-E;Letter;Lowercase
+43856;ꭐ;Ui;False;ꭐ;True;ꭐ;False;;;True;ui;Latin Small Letter Ui;Latin Extended-E;Letter;Lowercase
+43857;ꭑ;Ui;False;ꭑ;True;ꭑ;True;ꭐ;Turned ;True;ui;Latin Small Letter Turned Ui;Latin Extended-E;Letter;Lowercase
+43858;ꭒ;U;False;ꭒ;True;ꭒ;True;u;Left Hook;False;;Latin Small Letter U With Left Hook;Latin Extended-E;Letter;Lowercase
+43859;ꭓ;Chi;False;Ꭓ;True;ꭓ;False;;;False;;Latin Small Letter Chi;Latin Extended-E;Letter;Lowercase
+43860;ꭔ;Chi;False;ꭔ;True;ꭔ;True;ꭓ;Low Right Ring;False;;Latin Small Letter Chi With Low Right Ring;Latin Extended-E;Letter;Lowercase
+43861;ꭕ;Chi;False;ꭕ;True;ꭕ;True;ꭓ;Low Left Serif;False;;Latin Small Letter Chi With Low Left Serif;Latin Extended-E;Letter;Lowercase
+43862;ꭖ;X;False;ꭖ;True;ꭖ;True;x;Low Right Ring;False;;Latin Small Letter X With Low Right Ring;Latin Extended-E;Letter;Lowercase
+43863;ꭗ;X;False;ꭗ;True;ꭗ;True;x;Long Left Leg;False;;Latin Small Letter X With Long Left Leg;Latin Extended-E;Letter;Lowercase
+43864;ꭘ;X;False;ꭘ;True;ꭘ;True;x;Long Left Leg Low Right Ring;False;;Latin Small Letter X With Long Left Leg And Low Right Ring;Latin Extended-E;Letter;Lowercase
+43865;ꭙ;X;False;ꭙ;True;ꭙ;True;x;Long Left Leg Serif;False;;Latin Small Letter X With Long Left Leg With Serif;Latin Extended-E;Letter;Lowercase
+43866;ꭚ;Y;False;ꭚ;True;ꭚ;True;y;Short Right Leg;False;;Latin Small Letter Y With Short Right Leg;Latin Extended-E;Letter;Lowercase
+43868;ꭜ;Heng;False;ꭜ;False;ꭜ;True;ꜧ;Modifier;False;;Modifier Letter Small Heng;Latin Extended-E;Letter;Modifier
+43872;ꭠ;Sakha Yat;False;ꭠ;True;ꭠ;False;;;False;;Latin Small Letter Sakha Yat;Latin Extended-E;Letter;Lowercase
+43873;ꭡ;E;False;ꭡ;True;ꭡ;True;e;Iotified;False;;Latin Small Letter Iotified E;Latin Extended-E;Letter;Lowercase
+43874;ꭢ;Oe;False;ꭢ;True;ꭢ;True;œ;Open ;True;oe;Latin Small Letter Open Oe;Latin Extended-E;Letter;Lowercase
+43875;ꭣ;Uo;False;ꭣ;True;ꭣ;False;;;True;uo;Latin Small Letter Uo;Latin Extended-E;Letter;Lowercase
+43876;ꭤ;Alpha;False;ꭤ;True;ꭤ;True;ɑ;Inverted ;False;;Latin Small Letter Inverted Alpha;Latin Extended-E;Letter;Lowercase
+64256;ﬀ;Ff;False;FF;True;ﬀ;False;;;True;ff;Latin Small Ligature Ff;Alphabetic Presentation Forms;Letter;Lowercase
+64257;ﬁ;Fi;False;FI;True;ﬁ;False;;;True;fi;Latin Small Ligature Fi;Alphabetic Presentation Forms;Letter;Lowercase
+64258;ﬂ;Fl;False;FL;True;ﬂ;False;;;True;fl;Latin Small Ligature Fl;Alphabetic Presentation Forms;Letter;Lowercase
+64259;ﬃ;Ffi;False;FFI;True;ﬃ;False;;;True;ffi;Latin Small Ligature Ffi;Alphabetic Presentation Forms;Letter;Lowercase
+64260;ﬄ;Ffl;False;FFL;True;ﬄ;False;;;True;ffl;Latin Small Ligature Ffl;Alphabetic Presentation Forms;Letter;Lowercase
+64261;ﬅ;St;False;ST;True;ﬅ;True;ﬆ;Long;True;st;Latin Small Ligature Long S T;Alphabetic Presentation Forms;Letter;Lowercase
+64262;ﬆ;St;False;ST;True;ﬆ;False;;;True;st;Latin Small Ligature St;Alphabetic Presentation Forms;Letter;Lowercase
+65313;Ａ;A;True;Ａ;False;ａ;True;A;Fullwidth;False;;Fullwidth Latin Capital Letter A;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65314;Ｂ;B;True;Ｂ;False;ｂ;True;B;Fullwidth;False;;Fullwidth Latin Capital Letter B;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65315;Ｃ;C;True;Ｃ;False;ｃ;True;C;Fullwidth;False;;Fullwidth Latin Capital Letter C;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65316;Ｄ;D;True;Ｄ;False;ｄ;True;D;Fullwidth;False;;Fullwidth Latin Capital Letter D;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65317;Ｅ;E;True;Ｅ;False;ｅ;True;E;Fullwidth;False;;Fullwidth Latin Capital Letter E;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65318;Ｆ;F;True;Ｆ;False;ｆ;True;F;Fullwidth;False;;Fullwidth Latin Capital Letter F;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65319;Ｇ;G;True;Ｇ;False;ｇ;True;G;Fullwidth;False;;Fullwidth Latin Capital Letter G;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65320;Ｈ;H;True;Ｈ;False;ｈ;True;H;Fullwidth;False;;Fullwidth Latin Capital Letter H;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65321;Ｉ;I;True;Ｉ;False;ｉ;True;I;Fullwidth;False;;Fullwidth Latin Capital Letter I;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65322;Ｊ;J;True;Ｊ;False;ｊ;True;J;Fullwidth;False;;Fullwidth Latin Capital Letter J;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65323;Ｋ;K;True;Ｋ;False;ｋ;True;K;Fullwidth;False;;Fullwidth Latin Capital Letter K;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65324;Ｌ;L;True;Ｌ;False;ｌ;True;L;Fullwidth;False;;Fullwidth Latin Capital Letter L;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65325;Ｍ;M;True;Ｍ;False;ｍ;True;M;Fullwidth;False;;Fullwidth Latin Capital Letter M;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65326;Ｎ;N;True;Ｎ;False;ｎ;True;N;Fullwidth;False;;Fullwidth Latin Capital Letter N;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65327;Ｏ;O;True;Ｏ;False;ｏ;True;O;Fullwidth;False;;Fullwidth Latin Capital Letter O;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65328;Ｐ;P;True;Ｐ;False;ｐ;True;P;Fullwidth;False;;Fullwidth Latin Capital Letter P;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65329;Ｑ;Q;True;Ｑ;False;ｑ;True;Q;Fullwidth;False;;Fullwidth Latin Capital Letter Q;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65330;Ｒ;R;True;Ｒ;False;ｒ;True;R;Fullwidth;False;;Fullwidth Latin Capital Letter R;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65331;Ｓ;S;True;Ｓ;False;ｓ;True;S;Fullwidth;False;;Fullwidth Latin Capital Letter S;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65332;Ｔ;T;True;Ｔ;False;ｔ;True;T;Fullwidth;False;;Fullwidth Latin Capital Letter T;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65333;Ｕ;U;True;Ｕ;False;ｕ;True;U;Fullwidth;False;;Fullwidth Latin Capital Letter U;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65334;Ｖ;V;True;Ｖ;False;ｖ;True;V;Fullwidth;False;;Fullwidth Latin Capital Letter V;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65335;Ｗ;W;True;Ｗ;False;ｗ;True;W;Fullwidth;False;;Fullwidth Latin Capital Letter W;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65336;Ｘ;X;True;Ｘ;False;ｘ;True;X;Fullwidth;False;;Fullwidth Latin Capital Letter X;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65337;Ｙ;Y;True;Ｙ;False;ｙ;True;Y;Fullwidth;False;;Fullwidth Latin Capital Letter Y;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65338;Ｚ;Z;True;Ｚ;False;ｚ;True;Z;Fullwidth;False;;Fullwidth Latin Capital Letter Z;Halfwidth and Fullwidth Forms;Letter;Uppercase
+65345;ａ;A;False;Ａ;True;ａ;True;a;Fullwidth;False;;Fullwidth Latin Small Letter A;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65346;ｂ;B;False;Ｂ;True;ｂ;True;b;Fullwidth;False;;Fullwidth Latin Small Letter B;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65347;ｃ;C;False;Ｃ;True;ｃ;True;c;Fullwidth;False;;Fullwidth Latin Small Letter C;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65348;ｄ;D;False;Ｄ;True;ｄ;True;d;Fullwidth;False;;Fullwidth Latin Small Letter D;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65349;ｅ;E;False;Ｅ;True;ｅ;True;e;Fullwidth;False;;Fullwidth Latin Small Letter E;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65350;ｆ;F;False;Ｆ;True;ｆ;True;f;Fullwidth;False;;Fullwidth Latin Small Letter F;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65351;ｇ;G;False;Ｇ;True;ｇ;True;g;Fullwidth;False;;Fullwidth Latin Small Letter G;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65352;ｈ;H;False;Ｈ;True;ｈ;True;h;Fullwidth;False;;Fullwidth Latin Small Letter H;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65353;ｉ;I;False;Ｉ;True;ｉ;True;i;Fullwidth;False;;Fullwidth Latin Small Letter I;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65354;ｊ;J;False;Ｊ;True;ｊ;True;j;Fullwidth;False;;Fullwidth Latin Small Letter J;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65355;ｋ;K;False;Ｋ;True;ｋ;True;k;Fullwidth;False;;Fullwidth Latin Small Letter K;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65356;ｌ;L;False;Ｌ;True;ｌ;True;l;Fullwidth;False;;Fullwidth Latin Small Letter L;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65357;ｍ;M;False;Ｍ;True;ｍ;True;m;Fullwidth;False;;Fullwidth Latin Small Letter M;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65358;ｎ;N;False;Ｎ;True;ｎ;True;n;Fullwidth;False;;Fullwidth Latin Small Letter N;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65359;ｏ;O;False;Ｏ;True;ｏ;True;o;Fullwidth;False;;Fullwidth Latin Small Letter O;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65360;ｐ;P;False;Ｐ;True;ｐ;True;p;Fullwidth;False;;Fullwidth Latin Small Letter P;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65361;ｑ;Q;False;Ｑ;True;ｑ;True;q;Fullwidth;False;;Fullwidth Latin Small Letter Q;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65362;ｒ;R;False;Ｒ;True;ｒ;True;r;Fullwidth;False;;Fullwidth Latin Small Letter R;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65363;ｓ;S;False;Ｓ;True;ｓ;True;s;Fullwidth;False;;Fullwidth Latin Small Letter S;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65364;ｔ;T;False;Ｔ;True;ｔ;True;t;Fullwidth;False;;Fullwidth Latin Small Letter T;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65365;ｕ;U;False;Ｕ;True;ｕ;True;u;Fullwidth;False;;Fullwidth Latin Small Letter U;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65366;ｖ;V;False;Ｖ;True;ｖ;True;v;Fullwidth;False;;Fullwidth Latin Small Letter V;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65367;ｗ;W;False;Ｗ;True;ｗ;True;w;Fullwidth;False;;Fullwidth Latin Small Letter W;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65368;ｘ;X;False;Ｘ;True;ｘ;True;x;Fullwidth;False;;Fullwidth Latin Small Letter X;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65369;ｙ;Y;False;Ｙ;True;ｙ;True;y;Fullwidth;False;;Fullwidth Latin Small Letter Y;Halfwidth and Fullwidth Forms;Letter;Lowercase
+65370;ｚ;Z;False;Ｚ;True;ｚ;True;z;Fullwidth;False;;Fullwidth Latin Small Letter Z;Halfwidth and Fullwidth Forms;Letter;Lowercase

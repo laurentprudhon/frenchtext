@@ -1,0 +1,68 @@
+﻿UnicodeBlock;CharFamily
+Arabic;Arabic
+Arabic Extended-A;Arabic
+Arabic Presentation Forms-A;Arabic
+Arabic Presentation Forms-B;Arabic
+Arabic Supplement;Arabic
+Armenian;Armenian
+CJK Symbols and Punctuation;ChineseJapaneseKorean
+CJK Unified Ideographs;ChineseJapaneseKorean
+CJK Unified Ideographs Extension A;ChineseJapaneseKorean
+CJK Unified Ideographs Extension B;ChineseJapaneseKorean
+Hiragana;ChineseJapaneseKorean
+Katakana;ChineseJapaneseKorean
+Hangul Compatibility Jamo;ChineseJapaneseKorean
+Hangul Jamo;ChineseJapaneseKorean
+Hangul Syllables;ChineseJapaneseKorean
+Halfwidth and Fullwidth Forms;ChineseJapaneseKorean
+Cyrillic;Cyrillic
+Cyrillic Supplement;Cyrillic
+Cyrillic Extended-A;Cyrillic
+Cyrillic Extended-B;Cyrillic
+Cyrillic Extended C;Cyrillic
+Greek and Coptic;Greek
+Greek Extended;Greek
+Hebrew;Hebrew
+Bengali;Indian
+Devanagari;Indian
+Devanagari Extended;Indian
+Tamil;Indian
+Telugu;Indian
+Lao;LaoThai
+Thai;LaoThai
+Basic Latin;Latin
+Latin Extended Additional;Latin
+Latin Extended-A;Latin
+Latin Extended-B;Latin
+Latin Extended-C;Latin
+Latin Extended-D;Latin
+Latin Extended-E;Latin
+Latin-1 Supplement;Latin
+Letterlike Symbols;Latin
+General Punctuation;Latin
+Mathematical Alphanumeric Symbols;Math
+Mathematical Operators;Math
+Number Forms;Math
+IPA Extensions;Phonetic
+Phonetic Extensions;Phonetic
+Phonetic Extensions Supplement;Phonetic
+Spacing Modifier Letters;Phonetic
+Currency Symbols;Symbols
+Dingbats;Symbols
+Emoticons;Symbols
+Miscellaneous Symbols;Symbols
+Miscellaneous Symbols and Pictographs;Symbols
+Miscellaneous Technical;Symbols
+Supplemental Symbols and Pictographs;Symbols
+Transport and Map Symbols;Symbols
+Enclosed Alphanumeric Supplement;Symbols
+Miscellaneous Symbols and Arrows;Symbols
+Arrows;Symbols
+Geometric Shapes;Symbols
+Box Drawing;Symbols
+Combining Diacritical Marks;Ignore
+Private Use Area;Ignore
+Supplementary Private Use Area-A;Ignore
+Supplementary Private Use Area-B;Ignore
+Specials;Ignore
+Tags;Ignore

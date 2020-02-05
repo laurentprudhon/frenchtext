@@ -1,0 +1,257 @@
+;Code;Char;Name;Category;Subcategory;Block;CountBusiness;CountWikipedia;Count;Supported;Family
+0;101;e;Latin Small Letter E;Letter;Lowercase;Basic Latin;3505036257.0;4598275413;8103311670.0;True;Latin
+1;115;s;Latin Small Letter S;Letter;Lowercase;Basic Latin;1960573460.0;2534185235;4494758695.0;True;Latin
+2;97;a;Latin Small Letter A;Letter;Lowercase;Basic Latin;1865613398.0;2447667654;4313281052.0;True;Latin
+3;110;n;Latin Small Letter N;Letter;Lowercase;Basic Latin;1819382026.0;2388677306;4208059332.0;True;Latin
+4;105;i;Latin Small Letter I;Letter;Lowercase;Basic Latin;1766467131.0;2331584399;4098051530.0;True;Latin
+5;114;r;Latin Small Letter R;Letter;Lowercase;Basic Latin;1751654423.0;2277785371;4029439794.0;True;Latin
+6;116;t;Latin Small Letter T;Letter;Lowercase;Basic Latin;1664870278.0;2182840302;3847710580.0;True;Latin
+7;111;o;Latin Small Letter O;Letter;Lowercase;Basic Latin;1405510819.0;1799541193;3205052012.0;True;Latin
+8;117;u;Latin Small Letter U;Letter;Lowercase;Basic Latin;1380251545.0;1776401996;3156653541.0;True;Latin
+9;108;l;Latin Small Letter L;Letter;Lowercase;Basic Latin;1260444561.0;1707391048;2967835609.0;True;Latin
+10;100;d;Latin Small Letter D;Letter;Lowercase;Basic Latin;958685143.0;1300625223;2259310366.0;True;Latin
+11;99;c;Latin Small Letter C;Letter;Lowercase;Basic Latin;823995912.0;1059079086;1883074998.0;True;Latin
+12;112;p;Latin Small Letter P;Letter;Lowercase;Basic Latin;721841328.0;920180985;1642022313.0;True;Latin
+13;109;m;Latin Small Letter M;Letter;Lowercase;Basic Latin;656040736.0;844904352;1500945088.0;True;Latin
+14;233;é;Latin Small Letter E With Acute;Letter;Lowercase;Latin-1 Supplement;585661398.0;784586723;1370248121.0;True;Latin
+15;118;v;Latin Small Letter V;Letter;Lowercase;Basic Latin;348252945.0;426571538;774824483.0;True;Latin
+16;44;,;Comma;Punctuation;Other;Basic Latin;286106887.0;406440340;692547227.0;True;Latin
+17;39;';Apostrophe;Punctuation;Other;Basic Latin;279746032.0;359616050;639362082.0;True;Latin
+18;46;.;Full Stop;Punctuation;Other;Basic Latin;270047976.0;329591605;599639581.0;True;Latin
+19;102;f;Latin Small Letter F;Letter;Lowercase;Basic Latin;265939155.0;342929703;608868858.0;True;Latin
+20;103;g;Latin Small Letter G;Letter;Lowercase;Basic Latin;241616800.0;331530764;573147564.0;True;Latin
+21;113;q;Latin Small Letter Q;Letter;Lowercase;Basic Latin;214232465.0;273722417;487954882.0;True;Latin
+22;98;b;Latin Small Letter B;Letter;Lowercase;Basic Latin;206877627.0;270870899;477748526.0;True;Latin
+23;48;0;Digit Zero;Number;Decimal Digit;Basic Latin;205955236.0;204848123;410803359.0;True;Latin
+24;104;h;Latin Small Letter H;Letter;Lowercase;Basic Latin;190719384.0;264912292;455631676.0;True;Latin
+25;49;1;Digit One;Number;Decimal Digit;Basic Latin;182666843.0;195074618;377741461.0;True;Latin
+26;50;2;Digit Two;Number;Decimal Digit;Basic Latin;150499363.0;149688685;300188048.0;True;Latin
+27;224;à;Latin Small Letter A With Grave;Letter;Lowercase;Latin-1 Supplement;138149292.0;166527592;304676884.0;True;Latin
+28;106;j;Latin Small Letter J;Letter;Lowercase;Basic Latin;102077675.0;106418403;208496078.0;True;Latin
+29;45;-;Hyphen-Minus;Punctuation;Dash;Basic Latin;100123941.0;120969288;221093229.0;True;Latin
+30;120;x;Latin Small Letter X;Letter;Lowercase;Basic Latin;98111303.0;131298644;229409947.0;True;Latin
+31;76;L;Latin Capital Letter L;Letter;Uppercase;Basic Latin;93223079.0;131488829;224711908.0;True;Latin
+32;32; ;Space;Separator;Space;Basic Latin;88497295.0;102875898;191373193.0;True;Latin
+33;67;C;Latin Capital Letter C;Letter;Uppercase;Basic Latin;80895818.0;105581960;186477778.0;True;Latin
+34;58;:;Colon;Punctuation;Other;Basic Latin;80872165.0;71707754;152579919.0;True;Latin
+35;65;A;Latin Capital Letter A;Letter;Uppercase;Basic Latin;79639657.0;96460359;176100016.0;True;Latin
+36;232;è;Latin Small Letter E With Grave;Letter;Lowercase;Latin-1 Supplement;76517563.0;107998572;184516135.0;True;Latin
+37;80;P;Latin Capital Letter P;Letter;Uppercase;Basic Latin;75598960.0;89818584;165417544.0;True;Latin
+38;121;y;Latin Small Letter Y;Letter;Lowercase;Basic Latin;72069844.0;100245208;172315052.0;True;Latin
+39;69;E;Latin Capital Letter E;Letter;Uppercase;Basic Latin;70654481.0;82617631;153272112.0;True;Latin
+40;51;3;Digit Three;Number;Decimal Digit;Basic Latin;63230854.0;63660000;126890854.0;True;Latin
+41;53;5;Digit Five;Number;Decimal Digit;Basic Latin;61972835.0;63842287;125815122.0;True;Latin
+42;83;S;Latin Capital Letter S;Letter;Uppercase;Basic Latin;61400653.0;79951192;141351845.0;True;Latin
+43;77;M;Latin Capital Letter M;Letter;Uppercase;Basic Latin;58859086.0;73963560;132822646.0;True;Latin
+44;52;4;Digit Four;Number;Decimal Digit;Basic Latin;54343276.0;55813414;110156690.0;True;Latin
+45;47;/;Solidus;Punctuation;Other;Basic Latin;50243960.0;42183165;92427125.0;True;Latin
+46;57;9;Digit Nine;Number;Decimal Digit;Basic Latin;49682553.0;65585925;115268478.0;True;Latin
+47;34;"""";Quotation Mark;Punctuation;Other;Basic Latin;47363272.0;58415460;105778732.0;True;Latin
+48;56;8;Digit Eight;Number;Decimal Digit;Basic Latin;45921722.0;52202660;98124382.0;True;Latin
+49;68;D;Latin Capital Letter D;Letter;Uppercase;Basic Latin;44743715.0;57196900;101940615.0;True;Latin
+50;55;7;Digit Seven;Number;Decimal Digit;Basic Latin;44445597.0;48583969;93029566.0;True;Latin
+51;73;I;Latin Capital Letter I;Letter;Uppercase;Basic Latin;44415436.0;57440644;101856080.0;True;Latin
+52;54;6;Digit Six;Number;Decimal Digit;Basic Latin;43748217.0;47450276;91198493.0;True;Latin
+53;82;R;Latin Capital Letter R;Letter;Uppercase;Basic Latin;42441875.0;49492559;91934434.0;True;Latin
+54;66;B;Latin Capital Letter B;Letter;Uppercase;Basic Latin;41296687.0;54311609;95608296.0;True;Latin
+55;70;F;Latin Capital Letter F;Letter;Uppercase;Basic Latin;41276313.0;51227205;92503518.0;True;Latin
+56;41;);Right Parenthesis;Punctuation;Close;Basic Latin;39529388.0;55662250;95191638.0;True;Latin
+57;40;(;Left Parenthesis;Punctuation;Open;Basic Latin;38061346.0;54844441;92905787.0;True;Latin
+58;84;T;Latin Capital Letter T;Letter;Uppercase;Basic Latin;35453704.0;43676350;79130054.0;True;Latin
+59;122;z;Latin Small Letter Z;Letter;Lowercase;Basic Latin;33982743.0;38424011;72406754.0;True;Latin
+60;78;N;Latin Capital Letter N;Letter;Uppercase;Basic Latin;33974561.0;39802708;73777269.0;True;Latin
+61;234;ê;Latin Small Letter E With Circumflex;Letter;Lowercase;Latin-1 Supplement;33010630.0;40771605;73782235.0;True;Latin
+62;79;O;Latin Capital Letter O;Letter;Uppercase;Basic Latin;26863509.0;30408370;57271879.0;True;Latin
+63;85;U;Latin Capital Letter U;Letter;Uppercase;Basic Latin;26046127.0;29941758;55987885.0;True;Latin
+64;107;k;Latin Small Letter K;Letter;Lowercase;Basic Latin;25946419.0;35833295;61779714.0;True;Latin
+65;71;G;Latin Capital Letter G;Letter;Uppercase;Basic Latin;23898753.0;33494887;57393640.0;True;Latin
+66;74;J;Latin Capital Letter J;Letter;Uppercase;Basic Latin;22658427.0;28021168;50679595.0;True;Latin
+67;86;V;Latin Capital Letter V;Letter;Uppercase;Basic Latin;20729377.0;25194932;45924309.0;True;Latin
+68;63;?;Question Mark;Punctuation;Other;Basic Latin;19789052.0;15839166;35628218.0;True;Latin
+69;37;%;Percent Sign;Punctuation;Other;Basic Latin;19591388.0;21748721;41340109.0;True;Latin
+70;33;!;Exclamation Mark;Punctuation;Other;Basic Latin;18898910.0;13619189;32518099.0;True;Latin
+71;231;ç;Latin Small Letter C With Cedilla;Letter;Lowercase;Latin-1 Supplement;18526673.0;22137836;40664509.0;True;Latin
+72;187;»;Right-Pointing Double Angle Quotation Mark;Punctuation;Final quote;Latin-1 Supplement;18390314.0;33919276;52309590.0;True;Latin
+73;171;«;Left-Pointing Double Angle Quotation Mark;Punctuation;Initial quote;Latin-1 Supplement;17411564.0;33209241;50620805.0;True;Latin
+74;72;H;Latin Capital Letter H;Letter;Uppercase;Basic Latin;14832394.0;21896313;36728707.0;True;Latin
+75;244;ô;Latin Small Letter O With Circumflex;Letter;Lowercase;Latin-1 Supplement;13537290.0;17805249;31342539.0;True;Latin
+76;119;w;Latin Small Letter W;Letter;Lowercase;Basic Latin;12005197.0;16714924;28720121.0;True;Latin
+77;10;"
+";Char 10;Other;Control;Basic Latin;9588147.0;10363093;19951240.0;True;Latin
+78;176;°;Degree Sign;Symbol;Other;Latin-1 Supplement;8572698.0;5474890;14047588.0;True;Latin
+79;81;Q;Latin Capital Letter Q;Letter;Uppercase;Basic Latin;7042591.0;7802812;14845403.0;True;Latin
+80;251;û;Latin Small Letter U With Circumflex;Letter;Lowercase;Latin-1 Supplement;6813724.0;8064038;14877762.0;True;Latin
+81;75;K;Latin Capital Letter K;Letter;Uppercase;Basic Latin;6580692.0;10144147;16724839.0;True;Latin
+82;87;W;Latin Capital Letter W;Letter;Uppercase;Basic Latin;5972067.0;9968334;15940401.0;True;Latin
+83;95;_;Low Line;Punctuation;Connector;Basic Latin;5845221.0;7294758;13139979.0;True;Latin
+84;124;|;Vertical Line;Symbol;Math;Basic Latin;5506920.0;7566425;13073345.0;True;Latin
+85;238;î;Latin Small Letter I With Circumflex;Letter;Lowercase;Latin-1 Supplement;5355357.0;8831630;14186987.0;True;Latin
+86;8364;€;Euro Sign;Symbol;Currency;Currency Symbols;5309670.0;3588551;8898221.0;True;Symbols
+87;226;â;Latin Small Letter A With Circumflex;Letter;Lowercase;Latin-1 Supplement;5290163.0;8852227;14142390.0;True;Latin
+88;249;ù;Latin Small Letter U With Grave;Letter;Lowercase;Latin-1 Supplement;4141075.0;6184225;10325300.0;True;Latin
+89;89;Y;Latin Capital Letter Y;Letter;Uppercase;Basic Latin;4057689.0;5104992;9162681.0;True;Latin
+90;8230;…;Horizontal Ellipsis;Punctuation;Other;General Punctuation;4044671.0;5254318;9298989.0;True;Latin
+91;59;";";Semicolon;Punctuation;Other;Basic Latin;3960162.0;6209537;10169699.0;True;Latin
+92;61;=;Equals Sign;Symbol;Math;Basic Latin;3851879.0;4264195;8116074.0;True;Latin
+93;62;>;Greater-Than Sign;Symbol;Math;Basic Latin;3825975.0;4611791;8437766.0;True;Latin
+94;88;X;Latin Capital Letter X;Letter;Uppercase;Basic Latin;3812670.0;4829070;8641740.0;True;Latin
+95;43;+;Plus Sign;Symbol;Math;Basic Latin;3728710.0;3279061;7007771.0;True;Latin
+96;38;&;Ampersand;Punctuation;Other;Basic Latin;3426204.0;2918437;6344641.0;True;Latin
+97;201;É;Latin Capital Letter E With Acute;Letter;Uppercase;Latin-1 Supplement;3130845.0;6669830;9800675.0;True;Latin
+98;91;[;Left Square Bracket;Punctuation;Open;Basic Latin;2844327.0;9523473;12367800.0;True;Latin
+99;93;];Right Square Bracket;Punctuation;Close;Basic Latin;2543599.0;9362069;11905668.0;True;Latin
+100;90;Z;Latin Capital Letter Z;Letter;Uppercase;Basic Latin;2529063.0;3136827;5665890.0;True;Latin
+101;125;};Right Curly Bracket;Punctuation;Close;Basic Latin;2260069.0;2541205;4801274.0;True;Latin
+102;123;{;Left Curly Bracket;Punctuation;Open;Basic Latin;2258748.0;2543422;4802170.0;True;Latin
+103;60;<;Less-Than Sign;Symbol;Math;Basic Latin;2010323.0;3260605;5270928.0;True;Latin
+104;8226;•;Bullet;Punctuation;Other;General Punctuation;1920336.0;2035263;3955599.0;True;Latin
+105;42;*;Asterisk;Punctuation;Other;Basic Latin;1770814.0;1507322;3278136.0;True;Latin
+106;9;	;Char 9;Other;Control;Basic Latin;1522053.0;2085465;3607518.0;True;Latin
+107;239;ï;Latin Small Letter I With Diaeresis;Letter;Lowercase;Latin-1 Supplement;1522008.0;2891288;4413296.0;True;Latin
+108;192;À;Latin Capital Letter A With Grave;Letter;Uppercase;Latin-1 Supplement;1178236.0;2549027;3727263.0;True;Latin
+109;235;ë;Latin Small Letter E With Diaeresis;Letter;Lowercase;Latin-1 Supplement;1134917.0;1525735;2660652.0;True;Latin
+110;64;@;Commercial At;Punctuation;Other;Basic Latin;1059575.0;859011;1918586.0;True;Latin
+111;92;\;Reverse Solidus;Punctuation;Other;Basic Latin;528309.0;831889;1360198.0;True;Latin
+112;35;#;Number Sign;Punctuation;Other;Basic Latin;526981.0;582533;1109514.0;True;Latin
+113;169;©;Copyright Sign;Symbol;Other;Latin-1 Supplement;432972.0;305566;738538.0;True;Latin
+114;36;$;Dollar Sign;Symbol;Currency;Basic Latin;408476.0;368632;777108.0;True;Latin
+115;199;Ç;Latin Capital Letter C With Cedilla;Letter;Uppercase;Latin-1 Supplement;406823.0;355814;762637.0;True;Latin
+116;10003;✓;Check Mark;Symbol;Other;Dingbats;383559.0;213475;597034.0;True;Symbols
+117;94;^;Circumflex Accent;Symbol;Modifier;Basic Latin;344855.0;253770;598625.0;True;Latin
+118;252;ü;Latin Small Letter U With Diaeresis;Letter;Lowercase;Latin-1 Supplement;225759.0;582699;808458.0;True;Latin
+119;200;È;Latin Capital Letter E With Grave;Letter;Uppercase;Latin-1 Supplement;172679.0;169684;342363.0;True;Latin
+120;246;ö;Latin Small Letter O With Diaeresis;Letter;Lowercase;Latin-1 Supplement;154680.0;457416;612096.0;True;Latin
+121;164;¤;Currency Sign;Symbol;Currency;Latin-1 Supplement;125542.0;240300;365842.0;True;Latin
+122;228;ä;Latin Small Letter A With Diaeresis;Letter;Lowercase;Latin-1 Supplement;115753.0;263406;379159.0;True;Latin
+123;202;Ê;Latin Capital Letter E With Circumflex;Letter;Uppercase;Latin-1 Supplement;114507.0;113317;227824.0;True;Latin
+124;65532;￼;Object Replacement Character;Symbol;Other;Specials;92172.0;2039603;2131775.0;True;Ignore
+125;206;Î;Latin Capital Letter I With Circumflex;Letter;Uppercase;Latin-1 Supplement;77069.0;181089;258158.0;True;Latin
+126;195;Ã;Latin Capital Letter A With Tilde;Letter;Uppercase;Latin-1 Supplement;58440.0;43155;101595.0;True;Latin
+127;194;Â;Latin Capital Letter A With Circumflex;Letter;Uppercase;Latin-1 Supplement;48109.0;182307;230416.0;True;Latin
+128;212;Ô;Latin Capital Letter O With Circumflex;Letter;Uppercase;Latin-1 Supplement;48017.0;48215;96232.0;True;Latin
+129;174;®;Registered Sign;Symbol;Other;Latin-1 Supplement;44536.0;33409;77945.0;True;Latin
+130;225;á;Latin Small Letter A With Acute;Letter;Lowercase;Latin-1 Supplement;43902.0;414563;458465.0;True;Latin
+131;241;ñ;Latin Small Letter N With Tilde;Letter;Lowercase;Latin-1 Supplement;34910.0;121216;156126.0;True;Latin
+132;167;§;Section Sign;Punctuation;Other;Latin-1 Supplement;29947.0;40115;70062.0;True;Latin
+133;243;ó;Latin Small Letter O With Acute;Letter;Lowercase;Latin-1 Supplement;29186.0;291813;320999.0;True;Latin
+134;214;Ö;Latin Capital Letter O With Diaeresis;Letter;Uppercase;Latin-1 Supplement;27400.0;49366;76766.0;True;Latin
+135;237;í;Latin Small Letter I With Acute;Letter;Lowercase;Latin-1 Supplement;26639.0;311149;337788.0;True;Latin
+136;126;~;Tilde;Symbol;Math;Basic Latin;22011.0;60180;82191.0;True;Latin
+137;215;×;Multiplication Sign;Symbol;Math;Latin-1 Supplement;21631.0;149656;171287.0;True;Latin
+138;128578;🙂;Slightly Smiling Face;Symbol;Other;Emoticons;20346.0;18170;38516.0;True;Symbols
+139;128521;😉;Winking Face;Symbol;Other;Emoticons;18080.0;13563;31643.0;True;Symbols
+140;9829;♥;Black Heart Suit;Symbol;Other;Miscellaneous Symbols;17025.0;11881;28906.0;True;Symbols
+141;227;ã;Latin Small Letter A With Tilde;Letter;Lowercase;Latin-1 Supplement;14743.0;78217;92960.0;True;Latin
+142;8658;⇒;Rightwards Double Arrow;Symbol;Math;Arrows;13166.0;11148;24314.0;True;Symbols
+143;163;£;Pound Sign;Symbol;Currency;Latin-1 Supplement;12580.0;19820;32400.0;True;Latin
+144;207;Ï;Latin Capital Letter I With Diaeresis;Letter;Uppercase;Latin-1 Supplement;12459.0;12984;25443.0;True;Latin
+145;203;Ë;Latin Capital Letter E With Diaeresis;Letter;Uppercase;Latin-1 Supplement;11456.0;11277;22733.0;True;Latin
+146;8594;→;Rightwards Arrow;Symbol;Math;Arrows;11282.0;106923;118205.0;True;Symbols
+147;219;Û;Latin Capital Letter U With Circumflex;Letter;Uppercase;Latin-1 Supplement;9748.0;8508;18256.0;True;Latin
+148;65533;�;Replacement Character;Symbol;Other;Specials;9182.0;4585;13767.0;True;Ignore
+149;250;ú;Latin Small Letter U With Acute;Letter;Lowercase;Latin-1 Supplement;8041.0;78223;86264.0;True;Latin
+150;191;¿;Inverted Question Mark;Punctuation;Other;Latin-1 Supplement;7933.0;4537;12470.0;True;Latin
+151;248;ø;Latin Small Letter O With Stroke;Letter;Lowercase;Latin-1 Supplement;7548.0;38132;45680.0;True;Latin
+152;255;ÿ;Latin Small Letter Y With Diaeresis;Letter;Lowercase;Latin-1 Supplement;6855.0;18545;25400.0;True;Latin
+153;8482;™;Trade Mark Sign;Symbol;Other;Letterlike Symbols;6616.0;4497;11113.0;True;Latin
+154;128308;🔴;Large Red Circle;Symbol;Other;Miscellaneous Symbols and Pictographs;5599.0;6827;12426.0;True;Symbols
+155;166;¦;Broken Bar;Symbol;Other;Latin-1 Supplement;5581.0;5477;11058.0;True;Latin
+156;9733;★;Black Star;Symbol;Other;Miscellaneous Symbols;4952.0;5132;10084.0;True;Symbols
+157;181;µ;Micro Sign;Letter;Lowercase;Latin-1 Supplement;4701.0;39134;43835.0;True;Latin
+158;220;Ü;Latin Capital Letter U With Diaeresis;Letter;Uppercase;Latin-1 Supplement;4478.0;11447;15925.0;True;Latin
+159;128512;😀;Grinning Face;Symbol;Other;Emoticons;3992.0;3645;7637.0;True;Symbols
+160;279;ė;Latin Small Letter E With Dot Above;Letter;Lowercase;Latin Extended-A;3920.0;7409;11329.0;True;Latin
+161;128514;😂;Face With Tears Of Joy;Symbol;Other;Emoticons;3682.0;3250;6932.0;True;Symbols
+162;9888;⚠;Warning Sign;Symbol;Other;Miscellaneous Symbols;3448.0;2585;6033.0;True;Symbols
+163;128522;😊;Smiling Face With Smiling Eyes;Symbol;Other;Emoticons;3324.0;2534;5858.0;True;Symbols
+164;229;å;Latin Small Letter A With Ring Above;Letter;Lowercase;Latin-1 Supplement;2985.0;27304;30289.0;True;Latin
+165;305;ı;Latin Small Letter Dotless I;Letter;Lowercase;Latin Extended-A;2566.0;28346;30912.0;True;Latin
+166;193;Á;Latin Capital Letter A With Acute;Letter;Uppercase;Latin-1 Supplement;2464.0;27994;30458.0;True;Latin
+167;8804;≤;Less-Than Or Equal To;Symbol;Math;Mathematical Operators;2362.0;9666;12028.0;True;Math
+168;128170;💪;Flexed Biceps;Symbol;Other;Miscellaneous Symbols and Pictographs;2237.0;2820;5057.0;True;Symbols
+169;9917;⚽;Soccer Ball;Symbol;Other;Miscellaneous Symbols;2214.0;3459;5673.0;True;Symbols
+170;216;Ø;Latin Capital Letter O With Stroke;Letter;Uppercase;Latin-1 Supplement;2208.0;8390;10598.0;True;Latin
+171;128513;😁;Grinning Face With Smiling Eyes;Symbol;Other;Emoticons;2194.0;1699;3893.0;True;Symbols
+172;128293;🔥;Fire;Symbol;Other;Miscellaneous Symbols and Pictographs;2157.0;2705;4862.0;True;Symbols
+173;196;Ä;Latin Capital Letter A With Diaeresis;Letter;Uppercase;Latin-1 Supplement;2140.0;4882;7022.0;True;Latin
+174;8595;↓;Downwards Arrow;Symbol;Math;Arrows;2140.0;6828;8968.0;True;Symbols
+175;128073;👉;White Right Pointing Backhand Index;Symbol;Other;Miscellaneous Symbols and Pictographs;2021.0;2245;4266.0;True;Symbols
+176;175;¯;Macron;Symbol;Modifier;Latin-1 Supplement;1978.0;4888;6866.0;True;Latin
+177;353;š;Latin Small Letter S With Caron;Letter;Lowercase;Latin Extended-A;1977.0;72820;74797.0;True;Latin
+178;287;ğ;Latin Small Letter G With Breve;Letter;Lowercase;Latin Extended-A;1927.0;14037;15964.0;True;Latin
+179;352;Š;Latin Capital Letter S With Caron;Letter;Uppercase;Latin Extended-A;1862.0;18960;20822.0;True;Latin
+180;218;Ú;Latin Capital Letter U With Acute;Letter;Uppercase;Latin-1 Supplement;1794.0;4080;5874.0;True;Latin
+181;197;Å;Latin Capital Letter A With Ring Above;Letter;Uppercase;Latin-1 Supplement;1682.0;10397;12079.0;True;Latin
+182;217;Ù;Latin Capital Letter U With Grave;Letter;Uppercase;Latin-1 Supplement;1681.0;1819;3500.0;True;Latin
+183;127942;🏆;Trophy;Symbol;Other;Miscellaneous Symbols and Pictographs;1666.0;2529;4195.0;True;Symbols
+184;128077;👍;Thumbs Up Sign;Symbol;Other;Miscellaneous Symbols and Pictographs;1604.0;1237;2841.0;True;Symbols
+185;242;ò;Latin Small Letter O With Grave;Letter;Lowercase;Latin-1 Supplement;1574.0;24791;26365.0;True;Latin
+186;128079;👏;Clapping Hands Sign;Symbol;Other;Miscellaneous Symbols and Pictographs;1539.0;2100;3639.0;True;Symbols
+187;263;ć;Latin Small Letter C With Acute;Letter;Lowercase;Latin Extended-A;1376.0;81490;82866.0;True;Latin
+188;223;ß;Latin Small Letter Sharp S;Letter;Lowercase;Latin-1 Supplement;1351.0;31682;33033.0;True;Latin
+189;236;ì;Latin Small Letter I With Grave;Letter;Lowercase;Latin-1 Supplement;1323.0;14666;15989.0;True;Latin
+190;161;¡;Inverted Exclamation Mark;Punctuation;Other;Latin-1 Supplement;1283.0;2641;3924.0;True;Latin
+191;247;÷;Division Sign;Symbol;Math;Latin-1 Supplement;1257.0;2712;3969.0;True;Latin
+192;8805;≥;Greater-Than Or Equal To;Symbol;Math;Mathematical Operators;1231.0;5360;6591.0;True;Math
+193;8240;‰;Per Mille Sign;Punctuation;Other;General Punctuation;1166.0;17645;18811.0;True;Latin
+194;128577;🙁;Slightly Frowning Face;Symbol;Other;Emoticons;1072.0;1175;2247.0;True;Symbols
+195;351;ş;Latin Small Letter S With Cedilla;Letter;Lowercase;Latin Extended-A;1052.0;16830;17882.0;True;Latin
+196;128591;🙏;Person With Folded Hands;Symbol;Other;Emoticons;1051.0;1345;2396.0;True;Symbols
+197;177;±;Plus-Minus Sign;Symbol;Math;Latin-1 Supplement;1008.0;11766;12774.0;True;Latin
+198;381;Ž;Latin Capital Letter Z With Caron;Letter;Uppercase;Latin Extended-A;1007.0;7980;8987.0;True;Latin
+199;128517;😅;Smiling Face With Open Mouth And Cold Sweat;Symbol;Other;Emoticons;978.0;834;1812.0;True;Symbols
+200;9835;♫;Beamed Eighth Notes;Symbol;Other;Miscellaneous Symbols;976.0;1703;2679.0;True;Symbols
+201;324;ń;Latin Small Letter N With Acute;Letter;Lowercase;Latin Extended-A;967.0;24081;25048.0;True;Latin
+202;128525;😍;Smiling Face With Heart-Shaped Eyes;Symbol;Other;Emoticons;957.0;1285;2242.0;True;Symbols
+203;128515;😃;Smiling Face With Open Mouth;Symbol;Other;Emoticons;916.0;755;1671.0;True;Symbols
+204;128545;😡;Pouting Face;Symbol;Other;Emoticons;899.0;875;1774.0;True;Symbols
+205;128161;💡;Electric Light Bulb;Symbol;Other;Miscellaneous Symbols and Pictographs;882.0;365;1247.0;True;Symbols
+206;269;č;Latin Small Letter C With Caron;Letter;Lowercase;Latin Extended-A;817.0;47212;48029.0;True;Latin
+207;129315;🤣;Rolling On The Floor Laughing;Symbol;Other;Supplemental Symbols and Pictographs;802.0;710;1512.0;True;Symbols
+208;128680;🚨;Police Cars Revolving Light;Symbol;Other;Transport and Map Symbols;797.0;1110;1907.0;True;Symbols
+209;128165;💥;Collision Symbol;Symbol;Other;Miscellaneous Symbols and Pictographs;785.0;1100;1885.0;True;Symbols
+210;245;õ;Latin Small Letter O With Tilde;Letter;Lowercase;Latin-1 Supplement;784.0;6751;7535.0;True;Latin
+211;9889;⚡;High Voltage Sign;Symbol;Other;Miscellaneous Symbols;759.0;1050;1809.0;True;Symbols
+212;128516;😄;Smiling Face With Open Mouth And Smiling Eyes;Symbol;Other;Emoticons;756.0;540;1296.0;True;Symbols
+213;129300;🤔;Thinking Face;Symbol;Other;Supplemental Symbols and Pictographs;745.0;590;1335.0;True;Symbols
+214;128526;😎;Smiling Face With Sunglasses;Symbol;Other;Emoticons;740.0;545;1285.0;True;Symbols
+215;128121;👹;Japanese Ogre;Symbol;Other;Miscellaneous Symbols and Pictographs;726.0;530;1256.0;True;Symbols
+216;128557;😭;Loudly Crying Face;Symbol;Other;Emoticons;721.0;745;1466.0;True;Symbols
+217;128561;😱;Face Screaming In Fear;Symbol;Other;Emoticons;719.0;790;1509.0;True;Symbols
+218;165;¥;Yen Sign;Symbol;Currency;Latin-1 Supplement;626.0;1161;1787.0;True;Latin
+219;128540;😜;Face With Stuck-Out Tongue And Winking Eye;Symbol;Other;Emoticons;616.0;459;1075.0;True;Symbols
+220;376;Ÿ;Latin Capital Letter Y With Diaeresis;Letter;Uppercase;Latin Extended-A;590.0;502;1092.0;True;Latin
+221;128071;👇;White Down Pointing Backhand Index;Symbol;Other;Miscellaneous Symbols and Pictographs;570.0;685;1255.0;True;Symbols
+222;128074;👊;Fisted Hand Sign;Symbol;Other;Miscellaneous Symbols and Pictographs;569.0;890;1459.0;True;Symbols
+223;128078;👎;Thumbs Down Sign;Symbol;Other;Miscellaneous Symbols and Pictographs;555.0;369;924.0;True;Symbols
+224;9794;♂;Male Sign;Symbol;Other;Miscellaneous Symbols;537.0;1076;1613.0;True;Symbols
+225;9792;♀;Female Sign;Symbol;Other;Miscellaneous Symbols;515.0;938;1453.0;True;Symbols
+226;8224;†;Dagger;Punctuation;Other;General Punctuation;510.0;227683;228193.0;True;Latin
+227;128523;😋;Face Savouring Delicious Food;Symbol;Other;Emoticons;508.0;405;913.0;True;Symbols
+228;128076;👌;Ok Hand Sign;Symbol;Other;Miscellaneous Symbols and Pictographs;476.0;615;1091.0;True;Symbols
+229;10064;❐;Upper Right Drop-Shadowed White Square;Symbol;Other;Dingbats;470.0;510;980.0;True;Symbols
+230;129321;🤩;Grinning Face With Star Eyes;Symbol;Other;Supplemental Symbols and Pictographs;456.0;550;1006.0;True;Symbols
+231;128588;🙌;Person Raising Both Hands In Celebration;Symbol;Other;Emoticons;455.0;655;1110.0;True;Symbols
+232;128580;🙄;Face With Rolling Eyes;Symbol;Other;Emoticons;437.0;250;687.0;True;Symbols
+233;8596;↔;Left Right Arrow;Symbol;Math;Arrows;423.0;5995;6418.0;True;Symbols
+234;10060;❌;Cross Mark;Symbol;Other;Dingbats;419.0;470;889.0;True;Symbols
+235;128518;😆;Smiling Face With Open Mouth And Tightly-Closed Eyes;Symbol;Other;Emoticons;417.0;330;747.0;True;Symbols
+236;955;λ;Greek Small Letter Lamda;Letter;Lowercase;Greek and Coptic;411.0;29903;30314.0;True;Greek
+237;9996;✌;Victory Hand;Symbol;Other;Dingbats;399.0;402;801.0;True;Symbols
+238;162;¢;Cent Sign;Symbol;Currency;Latin-1 Supplement;380.0;724;1104.0;True;Latin
+239;128539;😛;Face With Stuck-Out Tongue;Symbol;Other;Emoticons;374.0;405;779.0;True;Symbols
+240;129322;🤪;Grinning Face With One Large And One Small Eye;Symbol;Other;Supplemental Symbols and Pictographs;365.0;245;610.0;True;Symbols
+241;128546;😢;Crying Face;Symbol;Other;Emoticons;361.0;404;765.0;True;Symbols
+242;127881;🎉;Party Popper;Symbol;Other;Miscellaneous Symbols and Pictographs;356.0;440;796.0;True;Symbols
+243;9994;✊;Raised Fist;Symbol;Other;Dingbats;347.0;485;832.0;True;Symbols
+244;960;π;Greek Small Letter Pi;Letter;Lowercase;Greek and Coptic;298.0;22082;22380.0;True;Greek
+245;128519;😇;Smiling Face With Halo;Symbol;Other;Emoticons;291.0;205;496.0;True;Symbols
+246;129318;🤦;Face Palm;Symbol;Other;Supplemental Symbols and Pictographs;277.0;190;467.0;True;Symbols
+247;8593;↑;Upwards Arrow;Symbol;Math;Arrows;242.0;3048593;3048835.0;True;Symbols
+248;9997;✍;Writing Hand;Symbol;Other;Dingbats;157.0;1180;1337.0;True;Symbols
+249;8800;≠;Not Equal To;Symbol;Math;Mathematical Operators;120.0;1969;2089.0;True;Math
+250;8734;∞;Infinity;Symbol;Math;Mathematical Operators;115.0;3719;3834.0;True;Math
+251;8730;√;Square Root;Symbol;Math;Mathematical Operators;114.0;1052;1166.0;True;Math
+252;8592;←;Leftwards Arrow;Symbol;Math;Arrows;108.0;10576;10684.0;True;Symbols
+253;9993;✉;Envelope;Symbol;Other;Dingbats;55.0;2301;2356.0;True;Symbols
+254;10013;✝;Latin Cross;Symbol;Other;Dingbats;22.0;1376;1398.0;True;Symbols

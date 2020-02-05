@@ -1,0 +1,28 @@
+﻿Code;Char;CharName;NormCode;NormChar;NormCharName
+945;α;Greek Small Letter Alpha;97;a;Latin Small Letter A
+1072;а;Cyrillic Small Letter A;97;a;Latin Small Letter A
+946;β;Greek Small Letter Beta;98;b;Latin Small Letter B
+1074;в;Cyrillic Small Letter Ve;98;b;Latin Small Letter B
+1089;с;Cyrillic Small Letter Es;99;c;Latin Small Letter C
+949;ε;Greek Small Letter Epsilon;101;e;Latin Small Letter E
+1077;е;Cyrillic Small Letter Ie;101;e;Latin Small Letter E
+1108;є;Cyrillic Small Letter Ukrainian Ie;101;e;Latin Small Letter E
+1085;н;Cyrillic Small Letter En;104;h;Latin Small Letter H
+953;ι;Greek Small Letter Iota;105;i;Latin Small Letter I
+1082;к;Cyrillic Small Letter Ka;107;k;Latin Small Letter K
+1084;м;Cyrillic Small Letter Em;109;m;Latin Small Letter M
+951;η;Greek Small Letter Eta;110;n;Latin Small Letter N
+959;ο;Greek Small Letter Omicron;111;o;Latin Small Letter O
+963;σ;Greek Small Letter Sigma;111;o;Latin Small Letter O
+1086;о;Cyrillic Small Letter O;111;o;Latin Small Letter O
+961;ρ;Greek Small Letter Rho;112;p;Latin Small Letter P
+1088;р;Cyrillic Small Letter Er;112;p;Latin Small Letter P
+1103;я;Cyrillic Small Letter Ya;114;r;Latin Small Letter R
+1109;ѕ;Cyrillic Small Letter Dze;115;s;Latin Small Letter S
+964;τ;Greek Small Letter Tau;116;t;Latin Small Letter T
+1090;т;Cyrillic Small Letter Te;116;t;Latin Small Letter T
+965;υ;Greek Small Letter Upsilon;117;u;Latin Small Letter U
+1405;ս;Armenian Small Letter Seh;117;u;Latin Small Letter U
+957;ν;Greek Small Letter Nu;118;v;Latin Small Letter V
+1091;у;Cyrillic Small Letter U;121;y;Latin Small Letter Y
+956;μ;Greek Small Letter Mu;181;µ;Micro Sign

@@ -1,0 +1,918 @@
+﻿Code;Char;CharName;NormString;Layout
+8253;‽;Interrobang;?!;
+8265;⁉;Exclamation Question Mark;!?;
+8448;℀;Account Of;a/c;
+8449;℁;Addressed To The Subject;a/s;
+8450;ℂ;Double-Struck Capital C;C;Double-Struck
+8451;℃;Degree Celsius;°C;Unit
+8453;℅;Care Of;c/o;
+8454;℆;Cada Una;c/u;
+8457;℉;Degree Fahrenheit;°F;Unit
+8458;ℊ;Script Small G;g;Script
+8459;ℋ;Script Capital H;H;Script
+8460;ℌ;Black-Letter Capital H;H;Black-Letter
+8461;ℍ;Double-Struck Capital H;H;Double-Struck
+8464;ℐ;Script Capital I;I;Script
+8465;ℑ;Black-Letter Capital I;I;Black-Letter
+8466;ℒ;Script Capital L;L;Script
+8467;ℓ;Script Small L;l;Script
+8469;ℕ;Double-Struck Capital N;N;Double-Struck
+8470;№;Numero Sign;N°;
+8472;℘;Script Capital P;P;Script
+8473;ℙ;Double-Struck Capital P;P;Double-Struck
+8474;ℚ;Double-Struck Capital Q;Q;Double-Struck
+8475;ℛ;Script Capital R;R;Script
+8476;ℜ;Black-Letter Capital R;R;Black-Letter
+8477;ℝ;Double-Struck Capital R;R;Double-Struck
+8481;℡;Telephone Sign;TEL;
+8484;ℤ;Double-Struck Capital Z;Z;Double-Struck
+8488;ℨ;Black-Letter Capital Z;Z;Black-Letter
+8490;K;Kelvin Sign;K;Unit
+8491;Å;Angstrom Sign;Å;Unit
+8492;ℬ;Script Capital B;B;Script
+8493;ℭ;Black-Letter Capital C;C;Black-Letter
+8495;ℯ;Script Small E;e;Script
+8496;ℰ;Script Capital E;E;Script
+8497;ℱ;Script Capital F;F;Script
+8498;Ⅎ;Turned Capital F;F;Turned
+8499;ℳ;Script Capital M;M;Script
+8500;ℴ;Script Small O;o;Script
+8506;℺;Rotated Capital Q;Q;Rotated
+8507;℻;Facsimile Sign;FAX;
+8508;ℼ;Double-Struck Small Pi;π;Double-Struck
+8513;⅁;Turned Sans-Serif Capital G;G;Turned Sans-Serif
+8514;⅂;Turned Sans-Serif Capital L;L;Turned Sans-Serif
+8515;⅃;Reversed Sans-Serif Capital L;L;Reversed Sans-Serif
+8516;⅄;Turned Sans-Serif Capital Y;Y;Turned Sans-Serif
+8517;ⅅ;Double-Struck Italic Capital D;D;Double-Struck Italic
+8518;ⅆ;Double-Struck Italic Small D;d;Double-Struck Italic
+8519;ⅇ;Double-Struck Italic Small E;e;Double-Struck Italic
+8520;ⅈ;Double-Struck Italic Small I;i;Double-Struck Italic
+8521;ⅉ;Double-Struck Italic Small J;j;Double-Struck Italic
+8523;⅋;Turned Ampersand;&;Turned
+8525;⅍;Aktieselskab;A/S;
+8526;ⅎ;Turned Small F;f;Turned
+9372;⒜;Parenthesized Latin Small Letter A;(a);Parenthesized
+9373;⒝;Parenthesized Latin Small Letter B;(b);Parenthesized
+9374;⒞;Parenthesized Latin Small Letter C;(c);Parenthesized
+9375;⒟;Parenthesized Latin Small Letter D;(d);Parenthesized
+9376;⒠;Parenthesized Latin Small Letter E;(e);Parenthesized
+9377;⒡;Parenthesized Latin Small Letter F;(f);Parenthesized
+9378;⒢;Parenthesized Latin Small Letter G;(g);Parenthesized
+9379;⒣;Parenthesized Latin Small Letter H;(h);Parenthesized
+9380;⒤;Parenthesized Latin Small Letter I;(i);Parenthesized
+9381;⒥;Parenthesized Latin Small Letter J;(j);Parenthesized
+9382;⒦;Parenthesized Latin Small Letter K;(k);Parenthesized
+9383;⒧;Parenthesized Latin Small Letter L;(l);Parenthesized
+9384;⒨;Parenthesized Latin Small Letter M;(m);Parenthesized
+9385;⒩;Parenthesized Latin Small Letter N;(n);Parenthesized
+9386;⒪;Parenthesized Latin Small Letter O;(o);Parenthesized
+9387;⒫;Parenthesized Latin Small Letter P;(p);Parenthesized
+9388;⒬;Parenthesized Latin Small Letter Q;(q);Parenthesized
+9389;⒭;Parenthesized Latin Small Letter R;(r);Parenthesized
+9390;⒮;Parenthesized Latin Small Letter S;(s);Parenthesized
+9391;⒯;Parenthesized Latin Small Letter T;(t);Parenthesized
+9392;⒰;Parenthesized Latin Small Letter U;(u);Parenthesized
+9393;⒱;Parenthesized Latin Small Letter V;(v);Parenthesized
+9394;⒲;Parenthesized Latin Small Letter W;(w);Parenthesized
+9395;⒳;Parenthesized Latin Small Letter X;(x);Parenthesized
+9396;⒴;Parenthesized Latin Small Letter Y;(y);Parenthesized
+9397;⒵;Parenthesized Latin Small Letter Z;(z);Parenthesized
+9398;Ⓐ;Circled Latin Capital Letter A;(A);Circled
+9399;Ⓑ;Circled Latin Capital Letter B;(B);Circled
+9400;Ⓒ;Circled Latin Capital Letter C;(C);Circled
+9401;Ⓓ;Circled Latin Capital Letter D;(D);Circled
+9402;Ⓔ;Circled Latin Capital Letter E;(E);Circled
+9403;Ⓕ;Circled Latin Capital Letter F;(F);Circled
+9404;Ⓖ;Circled Latin Capital Letter G;(G);Circled
+9405;Ⓗ;Circled Latin Capital Letter H;(H);Circled
+9406;Ⓘ;Circled Latin Capital Letter I;(I);Circled
+9407;Ⓙ;Circled Latin Capital Letter J;(J);Circled
+9408;Ⓚ;Circled Latin Capital Letter K;(K);Circled
+9409;Ⓛ;Circled Latin Capital Letter L;(L);Circled
+9410;Ⓜ;Circled Latin Capital Letter M;(M);Circled
+9411;Ⓝ;Circled Latin Capital Letter N;(N);Circled
+9412;Ⓞ;Circled Latin Capital Letter O;(O);Circled
+9413;Ⓟ;Circled Latin Capital Letter P;(P);Circled
+9414;Ⓠ;Circled Latin Capital Letter Q;(Q);Circled
+9415;Ⓡ;Circled Latin Capital Letter R;(R);Circled
+9416;Ⓢ;Circled Latin Capital Letter S;(S);Circled
+9417;Ⓣ;Circled Latin Capital Letter T;(T);Circled
+9418;Ⓤ;Circled Latin Capital Letter U;(U);Circled
+9419;Ⓥ;Circled Latin Capital Letter V;(V);Circled
+9420;Ⓦ;Circled Latin Capital Letter W;(W);Circled
+9421;Ⓧ;Circled Latin Capital Letter X;(X);Circled
+9422;Ⓨ;Circled Latin Capital Letter Y;(Y);Circled
+9423;Ⓩ;Circled Latin Capital Letter Z;(Z);Circled
+9424;ⓐ;Circled Latin Small Letter A;(a);Circled
+9425;ⓑ;Circled Latin Small Letter B;(b);Circled
+9426;ⓒ;Circled Latin Small Letter C;(c);Circled
+9427;ⓓ;Circled Latin Small Letter D;(d);Circled
+9428;ⓔ;Circled Latin Small Letter E;(e);Circled
+9429;ⓕ;Circled Latin Small Letter F;(f);Circled
+9430;ⓖ;Circled Latin Small Letter G;(g);Circled
+9431;ⓗ;Circled Latin Small Letter H;(h);Circled
+9432;ⓘ;Circled Latin Small Letter I;(i);Circled
+9433;ⓙ;Circled Latin Small Letter J;(j);Circled
+9434;ⓚ;Circled Latin Small Letter K;(k);Circled
+9435;ⓛ;Circled Latin Small Letter L;(l);Circled
+9436;ⓜ;Circled Latin Small Letter M;(m);Circled
+9437;ⓝ;Circled Latin Small Letter N;(n);Circled
+9438;ⓞ;Circled Latin Small Letter O;(o);Circled
+9439;ⓟ;Circled Latin Small Letter P;(p);Circled
+9440;ⓠ;Circled Latin Small Letter Q;(q);Circled
+9441;ⓡ;Circled Latin Small Letter R;(r);Circled
+9442;ⓢ;Circled Latin Small Letter S;(s);Circled
+9443;ⓣ;Circled Latin Small Letter T;(t);Circled
+9444;ⓤ;Circled Latin Small Letter U;(u);Circled
+9445;ⓥ;Circled Latin Small Letter V;(v);Circled
+9446;ⓦ;Circled Latin Small Letter W;(w);Circled
+9447;ⓧ;Circled Latin Small Letter X;(x);Circled
+9448;ⓨ;Circled Latin Small Letter Y;(y);Circled
+9449;ⓩ;Circled Latin Small Letter Z;(z);Circled
+119808;𝐀;Mathematical Bold Capital A;A;Mathematical Bold
+119809;𝐁;Mathematical Bold Capital B;B;Mathematical Bold
+119810;𝐂;Mathematical Bold Capital C;C;Mathematical Bold
+119811;𝐃;Mathematical Bold Capital D;D;Mathematical Bold
+119812;𝐄;Mathematical Bold Capital E;E;Mathematical Bold
+119813;𝐅;Mathematical Bold Capital F;F;Mathematical Bold
+119814;𝐆;Mathematical Bold Capital G;G;Mathematical Bold
+119815;𝐇;Mathematical Bold Capital H;H;Mathematical Bold
+119816;𝐈;Mathematical Bold Capital I;I;Mathematical Bold
+119817;𝐉;Mathematical Bold Capital J;J;Mathematical Bold
+119818;𝐊;Mathematical Bold Capital K;K;Mathematical Bold
+119819;𝐋;Mathematical Bold Capital L;L;Mathematical Bold
+119820;𝐌;Mathematical Bold Capital M;M;Mathematical Bold
+119821;𝐍;Mathematical Bold Capital N;N;Mathematical Bold
+119822;𝐎;Mathematical Bold Capital O;O;Mathematical Bold
+119823;𝐏;Mathematical Bold Capital P;P;Mathematical Bold
+119824;𝐐;Mathematical Bold Capital Q;Q;Mathematical Bold
+119825;𝐑;Mathematical Bold Capital R;R;Mathematical Bold
+119826;𝐒;Mathematical Bold Capital S;S;Mathematical Bold
+119827;𝐓;Mathematical Bold Capital T;T;Mathematical Bold
+119828;𝐔;Mathematical Bold Capital U;U;Mathematical Bold
+119829;𝐕;Mathematical Bold Capital V;V;Mathematical Bold
+119830;𝐖;Mathematical Bold Capital W;W;Mathematical Bold
+119831;𝐗;Mathematical Bold Capital X;X;Mathematical Bold
+119832;𝐘;Mathematical Bold Capital Y;Y;Mathematical Bold
+119833;𝐙;Mathematical Bold Capital Z;Z;Mathematical Bold
+119834;𝐚;Mathematical Bold Small A;a;Mathematical Bold
+119835;𝐛;Mathematical Bold Small B;b;Mathematical Bold
+119836;𝐜;Mathematical Bold Small C;c;Mathematical Bold
+119837;𝐝;Mathematical Bold Small D;d;Mathematical Bold
+119838;𝐞;Mathematical Bold Small E;e;Mathematical Bold
+119839;𝐟;Mathematical Bold Small F;f;Mathematical Bold
+119840;𝐠;Mathematical Bold Small G;g;Mathematical Bold
+119841;𝐡;Mathematical Bold Small H;h;Mathematical Bold
+119842;𝐢;Mathematical Bold Small I;i;Mathematical Bold
+119843;𝐣;Mathematical Bold Small J;j;Mathematical Bold
+119844;𝐤;Mathematical Bold Small K;k;Mathematical Bold
+119845;𝐥;Mathematical Bold Small L;l;Mathematical Bold
+119846;𝐦;Mathematical Bold Small M;m;Mathematical Bold
+119847;𝐧;Mathematical Bold Small N;n;Mathematical Bold
+119848;𝐨;Mathematical Bold Small O;o;Mathematical Bold
+119849;𝐩;Mathematical Bold Small P;p;Mathematical Bold
+119850;𝐪;Mathematical Bold Small Q;q;Mathematical Bold
+119851;𝐫;Mathematical Bold Small R;r;Mathematical Bold
+119852;𝐬;Mathematical Bold Small S;s;Mathematical Bold
+119853;𝐭;Mathematical Bold Small T;t;Mathematical Bold
+119854;𝐮;Mathematical Bold Small U;u;Mathematical Bold
+119855;𝐯;Mathematical Bold Small V;v;Mathematical Bold
+119856;𝐰;Mathematical Bold Small W;w;Mathematical Bold
+119857;𝐱;Mathematical Bold Small X;x;Mathematical Bold
+119858;𝐲;Mathematical Bold Small Y;y;Mathematical Bold
+119859;𝐳;Mathematical Bold Small Z;z;Mathematical Bold
+119860;𝐴;Mathematical Italic Capital A;A;Mathematical Italic
+119861;𝐵;Mathematical Italic Capital B;B;Mathematical Italic
+119862;𝐶;Mathematical Italic Capital C;C;Mathematical Italic
+119863;𝐷;Mathematical Italic Capital D;D;Mathematical Italic
+119864;𝐸;Mathematical Italic Capital E;E;Mathematical Italic
+119865;𝐹;Mathematical Italic Capital F;F;Mathematical Italic
+119866;𝐺;Mathematical Italic Capital G;G;Mathematical Italic
+119867;𝐻;Mathematical Italic Capital H;H;Mathematical Italic
+119868;𝐼;Mathematical Italic Capital I;I;Mathematical Italic
+119869;𝐽;Mathematical Italic Capital J;J;Mathematical Italic
+119870;𝐾;Mathematical Italic Capital K;K;Mathematical Italic
+119871;𝐿;Mathematical Italic Capital L;L;Mathematical Italic
+119872;𝑀;Mathematical Italic Capital M;M;Mathematical Italic
+119873;𝑁;Mathematical Italic Capital N;N;Mathematical Italic
+119874;𝑂;Mathematical Italic Capital O;O;Mathematical Italic
+119875;𝑃;Mathematical Italic Capital P;P;Mathematical Italic
+119876;𝑄;Mathematical Italic Capital Q;Q;Mathematical Italic
+119877;𝑅;Mathematical Italic Capital R;R;Mathematical Italic
+119878;𝑆;Mathematical Italic Capital S;S;Mathematical Italic
+119879;𝑇;Mathematical Italic Capital T;T;Mathematical Italic
+119880;𝑈;Mathematical Italic Capital U;U;Mathematical Italic
+119881;𝑉;Mathematical Italic Capital V;V;Mathematical Italic
+119882;𝑊;Mathematical Italic Capital W;W;Mathematical Italic
+119883;𝑋;Mathematical Italic Capital X;X;Mathematical Italic
+119884;𝑌;Mathematical Italic Capital Y;Y;Mathematical Italic
+119885;𝑍;Mathematical Italic Capital Z;Z;Mathematical Italic
+119886;𝑎;Mathematical Italic Small A;a;Mathematical Italic
+119887;𝑏;Mathematical Italic Small B;b;Mathematical Italic
+119888;𝑐;Mathematical Italic Small C;c;Mathematical Italic
+119889;𝑑;Mathematical Italic Small D;d;Mathematical Italic
+119890;𝑒;Mathematical Italic Small E;e;Mathematical Italic
+119891;𝑓;Mathematical Italic Small F;f;Mathematical Italic
+119892;𝑔;Mathematical Italic Small G;g;Mathematical Italic
+119894;𝑖;Mathematical Italic Small I;i;Mathematical Italic
+119895;𝑗;Mathematical Italic Small J;j;Mathematical Italic
+119896;𝑘;Mathematical Italic Small K;k;Mathematical Italic
+119897;𝑙;Mathematical Italic Small L;l;Mathematical Italic
+119898;𝑚;Mathematical Italic Small M;m;Mathematical Italic
+119899;𝑛;Mathematical Italic Small N;n;Mathematical Italic
+119900;𝑜;Mathematical Italic Small O;o;Mathematical Italic
+119901;𝑝;Mathematical Italic Small P;p;Mathematical Italic
+119902;𝑞;Mathematical Italic Small Q;q;Mathematical Italic
+119903;𝑟;Mathematical Italic Small R;r;Mathematical Italic
+119904;𝑠;Mathematical Italic Small S;s;Mathematical Italic
+119905;𝑡;Mathematical Italic Small T;t;Mathematical Italic
+119906;𝑢;Mathematical Italic Small U;u;Mathematical Italic
+119907;𝑣;Mathematical Italic Small V;v;Mathematical Italic
+119908;𝑤;Mathematical Italic Small W;w;Mathematical Italic
+119909;𝑥;Mathematical Italic Small X;x;Mathematical Italic
+119910;𝑦;Mathematical Italic Small Y;y;Mathematical Italic
+119911;𝑧;Mathematical Italic Small Z;z;Mathematical Italic
+119912;𝑨;Mathematical Bold Italic Capital A;A;Mathematical Bold Italic
+119913;𝑩;Mathematical Bold Italic Capital B;B;Mathematical Bold Italic
+119914;𝑪;Mathematical Bold Italic Capital C;C;Mathematical Bold Italic
+119915;𝑫;Mathematical Bold Italic Capital D;D;Mathematical Bold Italic
+119916;𝑬;Mathematical Bold Italic Capital E;E;Mathematical Bold Italic
+119917;𝑭;Mathematical Bold Italic Capital F;F;Mathematical Bold Italic
+119918;𝑮;Mathematical Bold Italic Capital G;G;Mathematical Bold Italic
+119919;𝑯;Mathematical Bold Italic Capital H;H;Mathematical Bold Italic
+119920;𝑰;Mathematical Bold Italic Capital I;I;Mathematical Bold Italic
+119921;𝑱;Mathematical Bold Italic Capital J;J;Mathematical Bold Italic
+119922;𝑲;Mathematical Bold Italic Capital K;K;Mathematical Bold Italic
+119923;𝑳;Mathematical Bold Italic Capital L;L;Mathematical Bold Italic
+119924;𝑴;Mathematical Bold Italic Capital M;M;Mathematical Bold Italic
+119925;𝑵;Mathematical Bold Italic Capital N;N;Mathematical Bold Italic
+119926;𝑶;Mathematical Bold Italic Capital O;O;Mathematical Bold Italic
+119927;𝑷;Mathematical Bold Italic Capital P;P;Mathematical Bold Italic
+119928;𝑸;Mathematical Bold Italic Capital Q;Q;Mathematical Bold Italic
+119929;𝑹;Mathematical Bold Italic Capital R;R;Mathematical Bold Italic
+119930;𝑺;Mathematical Bold Italic Capital S;S;Mathematical Bold Italic
+119931;𝑻;Mathematical Bold Italic Capital T;T;Mathematical Bold Italic
+119932;𝑼;Mathematical Bold Italic Capital U;U;Mathematical Bold Italic
+119933;𝑽;Mathematical Bold Italic Capital V;V;Mathematical Bold Italic
+119934;𝑾;Mathematical Bold Italic Capital W;W;Mathematical Bold Italic
+119935;𝑿;Mathematical Bold Italic Capital X;X;Mathematical Bold Italic
+119936;𝒀;Mathematical Bold Italic Capital Y;Y;Mathematical Bold Italic
+119937;𝒁;Mathematical Bold Italic Capital Z;Z;Mathematical Bold Italic
+119938;𝒂;Mathematical Bold Italic Small A;a;Mathematical Bold Italic
+119939;𝒃;Mathematical Bold Italic Small B;b;Mathematical Bold Italic
+119940;𝒄;Mathematical Bold Italic Small C;c;Mathematical Bold Italic
+119941;𝒅;Mathematical Bold Italic Small D;d;Mathematical Bold Italic
+119942;𝒆;Mathematical Bold Italic Small E;e;Mathematical Bold Italic
+119943;𝒇;Mathematical Bold Italic Small F;f;Mathematical Bold Italic
+119944;𝒈;Mathematical Bold Italic Small G;g;Mathematical Bold Italic
+119945;𝒉;Mathematical Bold Italic Small H;h;Mathematical Bold Italic
+119946;𝒊;Mathematical Bold Italic Small I;i;Mathematical Bold Italic
+119947;𝒋;Mathematical Bold Italic Small J;j;Mathematical Bold Italic
+119948;𝒌;Mathematical Bold Italic Small K;k;Mathematical Bold Italic
+119949;𝒍;Mathematical Bold Italic Small L;l;Mathematical Bold Italic
+119950;𝒎;Mathematical Bold Italic Small M;m;Mathematical Bold Italic
+119951;𝒏;Mathematical Bold Italic Small N;n;Mathematical Bold Italic
+119952;𝒐;Mathematical Bold Italic Small O;o;Mathematical Bold Italic
+119953;𝒑;Mathematical Bold Italic Small P;p;Mathematical Bold Italic
+119954;𝒒;Mathematical Bold Italic Small Q;q;Mathematical Bold Italic
+119955;𝒓;Mathematical Bold Italic Small R;r;Mathematical Bold Italic
+119956;𝒔;Mathematical Bold Italic Small S;s;Mathematical Bold Italic
+119957;𝒕;Mathematical Bold Italic Small T;t;Mathematical Bold Italic
+119958;𝒖;Mathematical Bold Italic Small U;u;Mathematical Bold Italic
+119959;𝒗;Mathematical Bold Italic Small V;v;Mathematical Bold Italic
+119960;𝒘;Mathematical Bold Italic Small W;w;Mathematical Bold Italic
+119961;𝒙;Mathematical Bold Italic Small X;x;Mathematical Bold Italic
+119962;𝒚;Mathematical Bold Italic Small Y;y;Mathematical Bold Italic
+119963;𝒛;Mathematical Bold Italic Small Z;z;Mathematical Bold Italic
+119964;𝒜;Mathematical Script Capital A;A;Mathematical Script
+119966;𝒞;Mathematical Script Capital C;C;Mathematical Script
+119967;𝒟;Mathematical Script Capital D;D;Mathematical Script
+119970;𝒢;Mathematical Script Capital G;G;Mathematical Script
+119973;𝒥;Mathematical Script Capital J;J;Mathematical Script
+119974;𝒦;Mathematical Script Capital K;K;Mathematical Script
+119977;𝒩;Mathematical Script Capital N;N;Mathematical Script
+119978;𝒪;Mathematical Script Capital O;O;Mathematical Script
+119979;𝒫;Mathematical Script Capital P;P;Mathematical Script
+119980;𝒬;Mathematical Script Capital Q;Q;Mathematical Script
+119982;𝒮;Mathematical Script Capital S;S;Mathematical Script
+119983;𝒯;Mathematical Script Capital T;T;Mathematical Script
+119984;𝒰;Mathematical Script Capital U;U;Mathematical Script
+119985;𝒱;Mathematical Script Capital V;V;Mathematical Script
+119986;𝒲;Mathematical Script Capital W;W;Mathematical Script
+119987;𝒳;Mathematical Script Capital X;X;Mathematical Script
+119988;𝒴;Mathematical Script Capital Y;Y;Mathematical Script
+119989;𝒵;Mathematical Script Capital Z;Z;Mathematical Script
+119990;𝒶;Mathematical Script Small A;a;Mathematical Script
+119991;𝒷;Mathematical Script Small B;b;Mathematical Script
+119992;𝒸;Mathematical Script Small C;c;Mathematical Script
+119993;𝒹;Mathematical Script Small D;d;Mathematical Script
+119995;𝒻;Mathematical Script Small F;f;Mathematical Script
+119997;𝒽;Mathematical Script Small H;h;Mathematical Script
+119998;𝒾;Mathematical Script Small I;i;Mathematical Script
+119999;𝒿;Mathematical Script Small J;j;Mathematical Script
+120000;𝓀;Mathematical Script Small K;k;Mathematical Script
+120001;𝓁;Mathematical Script Small L;l;Mathematical Script
+120002;𝓂;Mathematical Script Small M;m;Mathematical Script
+120003;𝓃;Mathematical Script Small N;n;Mathematical Script
+120005;𝓅;Mathematical Script Small P;p;Mathematical Script
+120006;𝓆;Mathematical Script Small Q;q;Mathematical Script
+120007;𝓇;Mathematical Script Small R;r;Mathematical Script
+120008;𝓈;Mathematical Script Small S;s;Mathematical Script
+120009;𝓉;Mathematical Script Small T;t;Mathematical Script
+120010;𝓊;Mathematical Script Small U;u;Mathematical Script
+120011;𝓋;Mathematical Script Small V;v;Mathematical Script
+120012;𝓌;Mathematical Script Small W;w;Mathematical Script
+120013;𝓍;Mathematical Script Small X;x;Mathematical Script
+120014;𝓎;Mathematical Script Small Y;y;Mathematical Script
+120015;𝓏;Mathematical Script Small Z;z;Mathematical Script
+120016;𝓐;Mathematical Bold Script Capital A;A;Mathematical Bold Script
+120017;𝓑;Mathematical Bold Script Capital B;B;Mathematical Bold Script
+120018;𝓒;Mathematical Bold Script Capital C;C;Mathematical Bold Script
+120019;𝓓;Mathematical Bold Script Capital D;D;Mathematical Bold Script
+120020;𝓔;Mathematical Bold Script Capital E;E;Mathematical Bold Script
+120021;𝓕;Mathematical Bold Script Capital F;F;Mathematical Bold Script
+120022;𝓖;Mathematical Bold Script Capital G;G;Mathematical Bold Script
+120023;𝓗;Mathematical Bold Script Capital H;H;Mathematical Bold Script
+120024;𝓘;Mathematical Bold Script Capital I;I;Mathematical Bold Script
+120025;𝓙;Mathematical Bold Script Capital J;J;Mathematical Bold Script
+120026;𝓚;Mathematical Bold Script Capital K;K;Mathematical Bold Script
+120027;𝓛;Mathematical Bold Script Capital L;L;Mathematical Bold Script
+120028;𝓜;Mathematical Bold Script Capital M;M;Mathematical Bold Script
+120029;𝓝;Mathematical Bold Script Capital N;N;Mathematical Bold Script
+120030;𝓞;Mathematical Bold Script Capital O;O;Mathematical Bold Script
+120031;𝓟;Mathematical Bold Script Capital P;P;Mathematical Bold Script
+120032;𝓠;Mathematical Bold Script Capital Q;Q;Mathematical Bold Script
+120033;𝓡;Mathematical Bold Script Capital R;R;Mathematical Bold Script
+120034;𝓢;Mathematical Bold Script Capital S;S;Mathematical Bold Script
+120035;𝓣;Mathematical Bold Script Capital T;T;Mathematical Bold Script
+120036;𝓤;Mathematical Bold Script Capital U;U;Mathematical Bold Script
+120037;𝓥;Mathematical Bold Script Capital V;V;Mathematical Bold Script
+120038;𝓦;Mathematical Bold Script Capital W;W;Mathematical Bold Script
+120039;𝓧;Mathematical Bold Script Capital X;X;Mathematical Bold Script
+120040;𝓨;Mathematical Bold Script Capital Y;Y;Mathematical Bold Script
+120041;𝓩;Mathematical Bold Script Capital Z;Z;Mathematical Bold Script
+120042;𝓪;Mathematical Bold Script Small A;a;Mathematical Bold Script
+120043;𝓫;Mathematical Bold Script Small B;b;Mathematical Bold Script
+120044;𝓬;Mathematical Bold Script Small C;c;Mathematical Bold Script
+120045;𝓭;Mathematical Bold Script Small D;d;Mathematical Bold Script
+120046;𝓮;Mathematical Bold Script Small E;e;Mathematical Bold Script
+120047;𝓯;Mathematical Bold Script Small F;f;Mathematical Bold Script
+120048;𝓰;Mathematical Bold Script Small G;g;Mathematical Bold Script
+120049;𝓱;Mathematical Bold Script Small H;h;Mathematical Bold Script
+120050;𝓲;Mathematical Bold Script Small I;i;Mathematical Bold Script
+120051;𝓳;Mathematical Bold Script Small J;j;Mathematical Bold Script
+120052;𝓴;Mathematical Bold Script Small K;k;Mathematical Bold Script
+120053;𝓵;Mathematical Bold Script Small L;l;Mathematical Bold Script
+120054;𝓶;Mathematical Bold Script Small M;m;Mathematical Bold Script
+120055;𝓷;Mathematical Bold Script Small N;n;Mathematical Bold Script
+120056;𝓸;Mathematical Bold Script Small O;o;Mathematical Bold Script
+120057;𝓹;Mathematical Bold Script Small P;p;Mathematical Bold Script
+120058;𝓺;Mathematical Bold Script Small Q;q;Mathematical Bold Script
+120059;𝓻;Mathematical Bold Script Small R;r;Mathematical Bold Script
+120060;𝓼;Mathematical Bold Script Small S;s;Mathematical Bold Script
+120061;𝓽;Mathematical Bold Script Small T;t;Mathematical Bold Script
+120062;𝓾;Mathematical Bold Script Small U;u;Mathematical Bold Script
+120063;𝓿;Mathematical Bold Script Small V;v;Mathematical Bold Script
+120064;𝔀;Mathematical Bold Script Small W;w;Mathematical Bold Script
+120065;𝔁;Mathematical Bold Script Small X;x;Mathematical Bold Script
+120066;𝔂;Mathematical Bold Script Small Y;y;Mathematical Bold Script
+120067;𝔃;Mathematical Bold Script Small Z;z;Mathematical Bold Script
+120068;𝔄;Mathematical Fraktur Capital A;A;Mathematical Fraktur
+120069;𝔅;Mathematical Fraktur Capital B;B;Mathematical Fraktur
+120071;𝔇;Mathematical Fraktur Capital D;D;Mathematical Fraktur
+120072;𝔈;Mathematical Fraktur Capital E;E;Mathematical Fraktur
+120073;𝔉;Mathematical Fraktur Capital F;F;Mathematical Fraktur
+120074;𝔊;Mathematical Fraktur Capital G;G;Mathematical Fraktur
+120077;𝔍;Mathematical Fraktur Capital J;J;Mathematical Fraktur
+120078;𝔎;Mathematical Fraktur Capital K;K;Mathematical Fraktur
+120079;𝔏;Mathematical Fraktur Capital L;L;Mathematical Fraktur
+120080;𝔐;Mathematical Fraktur Capital M;M;Mathematical Fraktur
+120081;𝔑;Mathematical Fraktur Capital N;N;Mathematical Fraktur
+120082;𝔒;Mathematical Fraktur Capital O;O;Mathematical Fraktur
+120083;𝔓;Mathematical Fraktur Capital P;P;Mathematical Fraktur
+120084;𝔔;Mathematical Fraktur Capital Q;Q;Mathematical Fraktur
+120086;𝔖;Mathematical Fraktur Capital S;S;Mathematical Fraktur
+120087;𝔗;Mathematical Fraktur Capital T;T;Mathematical Fraktur
+120088;𝔘;Mathematical Fraktur Capital U;U;Mathematical Fraktur
+120089;𝔙;Mathematical Fraktur Capital V;V;Mathematical Fraktur
+120090;𝔚;Mathematical Fraktur Capital W;W;Mathematical Fraktur
+120091;𝔛;Mathematical Fraktur Capital X;X;Mathematical Fraktur
+120092;𝔜;Mathematical Fraktur Capital Y;Y;Mathematical Fraktur
+120094;𝔞;Mathematical Fraktur Small A;a;Mathematical Fraktur
+120095;𝔟;Mathematical Fraktur Small B;b;Mathematical Fraktur
+120096;𝔠;Mathematical Fraktur Small C;c;Mathematical Fraktur
+120097;𝔡;Mathematical Fraktur Small D;d;Mathematical Fraktur
+120098;𝔢;Mathematical Fraktur Small E;e;Mathematical Fraktur
+120099;𝔣;Mathematical Fraktur Small F;f;Mathematical Fraktur
+120100;𝔤;Mathematical Fraktur Small G;g;Mathematical Fraktur
+120101;𝔥;Mathematical Fraktur Small H;h;Mathematical Fraktur
+120102;𝔦;Mathematical Fraktur Small I;i;Mathematical Fraktur
+120103;𝔧;Mathematical Fraktur Small J;j;Mathematical Fraktur
+120104;𝔨;Mathematical Fraktur Small K;k;Mathematical Fraktur
+120105;𝔩;Mathematical Fraktur Small L;l;Mathematical Fraktur
+120106;𝔪;Mathematical Fraktur Small M;m;Mathematical Fraktur
+120107;𝔫;Mathematical Fraktur Small N;n;Mathematical Fraktur
+120108;𝔬;Mathematical Fraktur Small O;o;Mathematical Fraktur
+120109;𝔭;Mathematical Fraktur Small P;p;Mathematical Fraktur
+120110;𝔮;Mathematical Fraktur Small Q;q;Mathematical Fraktur
+120111;𝔯;Mathematical Fraktur Small R;r;Mathematical Fraktur
+120112;𝔰;Mathematical Fraktur Small S;s;Mathematical Fraktur
+120113;𝔱;Mathematical Fraktur Small T;t;Mathematical Fraktur
+120114;𝔲;Mathematical Fraktur Small U;u;Mathematical Fraktur
+120115;𝔳;Mathematical Fraktur Small V;v;Mathematical Fraktur
+120116;𝔴;Mathematical Fraktur Small W;w;Mathematical Fraktur
+120117;𝔵;Mathematical Fraktur Small X;x;Mathematical Fraktur
+120118;𝔶;Mathematical Fraktur Small Y;y;Mathematical Fraktur
+120119;𝔷;Mathematical Fraktur Small Z;z;Mathematical Fraktur
+120120;𝔸;Mathematical Double-Struck Capital A;A;Mathematical Double-Struck
+120121;𝔹;Mathematical Double-Struck Capital B;B;Mathematical Double-Struck
+120123;𝔻;Mathematical Double-Struck Capital D;D;Mathematical Double-Struck
+120124;𝔼;Mathematical Double-Struck Capital E;E;Mathematical Double-Struck
+120125;𝔽;Mathematical Double-Struck Capital F;F;Mathematical Double-Struck
+120126;𝔾;Mathematical Double-Struck Capital G;G;Mathematical Double-Struck
+120128;𝕀;Mathematical Double-Struck Capital I;I;Mathematical Double-Struck
+120129;𝕁;Mathematical Double-Struck Capital J;J;Mathematical Double-Struck
+120130;𝕂;Mathematical Double-Struck Capital K;K;Mathematical Double-Struck
+120131;𝕃;Mathematical Double-Struck Capital L;L;Mathematical Double-Struck
+120132;𝕄;Mathematical Double-Struck Capital M;M;Mathematical Double-Struck
+120134;𝕆;Mathematical Double-Struck Capital O;O;Mathematical Double-Struck
+120138;𝕊;Mathematical Double-Struck Capital S;S;Mathematical Double-Struck
+120139;𝕋;Mathematical Double-Struck Capital T;T;Mathematical Double-Struck
+120140;𝕌;Mathematical Double-Struck Capital U;U;Mathematical Double-Struck
+120141;𝕍;Mathematical Double-Struck Capital V;V;Mathematical Double-Struck
+120142;𝕎;Mathematical Double-Struck Capital W;W;Mathematical Double-Struck
+120143;𝕏;Mathematical Double-Struck Capital X;X;Mathematical Double-Struck
+120144;𝕐;Mathematical Double-Struck Capital Y;Y;Mathematical Double-Struck
+120146;𝕒;Mathematical Double-Struck Small A;a;Mathematical Double-Struck
+120147;𝕓;Mathematical Double-Struck Small B;b;Mathematical Double-Struck
+120148;𝕔;Mathematical Double-Struck Small C;c;Mathematical Double-Struck
+120149;𝕕;Mathematical Double-Struck Small D;d;Mathematical Double-Struck
+120150;𝕖;Mathematical Double-Struck Small E;e;Mathematical Double-Struck
+120151;𝕗;Mathematical Double-Struck Small F;f;Mathematical Double-Struck
+120152;𝕘;Mathematical Double-Struck Small G;g;Mathematical Double-Struck
+120153;𝕙;Mathematical Double-Struck Small H;h;Mathematical Double-Struck
+120154;𝕚;Mathematical Double-Struck Small I;i;Mathematical Double-Struck
+120155;𝕛;Mathematical Double-Struck Small J;j;Mathematical Double-Struck
+120156;𝕜;Mathematical Double-Struck Small K;k;Mathematical Double-Struck
+120157;𝕝;Mathematical Double-Struck Small L;l;Mathematical Double-Struck
+120158;𝕞;Mathematical Double-Struck Small M;m;Mathematical Double-Struck
+120159;𝕟;Mathematical Double-Struck Small N;n;Mathematical Double-Struck
+120160;𝕠;Mathematical Double-Struck Small O;o;Mathematical Double-Struck
+120161;𝕡;Mathematical Double-Struck Small P;p;Mathematical Double-Struck
+120162;𝕢;Mathematical Double-Struck Small Q;q;Mathematical Double-Struck
+120163;𝕣;Mathematical Double-Struck Small R;r;Mathematical Double-Struck
+120164;𝕤;Mathematical Double-Struck Small S;s;Mathematical Double-Struck
+120165;𝕥;Mathematical Double-Struck Small T;t;Mathematical Double-Struck
+120166;𝕦;Mathematical Double-Struck Small U;u;Mathematical Double-Struck
+120167;𝕧;Mathematical Double-Struck Small V;v;Mathematical Double-Struck
+120168;𝕨;Mathematical Double-Struck Small W;w;Mathematical Double-Struck
+120169;𝕩;Mathematical Double-Struck Small X;x;Mathematical Double-Struck
+120170;𝕪;Mathematical Double-Struck Small Y;y;Mathematical Double-Struck
+120171;𝕫;Mathematical Double-Struck Small Z;z;Mathematical Double-Struck
+120172;𝕬;Mathematical Bold Fraktur Capital A;A;Mathematical Bold Fraktur
+120173;𝕭;Mathematical Bold Fraktur Capital B;B;Mathematical Bold Fraktur
+120174;𝕮;Mathematical Bold Fraktur Capital C;C;Mathematical Bold Fraktur
+120175;𝕯;Mathematical Bold Fraktur Capital D;D;Mathematical Bold Fraktur
+120176;𝕰;Mathematical Bold Fraktur Capital E;E;Mathematical Bold Fraktur
+120177;𝕱;Mathematical Bold Fraktur Capital F;F;Mathematical Bold Fraktur
+120178;𝕲;Mathematical Bold Fraktur Capital G;G;Mathematical Bold Fraktur
+120179;𝕳;Mathematical Bold Fraktur Capital H;H;Mathematical Bold Fraktur
+120180;𝕴;Mathematical Bold Fraktur Capital I;I;Mathematical Bold Fraktur
+120181;𝕵;Mathematical Bold Fraktur Capital J;J;Mathematical Bold Fraktur
+120182;𝕶;Mathematical Bold Fraktur Capital K;K;Mathematical Bold Fraktur
+120183;𝕷;Mathematical Bold Fraktur Capital L;L;Mathematical Bold Fraktur
+120184;𝕸;Mathematical Bold Fraktur Capital M;M;Mathematical Bold Fraktur
+120185;𝕹;Mathematical Bold Fraktur Capital N;N;Mathematical Bold Fraktur
+120186;𝕺;Mathematical Bold Fraktur Capital O;O;Mathematical Bold Fraktur
+120187;𝕻;Mathematical Bold Fraktur Capital P;P;Mathematical Bold Fraktur
+120188;𝕼;Mathematical Bold Fraktur Capital Q;Q;Mathematical Bold Fraktur
+120189;𝕽;Mathematical Bold Fraktur Capital R;R;Mathematical Bold Fraktur
+120190;𝕾;Mathematical Bold Fraktur Capital S;S;Mathematical Bold Fraktur
+120191;𝕿;Mathematical Bold Fraktur Capital T;T;Mathematical Bold Fraktur
+120192;𝖀;Mathematical Bold Fraktur Capital U;U;Mathematical Bold Fraktur
+120193;𝖁;Mathematical Bold Fraktur Capital V;V;Mathematical Bold Fraktur
+120194;𝖂;Mathematical Bold Fraktur Capital W;W;Mathematical Bold Fraktur
+120195;𝖃;Mathematical Bold Fraktur Capital X;X;Mathematical Bold Fraktur
+120196;𝖄;Mathematical Bold Fraktur Capital Y;Y;Mathematical Bold Fraktur
+120197;𝖅;Mathematical Bold Fraktur Capital Z;Z;Mathematical Bold Fraktur
+120198;𝖆;Mathematical Bold Fraktur Small A;a;Mathematical Bold Fraktur
+120199;𝖇;Mathematical Bold Fraktur Small B;b;Mathematical Bold Fraktur
+120200;𝖈;Mathematical Bold Fraktur Small C;c;Mathematical Bold Fraktur
+120201;𝖉;Mathematical Bold Fraktur Small D;d;Mathematical Bold Fraktur
+120202;𝖊;Mathematical Bold Fraktur Small E;e;Mathematical Bold Fraktur
+120203;𝖋;Mathematical Bold Fraktur Small F;f;Mathematical Bold Fraktur
+120204;𝖌;Mathematical Bold Fraktur Small G;g;Mathematical Bold Fraktur
+120205;𝖍;Mathematical Bold Fraktur Small H;h;Mathematical Bold Fraktur
+120206;𝖎;Mathematical Bold Fraktur Small I;i;Mathematical Bold Fraktur
+120207;𝖏;Mathematical Bold Fraktur Small J;j;Mathematical Bold Fraktur
+120208;𝖐;Mathematical Bold Fraktur Small K;k;Mathematical Bold Fraktur
+120209;𝖑;Mathematical Bold Fraktur Small L;l;Mathematical Bold Fraktur
+120210;𝖒;Mathematical Bold Fraktur Small M;m;Mathematical Bold Fraktur
+120211;𝖓;Mathematical Bold Fraktur Small N;n;Mathematical Bold Fraktur
+120212;𝖔;Mathematical Bold Fraktur Small O;o;Mathematical Bold Fraktur
+120213;𝖕;Mathematical Bold Fraktur Small P;p;Mathematical Bold Fraktur
+120214;𝖖;Mathematical Bold Fraktur Small Q;q;Mathematical Bold Fraktur
+120215;𝖗;Mathematical Bold Fraktur Small R;r;Mathematical Bold Fraktur
+120216;𝖘;Mathematical Bold Fraktur Small S;s;Mathematical Bold Fraktur
+120217;𝖙;Mathematical Bold Fraktur Small T;t;Mathematical Bold Fraktur
+120218;𝖚;Mathematical Bold Fraktur Small U;u;Mathematical Bold Fraktur
+120219;𝖛;Mathematical Bold Fraktur Small V;v;Mathematical Bold Fraktur
+120220;𝖜;Mathematical Bold Fraktur Small W;w;Mathematical Bold Fraktur
+120221;𝖝;Mathematical Bold Fraktur Small X;x;Mathematical Bold Fraktur
+120222;𝖞;Mathematical Bold Fraktur Small Y;y;Mathematical Bold Fraktur
+120223;𝖟;Mathematical Bold Fraktur Small Z;z;Mathematical Bold Fraktur
+120224;𝖠;Mathematical Sans-Serif Capital A;A;Mathematical Sans-Serif
+120225;𝖡;Mathematical Sans-Serif Capital B;B;Mathematical Sans-Serif
+120226;𝖢;Mathematical Sans-Serif Capital C;C;Mathematical Sans-Serif
+120227;𝖣;Mathematical Sans-Serif Capital D;D;Mathematical Sans-Serif
+120228;𝖤;Mathematical Sans-Serif Capital E;E;Mathematical Sans-Serif
+120229;𝖥;Mathematical Sans-Serif Capital F;F;Mathematical Sans-Serif
+120230;𝖦;Mathematical Sans-Serif Capital G;G;Mathematical Sans-Serif
+120231;𝖧;Mathematical Sans-Serif Capital H;H;Mathematical Sans-Serif
+120232;𝖨;Mathematical Sans-Serif Capital I;I;Mathematical Sans-Serif
+120233;𝖩;Mathematical Sans-Serif Capital J;J;Mathematical Sans-Serif
+120234;𝖪;Mathematical Sans-Serif Capital K;K;Mathematical Sans-Serif
+120235;𝖫;Mathematical Sans-Serif Capital L;L;Mathematical Sans-Serif
+120236;𝖬;Mathematical Sans-Serif Capital M;M;Mathematical Sans-Serif
+120237;𝖭;Mathematical Sans-Serif Capital N;N;Mathematical Sans-Serif
+120238;𝖮;Mathematical Sans-Serif Capital O;O;Mathematical Sans-Serif
+120239;𝖯;Mathematical Sans-Serif Capital P;P;Mathematical Sans-Serif
+120240;𝖰;Mathematical Sans-Serif Capital Q;Q;Mathematical Sans-Serif
+120241;𝖱;Mathematical Sans-Serif Capital R;R;Mathematical Sans-Serif
+120242;𝖲;Mathematical Sans-Serif Capital S;S;Mathematical Sans-Serif
+120243;𝖳;Mathematical Sans-Serif Capital T;T;Mathematical Sans-Serif
+120244;𝖴;Mathematical Sans-Serif Capital U;U;Mathematical Sans-Serif
+120245;𝖵;Mathematical Sans-Serif Capital V;V;Mathematical Sans-Serif
+120246;𝖶;Mathematical Sans-Serif Capital W;W;Mathematical Sans-Serif
+120247;𝖷;Mathematical Sans-Serif Capital X;X;Mathematical Sans-Serif
+120248;𝖸;Mathematical Sans-Serif Capital Y;Y;Mathematical Sans-Serif
+120249;𝖹;Mathematical Sans-Serif Capital Z;Z;Mathematical Sans-Serif
+120250;𝖺;Mathematical Sans-Serif Small A;a;Mathematical Sans-Serif
+120251;𝖻;Mathematical Sans-Serif Small B;b;Mathematical Sans-Serif
+120252;𝖼;Mathematical Sans-Serif Small C;c;Mathematical Sans-Serif
+120253;𝖽;Mathematical Sans-Serif Small D;d;Mathematical Sans-Serif
+120254;𝖾;Mathematical Sans-Serif Small E;e;Mathematical Sans-Serif
+120255;𝖿;Mathematical Sans-Serif Small F;f;Mathematical Sans-Serif
+120256;𝗀;Mathematical Sans-Serif Small G;g;Mathematical Sans-Serif
+120257;𝗁;Mathematical Sans-Serif Small H;h;Mathematical Sans-Serif
+120258;𝗂;Mathematical Sans-Serif Small I;i;Mathematical Sans-Serif
+120259;𝗃;Mathematical Sans-Serif Small J;j;Mathematical Sans-Serif
+120260;𝗄;Mathematical Sans-Serif Small K;k;Mathematical Sans-Serif
+120261;𝗅;Mathematical Sans-Serif Small L;l;Mathematical Sans-Serif
+120262;𝗆;Mathematical Sans-Serif Small M;m;Mathematical Sans-Serif
+120263;𝗇;Mathematical Sans-Serif Small N;n;Mathematical Sans-Serif
+120264;𝗈;Mathematical Sans-Serif Small O;o;Mathematical Sans-Serif
+120265;𝗉;Mathematical Sans-Serif Small P;p;Mathematical Sans-Serif
+120266;𝗊;Mathematical Sans-Serif Small Q;q;Mathematical Sans-Serif
+120267;𝗋;Mathematical Sans-Serif Small R;r;Mathematical Sans-Serif
+120268;𝗌;Mathematical Sans-Serif Small S;s;Mathematical Sans-Serif
+120269;𝗍;Mathematical Sans-Serif Small T;t;Mathematical Sans-Serif
+120270;𝗎;Mathematical Sans-Serif Small U;u;Mathematical Sans-Serif
+120271;𝗏;Mathematical Sans-Serif Small V;v;Mathematical Sans-Serif
+120272;𝗐;Mathematical Sans-Serif Small W;w;Mathematical Sans-Serif
+120273;𝗑;Mathematical Sans-Serif Small X;x;Mathematical Sans-Serif
+120274;𝗒;Mathematical Sans-Serif Small Y;y;Mathematical Sans-Serif
+120275;𝗓;Mathematical Sans-Serif Small Z;z;Mathematical Sans-Serif
+120276;𝗔;Mathematical Sans-Serif Bold Capital A;A;Mathematical Sans-Serif Bold
+120277;𝗕;Mathematical Sans-Serif Bold Capital B;B;Mathematical Sans-Serif Bold
+120278;𝗖;Mathematical Sans-Serif Bold Capital C;C;Mathematical Sans-Serif Bold
+120279;𝗗;Mathematical Sans-Serif Bold Capital D;D;Mathematical Sans-Serif Bold
+120280;𝗘;Mathematical Sans-Serif Bold Capital E;E;Mathematical Sans-Serif Bold
+120281;𝗙;Mathematical Sans-Serif Bold Capital F;F;Mathematical Sans-Serif Bold
+120282;𝗚;Mathematical Sans-Serif Bold Capital G;G;Mathematical Sans-Serif Bold
+120283;𝗛;Mathematical Sans-Serif Bold Capital H;H;Mathematical Sans-Serif Bold
+120284;𝗜;Mathematical Sans-Serif Bold Capital I;I;Mathematical Sans-Serif Bold
+120285;𝗝;Mathematical Sans-Serif Bold Capital J;J;Mathematical Sans-Serif Bold
+120286;𝗞;Mathematical Sans-Serif Bold Capital K;K;Mathematical Sans-Serif Bold
+120287;𝗟;Mathematical Sans-Serif Bold Capital L;L;Mathematical Sans-Serif Bold
+120288;𝗠;Mathematical Sans-Serif Bold Capital M;M;Mathematical Sans-Serif Bold
+120289;𝗡;Mathematical Sans-Serif Bold Capital N;N;Mathematical Sans-Serif Bold
+120290;𝗢;Mathematical Sans-Serif Bold Capital O;O;Mathematical Sans-Serif Bold
+120291;𝗣;Mathematical Sans-Serif Bold Capital P;P;Mathematical Sans-Serif Bold
+120292;𝗤;Mathematical Sans-Serif Bold Capital Q;Q;Mathematical Sans-Serif Bold
+120293;𝗥;Mathematical Sans-Serif Bold Capital R;R;Mathematical Sans-Serif Bold
+120294;𝗦;Mathematical Sans-Serif Bold Capital S;S;Mathematical Sans-Serif Bold
+120295;𝗧;Mathematical Sans-Serif Bold Capital T;T;Mathematical Sans-Serif Bold
+120296;𝗨;Mathematical Sans-Serif Bold Capital U;U;Mathematical Sans-Serif Bold
+120297;𝗩;Mathematical Sans-Serif Bold Capital V;V;Mathematical Sans-Serif Bold
+120298;𝗪;Mathematical Sans-Serif Bold Capital W;W;Mathematical Sans-Serif Bold
+120299;𝗫;Mathematical Sans-Serif Bold Capital X;X;Mathematical Sans-Serif Bold
+120300;𝗬;Mathematical Sans-Serif Bold Capital Y;Y;Mathematical Sans-Serif Bold
+120301;𝗭;Mathematical Sans-Serif Bold Capital Z;Z;Mathematical Sans-Serif Bold
+120302;𝗮;Mathematical Sans-Serif Bold Small A;a;Mathematical Sans-Serif Bold
+120303;𝗯;Mathematical Sans-Serif Bold Small B;b;Mathematical Sans-Serif Bold
+120304;𝗰;Mathematical Sans-Serif Bold Small C;c;Mathematical Sans-Serif Bold
+120305;𝗱;Mathematical Sans-Serif Bold Small D;d;Mathematical Sans-Serif Bold
+120306;𝗲;Mathematical Sans-Serif Bold Small E;e;Mathematical Sans-Serif Bold
+120307;𝗳;Mathematical Sans-Serif Bold Small F;f;Mathematical Sans-Serif Bold
+120308;𝗴;Mathematical Sans-Serif Bold Small G;g;Mathematical Sans-Serif Bold
+120309;𝗵;Mathematical Sans-Serif Bold Small H;h;Mathematical Sans-Serif Bold
+120310;𝗶;Mathematical Sans-Serif Bold Small I;i;Mathematical Sans-Serif Bold
+120311;𝗷;Mathematical Sans-Serif Bold Small J;j;Mathematical Sans-Serif Bold
+120312;𝗸;Mathematical Sans-Serif Bold Small K;k;Mathematical Sans-Serif Bold
+120313;𝗹;Mathematical Sans-Serif Bold Small L;l;Mathematical Sans-Serif Bold
+120314;𝗺;Mathematical Sans-Serif Bold Small M;m;Mathematical Sans-Serif Bold
+120315;𝗻;Mathematical Sans-Serif Bold Small N;n;Mathematical Sans-Serif Bold
+120316;𝗼;Mathematical Sans-Serif Bold Small O;o;Mathematical Sans-Serif Bold
+120317;𝗽;Mathematical Sans-Serif Bold Small P;p;Mathematical Sans-Serif Bold
+120318;𝗾;Mathematical Sans-Serif Bold Small Q;q;Mathematical Sans-Serif Bold
+120319;𝗿;Mathematical Sans-Serif Bold Small R;r;Mathematical Sans-Serif Bold
+120320;𝘀;Mathematical Sans-Serif Bold Small S;s;Mathematical Sans-Serif Bold
+120321;𝘁;Mathematical Sans-Serif Bold Small T;t;Mathematical Sans-Serif Bold
+120322;𝘂;Mathematical Sans-Serif Bold Small U;u;Mathematical Sans-Serif Bold
+120323;𝘃;Mathematical Sans-Serif Bold Small V;v;Mathematical Sans-Serif Bold
+120324;𝘄;Mathematical Sans-Serif Bold Small W;w;Mathematical Sans-Serif Bold
+120325;𝘅;Mathematical Sans-Serif Bold Small X;x;Mathematical Sans-Serif Bold
+120326;𝘆;Mathematical Sans-Serif Bold Small Y;y;Mathematical Sans-Serif Bold
+120327;𝘇;Mathematical Sans-Serif Bold Small Z;z;Mathematical Sans-Serif Bold
+120328;𝘈;Mathematical Sans-Serif Italic Capital A;A;Mathematical Sans-Serif Italic
+120329;𝘉;Mathematical Sans-Serif Italic Capital B;B;Mathematical Sans-Serif Italic
+120330;𝘊;Mathematical Sans-Serif Italic Capital C;C;Mathematical Sans-Serif Italic
+120331;𝘋;Mathematical Sans-Serif Italic Capital D;D;Mathematical Sans-Serif Italic
+120332;𝘌;Mathematical Sans-Serif Italic Capital E;E;Mathematical Sans-Serif Italic
+120333;𝘍;Mathematical Sans-Serif Italic Capital F;F;Mathematical Sans-Serif Italic
+120334;𝘎;Mathematical Sans-Serif Italic Capital G;G;Mathematical Sans-Serif Italic
+120335;𝘏;Mathematical Sans-Serif Italic Capital H;H;Mathematical Sans-Serif Italic
+120336;𝘐;Mathematical Sans-Serif Italic Capital I;I;Mathematical Sans-Serif Italic
+120337;𝘑;Mathematical Sans-Serif Italic Capital J;J;Mathematical Sans-Serif Italic
+120338;𝘒;Mathematical Sans-Serif Italic Capital K;K;Mathematical Sans-Serif Italic
+120339;𝘓;Mathematical Sans-Serif Italic Capital L;L;Mathematical Sans-Serif Italic
+120340;𝘔;Mathematical Sans-Serif Italic Capital M;M;Mathematical Sans-Serif Italic
+120341;𝘕;Mathematical Sans-Serif Italic Capital N;N;Mathematical Sans-Serif Italic
+120342;𝘖;Mathematical Sans-Serif Italic Capital O;O;Mathematical Sans-Serif Italic
+120343;𝘗;Mathematical Sans-Serif Italic Capital P;P;Mathematical Sans-Serif Italic
+120344;𝘘;Mathematical Sans-Serif Italic Capital Q;Q;Mathematical Sans-Serif Italic
+120345;𝘙;Mathematical Sans-Serif Italic Capital R;R;Mathematical Sans-Serif Italic
+120346;𝘚;Mathematical Sans-Serif Italic Capital S;S;Mathematical Sans-Serif Italic
+120347;𝘛;Mathematical Sans-Serif Italic Capital T;T;Mathematical Sans-Serif Italic
+120348;𝘜;Mathematical Sans-Serif Italic Capital U;U;Mathematical Sans-Serif Italic
+120349;𝘝;Mathematical Sans-Serif Italic Capital V;V;Mathematical Sans-Serif Italic
+120350;𝘞;Mathematical Sans-Serif Italic Capital W;W;Mathematical Sans-Serif Italic
+120351;𝘟;Mathematical Sans-Serif Italic Capital X;X;Mathematical Sans-Serif Italic
+120352;𝘠;Mathematical Sans-Serif Italic Capital Y;Y;Mathematical Sans-Serif Italic
+120353;𝘡;Mathematical Sans-Serif Italic Capital Z;Z;Mathematical Sans-Serif Italic
+120354;𝘢;Mathematical Sans-Serif Italic Small A;a;Mathematical Sans-Serif Italic
+120355;𝘣;Mathematical Sans-Serif Italic Small B;b;Mathematical Sans-Serif Italic
+120356;𝘤;Mathematical Sans-Serif Italic Small C;c;Mathematical Sans-Serif Italic
+120357;𝘥;Mathematical Sans-Serif Italic Small D;d;Mathematical Sans-Serif Italic
+120358;𝘦;Mathematical Sans-Serif Italic Small E;e;Mathematical Sans-Serif Italic
+120359;𝘧;Mathematical Sans-Serif Italic Small F;f;Mathematical Sans-Serif Italic
+120360;𝘨;Mathematical Sans-Serif Italic Small G;g;Mathematical Sans-Serif Italic
+120361;𝘩;Mathematical Sans-Serif Italic Small H;h;Mathematical Sans-Serif Italic
+120362;𝘪;Mathematical Sans-Serif Italic Small I;i;Mathematical Sans-Serif Italic
+120363;𝘫;Mathematical Sans-Serif Italic Small J;j;Mathematical Sans-Serif Italic
+120364;𝘬;Mathematical Sans-Serif Italic Small K;k;Mathematical Sans-Serif Italic
+120365;𝘭;Mathematical Sans-Serif Italic Small L;l;Mathematical Sans-Serif Italic
+120366;𝘮;Mathematical Sans-Serif Italic Small M;m;Mathematical Sans-Serif Italic
+120367;𝘯;Mathematical Sans-Serif Italic Small N;n;Mathematical Sans-Serif Italic
+120368;𝘰;Mathematical Sans-Serif Italic Small O;o;Mathematical Sans-Serif Italic
+120369;𝘱;Mathematical Sans-Serif Italic Small P;p;Mathematical Sans-Serif Italic
+120370;𝘲;Mathematical Sans-Serif Italic Small Q;q;Mathematical Sans-Serif Italic
+120371;𝘳;Mathematical Sans-Serif Italic Small R;r;Mathematical Sans-Serif Italic
+120372;𝘴;Mathematical Sans-Serif Italic Small S;s;Mathematical Sans-Serif Italic
+120373;𝘵;Mathematical Sans-Serif Italic Small T;t;Mathematical Sans-Serif Italic
+120374;𝘶;Mathematical Sans-Serif Italic Small U;u;Mathematical Sans-Serif Italic
+120375;𝘷;Mathematical Sans-Serif Italic Small V;v;Mathematical Sans-Serif Italic
+120376;𝘸;Mathematical Sans-Serif Italic Small W;w;Mathematical Sans-Serif Italic
+120377;𝘹;Mathematical Sans-Serif Italic Small X;x;Mathematical Sans-Serif Italic
+120378;𝘺;Mathematical Sans-Serif Italic Small Y;y;Mathematical Sans-Serif Italic
+120379;𝘻;Mathematical Sans-Serif Italic Small Z;z;Mathematical Sans-Serif Italic
+120380;𝘼;Mathematical Sans-Serif Bold Italic Capital A;A;Mathematical Sans-Serif Bold Italic
+120381;𝘽;Mathematical Sans-Serif Bold Italic Capital B;B;Mathematical Sans-Serif Bold Italic
+120382;𝘾;Mathematical Sans-Serif Bold Italic Capital C;C;Mathematical Sans-Serif Bold Italic
+120383;𝘿;Mathematical Sans-Serif Bold Italic Capital D;D;Mathematical Sans-Serif Bold Italic
+120384;𝙀;Mathematical Sans-Serif Bold Italic Capital E;E;Mathematical Sans-Serif Bold Italic
+120385;𝙁;Mathematical Sans-Serif Bold Italic Capital F;F;Mathematical Sans-Serif Bold Italic
+120386;𝙂;Mathematical Sans-Serif Bold Italic Capital G;G;Mathematical Sans-Serif Bold Italic
+120387;𝙃;Mathematical Sans-Serif Bold Italic Capital H;H;Mathematical Sans-Serif Bold Italic
+120388;𝙄;Mathematical Sans-Serif Bold Italic Capital I;I;Mathematical Sans-Serif Bold Italic
+120389;𝙅;Mathematical Sans-Serif Bold Italic Capital J;J;Mathematical Sans-Serif Bold Italic
+120390;𝙆;Mathematical Sans-Serif Bold Italic Capital K;K;Mathematical Sans-Serif Bold Italic
+120391;𝙇;Mathematical Sans-Serif Bold Italic Capital L;L;Mathematical Sans-Serif Bold Italic
+120392;𝙈;Mathematical Sans-Serif Bold Italic Capital M;M;Mathematical Sans-Serif Bold Italic
+120393;𝙉;Mathematical Sans-Serif Bold Italic Capital N;N;Mathematical Sans-Serif Bold Italic
+120394;𝙊;Mathematical Sans-Serif Bold Italic Capital O;O;Mathematical Sans-Serif Bold Italic
+120395;𝙋;Mathematical Sans-Serif Bold Italic Capital P;P;Mathematical Sans-Serif Bold Italic
+120396;𝙌;Mathematical Sans-Serif Bold Italic Capital Q;Q;Mathematical Sans-Serif Bold Italic
+120397;𝙍;Mathematical Sans-Serif Bold Italic Capital R;R;Mathematical Sans-Serif Bold Italic
+120398;𝙎;Mathematical Sans-Serif Bold Italic Capital S;S;Mathematical Sans-Serif Bold Italic
+120399;𝙏;Mathematical Sans-Serif Bold Italic Capital T;T;Mathematical Sans-Serif Bold Italic
+120400;𝙐;Mathematical Sans-Serif Bold Italic Capital U;U;Mathematical Sans-Serif Bold Italic
+120401;𝙑;Mathematical Sans-Serif Bold Italic Capital V;V;Mathematical Sans-Serif Bold Italic
+120402;𝙒;Mathematical Sans-Serif Bold Italic Capital W;W;Mathematical Sans-Serif Bold Italic
+120403;𝙓;Mathematical Sans-Serif Bold Italic Capital X;X;Mathematical Sans-Serif Bold Italic
+120404;𝙔;Mathematical Sans-Serif Bold Italic Capital Y;Y;Mathematical Sans-Serif Bold Italic
+120405;𝙕;Mathematical Sans-Serif Bold Italic Capital Z;Z;Mathematical Sans-Serif Bold Italic
+120406;𝙖;Mathematical Sans-Serif Bold Italic Small A;a;Mathematical Sans-Serif Bold Italic
+120407;𝙗;Mathematical Sans-Serif Bold Italic Small B;b;Mathematical Sans-Serif Bold Italic
+120408;𝙘;Mathematical Sans-Serif Bold Italic Small C;c;Mathematical Sans-Serif Bold Italic
+120409;𝙙;Mathematical Sans-Serif Bold Italic Small D;d;Mathematical Sans-Serif Bold Italic
+120410;𝙚;Mathematical Sans-Serif Bold Italic Small E;e;Mathematical Sans-Serif Bold Italic
+120411;𝙛;Mathematical Sans-Serif Bold Italic Small F;f;Mathematical Sans-Serif Bold Italic
+120412;𝙜;Mathematical Sans-Serif Bold Italic Small G;g;Mathematical Sans-Serif Bold Italic
+120413;𝙝;Mathematical Sans-Serif Bold Italic Small H;h;Mathematical Sans-Serif Bold Italic
+120414;𝙞;Mathematical Sans-Serif Bold Italic Small I;i;Mathematical Sans-Serif Bold Italic
+120415;𝙟;Mathematical Sans-Serif Bold Italic Small J;j;Mathematical Sans-Serif Bold Italic
+120416;𝙠;Mathematical Sans-Serif Bold Italic Small K;k;Mathematical Sans-Serif Bold Italic
+120417;𝙡;Mathematical Sans-Serif Bold Italic Small L;l;Mathematical Sans-Serif Bold Italic
+120418;𝙢;Mathematical Sans-Serif Bold Italic Small M;m;Mathematical Sans-Serif Bold Italic
+120419;𝙣;Mathematical Sans-Serif Bold Italic Small N;n;Mathematical Sans-Serif Bold Italic
+120420;𝙤;Mathematical Sans-Serif Bold Italic Small O;o;Mathematical Sans-Serif Bold Italic
+120421;𝙥;Mathematical Sans-Serif Bold Italic Small P;p;Mathematical Sans-Serif Bold Italic
+120422;𝙦;Mathematical Sans-Serif Bold Italic Small Q;q;Mathematical Sans-Serif Bold Italic
+120423;𝙧;Mathematical Sans-Serif Bold Italic Small R;r;Mathematical Sans-Serif Bold Italic
+120424;𝙨;Mathematical Sans-Serif Bold Italic Small S;s;Mathematical Sans-Serif Bold Italic
+120425;𝙩;Mathematical Sans-Serif Bold Italic Small T;t;Mathematical Sans-Serif Bold Italic
+120426;𝙪;Mathematical Sans-Serif Bold Italic Small U;u;Mathematical Sans-Serif Bold Italic
+120427;𝙫;Mathematical Sans-Serif Bold Italic Small V;v;Mathematical Sans-Serif Bold Italic
+120428;𝙬;Mathematical Sans-Serif Bold Italic Small W;w;Mathematical Sans-Serif Bold Italic
+120429;𝙭;Mathematical Sans-Serif Bold Italic Small X;x;Mathematical Sans-Serif Bold Italic
+120430;𝙮;Mathematical Sans-Serif Bold Italic Small Y;y;Mathematical Sans-Serif Bold Italic
+120431;𝙯;Mathematical Sans-Serif Bold Italic Small Z;z;Mathematical Sans-Serif Bold Italic
+120432;𝙰;Mathematical Monospace Capital A;A;Mathematical Monospace
+120433;𝙱;Mathematical Monospace Capital B;B;Mathematical Monospace
+120434;𝙲;Mathematical Monospace Capital C;C;Mathematical Monospace
+120435;𝙳;Mathematical Monospace Capital D;D;Mathematical Monospace
+120436;𝙴;Mathematical Monospace Capital E;E;Mathematical Monospace
+120437;𝙵;Mathematical Monospace Capital F;F;Mathematical Monospace
+120438;𝙶;Mathematical Monospace Capital G;G;Mathematical Monospace
+120439;𝙷;Mathematical Monospace Capital H;H;Mathematical Monospace
+120440;𝙸;Mathematical Monospace Capital I;I;Mathematical Monospace
+120441;𝙹;Mathematical Monospace Capital J;J;Mathematical Monospace
+120442;𝙺;Mathematical Monospace Capital K;K;Mathematical Monospace
+120443;𝙻;Mathematical Monospace Capital L;L;Mathematical Monospace
+120444;𝙼;Mathematical Monospace Capital M;M;Mathematical Monospace
+120445;𝙽;Mathematical Monospace Capital N;N;Mathematical Monospace
+120446;𝙾;Mathematical Monospace Capital O;O;Mathematical Monospace
+120447;𝙿;Mathematical Monospace Capital P;P;Mathematical Monospace
+120448;𝚀;Mathematical Monospace Capital Q;Q;Mathematical Monospace
+120449;𝚁;Mathematical Monospace Capital R;R;Mathematical Monospace
+120450;𝚂;Mathematical Monospace Capital S;S;Mathematical Monospace
+120451;𝚃;Mathematical Monospace Capital T;T;Mathematical Monospace
+120452;𝚄;Mathematical Monospace Capital U;U;Mathematical Monospace
+120453;𝚅;Mathematical Monospace Capital V;V;Mathematical Monospace
+120454;𝚆;Mathematical Monospace Capital W;W;Mathematical Monospace
+120455;𝚇;Mathematical Monospace Capital X;X;Mathematical Monospace
+120456;𝚈;Mathematical Monospace Capital Y;Y;Mathematical Monospace
+120457;𝚉;Mathematical Monospace Capital Z;Z;Mathematical Monospace
+120458;𝚊;Mathematical Monospace Small A;a;Mathematical Monospace
+120459;𝚋;Mathematical Monospace Small B;b;Mathematical Monospace
+120460;𝚌;Mathematical Monospace Small C;c;Mathematical Monospace
+120461;𝚍;Mathematical Monospace Small D;d;Mathematical Monospace
+120462;𝚎;Mathematical Monospace Small E;e;Mathematical Monospace
+120463;𝚏;Mathematical Monospace Small F;f;Mathematical Monospace
+120464;𝚐;Mathematical Monospace Small G;g;Mathematical Monospace
+120465;𝚑;Mathematical Monospace Small H;h;Mathematical Monospace
+120466;𝚒;Mathematical Monospace Small I;i;Mathematical Monospace
+120467;𝚓;Mathematical Monospace Small J;j;Mathematical Monospace
+120468;𝚔;Mathematical Monospace Small K;k;Mathematical Monospace
+120469;𝚕;Mathematical Monospace Small L;l;Mathematical Monospace
+120470;𝚖;Mathematical Monospace Small M;m;Mathematical Monospace
+120471;𝚗;Mathematical Monospace Small N;n;Mathematical Monospace
+120472;𝚘;Mathematical Monospace Small O;o;Mathematical Monospace
+120473;𝚙;Mathematical Monospace Small P;p;Mathematical Monospace
+120474;𝚚;Mathematical Monospace Small Q;q;Mathematical Monospace
+120475;𝚛;Mathematical Monospace Small R;r;Mathematical Monospace
+120476;𝚜;Mathematical Monospace Small S;s;Mathematical Monospace
+120477;𝚝;Mathematical Monospace Small T;t;Mathematical Monospace
+120478;𝚞;Mathematical Monospace Small U;u;Mathematical Monospace
+120479;𝚟;Mathematical Monospace Small V;v;Mathematical Monospace
+120480;𝚠;Mathematical Monospace Small W;w;Mathematical Monospace
+120481;𝚡;Mathematical Monospace Small X;x;Mathematical Monospace
+120482;𝚢;Mathematical Monospace Small Y;y;Mathematical Monospace
+127248;🄐;Parenthesized Latin Capital Letter A;(A);Parenthesized
+127249;🄑;Parenthesized Latin Capital Letter B;(B);Parenthesized
+127250;🄒;Parenthesized Latin Capital Letter C;(C);Parenthesized
+127251;🄓;Parenthesized Latin Capital Letter D;(D);Parenthesized
+127252;🄔;Parenthesized Latin Capital Letter E;(E);Parenthesized
+127253;🄕;Parenthesized Latin Capital Letter F;(F);Parenthesized
+127254;🄖;Parenthesized Latin Capital Letter G;(G);Parenthesized
+127255;🄗;Parenthesized Latin Capital Letter H;(H);Parenthesized
+127256;🄘;Parenthesized Latin Capital Letter I;(I);Parenthesized
+127257;🄙;Parenthesized Latin Capital Letter J;(J);Parenthesized
+127258;🄚;Parenthesized Latin Capital Letter K;(K);Parenthesized
+127259;🄛;Parenthesized Latin Capital Letter L;(L);Parenthesized
+127260;🄜;Parenthesized Latin Capital Letter M;(M);Parenthesized
+127261;🄝;Parenthesized Latin Capital Letter N;(N);Parenthesized
+127262;🄞;Parenthesized Latin Capital Letter O;(O);Parenthesized
+127263;🄟;Parenthesized Latin Capital Letter P;(P);Parenthesized
+127264;🄠;Parenthesized Latin Capital Letter Q;(Q);Parenthesized
+127265;🄡;Parenthesized Latin Capital Letter R;(R);Parenthesized
+127266;🄢;Parenthesized Latin Capital Letter S;(S);Parenthesized
+127267;🄣;Parenthesized Latin Capital Letter T;(T);Parenthesized
+127268;🄤;Parenthesized Latin Capital Letter U;(U);Parenthesized
+127269;🄥;Parenthesized Latin Capital Letter V;(V);Parenthesized
+127270;🄦;Parenthesized Latin Capital Letter W;(W);Parenthesized
+127271;🄧;Parenthesized Latin Capital Letter X;(X);Parenthesized
+127272;🄨;Parenthesized Latin Capital Letter Y;(Y);Parenthesized
+127273;🄩;Parenthesized Latin Capital Letter Z;(Z);Parenthesized
+127274;🄪;Tortoise Shell Bracketed Latin Capital Letter S;(S);Tortoise Shell Bracketed
+127275;🄫;Circled Italic Latin Capital Letter C;(C);Circled Italic
+127276;🄬;Circled Italic Latin Capital Letter R;(R);Circled Italic
+127280;🄰;Squared Latin Capital Letter A;(A);Squared
+127281;🄱;Squared Latin Capital Letter B;(B);Squared
+127282;🄲;Squared Latin Capital Letter C;(C);Squared
+127283;🄳;Squared Latin Capital Letter D;(D);Squared
+127284;🄴;Squared Latin Capital Letter E;(E);Squared
+127285;🄵;Squared Latin Capital Letter F;(F);Squared
+127286;🄶;Squared Latin Capital Letter G;(G);Squared
+127287;🄷;Squared Latin Capital Letter H;(H);Squared
+127288;🄸;Squared Latin Capital Letter I;(I);Squared
+127289;🄹;Squared Latin Capital Letter J;(J);Squared
+127290;🄺;Squared Latin Capital Letter K;(K);Squared
+127291;🄻;Squared Latin Capital Letter L;(L);Squared
+127292;🄼;Squared Latin Capital Letter M;(M);Squared
+127293;🄽;Squared Latin Capital Letter N;(N);Squared
+127294;🄾;Squared Latin Capital Letter O;(O);Squared
+127295;🄿;Squared Latin Capital Letter P;(P);Squared
+127296;🅀;Squared Latin Capital Letter Q;(Q);Squared
+127297;🅁;Squared Latin Capital Letter R;(R);Squared
+127298;🅂;Squared Latin Capital Letter S;(S);Squared
+127299;🅃;Squared Latin Capital Letter T;(T);Squared
+127300;🅄;Squared Latin Capital Letter U;(U);Squared
+127301;🅅;Squared Latin Capital Letter V;(V);Squared
+127302;🅆;Squared Latin Capital Letter W;(W);Squared
+127303;🅇;Squared Latin Capital Letter X;(X);Squared
+127304;🅈;Squared Latin Capital Letter Y;(Y);Squared
+127305;🅉;Squared Latin Capital Letter Z;(Z);Squared
+127312;🅐;Negative Circled Latin Capital Letter A;(A);Negative Circled
+127313;🅑;Negative Circled Latin Capital Letter B;(B);Negative Circled
+127314;🅒;Negative Circled Latin Capital Letter C;(C);Negative Circled
+127315;🅓;Negative Circled Latin Capital Letter D;(D);Negative Circled
+127316;🅔;Negative Circled Latin Capital Letter E;(E);Negative Circled
+127317;🅕;Negative Circled Latin Capital Letter F;(F);Negative Circled
+127318;🅖;Negative Circled Latin Capital Letter G;(G);Negative Circled
+127319;🅗;Negative Circled Latin Capital Letter H;(H);Negative Circled
+127320;🅘;Negative Circled Latin Capital Letter I;(I);Negative Circled
+127321;🅙;Negative Circled Latin Capital Letter J;(J);Negative Circled
+127322;🅚;Negative Circled Latin Capital Letter K;(K);Negative Circled
+127323;🅛;Negative Circled Latin Capital Letter L;(L);Negative Circled
+127324;🅜;Negative Circled Latin Capital Letter M;(M);Negative Circled
+127325;🅝;Negative Circled Latin Capital Letter N;(N);Negative Circled
+127326;🅞;Negative Circled Latin Capital Letter O;(O);Negative Circled
+127327;🅟;Negative Circled Latin Capital Letter P;(P);Negative Circled
+127328;🅠;Negative Circled Latin Capital Letter Q;(Q);Negative Circled
+127329;🅡;Negative Circled Latin Capital Letter R;(R);Negative Circled
+127330;🅢;Negative Circled Latin Capital Letter S;(S);Negative Circled
+127331;🅣;Negative Circled Latin Capital Letter T;(T);Negative Circled
+127332;🅤;Negative Circled Latin Capital Letter U;(U);Negative Circled
+127333;🅥;Negative Circled Latin Capital Letter V;(V);Negative Circled
+127334;🅦;Negative Circled Latin Capital Letter W;(W);Negative Circled
+127335;🅧;Negative Circled Latin Capital Letter X;(X);Negative Circled
+127336;🅨;Negative Circled Latin Capital Letter Y;(Y);Negative Circled
+127337;🅩;Negative Circled Latin Capital Letter Z;(Z);Negative Circled
+127344;🅰;Negative Squared Latin Capital Letter A;(A);Negative Squared
+127345;🅱;Negative Squared Latin Capital Letter B;(B);Negative Squared
+127346;🅲;Negative Squared Latin Capital Letter C;(C);Negative Squared
+127347;🅳;Negative Squared Latin Capital Letter D;(D);Negative Squared
+127348;🅴;Negative Squared Latin Capital Letter E;(E);Negative Squared
+127349;🅵;Negative Squared Latin Capital Letter F;(F);Negative Squared
+127350;🅶;Negative Squared Latin Capital Letter G;(G);Negative Squared
+127351;🅷;Negative Squared Latin Capital Letter H;(H);Negative Squared
+127352;🅸;Negative Squared Latin Capital Letter I;(I);Negative Squared
+127353;🅹;Negative Squared Latin Capital Letter J;(J);Negative Squared
+127354;🅺;Negative Squared Latin Capital Letter K;(K);Negative Squared
+127355;🅻;Negative Squared Latin Capital Letter L;(L);Negative Squared
+127356;🅼;Negative Squared Latin Capital Letter M;(M);Negative Squared
+127357;🅽;Negative Squared Latin Capital Letter N;(N);Negative Squared
+127358;🅾;Negative Squared Latin Capital Letter O;(O);Negative Squared
+127359;🅿;Negative Squared Latin Capital Letter P;(P);Negative Squared
+127360;🆀;Negative Squared Latin Capital Letter Q;(Q);Negative Squared
+127361;🆁;Negative Squared Latin Capital Letter R;(R);Negative Squared
+127362;🆂;Negative Squared Latin Capital Letter S;(S);Negative Squared
+127363;🆃;Negative Squared Latin Capital Letter T;(T);Negative Squared
+127364;🆄;Negative Squared Latin Capital Letter U;(U);Negative Squared
+127365;🆅;Negative Squared Latin Capital Letter V;(V);Negative Squared
+127366;🆆;Negative Squared Latin Capital Letter W;(W);Negative Squared
+127367;🆇;Negative Squared Latin Capital Letter X;(X);Negative Squared
+127368;🆈;Negative Squared Latin Capital Letter Y;(Y);Negative Squared
+127369;🆉;Negative Squared Latin Capital Letter Z;(Z);Negative Squared
+127370;🆊;Crossed Negative Squared Latin Capital Letter P;(P);Crossed Negative Squared
+127397;🆥;Squared Latin Small Letter D;(d);Squared
+127462;🇦;Regional Indicator Symbol Letter A;A;Regional Indicator
+127463;🇧;Regional Indicator Symbol Letter B;B;Regional Indicator
+127464;🇨;Regional Indicator Symbol Letter C;C;Regional Indicator
+127465;🇩;Regional Indicator Symbol Letter D;D;Regional Indicator
+127466;🇪;Regional Indicator Symbol Letter E;E;Regional Indicator
+127467;🇫;Regional Indicator Symbol Letter F;F;Regional Indicator
+127468;🇬;Regional Indicator Symbol Letter G;G;Regional Indicator
+127469;🇭;Regional Indicator Symbol Letter H;H;Regional Indicator
+127470;🇮;Regional Indicator Symbol Letter I;I;Regional Indicator
+127471;🇯;Regional Indicator Symbol Letter J;J;Regional Indicator
+127472;🇰;Regional Indicator Symbol Letter K;K;Regional Indicator
+127473;🇱;Regional Indicator Symbol Letter L;L;Regional Indicator
+127474;🇲;Regional Indicator Symbol Letter M;M;Regional Indicator
+127475;🇳;Regional Indicator Symbol Letter N;N;Regional Indicator
+127476;🇴;Regional Indicator Symbol Letter O;O;Regional Indicator
+127477;🇵;Regional Indicator Symbol Letter P;P;Regional Indicator
+127478;🇶;Regional Indicator Symbol Letter Q;Q;Regional Indicator
+127479;🇷;Regional Indicator Symbol Letter R;R;Regional Indicator
+127480;🇸;Regional Indicator Symbol Letter S;S;Regional Indicator
+127481;🇹;Regional Indicator Symbol Letter T;T;Regional Indicator
+127482;🇺;Regional Indicator Symbol Letter U;U;Regional Indicator
+127483;🇻;Regional Indicator Symbol Letter V;V;Regional Indicator
+127484;🇼;Regional Indicator Symbol Letter W;W;Regional Indicator
+127485;🇽;Regional Indicator Symbol Letter X;X;Regional Indicator
+127486;🇾;Regional Indicator Symbol Letter Y;Y;Regional Indicator
+127487;🇿;Regional Indicator Symbol Letter Z;Z;Regional Indicator
