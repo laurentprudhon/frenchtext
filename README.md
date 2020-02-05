@@ -1,4 +1,11 @@
-# nbdev template
+# frenchtext - NLP library to process french text
 
-Use this template to more easily create your nbdev project.
+## 1. Dataset
 
+## 2. Preprocessing
+
+## 3. Tokenizer
+
+## 4. Named Entities
+
+## 5. Language Model
