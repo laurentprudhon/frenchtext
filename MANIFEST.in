@@ -2,4 +2,6 @@ include settings.ini
 include LICENSE
 include CONTRIBUTING.md
 include README.md
+include data/chars/*.csv
+include data/chars/stats/*.csv
 recursive-exclude * __pycache__
