@@ -1,11 +1,20 @@
-# frenchtext - NLP library to process french text
+# frenchtext
+> NLP library to process french text.
 
-## 1. Dataset
 
-## 2. Preprocessing
+This file will become your README and also the index of your documentation.
 
-## 3. Tokenizer
+## Install
 
-## 4. Named Entities
+`pip install frenchtext`
 
-## 5. Language Model
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```python
+print("frenchtext is awesome !")
+```
+
+    frenchtext is awesome !
+
