@@ -1,6 +1,7 @@
 {
   "frenchtext": {
     "Overview": "/",
+    "core": "/core",
     "datasets": "/datasets",
     "chars": "/chars"
   }

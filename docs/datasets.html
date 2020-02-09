@@ -5,7 +5,7 @@ title: datasets
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "Set of functions used to access the french text dataset."
+summary: "Set of functions used to access the french text datasets."
 ---
 <!--
 
@@ -24,47 +24,23 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Configure the root directory of the french dataset on this computer :</p>
+<p>External dependencies :</p>
+<blockquote><p>pip install numpy</p>
+<p>pip install pandas</p>
+<p>pip install pyarrow</p>
+</blockquote>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-
-<span class="n">rootdir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">?\C:\Users\laure\OneDrive\Dev\Python\nlptextdoc\dataset 092019&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Configure tabular data display in this notebook :</p>
+<p>Configure tabular data display :</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">max_rows</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">max_columns</span> <span class="o">=</span> <span class="mi">50</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
@@ -73,9 +49,13 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.1-Datasets-list">1.1 Datasets list<a class="anchor-link" href="#1.1-Datasets-list">&#182;</a></h2>
+<p>The config object from frenchtext.core defines the directory where the datasets will be stored if you choose to download them :</p>
+
 </div>
 </div>
 </div>
@@ -84,11 +64,74 @@ summary: "Set of functions used to access the french text dataset."
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">list_datasets</span><span class="p">():</span>
-    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">rootdir</span> <span class="o">/</span> <span class="s2">&quot;datasets.csv&quot;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s1">&#39;;&#39;</span><span class="p">)</span>
-    
-<span class="n">datasetsdf</span> <span class="o">=</span> <span class="n">list_datasets</span><span class="p">()</span>
-<span class="n">datasetsdf</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">config</span><span class="o">.</span><span class="n">datasets</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>PosixPath(&#39;/home/laurent/.frenchtext/datasets&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can change the default location if needed :</p>
+<blockquote><p>config["datasets_path"] = "/var/tmp"</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="1.1-List-datasets">1.1 List datasets<a class="anchor-link" href="#1.1-List-datasets">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="list_datasets" class="doc_header"><code>list_datasets</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/datasets.py#L16" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>list_datasets</code>()</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datasetsdf</span>
 </pre></div>
 
     </div>
@@ -125,8 +168,7 @@ summary: "Set of functions used to access the french text dataset."
       <th>Website</th>
       <th>Url</th>
       <th>Scope</th>
-      <th>ExtractionDir</th>
-      <th>ExtractionFile</th>
+      <th>UrlsFile</th>
       <th>Pages</th>
       <th>Words</th>
     </tr>
@@ -139,7 +181,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>4</td>
       <td>https://www.afer.fr/</td>
       <td>domain</td>
-      <td>afer.fr</td>
       <td>afer</td>
       <td>148</td>
       <td>66498</td>
@@ -151,7 +192,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>5</td>
       <td>https://www.ag2rlamondiale.fr/</td>
       <td>domain</td>
-      <td>ag2rlamondiale.fr</td>
       <td>ag2rlamondiale</td>
       <td>2683</td>
       <td>1030393</td>
@@ -163,7 +203,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>6</td>
       <td>https://www.agpm.fr/</td>
       <td>domain</td>
-      <td>agpm.fr</td>
       <td>agpm</td>
       <td>267</td>
       <td>82637</td>
@@ -175,7 +214,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>7</td>
       <td>https://www.amaguiz.com/</td>
       <td>domain</td>
-      <td>amaguiz.com</td>
       <td>amaguiz</td>
       <td>706</td>
       <td>314384</td>
@@ -187,14 +225,12 @@ summary: "Set of functions used to access the french text dataset."
       <td>10</td>
       <td>https://www.aviva.fr/</td>
       <td>domain</td>
-      <td>aviva.fr</td>
       <td>aviva</td>
       <td>2501</td>
       <td>792475</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -211,7 +247,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>101</td>
       <td>https://dumps.wikimedia.org/frwiki/latest/300000</td>
       <td>path</td>
-      <td>wikipedia-300000</td>
       <td>dumps-wikimedia-3</td>
       <td>91984</td>
       <td>106415763</td>
@@ -223,7 +258,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>102</td>
       <td>https://dumps.wikimedia.org/frwiki/latest/400000</td>
       <td>path</td>
-      <td>wikipedia-400000</td>
       <td>dumps-wikimedia-4</td>
       <td>64029</td>
       <td>73602244</td>
@@ -235,7 +269,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>102</td>
       <td>https://dumps.wikimedia.org/frwiki/latest/400000</td>
       <td>path</td>
-      <td>wikipedia-400000</td>
       <td>dumps-wikimedia-4</td>
       <td>35821</td>
       <td>42823357</td>
@@ -247,7 +280,6 @@ summary: "Set of functions used to access the french text dataset."
       <td>103</td>
       <td>https://dumps.wikimedia.org/frwiki/latest/500000</td>
       <td>path</td>
-      <td>wikipedia-500000</td>
       <td>dumps-wikimedia-5</td>
       <td>99853</td>
       <td>115271107</td>
@@ -259,14 +291,13 @@ summary: "Set of functions used to access the french text dataset."
       <td>104</td>
       <td>https://dumps.wikimedia.org/frwiki/latest/515431</td>
       <td>path</td>
-      <td>wikipedia-515431</td>
       <td>dumps-wikimedia-6</td>
       <td>15415</td>
       <td>20366639</td>
     </tr>
   </tbody>
 </table>
-<p>154 rows × 9 columns</p>
+<p>154 rows × 8 columns</p>
 </div>
 </div>
 
@@ -278,15 +309,18 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>1) We extracted the text content of the main french websites around finance/business + wikipedia in september 2019 using <a href="https://github.com/laurentprudhon/nlptextdoc">nlptextdoc</a>.</p>
+<p>1) The text content of the main french websites in the domain of finance and business (+ wikipedia) were extracted in september 2019 using <a href="https://github.com/laurentprudhon/nlptextdoc">nlptextdoc</a>.</p>
 <p>This extraction was done as "politely" as possible:</p>
 <ul>
-<li>only access freely and publicly available content</li>
+<li>extract only freely and publicly available content</li>
 <li>respect the robots.txt directives of each website (pages forbidden for indexing, maximum extraction rate)</li>
 <li>detect when websites use tools to prevent indexing (like Datadome) and abort the crawl</li>
 </ul>
-<p>IMPORTANT: The original authors of the websites own the copyright on all text blocks in this dataset.</p>
+<p><strong>IMPORTANT: The original authors of the websites own the copyright on all text blocks in this dataset.</strong></p>
 <p>To be able to link each text block to its original author, we track the origin URL of each text block throughout the whole process.</p>
+<p><strong>YOU CAN'T REUSE THE TEXT BLOCKS FOR ANY PURPOSE EXCEPT TRAINING A NATURAL LANGUAGE PROCESSING MODEL.</strong></p>
+<p>See the new European copyright rules : <a href="https://www.europarl.europa.eu/news/en/headlines/priorities/copyright/20190321IPR32110/european-parliament-approves-new-copyright-rules-for-the-internet">European Parliament approves new copyright rules for the internet</a></p>
+<p>"<em>The directive aims to make it easier for copyrighted material to be used freely through text and data mining, thereby removing a significant competitive disadvantage that European researchers currently face.</em>"</p>
 
 </div>
 </div>
@@ -320,23 +354,12 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The raw results of this first step are stored in the ./extraction subdirectory, as dataframes serialized in the feather format, in files named according to the 'ExtractionFile' column of the table above:</p>
-<ul>
-<li>['ExtractionFile'].nlptextdocs.dataframe.feather</li>
-<li>['ExtractionFile'].urls.dataframe.feather</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>2) The text blocks were then:</p>
 <ul>
 <li>deduplicated to keep only distinct text blocks for each website (forgetting part of the original document structure), </li>
-<li>filtered by language (using <a href="https://fasttext.cc/docs/en/language-identification.html">https://fasttext.cc/docs/en/language-identification.html</a>),</li>
+<li>tagged (but not filtered) by language (using <a href="https://fasttext.cc/docs/en/language-identification.html">https://fasttext.cc/docs/en/language-identification.html</a>),</li>
 <li>grouped in categories according to the main theme of the original website,</li>
-<li>split in dataframes of size &lt; 2 GB.</li>
+<li>split in <a href="https://pandas.pydata.org/">Pandas</a> dataframes of size &lt; 2 GB.</li>
 </ul>
 
 </div>
@@ -371,11 +394,16 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The filtered results of this second step are stored in the ./datasets subdirectory, as dataframes serialized in the feather format, in files named according to the 'DatasetFile' column of the table above:</p>
+<p>In each dataframe, the text blocks were additionnaly <strong>SHUFFLED IN A RANDOM ORDER</strong> to make it very difficult to reconstruct the original articles (safety measure to help protect the copyrights of the authors).</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The results of this second step can be downloaded in the <em>config.datasets</em> directory, as dataframes serialized in the <a href="https://arrow.apache.org/docs/python/ipc.html?highlight=feather#feather-format">feather format</a>, in files named according to the 'DatasetFile' column of the table above:</p>
 <ul>
 <li>['DatasetFile'].dataset.feather</li>
-<li>['DatasetFile'].vocabulary.feather</li>
-<li>['DatasetFile'].charset.feather</li>
 </ul>
 
 </div>
@@ -407,17 +435,6 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Summary of the differences between an <strong>extraction file</strong> and a <strong>dataset file</strong> :</p>
-<ul>
-<li>an extraction file contains <strong>ALL</strong> the text blocks extracted from <strong>ONE</strong> website, in the <strong>original order</strong> (can't be redistributed)</li>
-<li>a dataset file contains only the <strong>DEDUPLICATED</strong> text blocks from <strong>ALL</strong> websites in a <strong>given category</strong>, in a <strong>random order</strong> (could be redistributed)</li>
-</ul>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -456,7 +473,13 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The detailed contribution of each website (number of pages and number of french words kept after all filters) to each category can be studied in the ./datasets.xlsx spreadsheet.</p>
+<p>The detailed contribution of each website (number of pages and number of french words kept after all filters) to each category can be studied in the datasetsdf table :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>Here is a summary of the number of words contributed by each category <strong>in millions</strong>:</p>
 
 </div>
@@ -560,8 +583,9 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>list_datasets() returns <strong>one row per extraction file</strong>.</p>
-<p>Summary of the columns returned by <strong>list_datasets()</strong> :</p>
+<p>Detailed documentation for <strong>list_datasets()</strong> :</p>
+<p>list_datasets() returns one row per dataset file.</p>
+<p>Columns :</p>
 <ul>
 <li>Dataset : 10 categories ('Assurance', 'Banque', 'Bourse', 'Comparateur', 'Crédit', 'Forum', 'Institution', 'Presse', 'SiteInfo', 'Wikipedia')</li>
 </ul>
@@ -578,10 +602,7 @@ summary: "Set of functions used to access the french text dataset."
 <li>Scope : the crawl starts at the base URL, ex : <a href="https://fr.wikipedia.org/wiki/Finance">https://fr.wikipedia.org/wiki/Finance</a>, and then is limited to one of 3 possible scopes : 'domain' = *.wikipedia.org/*, 'subdomain' : fr.wikipedia.org/*, 'path' : fr.wikipedia.org/wiki/Finance/*</li>
 </ul>
 <ul>
-<li>ExtractionDir : [only used during extraction phase] root directory where the individual nlptextdoc files were extracted for this website</li>
-</ul>
-<ul>
-<li>ExtractionFile : 146 extraction file names, which should be passed to <strong>read_extraction_file()</strong> (ex : 'cic.fr', 'compte-nickel.fr', 'credit-cooperatif.coop', 'credit-du-nord.fr', 'creditmutuel.fr')</li>
+<li>UrlsFile : name of the file where the original download URLs for each text block are tracked (used by the functions read_urls() and get_url_from_rowindex())</li>
 </ul>
 <ul>
 <li>Pages : number of pages extracted from this website</li>
@@ -595,65 +616,79 @@ summary: "Set of functions used to access the french text dataset."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.2-Extraction-files">1.2 Extraction files<a class="anchor-link" href="#1.2-Extraction-files">&#182;</a></h2>
+<h2 id="1.2-Download-datasets">1.2 Download datasets<a class="anchor-link" href="#1.2-Download-datasets">&#182;</a></h2>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_download_info" class="doc_header"><code>read_download_info</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/datasets.py#L22" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_download_info</code>()</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="download_all_datasets" class="doc_header"><code>download_all_datasets</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/datasets.py#L27" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>download_all_datasets</code>()</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="download_dataset_file" class="doc_header"><code>download_dataset_file</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/datasets.py#L33" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>download_dataset_file</code>(<strong><code>datasetfile</code></strong>)</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">read_extraction_file</span><span class="p">(</span><span class="n">website</span><span class="p">):</span>
-    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">website</span><span class="p">,</span><span class="nb">int</span><span class="p">):</span>
-        <span class="n">website</span> <span class="o">=</span> <span class="n">datasetsdf</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">datasetsdf</span><span class="p">[</span><span class="s2">&quot;Website&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">website</span><span class="p">,</span><span class="s2">&quot;ExtractionFile&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">website</span><span class="p">,</span><span class="nb">str</span><span class="p">):</span>
-         <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;website param should be int or str&quot;</span><span class="p">)</span>
-    <span class="n">textdffile</span> <span class="o">=</span> <span class="n">rootdir</span> <span class="o">/</span> <span class="s2">&quot;extraction&quot;</span> <span class="o">/</span> <span class="p">(</span><span class="n">website</span><span class="o">+</span><span class="s2">&quot;.nlptextdocs.dataframe.feather&quot;</span><span class="p">)</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">textdffile</span><span class="o">.</span><span class="n">exists</span><span class="p">()):</span>
-        <span class="n">textdf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_feather</span><span class="p">(</span><span class="n">textdffile</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Loaded text dataframe for website </span><span class="si">{website}</span><span class="s2"> : {len(textdf)} document elements&quot;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">textdf</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No text dataframe for website </span><span class="si">{website}</span><span class="s2">&quot;</span><span class="p">)</span>
-        
-<span class="k">def</span> <span class="nf">read_urls_file</span><span class="p">(</span><span class="n">website</span><span class="p">):</span>
-    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">website</span><span class="p">,</span><span class="nb">int</span><span class="p">):</span>
-        <span class="n">website</span> <span class="o">=</span> <span class="n">datasetsdf</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">datasetsdf</span><span class="p">[</span><span class="s2">&quot;Website&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">website</span><span class="p">,</span><span class="s2">&quot;ExtractionFile&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">website</span><span class="p">,</span><span class="nb">str</span><span class="p">):</span>
-         <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;website param should be int or str&quot;</span><span class="p">)</span>
-    <span class="n">urlsdffile</span> <span class="o">=</span> <span class="n">rootdir</span> <span class="o">/</span> <span class="s2">&quot;extraction&quot;</span> <span class="o">/</span> <span class="p">(</span><span class="n">website</span><span class="o">+</span><span class="s2">&quot;.urls.dataframe.feather&quot;</span><span class="p">)</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">urlsdffile</span><span class="o">.</span><span class="n">exists</span><span class="p">()):</span>
-        <span class="n">urlsdf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_feather</span><span class="p">(</span><span class="n">urlsdffile</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Loaded urls dataframe for website </span><span class="si">{website}</span><span class="s2"> : {len(urlsdf)} urls&quot;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">urlsdf</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No urls dataframe for website </span><span class="si">{website}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Extraction files can be read with the <strong>read_extraction_file()</strong> function.</p>
-<p>This function requires a unique parameter of two possible types :</p>
-<ul>
-<li>the unique id of each extraction job = 'Website' column returned by list_datasets()</li>
-<li>the name of the corresponding extraction file = 'ExtractionFile' column returned by list_datasets()</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span><span class="p">,</span> <span class="n">textdf</span> <span class="o">=</span> <span class="n">read_urls_file</span><span class="p">(</span><span class="s2">&quot;afer&quot;</span><span class="p">),</span> <span class="n">read_extraction_file</span><span class="p">(</span><span class="s2">&quot;afer&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">download_dataset_file</span><span class="p">(</span><span class="s2">&quot;assurance&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -666,8 +701,8 @@ summary: "Set of functions used to access the french text dataset."
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Loaded urls dataframe for website afer : 156 urls
-Loaded text dataframe for website afer : 17887 document elements
+<pre>Downloading dataset file : assurance (86 MB)
+Done
 </pre>
 </div>
 </div>
@@ -681,7 +716,7 @@ Loaded text dataframe for website afer : 17887 document elements
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span><span class="p">,</span> <span class="n">textdf</span> <span class="o">=</span> <span class="n">read_urls_file</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">read_extraction_file</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls -l <span class="o">{</span>config.datasets<span class="o">}</span>
 </pre></div>
 
     </div>
@@ -694,8 +729,8 @@ Loaded text dataframe for website afer : 17887 document elements
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Loaded urls dataframe for website 10meilleuresbanques : 55 urls
-Loaded text dataframe for website 10meilleuresbanques : 9002 document elements
+<pre>total 110656
+-rw-rw-rw- 1 laurent laurent 91136056 Feb  9 16:34 assurance.dataset.feather
 </pre>
 </div>
 </div>
@@ -709,7 +744,7 @@ Loaded text dataframe for website 10meilleuresbanques : 9002 document elements
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">textdf</span><span class="p">[</span><span class="n">textdf</span><span class="p">[</span><span class="s2">&quot;DocId&quot;</span><span class="p">]</span><span class="o">==</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">download_all_datasets</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -721,317 +756,47 @@ Loaded text dataframe for website 10meilleuresbanques : 9002 document elements
 
 <div class="output_area">
 
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>DocId</th>
-      <th>DocEltType</th>
-      <th>DocEltCmd</th>
-      <th>NestingLevel</th>
-      <th>Text</th>
-      <th>Lang</th>
-      <th>Words</th>
-      <th>Unique</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>35</th>
-      <td>2</td>
-      <td>Document</td>
-      <td>Start</td>
-      <td>1</td>
-      <td>2</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>2</td>
-      <td>Document</td>
-      <td>Title</td>
-      <td>1</td>
-      <td>Revue des 10 meilleures cartes de crédit – Ame...</td>
-      <td>fr</td>
-      <td>13</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>2</td>
-      <td>Document</td>
-      <td>Uri</td>
-      <td>1</td>
-      <td>https://www.10meilleuresbanques.fr/amexairfran...</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>2</td>
-      <td>List</td>
-      <td>Start</td>
-      <td>1</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>2</td>
-      <td>ListItem</td>
-      <td>Text</td>
-      <td>2</td>
-      <td>Classement</td>
-      <td>fr</td>
-      <td>1</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>2</td>
-      <td>ListItem</td>
-      <td>Text</td>
-      <td>2</td>
-      <td>Évaluation</td>
-      <td>fr</td>
-      <td>1</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>2</td>
-      <td>ListItem</td>
-      <td>Text</td>
-      <td>2</td>
-      <td>Plus d'infos</td>
-      <td>fr</td>
-      <td>3</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>2</td>
-      <td>List</td>
-      <td>End</td>
-      <td>1</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>1</td>
-      <td>Home &gt; Amexairfrancereview</td>
-      <td>?</td>
-      <td>3</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>2</td>
-      <td>Section</td>
-      <td>Start</td>
-      <td>1</td>
-      <td>American Express Air France : Revue de site</td>
-      <td>?</td>
-      <td>8</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>2</td>
-      <td>Section</td>
-      <td>End</td>
-      <td>1</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>1</td>
-      <td>Par Guillaume Vigneron</td>
-      <td>fr</td>
-      <td>3</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>2</td>
-      <td>Section</td>
-      <td>Start</td>
-      <td>1</td>
-      <td>Généralités</td>
-      <td>fr</td>
-      <td>1</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>1</td>
-      <td>American Express (AmEx) offre plus qu’une cart...</td>
-      <td>fr</td>
-      <td>40</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>1</td>
-      <td>Selon le pays de ses clients, American Express...</td>
-      <td>fr</td>
-      <td>60</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>1</td>
-      <td>L’offre American Express pour les clients fran...</td>
-      <td>fr</td>
-      <td>48</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>2</td>
-      <td>Table</td>
-      <td>Start</td>
-      <td>2</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>2</td>
-      <td>TableHeader</td>
-      <td>Start</td>
-      <td>3</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>3</td>
-      <td>AMEX</td>
-      <td>?</td>
-      <td>1</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>2</td>
-      <td>TableHeader</td>
-      <td>End</td>
-      <td>3</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>2</td>
-      <td>TableHeader</td>
-      <td>Start</td>
-      <td>3</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>3</td>
-      <td>VERSION PREMIUM</td>
-      <td>?</td>
-      <td>2</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>2</td>
-      <td>TableHeader</td>
-      <td>End</td>
-      <td>3</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>2</td>
-      <td>TableCell</td>
-      <td>Start</td>
-      <td>3</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>59</th>
-      <td>2</td>
-      <td>TextBlock</td>
-      <td>Text</td>
-      <td>3</td>
-      <td>Classiques</td>
-      <td>fr</td>
-      <td>1</td>
-      <td>True</td>
-    </tr>
-  </tbody>
-</table>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Downloading dataset file : assurance (86 MB)
+Done
+Downloading dataset file : banque (137 MB)
+Done
+Downloading dataset file : bourse (177 MB)
+Done
+Downloading dataset file : comparateur (138 MB)
+Done
+Downloading dataset file : crédit (11 MB)
+Done
+Downloading dataset file : forum (918 MB)
+Done
+Downloading dataset file : institution (30 MB)
+Done
+Downloading dataset file : presse-1 (879 MB)
+Done
+Downloading dataset file : presse-2 (815 MB)
+Done
+Downloading dataset file : presse-3 (772 MB)
+Done
+Downloading dataset file : presse-4 (914 MB)
+Done
+Downloading dataset file : presse-5 (1100 MB)
+Done
+Downloading dataset file : presse-6 (1385 MB)
+Done
+Downloading dataset file : siteinfo (518 MB)
+Done
+Downloading dataset file : wikipedia-1 (524 MB)
+Done
+Downloading dataset file : wikipedia-2 (695 MB)
+Done
+Downloading dataset file : wikipedia-3 (1020 MB)
+Done
+Downloading dataset file : wikipedia-4 (1036 MB)
+Done
+Downloading dataset file : wikipedia-5 (1032 MB)
+Done
+</pre>
 </div>
-</div>
-
 </div>
 
 </div>
@@ -1040,70 +805,14 @@ Loaded text dataframe for website 10meilleuresbanques : 9002 document elements
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Columns in an <strong>extraction file</strong> :</p>
-<ul>
-<li>DocId : unique identifier for each page of the website</li>
-</ul>
-<ul>
-<li>DocEltType/DocEltCmd : Document structure delimiters and document content elements<ul>
-<li>Document Start / Document End : beginning / end of a page<ul>
-<li>Document Title : title of the page</li>
-<li>Document Url : url of the page</li>
-</ul>
-</li>
-<li>Section Start / Section End : chapter or section delimited in the page<ul>
-<li>Section Title : title of the section</li>
-<li>NestingLevel : sections can be nested at several levels of depth</li>
-<li>TextBlock Text : paragraph or block of text inside a section</li>
-</ul>
-</li>
-<li>List Start / List End : list of elements</li>
-<li>NavigationList Start / NavigationList End : navigation menu<ul>
-<li>ListItem Text : text of a list element   </li>
-<li>NestingLevel : lists can be nested inside each other</li>
-</ul>
-</li>
-<li>Table Start / Table End : beginning / end of a table<ul>
-<li>TableHeader/TableCell Start / TableHeader/TableCell End : beginning / end of a table cell<ul>
-<li>TextBlock Text : paragraph or block of text inside a table cell</li>
-</ul>
-</li>
-<li>NestingLevel : tables can be nested inside each other</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>NestingLevel : the extraction algorithm (<a href="https://github.com/laurentprudhon/nlptextdoc">nlptextdoc</a>) tries very hard to preserve the hierarchical structure of the text in the source web page</li>
-</ul>
-<ul>
-<li>Text : None for all document structure delimiters lines, Unicode text for document content elements lines (DocEltCmd = 'Title' or 'Text')</li>
-</ul>
-<ul>
-<li>Lang : language of the text block in the Text column, as detected by <a href="https://fasttext.cc/docs/en/language-identification.html">fastText</a></li>
-</ul>
-<ul>
-<li>Words : number of words of the text block in the Text column,after tokenization by <a href="https://spacy.io/">spaCy</a></li>
-</ul>
-<ul>
-<li>Unique : True for the very first occurence of the text block in the current website (extraction file), False for all subsequent occurences of this same text block in this extraction file </li>
-</ul>
-
+<h2 id="1.3-Read-dataset-files">1.3 Read dataset files<a class="anchor-link" href="#1.3-Read-dataset-files">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
 </div>
-</div>
+<div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
 <div class="output">
@@ -1111,178 +820,14 @@ Loaded text dataframe for website 10meilleuresbanques : 9002 document elements
 <div class="output_area">
 
 
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>DocId</th>
-      <th>DocUrl</th>
-      <th>fr</th>
-      <th>?</th>
-      <th>en</th>
-      <th>es</th>
-      <th>de</th>
-      <th>Words</th>
-      <th>%fr</th>
-      <th>%de</th>
-      <th>%en</th>
-      <th>%es</th>
-      <th>%?</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>https://www.10meilleuresbanques.fr/about</td>
-      <td>278.0</td>
-      <td>7.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>285.0</td>
-      <td>0.975439</td>
-      <td>0.0</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.024561</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>https://www.10meilleuresbanques.fr/amexairfran...</td>
-      <td>966.0</td>
-      <td>93.0</td>
-      <td>49.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1108.0</td>
-      <td>0.871841</td>
-      <td>0.0</td>
-      <td>0.044224</td>
-      <td>0.000000</td>
-      <td>0.083935</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>https://www.10meilleuresbanques.fr/amexfrreview</td>
-      <td>314.0</td>
-      <td>43.0</td>
-      <td>14.0</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>373.0</td>
-      <td>0.841823</td>
-      <td>0.0</td>
-      <td>0.037534</td>
-      <td>0.005362</td>
-      <td>0.115282</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>https://www.10meilleuresbanques.fr/anytimereview</td>
-      <td>490.0</td>
-      <td>25.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>515.0</td>
-      <td>0.951456</td>
-      <td>0.0</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.048544</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>https://www.10meilleuresbanques.fr/articles</td>
-      <td>380.0</td>
-      <td>11.0</td>
-      <td>3.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>394.0</td>
-      <td>0.964467</td>
-      <td>0.0</td>
-      <td>0.007614</td>
-      <td>0.000000</td>
-      <td>0.027919</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_dataset_file" class="doc_header"><code>read_dataset_file</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/datasets.py#L42" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_dataset_file</code>(<strong><code>datasetfile</code></strong>)</p>
+</blockquote>
 
 </div>
 
 </div>
-</div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Each extraction file has a corresponding <strong>urls file</strong>, which is used to track a summary of the urls and stats for all documents included in the extraction file.</p>
-<p>Urls files can be read with the <strong>read_urls_file()</strong> function. This function takes the same parameter as read_extraction_file().</p>
-<p>Columns of the <strong>urls file</strong> :</p>
-<ul>
-<li>DocId : unique identifier for each page of the website, same as 'DocId' column in extraction file</li>
-</ul>
-<ul>
-<li>DocUrl : ansolute url (with query string) from which the page contents were extracted</li>
-</ul>
-<ul>
-<li>fr/en/es/de/? : number of words in text blocks for each language</li>
-</ul>
-<ul>
-<li>Words : total number of words in the text block of this page</li>
-</ul>
-<ul>
-<li>%fr/%en/%es/%de/%? : % words in text blocks of the page for each language (can be used to filter datasets)</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.3-Dataset-files">1.3 Dataset files<a class="anchor-link" href="#1.3-Dataset-files">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">read_dataset_file</span><span class="p">(</span><span class="n">datasetfile</span><span class="p">):</span>
-    <span class="n">datasetdffile</span> <span class="o">=</span> <span class="n">rootdir</span> <span class="o">/</span> <span class="s2">&quot;datasets&quot;</span> <span class="o">/</span> <span class="p">(</span><span class="n">datasetfile</span><span class="o">+</span><span class="s2">&quot;.dataset.feather&quot;</span><span class="p">)</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">datasetdffile</span><span class="o">.</span><span class="n">exists</span><span class="p">()):</span>
-        <span class="n">datasetdf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_feather</span><span class="p">(</span><span class="n">datasetdffile</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Loaded dataframe for dataset </span><span class="si">{datasetfile}</span><span class="s2"> : {len(datasetdf)} text blocks&quot;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">datasetdf</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No dataframe for dataset </span><span class="si">{datasetfile}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
 </div>
 </div>
 
@@ -1774,6 +1319,290 @@ Loaded text dataframe for website 10meilleuresbanques : 9002 document elements
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="1.4-Read-URLs-files">1.4 Read URLs files<a class="anchor-link" href="#1.4-Read-URLs-files">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_urls_file" class="doc_header"><code>read_urls_file</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/datasets.py#L52" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_urls_file</code>(<strong><code>website</code></strong>)</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>During each website extraction, a corresponding <strong>urls file</strong> was created to track the urls and stats of all documents included in the extraction.</p>
+<p>Urls files can be read with the <strong>read_urls_file()</strong> function.</p>
+<p>This function requires a unique parameter of two possible types :</p>
+<ul>
+<li>the unique id of each extraction job = 'Website' column returned by list_datasets()</li>
+<li>the name of the corresponding extraction file = 'UrlsFile' column returned by list_datasets()</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span> <span class="o">=</span> <span class="n">read_urls_file</span><span class="p">(</span><span class="s2">&quot;afer&quot;</span><span class="p">),</span> <span class="n">read_extraction_file</span><span class="p">(</span><span class="s2">&quot;afer&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">Exception</span>                                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-31-414cd64072c2&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>urlsdf <span class="ansi-blue-fg">=</span> read_urls_file<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;afer&#34;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span> read_extraction_file<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;afer&#34;</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">&lt;ipython-input-30-4f590e8b5008&gt;</span> in <span class="ansi-cyan-fg">read_urls_file</span><span class="ansi-blue-fg">(website)</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span>         <span class="ansi-green-fg">return</span> urlsdf
+<span class="ansi-green-intense-fg ansi-bold">     12</span>     <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">---&gt; 13</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">raise</span> Exception<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">f&#34;No urls dataframe for website {website}&#34;</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-red-fg">Exception</span>: No urls dataframe for website afer</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span> <span class="o">=</span> <span class="n">read_urls_file</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">Exception</span>                                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-32-a7bc57316a94&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>urlsdf <span class="ansi-blue-fg">=</span> read_urls_file<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">&lt;ipython-input-30-4f590e8b5008&gt;</span> in <span class="ansi-cyan-fg">read_urls_file</span><span class="ansi-blue-fg">(website)</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span>         <span class="ansi-green-fg">return</span> urlsdf
+<span class="ansi-green-intense-fg ansi-bold">     12</span>     <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">---&gt; 13</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">raise</span> Exception<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">f&#34;No urls dataframe for website {website}&#34;</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-red-fg">Exception</span>: No urls dataframe for website 10meilleuresbanques</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>DocId</th>
+      <th>DocUrl</th>
+      <th>fr</th>
+      <th>?</th>
+      <th>en</th>
+      <th>es</th>
+      <th>de</th>
+      <th>Words</th>
+      <th>%fr</th>
+      <th>%de</th>
+      <th>%en</th>
+      <th>%es</th>
+      <th>%?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>https://www.10meilleuresbanques.fr/about</td>
+      <td>278.0</td>
+      <td>7.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>285.0</td>
+      <td>0.975439</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.024561</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>https://www.10meilleuresbanques.fr/amexairfran...</td>
+      <td>966.0</td>
+      <td>93.0</td>
+      <td>49.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1108.0</td>
+      <td>0.871841</td>
+      <td>0.0</td>
+      <td>0.044224</td>
+      <td>0.000000</td>
+      <td>0.083935</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>https://www.10meilleuresbanques.fr/amexfrreview</td>
+      <td>314.0</td>
+      <td>43.0</td>
+      <td>14.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>373.0</td>
+      <td>0.841823</td>
+      <td>0.0</td>
+      <td>0.037534</td>
+      <td>0.005362</td>
+      <td>0.115282</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>https://www.10meilleuresbanques.fr/anytimereview</td>
+      <td>490.0</td>
+      <td>25.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>515.0</td>
+      <td>0.951456</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.048544</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>https://www.10meilleuresbanques.fr/articles</td>
+      <td>380.0</td>
+      <td>11.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>394.0</td>
+      <td>0.964467</td>
+      <td>0.0</td>
+      <td>0.007614</td>
+      <td>0.000000</td>
+      <td>0.027919</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Detailed documentation for <strong>read_urls_file(website)</strong> :</p>
+<p>read_urls_file() returns one row per page extracted from a given website.</p>
+<p>Columns :</p>
+<ul>
+<li>DocId : unique identifier for each page of the website, same as 'DocId' column in extraction file</li>
+</ul>
+<ul>
+<li>DocUrl : ansolute url (with query string) from which the page contents were extracted</li>
+</ul>
+<ul>
+<li>fr/en/es/de/? : number of words in text blocks for each language</li>
+</ul>
+<ul>
+<li>Words : total number of words in the text block of this page</li>
+</ul>
+<ul>
+<li>%fr/%en/%es/%de/%? : % words in text blocks of the page for each language (can be used to filter datasets)</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
