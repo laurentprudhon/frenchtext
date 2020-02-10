@@ -14,10 +14,21 @@ index = {"Config": "00_core.ipynb",
          "download_dataset_file": "01_datasets.ipynb",
          "downloaddf": "01_datasets.ipynb",
          "read_dataset_file": "01_datasets.ipynb",
-         "read_urls_file": "01_datasets.ipynb"}
+         "download_urls_file": "01_datasets.ipynb",
+         "read_urls_file": "01_datasets.ipynb",
+         "urlsdf": "01_datasets.ipynb",
+         "get_rows_from_datasetdf": "01_datasets.ipynb",
+         "show_first_rows": "01_datasets.ipynb",
+         "get_textblocks_from_dataset": "01_datasets.ipynb",
+         "show_first_textblocks": "01_datasets.ipynb",
+         "get_text_from_rowindex": "01_datasets.ipynb",
+         "get_url_from_rowindex": "01_datasets.ipynb",
+         "find_textblocks_with_chars": "01_datasets.ipynb",
+         "getContextAroundWord": "01_datasets.ipynb"}
 
 modules = ["core.py",
-           "datasets.py"]
+           "datasets.py",
+           "chars.py"]
 
 doc_url = "https://laurentprudhon.github.io/frenchtext/"
 
