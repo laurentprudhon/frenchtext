@@ -5,6 +5,7 @@ __all__ = ['Config', 'config', 'download_url']
 # Cell
 import os
 from pathlib import Path
+from zipfile import ZipFile,ZIP_LZMA
 
 # Cell
 class Config:
@@ -80,3 +81,12 @@ def download_url(url, dest, file_size=0, overwrite=False, pbar=None, show_progre
                   f'$ wget -c {url}\n'
                   f'$ tar xf {fname}\n'
                   f' And re-run your code once the download is successful\n')
+            return
+
+    if dest.name.endswith(".zip"):
+        file = ZipFile(dest, compression=ZIP_LZMA)
+        print(f"Extracting {dest.name} (this may last several seconds) ...")
+        file.extractall(dest.parent)
+        file.close()
+        os.remove(dest)
+        print("OK")
