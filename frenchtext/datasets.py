@@ -37,7 +37,9 @@ def download_dataset_file(datasetfile):
     url = row["DownloadUrl"]
     size = row["FileSize"]
     print(f"Downloading dataset file : {datasetfile} ({math.floor(size/1024/1024)} MB)")
-    download_url(url, config.datasets / (datasetfile+".dataset.zip"), size)
+    resfile = config.datasets / (datasetfile+".dataset.feather")
+    if not resfile.exists():
+        download_url(url, config.datasets / (datasetfile+".dataset.zip"), size)
 
 # Cell
 def read_dataset_file(datasetfile):
