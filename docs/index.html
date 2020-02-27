@@ -24,7 +24,11 @@ summary: "NLP library to process french text."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This file will become your README and also the index of your documentation.</p>
+<p>In this early pre-version, the library provides :</p>
+<ul>
+<li>datasets to train business-oriented french text models</li>
+<li>a characters normalization pipeline tailored for french text</li>
+</ul>
 
 </div>
 </div>
@@ -44,13 +48,120 @@ summary: "NLP library to process french text."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Dependencies">Dependencies<a class="anchor-link" href="#Dependencies">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><a href="https://pandas.pydata.org/">pandas</a></li>
+<li><a href="https://arrow.apache.org/docs/python/">pyarrow</a></li>
+<li><a href="https://requests.readthedocs.io/en/latest/">requests</a></li>
+<li><a href="https://github.com/fastai/fastprogress">fastprogress</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Licence">Licence<a class="anchor-link" href="#Licence">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>APACHE licence 2.0 : <a href="https://www.apache.org/licenses/LICENSE-2.0">https://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="How-to-use">How to use<a class="anchor-link" href="#How-to-use">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fill me in please! Don't forget code examples:</p>
+<p>The detailed documentation for each module is available through the menu on the right side of this page.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You will find below a very short overview of the library.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="French-datasets">French datasets<a class="anchor-link" href="#French-datasets">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>1) The text content of the main french websites in the domain of finance and business (+ wikipedia) were extracted in september 2019 using <a href="https://github.com/laurentprudhon/nlptextdoc">nlptextdoc</a>.</p>
+<p>This extraction was done as "politely" as possible:</p>
+<ul>
+<li>extract only freely and publicly available content</li>
+<li>respect the robots.txt directives of each website (pages forbidden for indexing, maximum extraction rate)</li>
+<li>detect when websites use tools to prevent indexing (like Datadome) and abort the crawl</li>
+</ul>
+<p><strong>IMPORTANT: The original authors of the websites own the copyright on all text blocks in this dataset.</strong></p>
+<p>To be able to link each text block to its original author, we track the origin URL of each text block throughout the whole process.</p>
+<p><strong>YOU CAN'T REUSE THE TEXT BLOCKS FOR ANY PURPOSE EXCEPT TRAINING A NATURAL LANGUAGE PROCESSING MODEL.</strong></p>
+<p>See the new European copyright rules : <a href="https://www.europarl.europa.eu/news/en/headlines/priorities/copyright/20190321IPR32110/european-parliament-approves-new-copyright-rules-for-the-internet">European Parliament approves new copyright rules for the internet</a></p>
+<p>"<em>The directive aims to make it easier for copyrighted material to be used freely through text and data mining, thereby removing a significant competitive disadvantage that European researchers currently face.</em>"</p>
+<p>=&gt; 131 websites and 2 564 755 HTML pages</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>2) The text blocks were then:</p>
+<ul>
+<li>deduplicated to keep only distinct text blocks for each website (forgetting part of the original document structure), </li>
+<li>tagged (but not filtered) by language (using <a href="https://fasttext.cc/docs/en/language-identification.html">https://fasttext.cc/docs/en/language-identification.html</a>),</li>
+<li>grouped in categories according to the main theme of the original website,</li>
+<li>split in <a href="https://pandas.pydata.org/">Pandas</a> dataframes of size &lt; 2 GB.</li>
+</ul>
+<p>=&gt; 10 categories: 'Assurance', 'Banque', 'Bourse', 'Comparateur', 'Crédit', 'Forum', 'Institution', 'Presse', 'SiteInfo', 'Wikipedia'</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>3) In each dataframe, the text blocks were additionnaly <strong>SHUFFLED IN A RANDOM ORDER</strong> to make it very difficult to reconstruct the original articles (safety measure to help protect the copyrights of the authors).</p>
+<p>The results of this second step can be downloaded in the <em>config.datasets</em> directory, as dataframes serialized in the <a href="https://arrow.apache.org/docs/python/ipc.html?highlight=feather#feather-format">feather format</a>, in files named according to the 'DatasetFile' column of the datasets table.</p>
+<p>=&gt; 19 dataset files: 'assurance', 'banque', 'bourse', 'comparateur', 'crédit', 'forum', 'institution', 'presse-1', 'presse-2', 'presse-3', 'presse-4', 'presse-5', 'presse-6', 'siteinfo', 'wikipedia-1', 'wikipedia-2', 'wikipedia-3', 'wikipedia-4', 'wikipedia-5'</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The number of words in each text block was computed using the default french tokenizer from <a href="https://spacy.io/">spaCy</a> v2.1.</p>
+<p>This business-oriented dataset contains <strong>2 billion french words</strong>.</p>
+<p>Here is a summary of the number of words contributed by each category <strong>in millions</strong>:</p>
+<ul>
+<li>Assurance : 12</li>
+<li>Banque : 20</li>
+<li>Bourse : 26</li>
+<li>Comparateur : 20</li>
+<li>Crédit : 1</li>
+<li>Forum : 152</li>
+<li>Institution : 4</li>
+<li>Presse : 963</li>
+<li>SiteInfo : 78</li>
+<li>Wikipedia : 727</li>
+</ul>
 
 </div>
 </div>
@@ -60,7 +171,286 @@ summary: "NLP library to process french text."
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;frenchtext is awesome !&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">frenchtext.core</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">frenchtext.datasets</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>List available dataset files :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datasetfiles</span> <span class="o">=</span> <span class="n">list_dataset_files</span><span class="p">()</span>
+<span class="n">datasetfiles</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;assurance&#39;,
+ &#39;banque&#39;,
+ &#39;bourse&#39;,
+ &#39;comparateur&#39;,
+ &#39;crédit&#39;,
+ &#39;forum&#39;,
+ &#39;institution&#39;,
+ &#39;presse-1&#39;,
+ &#39;presse-2&#39;,
+ &#39;presse-3&#39;,
+ &#39;presse-4&#39;,
+ &#39;presse-5&#39;,
+ &#39;presse-6&#39;,
+ &#39;siteinfo&#39;,
+ &#39;wikipedia-1&#39;,
+ &#39;wikipedia-2&#39;,
+ &#39;wikipedia-3&#39;,
+ &#39;wikipedia-4&#39;,
+ &#39;wikipedia-5&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Source websites and number of words in each dataset file :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datasetsdf</span> <span class="o">=</span> <span class="n">list_datasets</span><span class="p">()</span>
+<span class="n">datasetsdf</span><span class="p">[[</span><span class="s2">&quot;DatasetFile&quot;</span><span class="p">,</span><span class="s2">&quot;Url&quot;</span><span class="p">,</span><span class="s2">&quot;Pages&quot;</span><span class="p">,</span><span class="s2">&quot;Words&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">80</span><span class="p">:</span><span class="mi">100</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>DatasetFile</th>
+      <th>Url</th>
+      <th>Pages</th>
+      <th>Words</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>80</th>
+      <td>comparateur</td>
+      <td>https://www.panorabanques.com/</td>
+      <td>4341</td>
+      <td>2584038</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>crédit</td>
+      <td>https://www.cetelem.fr/</td>
+      <td>274</td>
+      <td>157191</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>crédit</td>
+      <td>https://www.cofidis.fr/</td>
+      <td>347</td>
+      <td>243904</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>crédit</td>
+      <td>https://www.cofinoga.fr/</td>
+      <td>413</td>
+      <td>86796</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>crédit</td>
+      <td>https://www.sofinco.fr/</td>
+      <td>916</td>
+      <td>597221</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>crédit</td>
+      <td>https://www.younited-credit.com/</td>
+      <td>1341</td>
+      <td>665115</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>forum</td>
+      <td>https://droit-finances.commentcamarche.com/</td>
+      <td>96450</td>
+      <td>56120562</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>forum</td>
+      <td>http://forum.doctissimo.fr/famille/argent-budg...</td>
+      <td>26981</td>
+      <td>61020453</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>forum</td>
+      <td>http://forum.doctissimo.fr/viepratique/finance...</td>
+      <td>5745</td>
+      <td>4962230</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>forum</td>
+      <td>http://forum.doctissimo.fr/viepratique/Impots/...</td>
+      <td>2338</td>
+      <td>1422143</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>forum</td>
+      <td>https://forum.lesarnaques.com/assurance-automo...</td>
+      <td>3530</td>
+      <td>3085101</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>forum</td>
+      <td>https://forum.lesarnaques.com/banque/</td>
+      <td>6206</td>
+      <td>5766116</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>forum</td>
+      <td>https://www.60millions-mag.com/forum/</td>
+      <td>3692</td>
+      <td>2222882</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>forum</td>
+      <td>https://www.boursorama.com/patrimoine/forum/</td>
+      <td>13020</td>
+      <td>10497065</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>forum</td>
+      <td>https://www.cbanque.com/forums/</td>
+      <td>12098</td>
+      <td>7702002</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>institution</td>
+      <td>https://acpr.banque-france.fr/</td>
+      <td>470</td>
+      <td>51397</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>institution</td>
+      <td>https://www.banque-france.fr/</td>
+      <td>728</td>
+      <td>75101</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>institution</td>
+      <td>https://www.ffa-assurance.fr/</td>
+      <td>301</td>
+      <td>146499</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>institution</td>
+      <td>https://www.economie.gouv.fr/</td>
+      <td>2720</td>
+      <td>159663</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>institution</td>
+      <td>https://www.impots.gouv.fr/portail/</td>
+      <td>1631</td>
+      <td>653735</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Download dataset files :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">download_dataset_file</span><span class="p">(</span><span class="s2">&quot;assurance&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -73,9 +463,2112 @@ summary: "NLP library to process french text."
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>frenchtext is awesome !
+<pre>Downloading dataset file : assurance (17 MB)
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">download_all_datasets</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Downloading dataset file : assurance (17 MB)
+Downloading dataset file : banque (28 MB)
+Downloading dataset file : bourse (38 MB)
+Downloading dataset file : comparateur (28 MB)
+Downloading dataset file : crédit (2 MB)
+Downloading dataset file : forum (220 MB)
+Downloading dataset file : institution (5 MB)
+Downloading dataset file : presse-1 (218 MB)
+Downloading dataset file : presse-2 (196 MB)
+Downloading dataset file : presse-3 (190 MB)
+Downloading dataset file : presse-4 (234 MB)
+Downloading dataset file : presse-5 (269 MB)
+Downloading dataset file : presse-6 (334 MB)
+Downloading dataset file : siteinfo (116 MB)
+Downloading dataset file : wikipedia-1 (131 MB)
+Downloading dataset file : wikipedia-2 (182 MB)
+Downloading dataset file : wikipedia-3 (263 MB)
+Downloading dataset file : wikipedia-4 (269 MB)
+Downloading dataset file : wikipedia-5 (267 MB)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can change the local directory where the dataset files are downloaded :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">config</span><span class="o">.</span><span class="n">datasets</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>PosixPath(&#39;/home/laurent/.frenchtext/datasets&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;datasets_path&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;/tmp/datasets&quot;</span>
+<span class="n">config</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">config</span><span class="o">.</span><span class="n">datasets</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>PosixPath(&#39;/tmp/datasets&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Read dataset file :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datasetdf</span> <span class="o">=</span> <span class="n">read_dataset_file</span><span class="p">(</span><span class="s2">&quot;assurance&quot;</span><span class="p">)</span>
+<span class="n">datasetdf</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Loaded dataframe for dataset assurance : 563613 text blocks
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Website</th>
+      <th>DocId</th>
+      <th>DocEltType</th>
+      <th>DocEltCmd</th>
+      <th>NestingLevel</th>
+      <th>Text</th>
+      <th>Lang</th>
+      <th>Words</th>
+      <th>Unique</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>11</td>
+      <td>22332</td>
+      <td>ListItem</td>
+      <td>Text</td>
+      <td>2</td>
+      <td>5 tournages catastrophe pour un assureur</td>
+      <td>fr</td>
+      <td>6</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>74</td>
+      <td>710</td>
+      <td>Section</td>
+      <td>Start</td>
+      <td>1</td>
+      <td>Tout connaitre sur la nouvelle formation post-...</td>
+      <td>fr</td>
+      <td>7</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>11</td>
+      <td>12082</td>
+      <td>TextBlock</td>
+      <td>Text</td>
+      <td>1</td>
+      <td>Votre Agent Mandataire AXA - Civry Marie Claud...</td>
+      <td>?</td>
+      <td>18</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>87</td>
+      <td>461</td>
+      <td>TextBlock</td>
+      <td>Text</td>
+      <td>4</td>
+      <td>60 ans et 4 mois</td>
+      <td>fr</td>
+      <td>5</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7</td>
+      <td>200</td>
+      <td>TextBlock</td>
+      <td>Text</td>
+      <td>1</td>
+      <td>Mon devis sur mesure</td>
+      <td>fr</td>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>563608</th>
+      <td>138</td>
+      <td>255</td>
+      <td>Section</td>
+      <td>Start</td>
+      <td>2</td>
+      <td>Les autres pouvoirs de police</td>
+      <td>fr</td>
+      <td>5</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>563609</th>
+      <td>11</td>
+      <td>19483</td>
+      <td>TextBlock</td>
+      <td>Text</td>
+      <td>1</td>
+      <td>Yves Nicolau assurance Laon</td>
+      <td>?</td>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>563610</th>
+      <td>106</td>
+      <td>1644</td>
+      <td>ListItem</td>
+      <td>Text</td>
+      <td>3</td>
+      <td>Evènements sportifs</td>
+      <td>fr</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>563611</th>
+      <td>58</td>
+      <td>4155</td>
+      <td>Section</td>
+      <td>Start</td>
+      <td>1</td>
+      <td>Agence Groupama Chalon</td>
+      <td>?</td>
+      <td>3</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>563612</th>
+      <td>10</td>
+      <td>150</td>
+      <td>TextBlock</td>
+      <td>Text</td>
+      <td>2</td>
+      <td>Nos agences d'assurance Aviva à OYONNAX sont h...</td>
+      <td>fr</td>
+      <td>26</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+<p>563613 rows × 9 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Optionally download and read urls file to track the origin of each text block :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">urlsdf</span> <span class="o">=</span> <span class="n">read_urls_file</span><span class="p">()</span>
+<span class="n">urlsdf</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Filter and iterate over the rows of a dataset file :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rowsiterator</span> <span class="o">=</span> <span class="n">get_rows_from_datasetdf</span><span class="p">(</span><span class="n">datasetdf</span><span class="p">,</span> <span class="n">minwords</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">maxwords</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s2">&quot;?&quot;</span><span class="p">)</span>
+<span class="n">show_first_rows</span><span class="p">(</span><span class="n">rowsiterator</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>12 - COORDONNEES
+41 - 01 30 41 67 33
+49 - Dmitriy G.
+57 - Les atouts du Multisupport CONFIANCE
+74 - 01XXL meribel hiver
+76 - Garantie en cas de vol
+87 - Par AXA, le 01/08/2016
+96 - mgr@enderby.eu
+127 - 18 place De Strasbourg
+131 - Saint Gaudens
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Filter and iterate over the text blocks of a full dataset (across multiple files) :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">textiterator</span> <span class="o">=</span> <span class="n">get_textblocks_from_dataset</span><span class="p">(</span><span class="s2">&quot;Assurance&quot;</span><span class="p">,</span> <span class="n">minwords</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">maxwords</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s2">&quot;fr&quot;</span><span class="p">)</span>
+<span class="n">show_first_textblocks</span><span class="p">(</span><span class="n">textiterator</span><span class="p">,</span><span class="n">skip</span><span class="o">=</span><span class="mi">2000</span><span class="p">,</span><span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Loaded dataframe for dataset assurance : 563613 text blocks
+2001 - Rééquipement à neuf à vie
+2002 - Définition Conducteur secondaire- Lexique
+2003 - Comment éviter les fraudes
+2004 - Comment demander un remboursement santé - GENERALI
+2005 - Simulateur pour connaître les obligations de votre accord de branche
+2006 - Complémentaire Epargne retraite des indépendants et TNS - Malakoff Médéric
+2007 - Experts-Comptables, découvrez la mission épargne salariale
+2008 - Vous n’êtes pas encore client :
+2009 - Actualités (Page 6) | ameli.fr | Pharmacien
+2010 - Dépression : quelle prise en charge ? - Matmut
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Access a specific row - Retrieve the Url from which this text block was extracted :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_text_from_rowindex</span><span class="p">(</span><span class="n">datasetdf</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Les inondations de plaine : débordement de cours d’eau avec une durée d’immersion longue (prévisibles plusieurs jours ou heures à l’avance).&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_url_from_rowindex</span><span class="p">(</span><span class="n">datasetdf</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Find text blocks with a specific char or substring :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">find_textblocks_with_chars</span><span class="p">(</span><span class="n">datasetdf</span><span class="p">,</span><span class="s2">&quot;rétroviseur&quot;</span><span class="p">,</span><span class="n">count</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span><span class="n">ctxsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>375158    ant, moteur de rétroviseurs…              
+174535    es miroirs des rétroviseurs,              
+202380    es fenêtres et rétroviseurs.              
+107279    réglage de vos rétroviseurs intérieurs et 
+304505    escroquerie au rétroviseur cassé connaît u
+409448    le conducteur (rétroviseurs, pare-brise, e
+454460     lorsque votre rétroviseur arrive au nivea
+155443     même pour les rétroviseurs : si vous n’av
+191363    c un obstacle, rétroviseur abîmé…).       
+256089     autoradio CD, rétroviseurs électriques, c
+107934    nt varier. Les rétroviseurs et les blocs-p
+212488    e-brise et des rétroviseurs.              
+553230     éraflures, un rétroviseur abîmé, ou un au
+549610    ème avec votre rétroviseur, il se peut que
+238518     d’œil dans le rétroviseur intérieur et l’
+452103    xé, absence de rétroviseur, pneus entaillé
+504582    mais aussi les rétroviseurs, les phares et
+232975    placement d’un rétroviseur électrique ou d
+400168     les appareils rétroviseurs, les feux arri
+317324    rise et de vos rétroviseurs,              
+Name: Text, dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">find_textblocks_with_chars</span><span class="p">(</span><span class="n">datasetdf</span><span class="p">,</span><span class="mi">64257</span><span class="p">,</span><span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">wrap</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>523696    tion et de supports [ﬁ]nanciers comme les Fo
+264581     Ces préalables véri[ﬁ]és, les caractéristiq
+74267          La Fondation a [ﬁ]nancé depuis 2009, l’
+432161    s, dont certains pro[ﬁ]ls présentent un risq
+337075    oeuvre par CapsAuto,[ﬁ] liale de Groupama. O
+265114    nt règlementaire et [ﬁ]nancier, nous accompa
+364346    s besoins de diversi[ﬁ]cation de la clientèl
+219195    d, Jérôme Powell con[ﬁ]rmera que, dans l’att
+403638     Assurances d&#39;ici à [ﬁ]n 2021.              
+139684    alisation. Selon la [ﬁ]scalité en vigueur au
+Name: Text, dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Characters-normalization">Characters normalization<a class="anchor-link" href="#Characters-normalization">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>French datasets often contain several thousands distinct Unicode characters.</p>
+<p>Characters stats in Wikipedia dataset :</p>
+<ul>
+<li>35.6 billion chars</li>
+<li>13 502 distinct Unicode chars</li>
+</ul>
+<p>Characters stats in Business dataset :</p>
+<ul>
+<li>27.5 billion chars</li>
+<li>3 763 distinct Unicode chars</li>
+</ul>
+<p>We need to reduce the number of distinct characters fed to our natural language processing applications, for three reasons :</p>
+<ul>
+<li>chars considered by the user as visually equivalent will often produce a different application behavior : this is a huge problem for the user experience</li>
+<li>with so many chars, the designer of the NLP application will not be able to reason about all possible combinations : this could harm the explainability of the system</li>
+<li>this huge number of distinct characters brings a significant amount complexity the NLP models will have to deal with</li>
+</ul>
+<p>Characters stats in Wikipedia dataset :</p>
+<ul>
+<li>Only 1316 chars more frequent than 1 in 100 million</li>
+<li>99.9987 % of Wikipedia chars would be preserved if we only kept the frequent chars</li>
+</ul>
+<p>Characters stats in Business dataset :</p>
+<ul>
+<li>Only 531 chars more frequent than 1 in 100 million</li>
+<li>99.9996 % of Business chars would be preserved if we only kept the frequent chars</li>
+</ul>
+<p>We can be smarter than that and replace rare chars with equivalent (or mostly equivalent) more frequent chars to preserve a maximum of information.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>After a detailed study of all the frequent chars, the goal is to design a noramization pipeline which can retain as much information as possible while greatly reducing the number of dinstinct chars.</p>
+<p>We saw before that it is possible to preserve 99.9996% of the original chars while keeping only 500 distinct chars. By being clever and replacing equivalent chars, we can divide this number by 2 and still retain the same amount of information.</p>
+<p>It may then be useful to limit the number of distinct characters after normalization to <strong>255 distinct characters</strong> :</p>
+<ul>
+<li>if needed, french text chars can then be encoded with a single byte</li>
+<li>the list of supported chars can be memorized by NLP application developers and users</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">frenchtext.chars</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>255 supported characters after normalization :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">dfcharsnorm</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;charset-fr.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;;&quot;</span><span class="p">)</span>
+<span class="n">dfcharsnorm</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>FrCode</th>
+      <th>Category</th>
+      <th>SubCategory</th>
+      <th>Code</th>
+      <th>Char</th>
+      <th>CharName</th>
+      <th>CountBusiness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>separator</td>
+      <td>control</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>Reserved - End of string</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>separator</td>
+      <td>space</td>
+      <td>32</td>
+      <td></td>
+      <td>Space</td>
+      <td>88494564</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>separator</td>
+      <td>space</td>
+      <td>10</td>
+      <td>\n</td>
+      <td>Char 10</td>
+      <td>9588147</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>separator</td>
+      <td>space</td>
+      <td>9</td>
+      <td>\t</td>
+      <td>Char 9</td>
+      <td>1522053</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>separator</td>
+      <td>punctuation</td>
+      <td>44</td>
+      <td>,</td>
+      <td>Comma</td>
+      <td>286106887</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>251</td>
+      <td>emoticon</td>
+      <td>object</td>
+      <td>9792</td>
+      <td>♀</td>
+      <td>Female Sign</td>
+      <td>515</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>252</td>
+      <td>emoticon</td>
+      <td>object</td>
+      <td>127881</td>
+      <td>🎉</td>
+      <td>Party Popper</td>
+      <td>356</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>253</td>
+      <td>emoticon</td>
+      <td>object</td>
+      <td>9997</td>
+      <td>✍</td>
+      <td>Writing Hand</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>254</td>
+      <td>emoticon</td>
+      <td>object</td>
+      <td>9993</td>
+      <td>✉</td>
+      <td>Envelope</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>255</td>
+      <td>emoticon</td>
+      <td>object</td>
+      <td>10013</td>
+      <td>✝</td>
+      <td>Latin Cross</td>
+      <td>22</td>
+    </tr>
+  </tbody>
+</table>
+<p>256 rows × 7 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The table below shows the number of chars in each category (after normalization) <strong>per 100 million characters</strong> :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dfblocks</span> <span class="o">=</span> <span class="n">dfcharsnorm</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Category&quot;</span><span class="p">,</span><span class="s2">&quot;SubCategory&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;Char&quot;</span><span class="p">:[</span><span class="s2">&quot;count&quot;</span><span class="p">,</span><span class="s2">&quot;sum&quot;</span><span class="p">],</span><span class="s2">&quot;CountBusiness&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
+<span class="n">dfblocks</span><span class="p">[</span><span class="s2">&quot;CountBusiness&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">dfblocks</span><span class="p">[</span><span class="s2">&quot;CountBusiness&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="mi">27577304956</span> <span class="o">*</span> <span class="mi">100000000</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">dfblocks</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th colspan="2" halign="left">Char</th>
+      <th>CountBusiness</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>count</th>
+      <th>sum</th>
+      <th>sum</th>
+    </tr>
+    <tr>
+      <th>Category</th>
+      <th>SubCategory</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">emoticon</th>
+      <th>hand</th>
+      <td>12</td>
+      <td>💪👉👍👏🙏🙌👇👊👎👌✌✊</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <th>head</th>
+      <td>28</td>
+      <td>🙂😉😀😂😁😊🙁😅😍😃😡🤣😄🤔😎😭👹😱😜😋🤩🙄😆😛🤪😢😇🤦</td>
+      <td>233</td>
+    </tr>
+    <tr>
+      <th>object</th>
+      <td>16</td>
+      <td>⚠🔴🔥🏆⚽💡🚨💥⚡♫♂♀🎉✍✉✝</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th rowspan="6" valign="top">letter</th>
+      <th>digit</th>
+      <td>10</td>
+      <td>0123549876</td>
+      <td>3271115</td>
+    </tr>
+    <tr>
+      <th>encoding</th>
+      <td>3</td>
+      <td>Ã�￼</td>
+      <td>249</td>
+    </tr>
+    <tr>
+      <th>greek</th>
+      <td>2</td>
+      <td>λπ</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>latin-fr</th>
+      <td>84</td>
+      <td>abcdefghijklmnopqrstuvwxyzàâäçèéêëîïôöùûüÿABCD...</td>
+      <td>91437146</td>
+    </tr>
+    <tr>
+      <th>latin-other</th>
+      <td>25</td>
+      <td>áãåćčėğıíìńñóòõøšşßúÁÅŠÚŽ</td>
+      <td>712</td>
+    </tr>
+    <tr>
+      <th>other</th>
+      <td>5</td>
+      <td>_&amp;@\#</td>
+      <td>40814</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">separator</th>
+      <th>control</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>punctuation</th>
+      <td>23</td>
+      <td>,'.-:/")(?!»«|…;[]}{•¿¡</td>
+      <td>4684722</td>
+    </tr>
+    <tr>
+      <th>space</th>
+      <td>3</td>
+      <td>\n\t</td>
+      <td>361183</td>
+    </tr>
+    <tr>
+      <th rowspan="5" valign="top">symbol</th>
+      <th>currency</th>
+      <td>6</td>
+      <td>€$¤£¥¢</td>
+      <td>21099</td>
+    </tr>
+    <tr>
+      <th>math</th>
+      <td>14</td>
+      <td>=&gt;+&lt;^~×≤÷≥±≠∞√</td>
+      <td>50056</td>
+    </tr>
+    <tr>
+      <th>shape</th>
+      <td>15</td>
+      <td>*✓⇒♥¦→★¯↓❌❐†↑←↔</td>
+      <td>7954</td>
+    </tr>
+    <tr>
+      <th>sign</th>
+      <td>3</td>
+      <td>©®™</td>
+      <td>1754</td>
+    </tr>
+    <tr>
+      <th>unit</th>
+      <td>6</td>
+      <td>%°§µØ‰</td>
+      <td>102213</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The normalization pipeline applies the following <strong>14 steps</strong>, which are explained and illustrated in the sections below.</p>
+<ul>
+<li>Fix encoding errors<ul>
+<li>fix windows1252 text read as iso8859-1</li>
+<li>fix utf8 text read as windows1252</li>
+<li>fix windows1252 text read as utf8</li>
+<li>merge Unicode combining chars</li>
+<li>ignore control chars</li>
+</ul>
+</li>
+<li>Remove display attributes<ul>
+<li>replace latin letter symbols</li>
+<li>replace latin letter ligatures</li>
+<li>replace latin number symbols</li>
+</ul>
+</li>
+<li>Normalize visually equivalent chars<ul>
+<li>replace equivalent chars </li>
+<li>replace cyrillic and greek chars looking like latin letters</li>
+</ul>
+</li>
+<li>Encode infrequent chars while losing a little bit of information <ul>
+<li>replace infrequent latin letters with diacritics</li>
+<li>replace infrequent chars from other scripts</li>
+<li>replace infrequent symbols </li>
+<li>ignore remaining chars with no glyph </li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">time</span> norm = TextNormalizer()
+<span class="n">norm</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>CPU times: user 1.83 s, sys: 0 ns, total: 1.83 s
+Wall time: 1.88 s
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1 - Fix encoding errors : windows1252 read as iso8859-1
+2 - Fix encoding errors : utf8 read as windows1252
+3 - Fix encoding errors :  windows1252 read as utf8
+4 - Merge Unicode combining chars
+5 - Ignore control chars
+6 - Replace latin letter symbols
+7 - Replace latin letter ligatures
+8 - Replace latin number symbols
+9 - Normalize equivalent chars
+10 - Replace cyrillic and greek chars looking like latin letters
+11 - Replace infrequent chars : latin letters with diacritics
+12 - Replace infrequent chars : other scripts
+13 - Replace infrequent chars : symbols
+14 - Replace infrequent chars : chars to ignore</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">teststring</span> <span class="o">=</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">127995</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;① l`&quot;</span><span class="o">+</span><span class="nb">chr</span><span class="p">(</span><span class="mi">156</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;uv&quot;</span><span class="o">+</span><span class="nb">chr</span><span class="p">(</span><span class="mi">127</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;re est¨ &quot;</span><span class="o">+</span><span class="nb">chr</span><span class="p">(</span><span class="mi">147</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;belle&quot;</span><span class="o">+</span><span class="nb">chr</span><span class="p">(</span><span class="mi">148</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;¸ Ã  Â½ â‚¬ énième â€° &quot;</span><span class="o">+</span><span class="nb">chr</span><span class="p">(</span><span class="mi">133</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot; ⁽🇪ﬃc🇦ce⁾ ！&quot;</span>
+<span class="n">teststring</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;🏻① l`\x9cuv\x7fre est¨ \x93belle\x94¸ Ã  Â½ â‚¬ énième â€° \x85 ⁽🇪ﬃc🇦ce⁾ ！&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">teststring</span><span class="p">)</span>
+<span class="n">result</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(1) l&#39;oeuvre est «belle», Ã  1/2 € énième ‰ … (EfficAce) !</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">describeChanges</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Fix encoding errors : windows1252 read as iso8859-1
+ &lt; 🏻① l` [] uvre est¨  [] belle [] ¸ Ã  Â½ â‚¬ énième â€°  []  ⁽🇪ﬃc🇦ce⁾ ！
+ &lt; 🏻① l` [œ] uvre est¨  [“] belle [”] ¸ Ã  Â½ â‚¬ énième â€°  […]  ⁽🇪ﬃc🇦ce⁾ ！
+Fix encoding errors : utf8 read as windows1252
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã   [Â½]   [â‚¬]  énième  [â€°]  … ⁽🇪ﬃc🇦ce⁾ ！
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã   [½_]   [€__]  énième  [‰__]  … ⁽🇪ﬃc🇦ce⁾ ！
+Merge Unicode combining chars
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é] ni [è] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é_] ni [è_] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+Ignore control chars
+ &lt;  [🏻] ① l`œuv [] re est [¨]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+ &lt;  [_] ① l`œuv [_] re est [_]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+Replace latin letter symbols
+ &lt; ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [🇪] ﬃc [🇦] ce⁾ ！
+ &lt; ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [E] ﬃc [A] ce⁾ ！
+Replace latin letter ligatures
+ &lt; ① l` [œ ] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ﬃ  ] cAce⁾ ！
+ &lt; ① l` [oe] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ffi] cAce⁾ ！
+Replace latin number symbols
+ &lt;  [①  ]  l`oeuvre est “belle”¸ Ã   [½  ]  € énième ‰ … ⁽EfficAce⁾ ！
+ &lt;  [(1)]  l`oeuvre est “belle”¸ Ã   [1/2]  € énième ‰ … ⁽EfficAce⁾ ！
+Normalize equivalent chars
+ &lt; (1) l [`] oeuvre est  [“] belle [”]  [¸]  Ã  1/2 € énième ‰ …  [⁽] EfficAce [⁾]   [！] 
+ &lt; (1) l [&#39;] oeuvre est  [«] belle [»]  [,]  Ã  1/2 € énième ‰ …  [(] EfficAce [)]   [!] 
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span><span class="o">.</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">12</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#34;(1) l&#39;oeuvre&#34;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span><span class="o">.</span><span class="n">input</span><span class="p">[</span><span class="n">result</span><span class="o">.</span><span class="n">mapOutputIndexToInput</span><span class="p">(</span><span class="mi">0</span><span class="p">):</span><span class="n">result</span><span class="o">.</span><span class="n">mapOutputIndexToInput</span><span class="p">(</span><span class="mi">12</span><span class="p">)]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;🏻① l`\x9cuv\x7fre&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span><span class="o">.</span><span class="n">output</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#34; l&#39;oeuv&#34;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span><span class="o">.</span><span class="n">input</span><span class="p">[</span><span class="n">result</span><span class="o">.</span><span class="n">mapOutputIndexToInput</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span><span class="n">result</span><span class="o">.</span><span class="n">mapOutputIndexToInput</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39; l`\x9cuv\x7f&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">timeit</span> -n100 norm(teststring)
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>432 µs ± 152 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The statistics below count the number of chars normalized <strong>for 1 million chars</strong> in 4 distinct parts of the french datasets : business websites, forums, news, wikipedia.</p>
+<p>The first line of the table below shows that :</p>
+<ul>
+<li>in 1 million chars extracted from forum pages (raw users input), 41.8 chars will be encoding errors (windows1252 read as iso8859-1)</li>
+<li>in 1 million chars extracted from business websites (curated content), only 0.5 chars will be encoding errors</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">normstats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.total.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">normstats</span><span class="p">[[</span><span class="s2">&quot;Transform&quot;</span><span class="p">,</span><span class="s2">&quot;FreqBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;FreqForum&quot;</span><span class="p">,</span><span class="s2">&quot;FreqPresse&quot;</span><span class="p">,</span><span class="s2">&quot;FreqWikipedia&quot;</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Transform</th>
+      <th>FreqBusiness</th>
+      <th>FreqForum</th>
+      <th>FreqPresse</th>
+      <th>FreqWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fix encoding errors : windows1252 read as iso8...</td>
+      <td>0.510560</td>
+      <td>41.818746</td>
+      <td>0.813485</td>
+      <td>0.006025</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Fix encoding errors : utf8 read as windows1252</td>
+      <td>0.126815</td>
+      <td>0.058024</td>
+      <td>0.072456</td>
+      <td>0.001037</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Fix encoding errors :  windows1252 read as utf8</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.019315</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Merge Unicode combining chars</td>
+      <td>2.811983</td>
+      <td>0.432638</td>
+      <td>0.568146</td>
+      <td>0.000140</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Ignore control chars</td>
+      <td>6.450737</td>
+      <td>349.052995</td>
+      <td>6.454367</td>
+      <td>4.118586</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Replace latin letter symbols</td>
+      <td>0.019360</td>
+      <td>0.039701</td>
+      <td>0.297372</td>
+      <td>0.150550</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Replace latin letter ligatures</td>
+      <td>6.603815</td>
+      <td>6.541480</td>
+      <td>10.097290</td>
+      <td>17.204422</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Replace latin number symbols</td>
+      <td>2.528338</td>
+      <td>4.162482</td>
+      <td>2.560933</td>
+      <td>0.429792</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Normalize equivalent chars</td>
+      <td>814.327384</td>
+      <td>1248.410777</td>
+      <td>684.333730</td>
+      <td>242.391239</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Replace cyrillic and greek chars looking like ...</td>
+      <td>0.062432</td>
+      <td>0.760424</td>
+      <td>0.491996</td>
+      <td>7.479907</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Replace infrequent chars : latin letters with ...</td>
+      <td>0.063782</td>
+      <td>0.078384</td>
+      <td>0.099106</td>
+      <td>9.124948</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Replace infrequent chars : other scripts</td>
+      <td>0.085694</td>
+      <td>0.468776</td>
+      <td>1.192548</td>
+      <td>16.612142</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Replace infrequent chars : symbols</td>
+      <td>0.139271</td>
+      <td>0.159821</td>
+      <td>0.399064</td>
+      <td>0.073566</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Replace infrequent chars : chars to ignore</td>
+      <td>0.018910</td>
+      <td>0.044282</td>
+      <td>0.021320</td>
+      <td>0.016423</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Most frequent chars replaced from equivalent characters :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">replacestats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.layer8.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">replacestats</span><span class="p">[[</span><span class="s2">&quot;Char&quot;</span><span class="p">,</span><span class="s2">&quot;CharName&quot;</span><span class="p">,</span><span class="s2">&quot;FreqBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;FreqForum&quot;</span><span class="p">,</span><span class="s2">&quot;FreqPresse&quot;</span><span class="p">,</span><span class="s2">&quot;FreqWikipedia&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Char</th>
+      <th>CharName</th>
+      <th>FreqBusiness</th>
+      <th>FreqForum</th>
+      <th>FreqPresse</th>
+      <th>FreqWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>'</td>
+      <td>Apostrophe</td>
+      <td>486.034805</td>
+      <td>160.264219</td>
+      <td>376.104982</td>
+      <td>134.658673</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td></td>
+      <td>Space</td>
+      <td>310.411117</td>
+      <td>1082.845985</td>
+      <td>288.635983</td>
+      <td>87.877649</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-</td>
+      <td>Hyphen-Minus</td>
+      <td>14.431203</td>
+      <td>2.903761</td>
+      <td>12.828203</td>
+      <td>16.223154</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>«</td>
+      <td>Left-Pointing Double Angle Quotation Mark</td>
+      <td>1.429478</td>
+      <td>0.680513</td>
+      <td>3.002426</td>
+      <td>0.559632</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>»</td>
+      <td>Right-Pointing Double Angle Quotation Mark</td>
+      <td>1.323524</td>
+      <td>0.533926</td>
+      <td>2.461880</td>
+      <td>0.544134</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>|</td>
+      <td>Vertical Line</td>
+      <td>0.003452</td>
+      <td>0.001018</td>
+      <td>0.005488</td>
+      <td>0.875894</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>•</td>
+      <td>Bullet</td>
+      <td>0.204104</td>
+      <td>0.243295</td>
+      <td>0.189664</td>
+      <td>0.543237</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>.</td>
+      <td>Full Stop</td>
+      <td>0.059280</td>
+      <td>0.078893</td>
+      <td>0.856230</td>
+      <td>0.069278</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>"</td>
+      <td>Quotation Mark</td>
+      <td>0.085093</td>
+      <td>0.023413</td>
+      <td>0.011504</td>
+      <td>0.292385</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>:</td>
+      <td>Colon</td>
+      <td>0.000150</td>
+      <td>0.000509</td>
+      <td>0.000053</td>
+      <td>0.169047</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>°</td>
+      <td>Degree Sign</td>
+      <td>0.148726</td>
+      <td>0.181199</td>
+      <td>0.014618</td>
+      <td>0.078302</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>é</td>
+      <td>Latin Small Letter E With Acute</td>
+      <td>0.001651</td>
+      <td>0.006108</td>
+      <td>0.003166</td>
+      <td>0.101114</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>←</td>
+      <td>Leftwards Arrow</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000158</td>
+      <td>0.047194</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>=</td>
+      <td>Equals Sign</td>
+      <td>0.004802</td>
+      <td>0.029012</td>
+      <td>0.000686</td>
+      <td>0.041589</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>→</td>
+      <td>Rightwards Arrow</td>
+      <td>0.026113</td>
+      <td>0.002545</td>
+      <td>0.034302</td>
+      <td>0.015862</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>d</td>
+      <td>Latin Small Letter D</td>
+      <td>0.000000</td>
+      <td>0.024940</td>
+      <td>0.000000</td>
+      <td>0.036405</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>&lt;</td>
+      <td>Less-Than Sign</td>
+      <td>0.004202</td>
+      <td>0.142007</td>
+      <td>0.001267</td>
+      <td>0.024073</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>,</td>
+      <td>Comma</td>
+      <td>0.006453</td>
+      <td>0.101288</td>
+      <td>0.004538</td>
+      <td>0.022756</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>↓</td>
+      <td>Downwards Arrow</td>
+      <td>0.007504</td>
+      <td>0.001527</td>
+      <td>0.011188</td>
+      <td>0.021888</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>★</td>
+      <td>Black Star</td>
+      <td>0.001351</td>
+      <td>0.013743</td>
+      <td>0.022006</td>
+      <td>0.011686</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Frequency of characters from other scripts :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scriptsstats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.layer11.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">scriptsstats</span><span class="p">[[</span><span class="s2">&quot;CharFamily&quot;</span><span class="p">,</span><span class="s2">&quot;FreqBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;FreqForum&quot;</span><span class="p">,</span><span class="s2">&quot;FreqPresse&quot;</span><span class="p">,</span><span class="s2">&quot;FreqWikipedia&quot;</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CharFamily</th>
+      <th>FreqBusiness</th>
+      <th>FreqForum</th>
+      <th>FreqPresse</th>
+      <th>FreqWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ChineseJapaneseKorean</td>
+      <td>0.012456</td>
+      <td>0.177127</td>
+      <td>0.194677</td>
+      <td>4.059173</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Arabic</td>
+      <td>0.012306</td>
+      <td>0.026467</td>
+      <td>0.460280</td>
+      <td>3.140120</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Cyrillic</td>
+      <td>0.024462</td>
+      <td>0.166438</td>
+      <td>0.237159</td>
+      <td>3.118961</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Greek</td>
+      <td>0.016058</td>
+      <td>0.022904</td>
+      <td>0.031347</td>
+      <td>2.423996</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Hebrew</td>
+      <td>0.000150</td>
+      <td>0.000000</td>
+      <td>0.184914</td>
+      <td>1.132155</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Other</td>
+      <td>0.000750</td>
+      <td>0.029012</td>
+      <td>0.004063</td>
+      <td>0.800871</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Indian</td>
+      <td>0.000750</td>
+      <td>0.037665</td>
+      <td>0.033458</td>
+      <td>0.737955</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Phonetic</td>
+      <td>0.002401</td>
+      <td>0.001527</td>
+      <td>0.001636</td>
+      <td>0.298579</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Latin</td>
+      <td>0.013507</td>
+      <td>0.006108</td>
+      <td>0.007283</td>
+      <td>0.269377</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Math</td>
+      <td>0.001801</td>
+      <td>0.000509</td>
+      <td>0.000528</td>
+      <td>0.240707</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>LaoThai</td>
+      <td>0.000000</td>
+      <td>0.001018</td>
+      <td>0.033194</td>
+      <td>0.217867</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Armenian</td>
+      <td>0.001051</td>
+      <td>0.000000</td>
+      <td>0.004011</td>
+      <td>0.172382</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Utility-functions">Utility functions<a class="anchor-link" href="#Utility-functions">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Unicode characters properties :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">charname</span><span class="p">(</span><span class="s2">&quot;🙂&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Slightly Smiling Face&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">charcategory</span><span class="p">(</span><span class="s2">&quot;🙂&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Symbol&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">charsubcategory</span><span class="p">(</span><span class="s2">&quot;🙂&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Other&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">charblock</span><span class="p">(</span><span class="s2">&quot;🙂&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Emoticons&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">blockfamily</span><span class="p">(</span><span class="s1">&#39;Emoticons&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Symbols&#39;</pre>
+</div>
+
 </div>
 
 </div>

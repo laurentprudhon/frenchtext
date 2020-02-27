@@ -4187,7 +4187,7 @@ B : { C : 4 }</code></pre>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.2-Normalization-class-with-change-tracking">2.2 Normalization class with change tracking<a class="anchor-link" href="#2.2-Normalization-class-with-change-tracking">&#182;</a></h3>
+<h3 id="3.2-Normalization-class-with-change-tracking">3.2 Normalization class with change tracking<a class="anchor-link" href="#3.2-Normalization-class-with-change-tracking">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -4203,7 +4203,7 @@ B : { C : 4 }</code></pre>
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="TextNormalizer" class="doc_header"><code>class</code> <code>TextNormalizer</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L60" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>TextNormalizer</code>()</p>
+<h2 id="NormChange" class="doc_header"><code>class</code> <code>NormChange</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L56" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>NormChange</code>(<strong><code>layer</code></strong>, <strong><code>index</code></strong>, <strong><code>charsInput</code></strong>, <strong><code>charsOutput</code></strong>, <strong><code>removedInfo</code></strong>=<em><code>None</code></em>)</p>
 </blockquote>
 
 </div>
@@ -4223,7 +4223,31 @@ B : { C : 4 }</code></pre>
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="NormResult" class="doc_header"><code>class</code> <code>NormResult</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L355" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>NormResult</code>(<strong><code>inputText</code></strong>, <strong><code>transformsDescs</code></strong>)</p>
+<h4 id="NormChange.__init__" class="doc_header"><code>NormChange.__init__</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L58" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>NormChange.__init__</code>(<strong><code>layer</code></strong>, <strong><code>index</code></strong>, <strong><code>charsInput</code></strong>, <strong><code>charsOutput</code></strong>, <strong><code>removedInfo</code></strong>=<em><code>None</code></em>)</p>
+</blockquote>
+<p>Initialize self.  See help(type(self)) for accurate signature.</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="NormResult" class="doc_header"><code>class</code> <code>NormResult</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L65" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>NormResult</code>(<strong><code>inputText</code></strong>, <strong><code>transformsDescs</code></strong>)</p>
 </blockquote>
 
 </div>
@@ -4243,8 +4267,72 @@ B : { C : 4 }</code></pre>
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h2 id="NormChange" class="doc_header"><code>class</code> <code>NormChange</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L439" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>NormChange</code>(<strong><code>layer</code></strong>, <strong><code>index</code></strong>, <strong><code>charsInput</code></strong>, <strong><code>charsOutput</code></strong>, <strong><code>removedInfo</code></strong>=<em><code>None</code></em>)</p>
+<h4 id="NormResult.describeChanges" class="doc_header"><code>NormResult.describeChanges</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L82" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>NormResult.describeChanges</code>()</p>
 </blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="NormResult.mapOutputIndexToInput" class="doc_header"><code>NormResult.mapOutputIndexToInput</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L130" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>NormResult.mapOutputIndexToInput</code>(<strong><code>outputIndex</code></strong>)</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="TextNormalizer" class="doc_header"><code>class</code> <code>TextNormalizer</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L155" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>TextNormalizer</code>()</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="TextNormalizer.__call__" class="doc_header"><code>TextNormalizer.__call__</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/chars.py#L279" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>TextNormalizer.__call__</code>(<strong><code>inputText</code></strong>)</p>
+</blockquote>
+<p>Call self as a function.</p>
 
 </div>
 
@@ -4273,8 +4361,8 @@ B : { C : 4 }</code></pre>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>CPU times: user 1.52 s, sys: 15.6 ms, total: 1.53 s
-Wall time: 1.63 s
+<pre>CPU times: user 2 s, sys: 0 ns, total: 2 s
+Wall time: 2.14 s
 </pre>
 </div>
 </div>
@@ -4383,21 +4471,33 @@ Wall time: 1.63 s
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">IndexError</span>                                Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-92-760a7bcb109e&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span>result<span class="ansi-blue-fg">.</span>describeChanges<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Fix encoding errors : windows1252 read as iso8859-1
+ &lt; 🏻① l` [] uvre est¨  [] belle [] ¸ Ã  Â½ â‚¬ énième â€°  []  ⁽🇪ﬃc🇦ce⁾ ！
+ &lt; 🏻① l` [œ] uvre est¨  [“] belle [”] ¸ Ã  Â½ â‚¬ énième â€°  […]  ⁽🇪ﬃc🇦ce⁾ ！
+Fix encoding errors : utf8 read as windows1252
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã   [Â½]   [â‚¬]  énième  [â€°]  … ⁽🇪ﬃc🇦ce⁾ ！
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã   [½_]   [€__]  énième  [‰__]  … ⁽🇪ﬃc🇦ce⁾ ！
+Merge Unicode combining chars
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é] ni [è] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+ &lt; 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é_] ni [è_] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+Ignore control chars
+ &lt;  [🏻] ① l`œuv [] re est [¨]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+ &lt;  [_] ① l`œuv [_] re est [_]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+Replace latin letter symbols
+ &lt; ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [🇪] ﬃc [🇦] ce⁾ ！
+ &lt; ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [E] ﬃc [A] ce⁾ ！
+Replace latin letter ligatures
+ &lt; ① l` [œ ] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ﬃ  ] cAce⁾ ！
+ &lt; ① l` [oe] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ffi] cAce⁾ ！
+Replace latin number symbols
+ &lt;  [①  ]  l`oeuvre est “belle”¸ Ã   [½  ]  € énième ‰ … ⁽EfficAce⁾ ！
+ &lt;  [(1)]  l`oeuvre est “belle”¸ Ã   [1/2]  € énième ‰ … ⁽EfficAce⁾ ！
+Normalize equivalent chars
+ &lt; (1) l [`] oeuvre est  [“] belle [”]  [¸]  Ã  1/2 € énième ‰ …  [⁽] EfficAce [⁾]   [！] 
+ &lt; (1) l [&#39;] oeuvre est  [«] belle [»]  [,]  Ã  1/2 € énième ‰ …  [(] EfficAce [)]   [!] 
 
-<span class="ansi-green-fg">&lt;ipython-input-87-39cc32de25b1&gt;</span> in <span class="ansi-cyan-fg">describeChanges</span><span class="ansi-blue-fg">(self)</span>
-<span class="ansi-green-intense-fg ansi-bold">    323</span>             previousString <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>input
-<span class="ansi-green-intense-fg ansi-bold">    324</span>             <span class="ansi-green-fg">for</span> changes <span class="ansi-green-fg">in</span> self<span class="ansi-blue-fg">.</span>layerChanges<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 325</span><span class="ansi-red-fg">                 </span>layer <span class="ansi-blue-fg">=</span> changes<span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">.</span>layer
-<span class="ansi-green-intense-fg ansi-bold">    326</span>                 layerDesc <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>transforms<span class="ansi-blue-fg">[</span>layer<span class="ansi-blue-fg">]</span>
-<span class="ansi-green-intense-fg ansi-bold">    327</span>                 desc<span class="ansi-blue-fg">.</span>write<span class="ansi-blue-fg">(</span>layerDesc<span class="ansi-blue-fg">+</span><span class="ansi-blue-fg">&#34;\n&#34;</span><span class="ansi-blue-fg">)</span>
-
-<span class="ansi-red-fg">IndexError</span>: list index out of range</pre>
+</pre>
 </div>
 </div>
 
@@ -4539,9 +4639,834 @@ Wall time: 1.63 s
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>319 µs ± 129 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+<pre>344 µs ± 89.5 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="3.3-Normalization-pipeline-stats">3.3 Normalization pipeline stats<a class="anchor-link" href="#3.3-Normalization-pipeline-stats">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The statistics below count the number of chars normalized <strong>for 1 million chars</strong> in 4 distinct parts of the french datasets : business websites, forums, news, wikipedia.</p>
+<p>The first line of the table below shows that :</p>
+<ul>
+<li>in 1 million chars extracted from forum pages (raw users input), 41.8 chars will be encoding errors (windows1252 read as iso8859-1)</li>
+<li>in 1 million chars extracted from business websites (curated content), only 0.5 chars will be encoding errors</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">normstats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.total.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">normstats</span><span class="p">[[</span><span class="s2">&quot;Transform&quot;</span><span class="p">,</span><span class="s2">&quot;FreqBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;FreqForum&quot;</span><span class="p">,</span><span class="s2">&quot;FreqPresse&quot;</span><span class="p">,</span><span class="s2">&quot;FreqWikipedia&quot;</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Transform</th>
+      <th>FreqBusiness</th>
+      <th>FreqForum</th>
+      <th>FreqPresse</th>
+      <th>FreqWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Fix encoding errors : windows1252 read as iso8...</td>
+      <td>0.510560</td>
+      <td>41.818746</td>
+      <td>0.813485</td>
+      <td>0.006025</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Fix encoding errors : utf8 read as windows1252</td>
+      <td>0.126815</td>
+      <td>0.058024</td>
+      <td>0.072456</td>
+      <td>0.001037</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Fix encoding errors :  windows1252 read as utf8</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.019315</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Merge Unicode combining chars</td>
+      <td>2.811983</td>
+      <td>0.432638</td>
+      <td>0.568146</td>
+      <td>0.000140</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Ignore control chars</td>
+      <td>6.450737</td>
+      <td>349.052995</td>
+      <td>6.454367</td>
+      <td>4.118586</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Replace latin letter symbols</td>
+      <td>0.019360</td>
+      <td>0.039701</td>
+      <td>0.297372</td>
+      <td>0.150550</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Replace latin letter ligatures</td>
+      <td>6.603815</td>
+      <td>6.541480</td>
+      <td>10.097290</td>
+      <td>17.204422</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Replace latin number symbols</td>
+      <td>2.528338</td>
+      <td>4.162482</td>
+      <td>2.560933</td>
+      <td>0.429792</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Normalize equivalent chars</td>
+      <td>814.327384</td>
+      <td>1248.410777</td>
+      <td>684.333730</td>
+      <td>242.391239</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Replace cyrillic and greek chars looking like ...</td>
+      <td>0.062432</td>
+      <td>0.760424</td>
+      <td>0.491996</td>
+      <td>7.479907</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Replace infrequent chars : latin letters with ...</td>
+      <td>0.063782</td>
+      <td>0.078384</td>
+      <td>0.099106</td>
+      <td>9.124948</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Replace infrequent chars : other scripts</td>
+      <td>0.085694</td>
+      <td>0.468776</td>
+      <td>1.192548</td>
+      <td>16.612142</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Replace infrequent chars : symbols</td>
+      <td>0.139271</td>
+      <td>0.159821</td>
+      <td>0.399064</td>
+      <td>0.073566</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Replace infrequent chars : chars to ignore</td>
+      <td>0.018910</td>
+      <td>0.044282</td>
+      <td>0.021320</td>
+      <td>0.016423</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Most frequent chars replaced from equivalent characters :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">replacestats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.layer8.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">replacestats</span><span class="p">[[</span><span class="s2">&quot;Char&quot;</span><span class="p">,</span><span class="s2">&quot;CharName&quot;</span><span class="p">,</span><span class="s2">&quot;FreqBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;FreqForum&quot;</span><span class="p">,</span><span class="s2">&quot;FreqPresse&quot;</span><span class="p">,</span><span class="s2">&quot;FreqWikipedia&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Char</th>
+      <th>CharName</th>
+      <th>FreqBusiness</th>
+      <th>FreqForum</th>
+      <th>FreqPresse</th>
+      <th>FreqWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>'</td>
+      <td>Apostrophe</td>
+      <td>486.034805</td>
+      <td>160.264219</td>
+      <td>376.104982</td>
+      <td>134.658673</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td></td>
+      <td>Space</td>
+      <td>310.411117</td>
+      <td>1082.845985</td>
+      <td>288.635983</td>
+      <td>87.877649</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-</td>
+      <td>Hyphen-Minus</td>
+      <td>14.431203</td>
+      <td>2.903761</td>
+      <td>12.828203</td>
+      <td>16.223154</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>«</td>
+      <td>Left-Pointing Double Angle Quotation Mark</td>
+      <td>1.429478</td>
+      <td>0.680513</td>
+      <td>3.002426</td>
+      <td>0.559632</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>»</td>
+      <td>Right-Pointing Double Angle Quotation Mark</td>
+      <td>1.323524</td>
+      <td>0.533926</td>
+      <td>2.461880</td>
+      <td>0.544134</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>|</td>
+      <td>Vertical Line</td>
+      <td>0.003452</td>
+      <td>0.001018</td>
+      <td>0.005488</td>
+      <td>0.875894</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>•</td>
+      <td>Bullet</td>
+      <td>0.204104</td>
+      <td>0.243295</td>
+      <td>0.189664</td>
+      <td>0.543237</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>.</td>
+      <td>Full Stop</td>
+      <td>0.059280</td>
+      <td>0.078893</td>
+      <td>0.856230</td>
+      <td>0.069278</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>"</td>
+      <td>Quotation Mark</td>
+      <td>0.085093</td>
+      <td>0.023413</td>
+      <td>0.011504</td>
+      <td>0.292385</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>:</td>
+      <td>Colon</td>
+      <td>0.000150</td>
+      <td>0.000509</td>
+      <td>0.000053</td>
+      <td>0.169047</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>°</td>
+      <td>Degree Sign</td>
+      <td>0.148726</td>
+      <td>0.181199</td>
+      <td>0.014618</td>
+      <td>0.078302</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>é</td>
+      <td>Latin Small Letter E With Acute</td>
+      <td>0.001651</td>
+      <td>0.006108</td>
+      <td>0.003166</td>
+      <td>0.101114</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>←</td>
+      <td>Leftwards Arrow</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000158</td>
+      <td>0.047194</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>=</td>
+      <td>Equals Sign</td>
+      <td>0.004802</td>
+      <td>0.029012</td>
+      <td>0.000686</td>
+      <td>0.041589</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>→</td>
+      <td>Rightwards Arrow</td>
+      <td>0.026113</td>
+      <td>0.002545</td>
+      <td>0.034302</td>
+      <td>0.015862</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>d</td>
+      <td>Latin Small Letter D</td>
+      <td>0.000000</td>
+      <td>0.024940</td>
+      <td>0.000000</td>
+      <td>0.036405</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>&lt;</td>
+      <td>Less-Than Sign</td>
+      <td>0.004202</td>
+      <td>0.142007</td>
+      <td>0.001267</td>
+      <td>0.024073</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>,</td>
+      <td>Comma</td>
+      <td>0.006453</td>
+      <td>0.101288</td>
+      <td>0.004538</td>
+      <td>0.022756</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>↓</td>
+      <td>Downwards Arrow</td>
+      <td>0.007504</td>
+      <td>0.001527</td>
+      <td>0.011188</td>
+      <td>0.021888</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>★</td>
+      <td>Black Star</td>
+      <td>0.001351</td>
+      <td>0.013743</td>
+      <td>0.022006</td>
+      <td>0.011686</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Frequency of characters from other scripts :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scriptsstats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.layer11.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">scriptsstats</span><span class="p">[[</span><span class="s2">&quot;CharFamily&quot;</span><span class="p">,</span><span class="s2">&quot;FreqBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;FreqForum&quot;</span><span class="p">,</span><span class="s2">&quot;FreqPresse&quot;</span><span class="p">,</span><span class="s2">&quot;FreqWikipedia&quot;</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CharFamily</th>
+      <th>FreqBusiness</th>
+      <th>FreqForum</th>
+      <th>FreqPresse</th>
+      <th>FreqWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ChineseJapaneseKorean</td>
+      <td>0.012456</td>
+      <td>0.177127</td>
+      <td>0.194677</td>
+      <td>4.059173</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Arabic</td>
+      <td>0.012306</td>
+      <td>0.026467</td>
+      <td>0.460280</td>
+      <td>3.140120</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Cyrillic</td>
+      <td>0.024462</td>
+      <td>0.166438</td>
+      <td>0.237159</td>
+      <td>3.118961</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Greek</td>
+      <td>0.016058</td>
+      <td>0.022904</td>
+      <td>0.031347</td>
+      <td>2.423996</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Hebrew</td>
+      <td>0.000150</td>
+      <td>0.000000</td>
+      <td>0.184914</td>
+      <td>1.132155</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Other</td>
+      <td>0.000750</td>
+      <td>0.029012</td>
+      <td>0.004063</td>
+      <td>0.800871</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Indian</td>
+      <td>0.000750</td>
+      <td>0.037665</td>
+      <td>0.033458</td>
+      <td>0.737955</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Phonetic</td>
+      <td>0.002401</td>
+      <td>0.001527</td>
+      <td>0.001636</td>
+      <td>0.298579</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Latin</td>
+      <td>0.013507</td>
+      <td>0.006108</td>
+      <td>0.007283</td>
+      <td>0.269377</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Math</td>
+      <td>0.001801</td>
+      <td>0.000509</td>
+      <td>0.000528</td>
+      <td>0.240707</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>LaoThai</td>
+      <td>0.000000</td>
+      <td>0.001018</td>
+      <td>0.033194</td>
+      <td>0.217867</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Armenian</td>
+      <td>0.001051</td>
+      <td>0.000000</td>
+      <td>0.004011</td>
+      <td>0.172382</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Detailed stats for the 14 layers of the normalization pipeline :</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">layersstats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">chardatadir</span> <span class="o">/</span> <span class="s2">&quot;stats&quot;</span> <span class="o">/</span> <span class="s2">&quot;normalization.stats.csv&quot;</span><span class="p">)</span>
+<span class="n">layer</span><span class="o">=</span><span class="mi">8</span>
+<span class="n">layersstats</span><span class="p">[</span><span class="n">layersstats</span><span class="p">[</span><span class="s2">&quot;Layer&quot;</span><span class="p">]</span><span class="o">==</span><span class="n">layer</span><span class="p">][[</span><span class="s2">&quot;Layer&quot;</span><span class="p">,</span><span class="s2">&quot;Input&quot;</span><span class="p">,</span><span class="s2">&quot;CharName&quot;</span><span class="p">,</span><span class="s2">&quot;Output&quot;</span><span class="p">,</span><span class="s2">&quot;CountBusiness&quot;</span><span class="p">,</span><span class="s2">&quot;CountForum&quot;</span><span class="p">,</span><span class="s2">&quot;CountPresse&quot;</span><span class="p">,</span><span class="s2">&quot;CountWikipedia&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Layer</th>
+      <th>Input</th>
+      <th>CharName</th>
+      <th>Output</th>
+      <th>CountBusiness</th>
+      <th>CountForum</th>
+      <th>CountPresse</th>
+      <th>CountWikipedia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>639</th>
+      <td>8</td>
+      <td>’</td>
+      <td>Right Single Quotation Mark</td>
+      <td>'</td>
+      <td>3232470</td>
+      <td>311603</td>
+      <td>6944753</td>
+      <td>4755813</td>
+    </tr>
+    <tr>
+      <th>640</th>
+      <td>8</td>
+      <td></td>
+      <td>No-Break Space</td>
+      <td></td>
+      <td>2057917</td>
+      <td>2127216</td>
+      <td>4892006</td>
+      <td>3122348</td>
+    </tr>
+    <tr>
+      <th>641</th>
+      <td>8</td>
+      <td></td>
+      <td>Thin Space</td>
+      <td></td>
+      <td>8088</td>
+      <td>116</td>
+      <td>549846</td>
+      <td>5363</td>
+    </tr>
+    <tr>
+      <th>642</th>
+      <td>8</td>
+      <td>–</td>
+      <td>En Dash</td>
+      <td>-</td>
+      <td>80049</td>
+      <td>4540</td>
+      <td>172657</td>
+      <td>189791</td>
+    </tr>
+    <tr>
+      <th>643</th>
+      <td>8</td>
+      <td>—</td>
+      <td>Em Dash</td>
+      <td>-</td>
+      <td>13928</td>
+      <td>329</td>
+      <td>63048</td>
+      <td>157402</td>
+    </tr>
+    <tr>
+      <th>644</th>
+      <td>8</td>
+      <td>·</td>
+      <td>Middle Dot</td>
+      <td>-</td>
+      <td>958</td>
+      <td>565</td>
+      <td>4021</td>
+      <td>202542</td>
+    </tr>
+    <tr>
+      <th>645</th>
+      <td>8</td>
+      <td>`</td>
+      <td>Grave Accent</td>
+      <td>'</td>
+      <td>1202</td>
+      <td>999</td>
+      <td>161302</td>
+      <td>5167</td>
+    </tr>
+    <tr>
+      <th>646</th>
+      <td>8</td>
+      <td>“</td>
+      <td>Left Double Quotation Mark</td>
+      <td>«</td>
+      <td>9518</td>
+      <td>1329</td>
+      <td>56880</td>
+      <td>19728</td>
+    </tr>
+    <tr>
+      <th>647</th>
+      <td>8</td>
+      <td>”</td>
+      <td>Right Double Quotation Mark</td>
+      <td>»</td>
+      <td>8808</td>
+      <td>1040</td>
+      <td>46632</td>
+      <td>19173</td>
+    </tr>
+    <tr>
+      <th>648</th>
+      <td>8</td>
+      <td>‘</td>
+      <td>Left Single Quotation Mark</td>
+      <td>'</td>
+      <td>3557</td>
+      <td>952</td>
+      <td>12041</td>
+      <td>12981</td>
+    </tr>
+    <tr>
+      <th>649</th>
+      <td>8</td>
+      <td>│</td>
+      <td>Box Drawings Light Vertical</td>
+      <td>|</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25990</td>
+    </tr>
+    <tr>
+      <th>650</th>
+      <td>8</td>
+      <td></td>
+      <td>Hair Space</td>
+      <td></td>
+      <td>69</td>
+      <td>1</td>
+      <td>19774</td>
+      <td>246</td>
+    </tr>
+    <tr>
+      <th>651</th>
+      <td>8</td>
+      <td>►</td>
+      <td>Black Right-Pointing Pointer</td>
+      <td>•</td>
+      <td>570</td>
+      <td>356</td>
+      <td>913</td>
+      <td>17134</td>
+    </tr>
+    <tr>
+      <th>652</th>
+      <td>8</td>
+      <td>−</td>
+      <td>Minus Sign</td>
+      <td>-</td>
+      <td>336</td>
+      <td>21</td>
+      <td>1705</td>
+      <td>15828</td>
+    </tr>
+    <tr>
+      <th>653</th>
+      <td>8</td>
+      <td>´</td>
+      <td>Acute Accent</td>
+      <td>'</td>
+      <td>986</td>
+      <td>1308</td>
+      <td>8649</td>
+      <td>6423</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
 </div>
 
 </div>
