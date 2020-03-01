@@ -61,7 +61,7 @@ def download_urls_file():
     url = row["DownloadUrl"]
     size = row["FileSize"]
     print(f"Downloading datasets urls file ({math.floor(size/1024/1024)} MB)")
-    download_url(url, config.datasets / "datasets.urls.feather", size)
+    download_url(url, config.datasets / "datasets.urls.zip", size)
     print("Done")
 
 urlsdf = None
@@ -71,10 +71,8 @@ def read_urls_file():
     if urlsdf is None:
         download_urls_file()
         urlsdf = pd.read_feather(config.datasets / "datasets.urls.feather")
-        print(f"Loaded datasets urls : {len(urlsdf)} urls")
-        return urlsdf
-    else:
-        raise Exception(f"Datasets urls file not found")
+    print(f"Loaded datasets urls : {len(urlsdf)} urls")
+    return urlsdf
 
 # Cell
 def get_rows_from_datasetdf(datasetdf, minwords=5, maxwords=None, lang=None):

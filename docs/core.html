@@ -124,7 +124,7 @@ summary: "Set of utility functions supporting the frenchtext library."
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>PosixPath(&#39;/mnt/c/Users/laure/OneDrive/Dev/Python/frenchtext/data&#39;)</pre>
+<pre>PosixPath(&#39;/mnt/c/Users/laure/OneDrive/Dev/Python/frenchtext/frenchtext/data&#39;)</pre>
 </div>
 
 </div>
@@ -154,7 +154,7 @@ summary: "Set of utility functions supporting the frenchtext library."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="download_url" class="doc_header"><code>download_url</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/core.py#L49" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>download_url</code>(<strong><code>url</code></strong>, <strong><code>dest</code></strong>, <strong><code>file_size</code></strong>=<em><code>0</code></em>, <strong><code>overwrite</code></strong>=<em><code>False</code></em>, <strong><code>pbar</code></strong>=<em><code>None</code></em>, <strong><code>show_progress</code></strong>=<em><code>True</code></em>, <strong><code>chunk_size</code></strong>=<em><code>1048576</code></em>, <strong><code>timeout</code></strong>=<em><code>4</code></em>, <strong><code>retries</code></strong>=<em><code>5</code></em>)</p>
+<h4 id="download_url" class="doc_header"><code>download_url</code><a href="https://github.com/laurentprudhon/frenchtext/tree/master/frenchtext/core.py#L49" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>download_url</code>(<strong><code>url</code></strong>, <strong><code>dest</code></strong>, <strong><code>file_size</code></strong>=<em><code>0</code></em>, <strong><code>overwrite</code></strong>=<em><code>False</code></em>, <strong><code>pbar</code></strong>=<em><code>None</code></em>, <strong><code>show_progress</code></strong>=<em><code>True</code></em>, <strong><code>chunk_size</code></strong>=<em><code>1048576</code></em>, <strong><code>timeout</code></strong>=<em><code>10</code></em>, <strong><code>retries</code></strong>=<em><code>3</code></em>)</p>
 </blockquote>
 <p>Download <code>url</code> to <code>dest</code> unless it exists and not <code>overwrite</code></p>
 
@@ -225,8 +225,26 @@ OK
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>total 89088
--rw-rw-rw- 1 laurent laurent 91136056 Feb 15 17:28 assurance.dataset.feather
+<pre>total 12487508
+-rw-rw-rw- 1 laurent laurent   91136056 Mar  1 18:27 assurance.dataset.feather
+-rw-rw-rw- 1 laurent laurent  144616048 Feb 15 21:45 banque.dataset.feather
+-rw-rw-rw- 1 laurent laurent  186553136 Feb 15 21:47 bourse.dataset.feather
+-rw-rw-rw- 1 laurent laurent  145062520 Feb 15 21:48 comparateur.dataset.feather
+-rw-rw-rw- 1 laurent laurent   11902488 Feb 15 21:48 crédit.dataset.feather
+-rw-rw-rw- 1 laurent laurent  962874856 Feb 15 21:50 forum.dataset.feather
+-rw-rw-rw- 1 laurent laurent   31609912 Feb 15 21:50 institution.dataset.feather
+-rw-rw-rw- 1 laurent laurent  921930504 Feb 15 21:51 presse-1.dataset.feather
+-rw-rw-rw- 1 laurent laurent  855158864 Feb 15 21:54 presse-2.dataset.feather
+-rw-rw-rw- 1 laurent laurent  809591952 Feb 15 21:55 presse-3.dataset.feather
+-rw-rw-rw- 1 laurent laurent  958970872 Feb 15 21:56 presse-4.dataset.feather
+-rw-rw-rw- 1 laurent laurent 1153696120 Feb 15 22:01 presse-5.dataset.feather
+-rw-rw-rw- 1 laurent laurent 1452331608 Feb 15 22:09 presse-6.dataset.feather
+-rw-rw-rw- 1 laurent laurent  543178032 Feb 15 22:10 siteinfo.dataset.feather
+-rw-rw-rw- 1 laurent laurent  549966224 Feb 15 22:10 wikipedia-1.dataset.feather
+-rw-rw-rw- 1 laurent laurent  729072464 Feb 15 22:12 wikipedia-2.dataset.feather
+-rw-rw-rw- 1 laurent laurent 1069759688 Feb 15 22:13 wikipedia-3.dataset.feather
+-rw-rw-rw- 1 laurent laurent 1086691712 Feb 15 22:16 wikipedia-4.dataset.feather
+-rw-rw-rw- 1 laurent laurent 1083060912 Feb 15 22:17 wikipedia-5.dataset.feather
 </pre>
 </div>
 </div>

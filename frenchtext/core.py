@@ -34,9 +34,9 @@ class Config:
                   'models_path':      str(self.config_path/'models')}
 
         try:
-            self.d["libdata_path"] = str(Path(__file__).parent.parent/"data")
+            self.d["libdata_path"] = str(Path(__file__).parent/"data")
         except NameError:
-            self.d["libdata_path"] = str(Path(os.getcwd())/"data")
+            self.d["libdata_path"] = str(Path(os.getcwd())/"frenchtext"/"data")
 
 # Cell
 config = Config()
@@ -47,7 +47,7 @@ from fastprogress.fastprogress import progress_bar,master_bar
 
 # Cell
 def download_url(url, dest, file_size=0, overwrite=False, pbar=None, show_progress=True, chunk_size=1024*1024,
-                 timeout=4, retries=5):
+                 timeout=10, retries=3):
     "Download `url` to `dest` unless it exists and not `overwrite`"
     if os.path.exists(dest) and not overwrite: return
 

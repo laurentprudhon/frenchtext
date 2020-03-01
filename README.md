@@ -23,13 +23,15 @@ APACHE licence 2.0 : https://www.apache.org/licenses/LICENSE-2.0
 
 ## How to use
 
-The detailed documentation for each module is available through the menu on the right side of this page.
+The detailed documentation for each module is available through the menu on the left side of this page.
 
-You will find below a very short overview of the library.
+You will find below an overview of the library.
 
-### French datasets
+## French datasets
 
-1) The text content of the main french websites in the domain of finance and business (+ wikipedia) were extracted in september 2019 using [nlptextdoc](https://github.com/laurentprudhon/nlptextdoc).
+### Data sources
+
+The text content of the main french websites in the domain of finance and business (+ wikipedia) was extracted in september 2019 using [nlptextdoc](https://github.com/laurentprudhon/nlptextdoc).
 
 This extraction was done as "politely" as possible:
 - extract only freely and publicly available content
@@ -48,7 +50,9 @@ See the new European copyright rules : [European Parliament approves new copyrig
 
 => 131 websites and 2 564 755 HTML pages
 
-2) The text blocks were then:
+### Data preparation
+
+The text blocks were then:
 - deduplicated to keep only distinct text blocks for each website (forgetting part of the original document structure), 
 - tagged (but not filtered) by language (using https://fasttext.cc/docs/en/language-identification.html),
 - grouped in categories according to the main theme of the original website,
@@ -56,11 +60,13 @@ See the new European copyright rules : [European Parliament approves new copyrig
 
 => 10 categories: 'Assurance', 'Banque', 'Bourse', 'Comparateur', 'Crédit', 'Forum', 'Institution', 'Presse', 'SiteInfo', 'Wikipedia'
 
-3) In each dataframe, the text blocks were additionnaly **SHUFFLED IN A RANDOM ORDER** to make it very difficult to reconstruct the original articles (safety measure to help protect the copyrights of the authors).
+In each dataframe, the text blocks were additionnaly **SHUFFLED IN A RANDOM ORDER** to make it very difficult to reconstruct the original articles (safety measure to help protect the copyrights of the authors).
 
 The results of this second step can be downloaded in the *config.datasets* directory, as dataframes serialized in the [feather format](https://arrow.apache.org/docs/python/ipc.html?highlight=feather#feather-format), in files named according to the 'DatasetFile' column of the datasets table.
 
 => 19 dataset files: 'assurance', 'banque', 'bourse', 'comparateur', 'crédit', 'forum', 'institution', 'presse-1', 'presse-2', 'presse-3', 'presse-4', 'presse-5', 'presse-6', 'siteinfo', 'wikipedia-1', 'wikipedia-2', 'wikipedia-3', 'wikipedia-4', 'wikipedia-5'
+
+### Dataset size
 
 The number of words in each text block was computed using the default french tokenizer from [spaCy](https://spacy.io/) v2.1.
 
@@ -78,6 +84,8 @@ Here is a summary of the number of words contributed by each category **in milli
 - Presse : 963
 - SiteInfo : 78
 - Wikipedia : 727
+
+### Dataset files
 
 ```python
 from frenchtext.core import *
@@ -297,7 +305,7 @@ datasetsdf[["DatasetFile","Url","Pages","Words"]].iloc[80:100]
 
 
 
-Download dataset files :
+### Download dataset files
 
 ```python
 download_dataset_file("assurance")
@@ -360,7 +368,7 @@ config.datasets
 
 
 
-Read dataset file :
+### Read dataset files
 
 ```python
 datasetdf = read_dataset_file("assurance")
@@ -542,12 +550,7 @@ datasetdf
 
 
 
-Optionally download and read urls file to track the origin of each text block :
-
-```python
-urlsdf = read_urls_file()
-urlsdf
-```
+### Access text blocks in dataset files
 
 Filter and iterate over the rows of a dataset file :
 
@@ -588,7 +591,213 @@ show_first_textblocks(textiterator,skip=2000,count=10)
     2010 - Dépression : quelle prise en charge ? - Matmut
 
 
-Access a specific row - Retrieve the Url from which this text block was extracted :
+Access a specific row :
+
+```python
+get_text_from_rowindex(datasetdf,100)
+```
+
+
+
+
+    'Les inondations de plaine : débordement de cours d’eau avec une durée d’immersion longue (prévisibles plusieurs jours ou heures à l’avance).'
+
+
+
+Find text blocks with a specific char or substring :
+
+```python
+find_textblocks_with_chars(datasetdf,"rétroviseur",count=20,ctxsize=15)
+```
+
+
+
+
+    350594     ore dans notre rétroviseur gauche lorsque 
+    149029     de glace ? Les rétroviseurs ainsi que les 
+    51349      ace. Quant aux rétroviseurs, ils le sont d
+    310354     vant, arrière, rétroviseurs et vitres laté
+    489866    \naussi dans le rétroviseur pour ne pas se 
+    364550     ôté ou sous le rétroviseur intérieur de vo
+    560539     tionnement des rétroviseurs.              
+    560700     é (pare-brise, rétroviseurs…),            
+    223621     riorations des rétroviseurs et des phares.
+    543903     es miroirs des rétroviseurs lorsqu’ils peu
+    502075      logo dans son rétroviseur et par un signa
+    53237      vous cassez le rétroviseur d’une voiture. 
+    310456      éraflures, un rétroviseur abîmé, ou un au
+    375158     ant, moteur de rétroviseurs…              
+    539914     nt et arrière, rétroviseurs intérieurs et 
+    171367     t utilisez vos rétroviseurs               
+    485058      ainsi que les rétroviseurs ne sont pas ga
+    277390     ant, moteur de rétroviseurs...            
+    20222      sont offerts : rétroviseurs électriques, c
+    317634     res, y compris rétroviseurs et feux       
+    Name: Text, dtype: object
+
+
+
+```python
+find_textblocks_with_chars(datasetdf,64257,count=10,wrap=True)
+```
+
+
+
+
+    175413    x besoins de diversi[ﬁ]cation des placements
+    337398    e 30 villes ont béné[ﬁ]cié de ces animations
+    265114    nt règlementaire et [ﬁ]nancier, nous accompa
+    74267          La Fondation a [ﬁ]nancé depuis 2009, l’
+    424584    tion de l’équilibre [ﬁ]nancier des régimes d
+    219195    d, Jérôme Powell con[ﬁ]rmera que, dans l’att
+    489511    s besoins de diversi[ﬁ]cation de la clientèl
+    517563    si en présence d’un [ﬁ]nancement par crédit,
+    479694    nt règlementaire et [ﬁ]nancier, La Mondiale 
+    252202    n de disponibilités [ﬁ]nancières mais aussi,
+    Name: Text, dtype: object
+
+
+
+### Track the source URL for each text block 
+
+Optionally download and read urls file to track the origin of each text block :
+
+```python
+urlsdf = read_urls_file()
+urlsdf.head()
+```
+
+    Loaded datasets urls : 2668787 urls
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Website</th>
+      <th>DocId</th>
+      <th>DocUrl</th>
+      <th>Words</th>
+      <th>fr</th>
+      <th>en</th>
+      <th>de</th>
+      <th>es</th>
+      <th>?</th>
+      <th>%fr</th>
+      <th>%en</th>
+      <th>%de</th>
+      <th>%es</th>
+      <th>%?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4</td>
+      <td>1</td>
+      <td>https://www.afer.fr/</td>
+      <td>573.0</td>
+      <td>524.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>46.0</td>
+      <td>0.914485</td>
+      <td>0.005236</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.080279</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4</td>
+      <td>2</td>
+      <td>https://www.afer.fr/afer/adhesion/</td>
+      <td>74.0</td>
+      <td>74.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4</td>
+      <td>3</td>
+      <td>https://www.afer.fr/afer/adhesion/adherent-ass...</td>
+      <td>475.0</td>
+      <td>457.0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>0.962105</td>
+      <td>0.010526</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.027368</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>4</td>
+      <td>https://www.afer.fr/afer/adhesion/adherer-assu...</td>
+      <td>519.0</td>
+      <td>519.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>5</td>
+      <td>https://www.afer.fr/afer/adhesion/parrainage-a...</td>
+      <td>355.0</td>
+      <td>345.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>10.0</td>
+      <td>0.971831</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.028169</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 
 ```python
 get_text_from_rowindex(datasetdf,100)
@@ -602,64 +811,19 @@ get_text_from_rowindex(datasetdf,100)
 
 
 ```python
-get_url_from_rowindex(datasetdf,100)
-```
-
-Find text blocks with a specific char or substring :
-
-```python
-find_textblocks_with_chars(datasetdf,"rétroviseur",count=20,ctxsize=15)
+get_url_from_rowindex(datasetdf, 100)
 ```
 
 
 
 
-    375158    ant, moteur de rétroviseurs…              
-    174535    es miroirs des rétroviseurs,              
-    202380    es fenêtres et rétroviseurs.              
-    107279    réglage de vos rétroviseurs intérieurs et 
-    304505    escroquerie au rétroviseur cassé connaît u
-    409448    le conducteur (rétroviseurs, pare-brise, e
-    454460     lorsque votre rétroviseur arrive au nivea
-    155443     même pour les rétroviseurs : si vous n’av
-    191363    c un obstacle, rétroviseur abîmé…).       
-    256089     autoradio CD, rétroviseurs électriques, c
-    107934    nt varier. Les rétroviseurs et les blocs-p
-    212488    e-brise et des rétroviseurs.              
-    553230     éraflures, un rétroviseur abîmé, ou un au
-    549610    ème avec votre rétroviseur, il se peut que
-    238518     d’œil dans le rétroviseur intérieur et l’
-    452103    xé, absence de rétroviseur, pneus entaillé
-    504582    mais aussi les rétroviseurs, les phares et
-    232975    placement d’un rétroviseur électrique ou d
-    400168     les appareils rétroviseurs, les feux arri
-    317324    rise et de vos rétroviseurs,              
-    Name: Text, dtype: object
+    'https://www.maif.fr/conseils-prevention/risques-majeurs/inondation.html'
 
 
 
-```python
-find_textblocks_with_chars(datasetdf,64257,count=10,wrap=True)
-```
+## Characters normalization pipeline
 
-
-
-
-    523696    tion et de supports [ﬁ]nanciers comme les Fo
-    264581     Ces préalables véri[ﬁ]és, les caractéristiq
-    74267          La Fondation a [ﬁ]nancé depuis 2009, l’
-    432161    s, dont certains pro[ﬁ]ls présentent un risq
-    337075    oeuvre par CapsAuto,[ﬁ] liale de Groupama. O
-    265114    nt règlementaire et [ﬁ]nancier, nous accompa
-    364346    s besoins de diversi[ﬁ]cation de la clientèl
-    219195    d, Jérôme Powell con[ﬁ]rmera que, dans l’att
-    403638     Assurances d'ici à [ﬁ]n 2021.              
-    139684    alisation. Selon la [ﬁ]scalité en vigueur au
-    Name: Text, dtype: object
-
-
-
-### Characters normalization
+### Motivation
 
 French datasets often contain several thousands distinct Unicode characters.
 
@@ -686,6 +850,8 @@ Characters stats in Business dataset :
 
 We can be smarter than that and replace rare chars with equivalent (or mostly equivalent) more frequent chars to preserve a maximum of information.
 
+### Target characters set
+
 After a detailed study of all the frequent chars, the goal is to design a noramization pipeline which can retain as much information as possible while greatly reducing the number of dinstinct chars.
 
 We saw before that it is possible to preserve 99.9996% of the original chars while keeping only 500 distinct chars. By being clever and replacing equivalent chars, we can divide this number by 2 and still retain the same amount of information.
@@ -695,6 +861,7 @@ It may then be useful to limit the number of distinct characters after normaliza
 - the list of supported chars can be memorized by NLP application developers and users
 
 ```python
+from frenchtext.core import *
 from frenchtext.chars import *
 ```
 
@@ -1019,6 +1186,8 @@ dfblocks
 
 
 
+### Normalization pipeline overview
+
 The normalization pipeline applies the following **14 steps**, which are explained and illustrated in the sections below.
 
 - Fix encoding errors
@@ -1040,146 +1209,13 @@ The normalization pipeline applies the following **14 steps**, which are explain
   - replace infrequent symbols 
   - ignore remaining chars with no glyph 
 
-```python
-%time norm = TextNormalizer()
-norm
-```
-
-    CPU times: user 1.83 s, sys: 0 ns, total: 1.83 s
-    Wall time: 1.88 s
-
-
-
-
-
-    1 - Fix encoding errors : windows1252 read as iso8859-1
-    2 - Fix encoding errors : utf8 read as windows1252
-    3 - Fix encoding errors :  windows1252 read as utf8
-    4 - Merge Unicode combining chars
-    5 - Ignore control chars
-    6 - Replace latin letter symbols
-    7 - Replace latin letter ligatures
-    8 - Replace latin number symbols
-    9 - Normalize equivalent chars
-    10 - Replace cyrillic and greek chars looking like latin letters
-    11 - Replace infrequent chars : latin letters with diacritics
-    12 - Replace infrequent chars : other scripts
-    13 - Replace infrequent chars : symbols
-    14 - Replace infrequent chars : chars to ignore
-
-
-
-```python
-teststring = chr(127995)+"① l`"+chr(156)+"uv"+chr(127)+"re est¨ "+chr(147)+"belle"+chr(148)+"¸ Ã  Â½ â‚¬ énième â€° "+chr(133)+" ⁽🇪ﬃc🇦ce⁾ ！"
-teststring
-```
-
-
-
-
-    '🏻① l`\x9cuv\x7fre est¨ \x93belle\x94¸ Ã  Â½ â‚¬ énième â€° \x85 ⁽🇪ﬃc🇦ce⁾ ！'
-
-
-
-```python
-result = norm(teststring)
-result
-```
-
-
-
-
-    (1) l'oeuvre est «belle», Ã  1/2 € énième ‰ … (EfficAce) !
-
-
-
-```python
-print(result.describeChanges())
-```
-
-    Fix encoding errors : windows1252 read as iso8859-1
-     < 🏻① l` [] uvre est¨  [] belle [] ¸ Ã  Â½ â‚¬ énième â€°  []  ⁽🇪ﬃc🇦ce⁾ ！
-     < 🏻① l` [œ] uvre est¨  [“] belle [”] ¸ Ã  Â½ â‚¬ énième â€°  […]  ⁽🇪ﬃc🇦ce⁾ ！
-    Fix encoding errors : utf8 read as windows1252
-     < 🏻① l`œuvre est¨ “belle”¸ Ã   [Â½]   [â‚¬]  énième  [â€°]  … ⁽🇪ﬃc🇦ce⁾ ！
-     < 🏻① l`œuvre est¨ “belle”¸ Ã   [½_]   [€__]  énième  [‰__]  … ⁽🇪ﬃc🇦ce⁾ ！
-    Merge Unicode combining chars
-     < 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é] ni [è] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
-     < 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é_] ni [è_] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
-    Ignore control chars
-     <  [🏻] ① l`œuv [] re est [¨]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
-     <  [_] ① l`œuv [_] re est [_]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
-    Replace latin letter symbols
-     < ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [🇪] ﬃc [🇦] ce⁾ ！
-     < ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [E] ﬃc [A] ce⁾ ！
-    Replace latin letter ligatures
-     < ① l` [œ ] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ﬃ  ] cAce⁾ ！
-     < ① l` [oe] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ffi] cAce⁾ ！
-    Replace latin number symbols
-     <  [①  ]  l`oeuvre est “belle”¸ Ã   [½  ]  € énième ‰ … ⁽EfficAce⁾ ！
-     <  [(1)]  l`oeuvre est “belle”¸ Ã   [1/2]  € énième ‰ … ⁽EfficAce⁾ ！
-    Normalize equivalent chars
-     < (1) l [`] oeuvre est  [“] belle [”]  [¸]  Ã  1/2 € énième ‰ …  [⁽] EfficAce [⁾]   [！] 
-     < (1) l ['] oeuvre est  [«] belle [»]  [,]  Ã  1/2 € énième ‰ …  [(] EfficAce [)]   [!] 
-    
-
-
-```python
-result.output[0:12]
-```
-
-
-
-
-    "(1) l'oeuvre"
-
-
-
-```python
-result.input[result.mapOutputIndexToInput(0):result.mapOutputIndexToInput(12)]
-```
-
-
-
-
-    '🏻① l`\x9cuv\x7fre'
-
-
-
-```python
-result.output[3:10]
-```
-
-
-
-
-    " l'oeuv"
-
-
-
-```python
-result.input[result.mapOutputIndexToInput(3):result.mapOutputIndexToInput(10)]
-```
-
-
-
-
-    ' l`\x9cuv\x7f'
-
-
-
-```python
-%timeit -n100 norm(teststring)
-```
-
-    432 µs ± 152 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
-
-
 The statistics below count the number of chars normalized **for 1 million chars** in 4 distinct parts of the french datasets : business websites, forums, news, wikipedia.
 
 The first line of the table below shows that :
 - in 1 million chars extracted from forum pages (raw users input), 41.8 chars will be encoding errors (windows1252 read as iso8859-1)
-- in 1 million chars extracted from business websites (curated content), only 0.5 chars will be encoding errors
+- in 1 million chars extracted from wikipedia (curated content), only 0.006 chars will be encoding errors
+
+These numbers show that **characters normalization is much more important in real world applications** than in academic papers based on clean wikipedia text. 
 
 ```python
 normstats = pd.read_csv(chardatadir / "stats" / "normalization.total.stats.csv")
@@ -1556,7 +1592,143 @@ replacestats[["Char","CharName","FreqBusiness","FreqForum","FreqPresse","FreqWik
 
 
 
-Frequency of characters from other scripts :
+For example, list of all Unicode chars wich will be projected to a regular 'apostrophe' :
+
+```python
+replacechars = pd.read_csv(chardatadir / "normalizedchars.csv", sep=';')
+replacechars[replacechars["NormChar"]=="'"][["Code","Char","CharName"]]
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Code</th>
+      <th>Char</th>
+      <th>CharName</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>23</th>
+      <td>96</td>
+      <td>`</td>
+      <td>Grave Accent</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>180</td>
+      <td>´</td>
+      <td>Acute Accent</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>697</td>
+      <td>ʹ</td>
+      <td>Modifier Letter Prime</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>699</td>
+      <td>ʻ</td>
+      <td>Modifier Letter Turned Comma</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>700</td>
+      <td>ʼ</td>
+      <td>Modifier Letter Apostrophe</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>702</td>
+      <td>ʾ</td>
+      <td>Modifier Letter Right Half Ring</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>703</td>
+      <td>ʿ</td>
+      <td>Modifier Letter Left Half Ring</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>712</td>
+      <td>ˈ</td>
+      <td>Modifier Letter Vertical Line</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>714</td>
+      <td>ˊ</td>
+      <td>Modifier Letter Acute Accent</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>715</td>
+      <td>ˋ</td>
+      <td>Modifier Letter Grave Accent</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>729</td>
+      <td>˙</td>
+      <td>Dot Above</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>8216</td>
+      <td>‘</td>
+      <td>Left Single Quotation Mark</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>8217</td>
+      <td>’</td>
+      <td>Right Single Quotation Mark</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>8219</td>
+      <td>‛</td>
+      <td>Single High-Reversed-9 Quotation Mark</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>8223</td>
+      <td>‟</td>
+      <td>Double High-Reversed-9 Quotation Mark</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>8242</td>
+      <td>′</td>
+      <td>Prime</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+Frequency of characters from other scripts (chinese, arabic, cyrillic ...) :
 
 ```python
 scriptsstats = pd.read_csv(chardatadir / "stats" / "normalization.layer11.stats.csv")
@@ -1694,7 +1866,154 @@ scriptsstats[["CharFamily","FreqBusiness","FreqForum","FreqPresse","FreqWikipedi
 
 
 
-#### Utility functions
+### Normalization pipeline API
+
+Initialize a text normalizer :
+
+```python
+%time norm = TextNormalizer()
+norm
+```
+
+    CPU times: user 1.83 s, sys: 15.6 ms, total: 1.84 s
+    Wall time: 2 s
+
+
+
+
+
+    1 - Fix encoding errors : windows1252 read as iso8859-1
+    2 - Fix encoding errors : utf8 read as windows1252
+    3 - Fix encoding errors :  windows1252 read as utf8
+    4 - Merge Unicode combining chars
+    5 - Ignore control chars
+    6 - Replace latin letter symbols
+    7 - Replace latin letter ligatures
+    8 - Replace latin number symbols
+    9 - Normalize equivalent chars
+    10 - Replace cyrillic and greek chars looking like latin letters
+    11 - Replace infrequent chars : latin letters with diacritics
+    12 - Replace infrequent chars : other scripts
+    13 - Replace infrequent chars : symbols
+    14 - Replace infrequent chars : chars to ignore
+
+
+
+Normalize text :
+
+```python
+teststring = chr(127995)+"① l`"+chr(156)+"uv"+chr(127)+"re est¨ "+chr(147)+"belle"+chr(148)+"¸ Ã  Â½ â‚¬ énième â€° "+chr(133)+" ⁽🇪ﬃc🇦ce⁾ ！"
+teststring
+```
+
+
+
+
+    '🏻① l`\x9cuv\x7fre est¨ \x93belle\x94¸ Ã  Â½ â‚¬ énième â€° \x85 ⁽🇪ﬃc🇦ce⁾ ！'
+
+
+
+```python
+result = norm(teststring)
+result
+```
+
+
+
+
+    (1) l'oeuvre est «belle», Ã  1/2 € énième ‰ … (EfficAce) !
+
+
+
+Describe the changes applied by the normalization pipeline :
+
+```python
+print(result.describeChanges())
+```
+
+    Fix encoding errors : windows1252 read as iso8859-1
+     < 🏻① l` [] uvre est¨  [] belle [] ¸ Ã  Â½ â‚¬ énième â€°  []  ⁽🇪ﬃc🇦ce⁾ ！
+     < 🏻① l` [œ] uvre est¨  [“] belle [”] ¸ Ã  Â½ â‚¬ énième â€°  […]  ⁽🇪ﬃc🇦ce⁾ ！
+    Fix encoding errors : utf8 read as windows1252
+     < 🏻① l`œuvre est¨ “belle”¸ Ã   [Â½]   [â‚¬]  énième  [â€°]  … ⁽🇪ﬃc🇦ce⁾ ！
+     < 🏻① l`œuvre est¨ “belle”¸ Ã   [½_]   [€__]  énième  [‰__]  … ⁽🇪ﬃc🇦ce⁾ ！
+    Merge Unicode combining chars
+     < 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é] ni [è] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+     < 🏻① l`œuvre est¨ “belle”¸ Ã  ½ €  [é_] ni [è_] me ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+    Ignore control chars
+     <  [🏻] ① l`œuv [] re est [¨]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+     <  [_] ① l`œuv [_] re est [_]  “belle”¸ Ã  ½ € énième ‰ … ⁽🇪ﬃc🇦ce⁾ ！
+    Replace latin letter symbols
+     < ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [🇪] ﬃc [🇦] ce⁾ ！
+     < ① l`œuvre est “belle”¸ Ã  ½ € énième ‰ … ⁽ [E] ﬃc [A] ce⁾ ！
+    Replace latin letter ligatures
+     < ① l` [œ ] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ﬃ  ] cAce⁾ ！
+     < ① l` [oe] uvre est “belle”¸ Ã  ½ € énième ‰ … ⁽E [ffi] cAce⁾ ！
+    Replace latin number symbols
+     <  [①  ]  l`oeuvre est “belle”¸ Ã   [½  ]  € énième ‰ … ⁽EfficAce⁾ ！
+     <  [(1)]  l`oeuvre est “belle”¸ Ã   [1/2]  € énième ‰ … ⁽EfficAce⁾ ！
+    Normalize equivalent chars
+     < (1) l [`] oeuvre est  [“] belle [”]  [¸]  Ã  1/2 € énième ‰ …  [⁽] EfficAce [⁾]   [！] 
+     < (1) l ['] oeuvre est  [«] belle [»]  [,]  Ã  1/2 € énième ‰ …  [(] EfficAce [)]   [!] 
+    
+
+
+Compute spans for equivalent substrings before and after normalization :
+
+```python
+result.output[0:12]
+```
+
+
+
+
+    "(1) l'oeuvre"
+
+
+
+```python
+result.input[result.mapOutputIndexToInput(0):result.mapOutputIndexToInput(12)]
+```
+
+
+
+
+    '🏻① l`\x9cuv\x7fre'
+
+
+
+```python
+result.output[3:10]
+```
+
+
+
+
+    " l'oeuv"
+
+
+
+```python
+result.input[result.mapOutputIndexToInput(3):result.mapOutputIndexToInput(10)]
+```
+
+
+
+
+    ' l`\x9cuv\x7f'
+
+
+
+Performance test : **2500 sentences per second** => fast enough but will be optimized in a later version.
+
+```python
+%timeit -n100 norm(teststring)
+```
+
+    397 µs ± 89.3 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+
+
+### Appendix : Unicode utility functions
 
 Unicode characters properties :
 
